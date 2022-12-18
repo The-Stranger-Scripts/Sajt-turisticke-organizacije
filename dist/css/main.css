@@ -1,27 +1,15 @@
-/* Opsti CSS stilovi , Header-Navigation, Footer*/
-/* !Important Obavezno najaviti izmene da bi se izbegli konflikti */
+/* Import */
 
-/* import font Montserrat */
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap');
+/* Utilities */
+@import 'utilities/variables.css';
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+/* Base */
+@import 'base/reset.css';
+@import 'base/typography.css';
 
-a {
-    text-decoration: none;
-}
+/* Layout */
+@import 'layout/header.css';
+@import 'layout/footer.css';
 
-ul {
-    list-style-type: none;
-}
-
-body {
-    font-family: 'Montserrat', Verdana, Arial, sans-serif;
-}
-
-/* Header-Navigation */
-
-/* Footer */
+/* components */
+@import 'components/buttons.css';
