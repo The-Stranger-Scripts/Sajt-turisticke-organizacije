@@ -8,6 +8,6 @@ let ft = document.getElementById('ft-container');
 
 // Inner content to html elements
 nav.innerHTML = Nav;
-ft.innerHTML = Ft;
+// ft.innerHTML = Ft;
 
 // Ovde se mogu dodati neke opste funkcionalnosti sajta
