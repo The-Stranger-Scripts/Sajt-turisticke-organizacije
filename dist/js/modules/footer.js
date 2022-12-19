@@ -67,11 +67,11 @@ let ft = `
         </div>
 
         <div class="ft-social-icons">
-            <a class="insta-container" href=""><i class="fa fa-instagram"></i></a>
-            <a class="fb-container" href=""><i class="fa fa-facebook"></i></a>
-            <a class="twitter-container" href=""><i class="fa fa-twitter"></i></a>
-            <a class="yt-container" href=""><i class="fa fa-youtube-play"></i></a>
-            <a class="in-container" href=""><i class="fa fa-linkedin"></i></i></a>
+            <a class="insta-container" title="Instagram" href=""><i class="fa fa-instagram"></i></a>
+            <a class="fb-container" title="Facebook" href=""><i class="fa fa-facebook"></i></a>
+            <a class="twitter-container" title="Twitter" href=""><i class="fa fa-twitter"></i></a>
+            <a class="yt-container" title="Youtube" href=""><i class="fa fa-youtube-play"></i></a>
+            <a class="in-container" title="Linkedin" href=""><i class="fa fa-linkedin"></i></i></a>
         </div>
 
         <div class="copyright">

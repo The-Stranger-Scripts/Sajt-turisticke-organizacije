@@ -40,6 +40,7 @@ footer h3 {
     color: beige;
     box-shadow: 0 3px 2px -3px var(--yellow);
     margin: 1rem 0;
+    width: -moz-fit-content;
     width: fit-content;
 }
 
@@ -50,6 +51,7 @@ footer h3 {
 .ft-container {
     display: flex;
     max-width: 1440px;
+    width: -moz-fit-content;
     width: fit-content;
     margin: auto;
     flex-wrap: wrap;
@@ -157,6 +159,7 @@ footer h3 {
 }
 
 .copyright i {
+    min-width: -moz-fit-content;
     min-width: fit-content;
 }
 
