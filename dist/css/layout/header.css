@@ -1,0 +1,33 @@
+.offcanvas {
+  --bs-offcanvas-height: 100vh;
+}
+
+@media (max-width: 960px) {
+  .offcanvas-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+  }
+
+  .navbar-nav {
+    flex-grow: 1;
+  }
+
+  .logo-img {
+    width: auto;
+    max-height: 40px;
+  }
+}
+
+@media (max-width: 992px) {
+  .logo-img {
+    width: auto;
+    max-height: 40px;
+  }
+}
+
+.right-bar-info {
+  background-color: #EFF3F4;
+  font-size: smaller;
+  border-bottom-left-radius: 17px;
+}
