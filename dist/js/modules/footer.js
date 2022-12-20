@@ -49,24 +49,24 @@ let ft = `
         <div class="ft-wrap">
             <div class="ft-wrap-sec">
                 <h3>Contact Us</h3>
-                <p><i class="fa fa-map-marker"></i> Lorem ipsum</p>
-                <p><i class="fa fa-phone"></i> (+381) 23 45 678</p>
-                <p><i class="fa fa-envelope"></i> info@nazivsajta.com</p>
-                <p><i class="fa fa-clock-o"></i> Mon. - Fri. 8am - 4pm</p>
+                <p><i class="fa-solid fa-location-dot"></i> Lorem ipsum</p>
+                <p><i class="fa-solid fa-phone"></i> (+381) 23 45 678</p>
+                <p><i class="fa-regular fa-envelope"></i> info@nazivsajta.com</p>
+                <p><i class="fa-regular fa-clock"></i> Mon. - Fri. 8am - 4pm</p>
             </div>
         </div>
     </div>
 
     <div class="ft-social-icons">
-        <a class="insta-container" title="Instagram" href=""><i class="fa fa-instagram"></i></a>
-        <a class="fb-container" title="Facebook" href=""><i class="fa fa-facebook"></i></a>
-        <a class="twitter-container" title="Twitter" href=""><i class="fa fa-twitter"></i></a>
-        <a class="yt-container" title="Youtube" href=""><i class="fa fa-youtube-play"></i></a>
-        <a class="in-container" title="Linkedin" href=""><i class="fa fa-linkedin"></i></i></a>
+        <a class="insta-container" title="Instagram" href=""><i class="fa-brands fa-instagram"></i></a>
+        <a class="fb-container" title="Facebook" href=""><i class="fa-brands fa-facebook"></i></a>
+        <a class="twitter-container" title="Twitter" href=""><i class="fa-brands fa-twitter"></i></a>
+        <a class="yt-container" title="Youtube" href=""><i class="fa-brands fa-youtube"></i></a>
+        <a class="in-container" title="Linkedin" href=""><i class="fa-brands fa-linkedin"></i></i></a>
     </div>
 
     <div class="copyright">
-        <i class="fa fa-copyright"></i>
+        <i class="fa-regular fa-copyright"></i>
         <p> Copyright 2023 The Stranger Scripts</p>
     </div>
 `
