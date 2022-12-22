@@ -1,12 +1,12 @@
 let nav = `
             <div class="container-xxl">
-            <nav class="navbar navbar-expand-lg bg-white fixed-top pt-0">
-            <div class="container-xxl px-0">
+            <nav class="navbar navbar-expand-lg fixed-top pt-0 pb-lg-5 pb-0">
+            <div class="container-xxl px-0 px-sm-1">
                 <a class="navbar-brand m-0 pt-1 pt-sm-0" href="#">
                 <img src="img/logo.png" alt="Turistička agencija Novog Sada" width="221"
                     class="d-inline-block align-text-top py-1 px-3 logo-img">
                 </a>
-                <button class="navbar-toggler align-self-start" type="button" data-bs-toggle="offcanvas"
+                <button class="navbar-toggler align-self-center" type="button" data-bs-toggle="offcanvas"
                 data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
                 <span class="navbar-toggler-icon"></span>
                 </button>

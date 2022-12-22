@@ -2,7 +2,7 @@
     overflow-x: hidden;
 }
 
-a {
+footer a {
     color: aliceblue;
     transition: all 0.3s ease;
     display: flex;

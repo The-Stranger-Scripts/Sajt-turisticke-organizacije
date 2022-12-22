@@ -3,7 +3,7 @@
 
 /* Calculate reesponsive font size */
 html {
-    font-size: calc(15px + 0.390625vw);
+    font-size: calc(11px + 0.390625vw);
 }
 
 body {
