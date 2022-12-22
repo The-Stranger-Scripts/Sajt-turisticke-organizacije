@@ -1,6 +1,10 @@
 /* import font Montserrat */
-
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap');
+
+/* Calculate reesponsive font size */
+html {
+    font-size: calc(15px + 0.390625vw);
+}
 
 body {
     font-family: 'Montserrat', Verdana, Arial, sans-serif;
