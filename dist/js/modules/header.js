@@ -35,7 +35,7 @@ let nav = `
                     </li>
                     </ul>
                     <div class="right-bar d-flex flex-column align-items-lg-end gap-2">
-                    <div class="d-none d-lg-inline text-muted small right-bar-info fw-bolder py-0 pe-3 btn-group btn-group-sm">
+                    <div class="d-none d-lg-inline text-muted small right-bar-info fw-bolder py-0 pe-3 btn-group btn-group-sm opacity-75">
                     <div class="dropdown">
                       <button class="btn btn-outline-secondary btn-sm dropdown-toggle"
                         type="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -75,11 +75,13 @@ let nav = `
 const navbarBackgroundScroll = function () {
   let prevScrollpos = window.pageYOffset;
   let navbarElement = document.querySelector('.navbar');
+	let rightBarInfo = document.querySelector('.right-bar-info');
 
   if (window.matchMedia('(max-width: 960px)').matches) {
     navbarElement.classList.add('bg-nav-white-transparent');
   } else {
     navbarElement.classList.add('bg-nav-white-gradient');
+		rightBarInfo.classList.add('opacity-75');
   }
 
   window.onscroll = function () {
@@ -93,12 +95,14 @@ const navbarBackgroundScroll = function () {
         navbarElement.classList.remove('bg-nav-white-transparent');
         navbarElement.classList.add('pb-lg-5');
         navbarElement.classList.remove('pb-lg-1');
+				rightBarInfo.classList.add('opacity-75');
       }
     } else {
       navbarElement.classList.remove('bg-nav-white-gradient');
       navbarElement.classList.remove('pb-lg-5');
       navbarElement.classList.add('bg-nav-white-transparent');
       navbarElement.classList.add('pb-lg-1');
+			rightBarInfo.classList.remove('opacity-75');
     }
     prevScrollpos = currentScrollPos;
   };
