@@ -37,7 +37,7 @@ let nav = `
                     <div class="right-bar d-flex flex-column align-items-lg-end gap-2">
                     <div class="d-none d-lg-inline text-muted small right-bar-info fw-bolder py-0 pe-3 btn-group btn-group-sm opacity-75">
                     <div class="dropdown">
-                      <button class="btn btn-outline-secondary btn-sm dropdown-toggle"
+                      <button class="btn btn-outline-dark dropdown-toggle border-0"
                         type="button" data-bs-toggle="dropdown" aria-expanded="false">
                         <i class="fa-solid fa-language"></i>
                     </button>
