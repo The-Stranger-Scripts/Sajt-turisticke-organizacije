@@ -35,10 +35,20 @@ let nav = `
                     </li>
                     </ul>
                     <div class="right-bar d-flex flex-column align-items-lg-end gap-2">
-                    <div class="d-none d-lg-inline text-muted small right-bar-info fw-bolder py-2 px-3">
-                        <a class="text-decoration-none text-danger px-2" href="">Vodič kroz Novi Sad</a>
-                        <a class="text-decoration-none text-dark px-2" href="">Rezerviši</a>
+                    <div class="d-none d-lg-inline text-muted small right-bar-info fw-bolder py-0 pe-3 btn-group btn-group-sm">
+                    <div class="dropdown">
+                      <button class="btn btn-outline-secondary btn-sm dropdown-toggle"
+                        type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <i class="fa-solid fa-language"></i>
+                    </button>
+                      <div class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Srpski</a></li>
+                        <li><a class="dropdown-item" href="#">English</a></li>                    
+                      </div>
                     </div>
+                    <a class="text-decoration-none text-danger px-2" href="">Vodič kroz Novi Sad</a>
+                    <a class="text-decoration-none text-dark px-2" href="">Rezerviši</a>
+                  </div>
                     <div class="p-2 p-lg-1 d-none d-lg-block custom-flex-basis">
                         <div>
                         <a href="" class="d-inline text-decoration-none text-danger mx-3 mytrip">
