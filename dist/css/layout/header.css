@@ -23,6 +23,12 @@
     flex-grow: 1;
   }
 
+  .nav-item {
+    border-bottom: 1px solid #D8DADC;
+  }
+  .nav-item:first-of-type {
+    border-top: 1px solid #D8DADC;
+  }
   .logo-img {
     width: auto;
     max-height: 40px;
@@ -39,11 +45,34 @@
 .right-bar-info {
   background-color: #EFF3F4;
   font-size: smaller;
+  /* border-bottom-left-radius: 17px; */
+}
+
+.dropdown {
+  max-width: fit-content;
+  display: inline;
+}
+
+.dropdown-toggle::after {
+  content: none;
+}
+
+.dropdown-toggle {
+  border-radius: 0;
+  border-bottom-left-radius: 17px;
+}
+
+.btn-group {
+  border-radius: 0;
   border-bottom-left-radius: 17px;
 }
 
 .navbar {
   transition: background-image 1s, padding-bottom .4s;
+}
+
+.navbar-toggler {
+  border: none;
 }
 
 /* Landing page video */

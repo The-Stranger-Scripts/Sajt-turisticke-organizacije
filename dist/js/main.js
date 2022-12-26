@@ -1,44 +1,39 @@
 // Import modules
-import Nav from './modules/header.js';
-import Ft from './modules/footer.js';
+import * as header from './modules/header.js';
+import writeFooter from './modules/footer.js';
 
 // Get Html elements
 let nav = document.getElementById('nav-container');
 let ft = document.getElementById('ft-container');
 
 // Inner content to html elements
-nav.innerHTML = Nav;
-ft.innerHTML = Ft;
+let db = await getData();
 
-// Ovde se mogu dodati neke opste funkcionalnosti sajta
+nav.innerHTML = header.nav;
+ft.innerHTML = writeFooter(db.en_EN);
 
-// Promena Navbar backgroud-a na scroll
-let prevScrollpos = window.pageYOffset;
-let navbarElement = document.querySelector('.navbar');
-
-if (window.matchMedia('(max-width: 960px)').matches) {
-  navbarElement.classList.add('bg-nav-white-transparent');
-} else {
-  navbarElement.classList.add('bg-nav-white-gradient');
+// Prebačeno iz functions.js
+async function getData() {
+  return fetch('db/db.json').then(response => {
+    return response.json();
+  });
 }
 
-window.onscroll = function () {
-  let currentScrollPos = window.pageYOffset;
-  if (prevScrollpos > currentScrollPos && window.pageYOffset < 114) {
-    if (window.matchMedia('(max-width: 960px)').matches) {
-      navbarElement.classList.remove('bg-nav-white-gradient');
-      navbarElement.classList.add('bg-nav-white-transparent');
-    } else {
-      navbarElement.classList.add('bg-nav-white-gradient');
-      navbarElement.classList.remove('bg-nav-white-transparent');
-      navbarElement.classList.add('pb-lg-5');
-      navbarElement.classList.remove('pb-lg-1');
-    }
-  } else {
-    navbarElement.classList.remove('bg-nav-white-gradient');
-    navbarElement.classList.remove('pb-lg-5');
-    navbarElement.classList.add('bg-nav-white-transparent');
-    navbarElement.classList.add('pb-lg-1');
-  }
-  prevScrollpos = currentScrollPos;
-};
+
+// Ovde se mogu dodati neke opste funkcionalnosti sajta
+const srOption = document.getElementById('sr');
+const enOption = document.getElementById('en');
+
+srOption.addEventListener('click', () => {
+  ft.innerHTML = writeFooter(db.sr_SR);
+  // ovde mogu biti dodate slične funkcije za ispis headera i main-a 
+});
+enOption.addEventListener('click', () => {
+  ft.innerHTML = writeFooter(db.en_EN);
+});
+
+
+
+// Promena Navbar background-a na scroll
+header.navbarBackgroundScroll();
+
