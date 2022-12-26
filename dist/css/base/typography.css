@@ -6,6 +6,12 @@ html {
     font-size: calc(11px + 0.390625vw);
 }
 
+@media (max-width: 960px) {
+    html {
+        font-size: calc(15px + 0.390625vw);
+    }
+}
+
 body {
     font-family: 'Montserrat', Verdana, Arial, sans-serif;
 }

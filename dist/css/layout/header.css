@@ -23,6 +23,12 @@
     flex-grow: 1;
   }
 
+  .nav-item {
+    border-bottom: 1px solid #D8DADC;
+  }
+  .nav-item:first-of-type {
+    border-top: 1px solid #D8DADC;
+  }
   .logo-img {
     width: auto;
     max-height: 40px;
@@ -63,6 +69,10 @@
 
 .navbar {
   transition: background-image 1s, padding-bottom .4s;
+}
+
+.navbar-toggler {
+  border: none;
 }
 
 /* Landing page video */
