@@ -19,16 +19,16 @@ let nav = `
                 <div class="offcanvas-body p-0">
                     <ul class="navbar-nav justify-content-lg-center align-items-lg-end flex-grow-1 px-0">
                     <li class="nav-item p-lg-0 py-2 ps-5 me-3">
-                        <a class="nav-link active" aria-current="page" href="#">Naslovna</a>
-                    </li>
-                    <li class="nav-item p-lg-0 py-2 ps-5 me-3">
                         <a class="nav-link" href="#">Razgledanje</a>
                     </li>
                     <li class="nav-item p-lg-0 py-2 ps-5 me-3">
                         <a class="nav-link" href="#">Hrana i piće</a>
                     </li>
                     <li class="nav-item p-lg-0 py-2 ps-5 me-3">
-                        <a class="nav-link" href="#">Događaji</a>
+                        <a class="nav-link" href="#">Manifestacije</a>
+                    </li>
+                    <li class="nav-item p-lg-0 py-2 ps-5 me-3">
+                        <a class="nav-link" href="#">Smeštaj</a>
                     </li>
                     <li class="nav-item p-lg-0 py-2 ps-5">
                         <a class="nav-link" href="#">Blog</a>
@@ -70,6 +70,12 @@ let nav = `
             </nav>
             </div>
 `;
+
+/* EXCLUDED
+<li class="nav-item p-lg-0 py-2 ps-5 me-3">
+    <a class="nav-link active" aria-current="page" href="#">Naslovna</a>
+</li>
+ */
 
 // Promena Navbar background-a na scroll
 const navbarBackgroundScroll = function () {
