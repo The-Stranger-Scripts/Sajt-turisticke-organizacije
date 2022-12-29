@@ -1,1 +1,1 @@
-// Ovde se mogu dodavati funkcionalnosti vezane za CityAreas stranicu!
+// Ovde se mogu dodavati funkcionalnosti vezane za blog stranicu!

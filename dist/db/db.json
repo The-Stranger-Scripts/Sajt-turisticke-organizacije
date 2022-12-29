@@ -1,5 +1,14 @@
 {
     "en_EN": {
+        "header": [
+            {
+                "logo": "img/logo.png"
+            },
+            {
+                "title": "Explore",
+                "link": ""
+            }
+        ],
         "footer": {
             "secwrap": [
                 {
