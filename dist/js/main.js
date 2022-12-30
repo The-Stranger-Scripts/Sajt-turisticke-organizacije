@@ -10,7 +10,6 @@ let ft = document.getElementById('ft-container');
 let lang = localStorage.getItem('language');
 if (!lang) {
   localStorage.setItem('language', 'sr_SR');
-  lang = localStorage.getItem('language');
 }
 
 // Function for initial rendering of header and footer
