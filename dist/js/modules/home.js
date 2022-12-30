@@ -15,3 +15,17 @@
 
 
 // console.log(srOption);
+
+
+// console.log(srOption);
+
+// srOption.addEventListener('click', () => {
+//   lang = localStorage.setItem('language', 'se_SR');
+//   getData(lang);
+//   console.log('asdewq')
+// })
+// enOption.addEventListener('click', () => {
+//   lang = localStorage.setItem('language', 'en_EN');
+//   getData(lang);
+//   console.log('1234332')
+// })

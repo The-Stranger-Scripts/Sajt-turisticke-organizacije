@@ -73,5 +73,5 @@ function writeFooter(data) {
     return ft;
 }
 
-export default writeFooter;
+// export default writeFooter;
 

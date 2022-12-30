@@ -139,4 +139,4 @@ const navbarBackgroundScroll = function () {
 //   if(langbuttons[])
 // }
 
-export { navbarBackgroundScroll, writeHeader, writeHeaderTitles };
+// export { navbarBackgroundScroll, writeHeader, writeHeaderTitles };
