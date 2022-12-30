@@ -1,5 +1,27 @@
 {
     "en_EN": {
+        "header": [
+            {
+                "title": "Explore",
+                "link": "explore.html"
+            },
+            {
+                "title": "Eat & Drink",
+                "link": "eat-drink.html"
+            },
+            {
+                "title": "Events",
+                "link": "events.html"
+            },
+            {
+                "title": "Accomodation",
+                "link": "accomodation.html"
+            },
+            {
+                "title": "Blog",
+                "link": "blog.html"
+            }
+        ],
         "footer": {
             "secwrap": [
                 {
@@ -42,6 +64,28 @@
         }
     },
     "sr_SR": {
+        "header": [
+            {
+                "title": "Razgledanje",
+                "link": "explore.html"
+            },
+            {
+                "title": "Hrana & piće",
+                "link": "eat-drink.html"
+            },
+            {
+                "title": "Manifestacije",
+                "link": "events.html"
+            },
+            {
+                "title": "Smeštaj",
+                "link": "accomodation.html"
+            },
+            {
+                "title": "Blog",
+                "link": "blog.html"
+            }
+        ],
         "footer": {
             "secwrap": [
                 {

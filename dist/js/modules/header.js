@@ -78,7 +78,7 @@ const writeHeaderTitles = function(data) {
 
   navItems.forEach((navElement, i) => {
     navElement.innerText = data.header[i].title;
-    console.log(navElement);
+    // console.log(navElement);
   });
 }
 
