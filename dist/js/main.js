@@ -12,11 +12,7 @@ if (!lang) {
   lang = localStorage.setItem('language', 'sr_SR');
 }
 
-
-// nav.innerHTML = header.nav;
-// ft.innerHTML = writeFooter(data);
-
-// Prebačeno iz functions.js
+// Function for initial rendering of header and footer
 async function initData(lang) {
   return fetch('db/db.json')
     .then(res => res.json())
@@ -32,19 +28,17 @@ async function initData(lang) {
 // Inner content to html elements
 await initData(lang);
 
-
-
 // Get btns
 // Ovo ce morati da se sredi kada se napravi dinamicki
 // ispis navigacije, jer nece moci da nadje btn elemente
 // pre nego sto ih kreira.
 // ->
+// On-click loading and rendering header, footer, etc.
 async function getData(lang) {
   return fetch('db/db.json')
     .then(res => res.json())
     .then(data => {
       lang = localStorage.getItem('language')
-      console.log(lang);
       header.writeHeaderTitles(data[`${lang}`])
       ft.innerHTML = writeFooter(data[`${lang}`]);
       // ovde mogu biti dodate slične funkcije za ispis headera i main-a
