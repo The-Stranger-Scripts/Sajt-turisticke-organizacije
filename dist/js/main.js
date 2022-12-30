@@ -22,17 +22,20 @@ function getData() {
     nav.innerHTML = writeHeader(data[`${lang}`]);
     navbarBackgroundScroll();
     ft.innerHTML = writeFooter(data[`${lang}`]);
+    
+    srOption = document.getElementById('sr');
+    enOption = document.getElementById('en');
   });
-
-  srOption = document.getElementById('sr');
-  enOption = document.getElementById('en');
 }
 
 getData();
 
 
 
-
+srOption.addEventListener('click', () => {
+  console.log('ddddddd')
+  // getData()
+});
 
 // srOption = document.getElementById('sr');
 // getty();
