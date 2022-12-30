@@ -1,4 +1,3 @@
-
 const writeHeader = function(data) {
   let navbarUlElements = '';
 
@@ -79,7 +78,7 @@ const writeHeaderTitles = function(data) {
 
   navItems.forEach((navElement, i) => {
     navElement.innerText = data.header[i].title;
-    console.log(navElement);
+    // console.log(navElement);
   });
 }
 
@@ -126,17 +125,4 @@ const navbarBackgroundScroll = function () {
   };
 };
 
-// function getButtons() {
-//   return {
-//     srOption: document.getElementById('sr'),
-//     enOption: document.getElementById('en')
-//   }
-// }
-
-// const langButtons = document.getElementsByClassName('dropdown-item');
-// const changeLang = function (langbuttons) {
-
-//   if(langbuttons[])
-// }
-
-// export { navbarBackgroundScroll, writeHeader, writeHeaderTitles };
+export { navbarBackgroundScroll, writeHeader, writeHeaderTitles };
