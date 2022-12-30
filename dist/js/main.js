@@ -13,7 +13,7 @@ if (!lang) {
 }
 
 
-nav.innerHTML = header.nav;
+// nav.innerHTML = header.nav;
 // ft.innerHTML = writeFooter(data);
 
 // Prebačeno iz functions.js
@@ -23,7 +23,8 @@ async function getData(lang) {
     .then(data => {
       lang = localStorage.getItem('language')
       console.log(lang);
-      ft.innerHTML = writeFooter(data[`${lang}`])
+      nav.innerHTML = header.writeHeader(data[`${lang}`]);
+      ft.innerHTML = writeFooter(data[`${lang}`]);
       // ovde mogu biti dodate slične funkcije za ispis headera i main-a
     })
 };
