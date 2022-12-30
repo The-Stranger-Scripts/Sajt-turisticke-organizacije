@@ -1,6 +1,6 @@
 const writeHeader = function(data) {
   let navbarUlElements = '';
-  console.log(data.header)
+  
   data.header.nav.forEach(element => {
     navbarUlElements += `
       <li class="nav-item p-lg-0 py-2 ps-5 me-3">

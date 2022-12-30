@@ -9,32 +9,26 @@ let ft = document.getElementById('ft-container');
 // Set initial language in localStorage
 let lang = localStorage.getItem('language');
 if (!lang) {
-  lang = localStorage.setItem('language', 'sr_SR');
+  localStorage.setItem('language', 'sr_SR');
+  lang = localStorage.getItem('language');
 }
 
 // Function for initial rendering of header and footer
-async function initData(lang) {
+async function initData() {
   return fetch('db/db.json')
     .then(res => res.json())
     .then(data => {
       lang = localStorage.getItem('language')
-      console.log(lang);
       nav.innerHTML = header.writeHeader(data[`${lang}`]);
       ft.innerHTML = writeFooter(data[`${lang}`]);
-      // ovde mogu biti dodate slične funkcije za ispis headera i main-a
     })
 };
 
 // Inner content to html elements
-await initData(lang);
+await initData();
 
-// Get btns
-// Ovo ce morati da se sredi kada se napravi dinamicki
-// ispis navigacije, jer nece moci da nadje btn elemente
-// pre nego sto ih kreira.
-// ->
 // On-click loading and rendering header, footer, etc.
-async function getData(lang) {
+async function getData() {
   return fetch('db/db.json')
     .then(res => res.json())
     .then(data => {
@@ -50,13 +44,12 @@ const enOption = document.getElementById('en');
 
 srOption.addEventListener('click', () => {
   lang = localStorage.setItem('language', 'sr_SR');
-  getData(lang);
+  getData();
 });
 enOption.addEventListener('click', () => {
   lang = localStorage.setItem('language', 'en_EN');
-  getData(lang);
+  getData();
 });
-// <- ovaj block
 
-// Promena Navbar background-a na scroll
+// Change Navbar background on scroll
 header.navbarBackgroundScroll();
