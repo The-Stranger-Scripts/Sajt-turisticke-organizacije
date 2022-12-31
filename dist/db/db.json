@@ -1,95 +1,147 @@
 {
-    "en_EN": {
-        "footer": {
-            "secwrap": [
-                {
-                    "title": "About Nazivsajta",
-                    "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis impedit nisi possimus dolore accusamus adipisci. Porro rem saepe voluptatem deleniti provident ipsam debitis adipisci eaque voluptate, quas, sint, numquam fugit?",
-                    "link": "The Privacy Policy for NazivSajta"
-                },
-                {
-                    "title": "Tourist Attraction",
-                    "link": [
-                        "City Center",
-                        "Petrovaradin",
-                        "Novi Sad on the Danube",
-                        "Fordress",
-                        "Fruska gora",
-                        "Wineries"
-                    ]
-                },
-                {
-                    "title": "Frequently visited",
-                    "link": [
-                        "Things to Do",
-                        "Destination",
-                        "Nature & Climate",
-                        "When to go",
-                        "Culture",
-                        "Frequently Asked Questions"
-                    ]
-                },
-                {
-                    "title": "Info for tourists",
-                    "link": [
-                        "Tourist information centers",
-                        "Services information",
-                        "How to reach us",
-                        "Public Transort"
-                    ]
-                }
-            ]
+  "en_EN": {
+    "header": {
+      "nav": [
+        {
+          "title": "Explore",
+          "link": "explore.html"
+        },
+        {
+          "title": "Eat & Drink",
+          "link": "eat-drink.html"
+        },
+        {
+          "title": "Events",
+          "link": "events.html"
+        },
+        {
+          "title": "Accomodation",
+          "link": "accomodation.html"
+        },
+        {
+          "title": "Blog",
+          "link": "blog.html"
         }
+      ],
+			"cityGuide": "Guide to Novi Sad",
+			"bookTrip": "Book"
     },
-    "sr_SR": {
-        "footer": {
-            "secwrap": [
-                {
-                    "title": "O Nazivsajta",
-                    "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis impedit nisi possimus dolore accusamus adipisci. Porro rem saepe voluptatem deleniti provident ipsam debitis adipisci eaque voluptate, quas, sint, numquam fugit?",
-                    "link": "Politika privatnosti za NazivSajta"
-                },
-                {
-                    "title": "Tourističke destinacije",
-                    "link": [
-                        "Gradski centar",
-                        "Petrovaradin",
-                        "Novi Sad na Dunavu",
-                        "Tvrđave",
-                        "Fruska gora",
-                        "Vinarije"
-                    ]
-                },
-                {
-                    "title": "Često posećivane stranice",
-                    "link": [
-                        "Šta raditi",
-                        "Destinacije",
-                        "Klima i Priroda",
-                        "Kada otići",
-                        "Kultura",
-                        "Najčešća pitanja"
-                    ]
-                },
-                {
-                    "title": "Informacije za turiste",
-                    "link": [
-                        "Touristički informativni centar",
-                        "Servisne informacije",
-                        "Kako doći do nas",
-                        "Javni prevoz"
-                    ]
-                },
-                {
-                    "title": "Kontaktirajte nas",
-                    "link": [
-                        "neka adresa",
-                        "(+381) 23 45 678",
-                        "info@nazivsajta.com",
-                        "Pon. - Pet. 08h - 16h"
-                    ]
-                }
-            ]
+    "footer": {
+      "secwrap": [
+        {
+          "title": "About Nazivsajta",
+          "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis impedit nisi possimus dolore accusamus adipisci. Porro rem saepe voluptatem deleniti provident ipsam debitis adipisci eaque voluptate, quas, sint, numquam fugit?",
+          "link": "The Privacy Policy for NazivSajta"
+        },
+        {
+          "title": "Tourist Attraction",
+          "link": [
+            "City Center",
+            "Petrovaradin",
+            "Novi Sad on the Danube",
+            "Fordress",
+            "Fruska gora",
+            "Wineries"
+          ]
+        },
+        {
+          "title": "Frequently visited",
+          "link": [
+            "Things to Do",
+            "Destination",
+            "Nature & Climate",
+            "When to go",
+            "Culture",
+            "Frequently Asked Questions"
+          ]
+        },
+        {
+          "title": "Info for tourists",
+          "link": [
+            "Tourist information centers",
+            "Services information",
+            "How to reach us",
+            "Public Transort"
+          ]
         }
+      ]
     }
+  },
+  "sr_SR": {
+    "header": {
+      "nav": [
+        {
+          "title": "Razgledanje",
+          "link": "explore.html"
+        },
+        {
+          "title": "Hrana & piće",
+          "link": "eat-drink.html"
+        },
+        {
+          "title": "Manifestacije",
+          "link": "events.html"
+        },
+        {
+          "title": "Smeštaj",
+          "link": "accomodation.html"
+        },
+        {
+          "title": "Blog",
+          "link": "blog.html"
+        }
+      ],
+			"cityGuide": "Vodič kroz Novi Sad",
+			"bookTrip": "Rezerviši"
+    },
+    "footer": {
+      "secwrap": [
+        {
+          "title": "O Nazivsajta",
+          "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis impedit nisi possimus dolore accusamus adipisci. Porro rem saepe voluptatem deleniti provident ipsam debitis adipisci eaque voluptate, quas, sint, numquam fugit?",
+          "link": "Politika privatnosti za NazivSajta"
+        },
+        {
+          "title": "Tourističke destinacije",
+          "link": [
+            "Gradski centar",
+            "Petrovaradin",
+            "Novi Sad na Dunavu",
+            "Tvrđave",
+            "Fruska gora",
+            "Vinarije"
+          ]
+        },
+        {
+          "title": "Često posećivane stranice",
+          "link": [
+            "Šta raditi",
+            "Destinacije",
+            "Klima i Priroda",
+            "Kada otići",
+            "Kultura",
+            "Najčešća pitanja"
+          ]
+        },
+        {
+          "title": "Informacije za turiste",
+          "link": [
+            "Touristički informativni centar",
+            "Servisne informacije",
+            "Kako doći do nas",
+            "Javni prevoz"
+          ]
+        },
+        {
+          "title": "Kontaktirajte nas",
+          "link": [
+            "neka adresa",
+            "(+381) 23 45 678",
+            "info@nazivsajta.com",
+            "Pon. - Pet. 08h - 16h"
+          ]
+        }
+      ]
+    }
+  }
 }

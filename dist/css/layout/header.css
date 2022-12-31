@@ -68,7 +68,7 @@
 }
 
 .navbar {
-  transition: background-image 1s, padding-bottom .4s;
+  transition: background-image .2s;  /* padding-bottom .1s; dodati animaciju padding-a ili ne? */
 }
 
 .navbar-toggler {
