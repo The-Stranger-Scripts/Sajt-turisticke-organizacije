@@ -2,6 +2,10 @@ footer * {
     overflow-x: hidden;
 }
 
+footer {
+    font-size: calc(9px + 0.390625vw);
+}
+
 footer a {
     color: aliceblue;
     transition: all 0.3s ease;

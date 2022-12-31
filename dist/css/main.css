@@ -13,3 +13,7 @@
 
 /* components */
 @import 'components/buttons.css';
+
+html {
+    overflow-x: hidden;
+}
