@@ -6,24 +6,29 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- Bootstrap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous" />
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap"
+        rel="stylesheet" />
     <!-- Scripts -->
     <script defer src="js/modules/home.js"></script>
     <script defer type="module" src="js/main.js"></script>
     <!-- Bootstrap scripts -->
-    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
-    integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- vimeo player -->
+    <script src="https://player.vimeo.com/api/player.js"></script>
     <!-- Custom Css -->
     <link rel="stylesheet" href="css/pages/home.css" />
-    <title>Novi Sads</title>
-    <h1>Welcome!</h1>
+    <title>Novi Sad</title>
 </head>
 
 <body>
@@ -33,10 +38,276 @@
         <div id="nav-container"></div>
 
         <!-- Ovde se dodaje ostatak headera po dizajnu-->
+        <div id="banner-video-wrapper">
+            <video id="background-video" autoplay loop muted poster="img/novi-sad-video-placeholder.jpg">
+                <source src="img/ns-landing-video.mp41" type="video/mp4">
+            </video>
+        </div>
+
+        <!-- first solution -->
+        <!--  <div style="padding:56.25% 0 0 0;position:relative;">
+            <iframe src="https://player.vimeo.com/video/446172068?h=49a6f85422&autoplay=1&loop=1&title=0&byline=0&portrait=0"
+                style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0"
+                allow="autoplay; fullscreen; picture-in-picture" allowfullscreen>
+            </iframe>
+        </div> -->
     </header>
 
     <!-- Main -->
     <main id="home">
+        <div class="container-xxl">
+            <div class="header-card">
+                <h2>Get to know the city</h2>
+                <h5>Your guide to the perfect Novi Sad expirience</h5>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio delectus quis est excepturi corrupti
+                    saepe
+                    obcaecati, reprehenderit tempore architecto itaque veritatis provident, accusamus fuga corporis
+                    laborum
+                    eos facere? Harum, ullam.</p>
+            </div>
+
+
+            <div class="home-card">
+                <div class="home-card-ctn home-card-ctn-sm">
+                    <img class="card-img" src="img/lending-page/Zimzolend_14-1024x683.jpg" alt="">
+                    <div class="card-body">
+                        <h3>Neki naslov</h3>
+                        <h6><span>Decembar 31</span></h6>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, ratione voluptatum vitae
+                            eum fugit
+                            officiis odio mollitia quo adipisci hic!</p>
+                    </div>
+                </div>
+                <div class="home-card-ctn home-card-ctn-sm">
+                    <img class="card-img" src="img/lending-page/Zimzolend_14-1024x683.jpg" alt="">
+                    <div class="card-body">
+                        <h3>Neki naslov</h3>
+                        <h6><span>Decembar 31</span></h6>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, ratione voluptatum vitae
+                            eum fugit
+                            officiis odio mollitia quo adipisci hic!</p>
+                    </div>
+                </div>
+                <div class="home-card-ctn home-card-ctn-sm">
+                    <img class="card-img" src="img/lending-page/Zimzolend_14-1024x683.jpg" alt="">
+                    <div class="card-body">
+                        <h3>Neki naslov</h3>
+                        <h6><span>Decembar 31</span></h6>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, ratione voluptatum vitae
+                            eum fugit
+                            officiis odio mollitia quo adipisci hic!</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="home-heading">
+                <h5>Your guide to the perfect Novi Sad expirience</h5>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio delectus quis est excepturi corrupti
+                    saepe
+                    obcaecati, reprehenderit tempore architecto itaque veritatis provident, accusamus fuga corporis
+                    laborum
+                    eos facere? Harum, ullam.</p>
+            </div>
+
+            <div class="home-card">
+                <div class="home-card-ctn home-card-ctn-sm">
+                    <img class="card-img" src="img/lending-page/Zimzolend_14-1024x683.jpg" alt="">
+                    <div class="card-body">
+                        <h3>Neki naslov</h3>
+                        <h6><span>Decembar 31</span></h6>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, ratione voluptatum vitae
+                            eum fugit
+                            officiis odio mollitia quo adipisci hic!</p>
+                    </div>
+                </div>
+                <div class="home-card-ctn home-card-ctn-sm">
+                    <img class="card-img" src="img/lending-page/Zimzolend_14-1024x683.jpg" alt="">
+                    <div class="card-body">
+                        <h3>Neki naslov</h3>
+                        <h6><span>Decembar 31</span></h6>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, ratione voluptatum vitae
+                            eum fugit
+                            officiis odio mollitia quo adipisci hic!</p>
+                    </div>
+                </div>
+                <div class="home-card-ctn home-card-ctn-sm">
+                    <img class="card-img" src="img/lending-page/Zimzolend_14-1024x683.jpg" alt="">
+                    <div class="card-body">
+                        <h3>Neki naslov</h3>
+                        <h6><span>Decembar 31</span></h6>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, ratione voluptatum vitae
+                            eum fugit
+                            officiis odio mollitia quo adipisci hic!</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="home-heading">
+                <h5>Your guide to the perfect Novi Sad expirience</h5>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio delectus quis est excepturi corrupti
+                    saepe
+                    obcaecati, reprehenderit tempore architecto itaque veritatis provident, accusamus fuga corporis
+                    laborum
+                    eos facere? Harum, ullam.</p>
+            </div>
+
+            <div class="home-img">
+                <img src="img/lending-page/Gradska_kuca_Novi_Sad.jpg" alt="">
+                <div class="header-card">
+                    <h2>Gradska kuća<br> (Magistrat)</h2>
+                    <p>GRADSKA KUĆA (Magistrat) na Trgu slobode je monumentalno neorenesansno zdanje izgrađeno 1895. Za
+                        podizanje Magistrata
+                        raspisan je 1855</p>
+                </div>
+            </div>
+
+            <div class="home-video">
+                <iframe src="https://www.youtube.com/embed/Z1y7SRO5Rg0" title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </div>
+
+            <div class="home-heading">
+                <h5>Your guide to the perfect Novi Sad expirience</h5>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio delectus quis est excepturi corrupti
+                    saepe
+                    obcaecati, reprehenderit tempore architecto itaque veritatis provident, accusamus fuga corporis
+                    laborum
+                    eos facere? Harum, ullam.</p>
+            </div>
+
+            <div class="home-card">
+                <div class="home-card-ctn home-card-ctn-m">
+                    <img class="card-img" src="img/lending-page/Zimzolend_14-1024x683.jpg" alt="">
+                    <div class="card-body">
+                        <h3>Neki naslov</h3>
+                        <h6><span>Decembar 31</span></h6>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, ratione voluptatum vitae
+                            eum fugit
+                            officiis odio mollitia quo adipisci hic!</p>
+                    </div>
+                </div>
+                <div class="home-card-ctn home-card-ctn-m">
+                    <img class="card-img" src="img/lending-page/Zimzolend_14-1024x683.jpg" alt="">
+                    <div class="card-body">
+                        <h3>Neki naslov</h3>
+                        <h6><span>Decembar 31</span></h6>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, ratione voluptatum vitae
+                            eum fugit
+                            officiis odio mollitia quo adipisci hic!</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="home-heading">
+                <h5>Your guide to the perfect Novi Sad expirience</h5>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio delectus quis est excepturi corrupti
+                    saepe
+                    obcaecati, reprehenderit tempore architecto itaque veritatis provident, accusamus fuga corporis
+                    laborum
+                    eos facere? Harum, ullam.</p>
+            </div>
+
+            <div class="home-card">
+                <div class="home-card-ctn home-card-ctn-sm">
+                    <img class="card-img" src="img/lending-page/Zimzolend_14-1024x683.jpg" alt="">
+                    <div class="card-body">
+                        <h3>Neki naslov</h3>
+                        <h6><span>Decembar 31</span></h6>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, ratione voluptatum vitae
+                            eum fugit
+                            officiis odio mollitia quo adipisci hic!</p>
+                    </div>
+                </div>
+                <div class="home-card-ctn home-card-ctn-sm">
+                    <img class="card-img" src="img/lending-page/Zimzolend_14-1024x683.jpg" alt="">
+                    <div class="card-body">
+                        <h3>Neki naslov</h3>
+                        <h6><span>Decembar 31</span></h6>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, ratione voluptatum vitae
+                            eum fugit
+                            officiis odio mollitia quo adipisci hic!</p>
+                    </div>
+                </div>
+                <div class="home-card-ctn home-card-ctn-sm">
+                    <img class="card-img" src="img/lending-page/Zimzolend_14-1024x683.jpg" alt="">
+                    <div class="card-body">
+                        <h3>Neki naslov</h3>
+                        <h6><span>Decembar 31</span></h6>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, ratione voluptatum vitae
+                            eum fugit
+                            officiis odio mollitia quo adipisci hic!</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="home-heading">
+                <h5>Your guide to the perfect Novi Sad expirience</h5>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio delectus quis est excepturi corrupti
+                    saepe
+                    obcaecati, reprehenderit tempore architecto itaque veritatis provident, accusamus fuga corporis
+                    laborum
+                    eos facere? Harum, ullam.</p>
+            </div>
+
+            <div class="home-card">
+                <div class="home-card-ctn home-card-ctn-xs">
+                    <img class="card-img" src="img/lending-page/Zimzolend_14-1024x683.jpg" alt="">
+                    <div class="card-body">
+                        <h3>Neki naslov</h3>
+                        <h6><span>Decembar 31</span></h6>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, ratione voluptatum vitae
+                            eum fugit
+                            officiis odio mollitia quo adipisci hic!</p>
+                    </div>
+                </div>
+                <div class="home-card-ctn home-card-ctn-xs">
+                    <img class="card-img" src="img/lending-page/Zimzolend_14-1024x683.jpg" alt="">
+                    <div class="card-body">
+                        <h3>Neki naslov</h3>
+                        <h6><span>Decembar 31</span></h6>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, ratione voluptatum vitae
+                            eum fugit
+                            officiis odio mollitia quo adipisci hic!</p>
+                    </div>
+                </div>
+                <div class="home-card-ctn home-card-ctn-xs">
+                    <img class="card-img" src="img/lending-page/Zimzolend_14-1024x683.jpg" alt="">
+                    <div class="card-body">
+                        <h3>Neki naslov</h3>
+                        <h6><span>Decembar 31</span></h6>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, ratione voluptatum vitae
+                            eum fugit
+                            officiis odio mollitia quo adipisci hic!</p>
+                    </div>
+                </div>
+                <div class="home-card-ctn home-card-ctn-xs">
+                    <img class="card-img" src="img/lending-page/Zimzolend_14-1024x683.jpg" alt="">
+                    <div class="card-body">
+                        <h3>Neki naslov</h3>
+                        <h6><span>Decembar 31</span></h6>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, ratione voluptatum vitae
+                            eum fugit
+                            officiis odio mollitia quo adipisci hic!</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-newsletter">
+                <h2>Subscribe to out monnthly newsletter Nazivsjta Unfolded</h2>
+                <p>Yes, please! I would like to get Copenhagen Unfolded, a newsletter about what to do, see, experience,
+                    and taste in
+                    Copenhagen. Sponsored content might occur. By signing up I confirm that I have read and accept
+                    Wonderful Copenhagen's
+                    Privacy Policy. I can at any time unsubscribe from the newsletter and withdraw my consent.</p>
+
+                <div class="form-input">
+                    <label for="email-newsletter">Email</label>
+                    <input type="email" id="email-newsletter">
+                    <button id="email-newsletter-btn">Sounds great! Sing me up!</button>
+                </div>
+            </div>
+        </div>
         <!-- U ovom elementu se kuca sav ostali content stranice po dizajnu -->
     </main>
 

@@ -1,5 +1,15 @@
+/* Navbar custom styles */
+
 .offcanvas {
   --bs-offcanvas-height: 100vh;
+}
+
+.bg-nav-white-gradient {
+  background-image: linear-gradient(rgba(255, 255, 255, 1),rgba(255, 255, 255, 0));
+}
+
+.bg-nav-white-transparent {
+  background-image: linear-gradient(rgba(255, 255, 255, 0.9),rgba(255, 255, 255, 0.9));
 }
 
 @media (max-width: 960px) {
@@ -13,6 +23,12 @@
     flex-grow: 1;
   }
 
+  .nav-item {
+    border-bottom: 1px solid #D8DADC;
+  }
+  .nav-item:first-of-type {
+    border-top: 1px solid #D8DADC;
+  }
   .logo-img {
     width: auto;
     max-height: 40px;
@@ -29,5 +45,49 @@
 .right-bar-info {
   background-color: #EFF3F4;
   font-size: smaller;
+  /* border-bottom-left-radius: 17px; */
+}
+
+.dropdown {
+  max-width: fit-content;
+  display: inline;
+}
+
+.dropdown-toggle::after {
+  content: none;
+}
+
+.dropdown-toggle {
+  border-radius: 0;
   border-bottom-left-radius: 17px;
 }
+
+.btn-group {
+  border-radius: 0;
+  border-bottom-left-radius: 17px;
+}
+
+.navbar {
+  transition: background-image .2s;  /* padding-bottom .1s; dodati animaciju padding-a ili ne? */
+}
+
+.navbar-toggler {
+  border: none;
+}
+
+/* Landing page video */
+
+#banner-video-wrapper {
+  position: relative;
+}
+
+#background-video {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: -2;
+}
+
