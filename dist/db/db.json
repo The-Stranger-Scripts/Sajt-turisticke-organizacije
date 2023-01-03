@@ -8,7 +8,7 @@
         },
         {
           "title": "Eat & Drink",
-          "link": "eatDrink.html"
+          "link": "eat-drink.html"
         },
         {
           "title": "Events",
@@ -109,7 +109,7 @@
           "thumbnail": "img/lending-page/Zimzolend_14-1024x683.jpg"
         }
       ],
-      "eat-drink": [
+      "eatDrink": [
         {
           "id": 1,
           "title": "Neki naslov",
@@ -142,7 +142,8 @@
           "image": "img/lending-page/Zimzolend_14-1024x683.jpg",
           "thumbnail": "img/lending-page/Zimzolend_14-1024x683.jpg"
         }
-      ],"events": [
+      ],
+      "events": [
         {
           "id": 1,
           "title": "Neki naslov",

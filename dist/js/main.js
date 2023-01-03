@@ -1,16 +1,25 @@
 // Import modules
 import * as header from './modules/header.js';
 import writeFooter from './modules/footer.js';
+import writeHome from './modules/home.js';
 
 // Get Html elements
 let nav = document.getElementById('nav-container');
 let ft = document.getElementById('ft-container');
+let main = document.getElementById('main');
 
 // Set initial language in localStorage
 let lang = localStorage.getItem('language');
 if (!lang) {
   localStorage.setItem('language', 'sr_SR');
 }
+
+// Get queryString location of page
+let location = () => {
+  let queryArr = window.location.href.split('/');
+  return queryArr[queryArr.length - 1];
+};
+console.log(location());
 
 let initialLoad = true;
 
@@ -26,6 +35,29 @@ async function initData() {
       } else {
         header.writeHeaderTitles(data[`${lang}`]);
       }
+
+      // Ispis main-a u zavisnostio od lokacije
+      switch (location()) {
+        case 'index.html':
+          main.innerHTML = writeHome(data[`${lang}`]);
+          break;
+        // case 'accomondation.html':
+        //   main.innerHTML = writeAccomondation(data[`${lang}`]);
+        //   break;
+        // case 'eat-drink.html':
+        //   main.innerHTML = writeEatDrink(data[`${lang}`]);
+        //   break;
+        // case 'events.html':
+        //   main.innerHTML = writeEvents(data[`${lang}`]);
+        //   break;
+        // case 'explore.html':
+        //   main.innerHTML = writeExplore(data[`${lang}`]);
+        //   break;
+
+        default:
+          break;
+      }
+
       ft.innerHTML = writeFooter(data[`${lang}`]);
     }).then(() => {
       const srOption = document.getElementById('sr');
