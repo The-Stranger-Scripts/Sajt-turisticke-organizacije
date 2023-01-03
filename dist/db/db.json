@@ -23,8 +23,8 @@
           "link": "blog.html"
         }
       ],
-			"cityGuide": "Guide to Novi Sad",
-			"bookTrip": "Book"
+      "cityGuide": "Guide to Novi Sad",
+      "bookTrip": "Book"
     },
     "footer": {
       "secwrap": [
@@ -65,6 +65,152 @@
           ]
         }
       ]
+    },
+    "main": {
+      "home":[
+        {
+          "id": 1,
+          "title": "Neki naslov",
+          "subtitle":"Neki podnaslov",
+          "content":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis impedit nisi possimus dolore accusamus adipisci. Porro rem saepe voluptatem deleniti provident ipsam debitis adipisci eaque voluptate, quas, sint, numquam fugit?"
+        }
+      ],
+      "accomodation": [
+        {
+          "id":1,
+          "title": "Neki naslov",
+          "subtitle": "Neki podnaslov",
+          "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis impedit nisi possimus dolore accusamus adipisci. Porro rem saepe voluptatem deleniti provident ipsam debitis adipisci eaque voluptate, quas, sint, numquam fugit?",
+          "image": "img/lending-page/Zimzolend_14-1024x683.jpg",
+          "thumbnail": "img/lending-page/Zimzolend_14-1024x683.jpg"
+        },
+        {
+          "id": 2,
+          "title": "Neki naslov",
+          "subtitle": "Neki podnaslov",
+          "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis impedit nisi possimus dolore accusamus adipisci. Porro rem saepe voluptatem deleniti provident ipsam debitis adipisci eaque voluptate, quas, sint, numquam fugit?",
+          "image": "img/lending-page/Zimzolend_14-1024x683.jpg",
+          "thumbnail": "img/lending-page/Zimzolend_14-1024x683.jpg"
+        },
+        {
+          "id": 3,
+          "title": "Neki naslov",
+          "subtitle": "Neki podnaslov",
+          "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis impedit nisi possimus dolore accusamus adipisci. Porro rem saepe voluptatem deleniti provident ipsam debitis adipisci eaque voluptate, quas, sint, numquam fugit?",
+          "image": "img/lending-page/Zimzolend_14-1024x683.jpg",
+          "thumbnail": "img/lending-page/Zimzolend_14-1024x683.jpg"
+        },
+        {
+          "id": 4,
+          "title": "Neki naslov",
+          "subtitle": "Neki podnaslov",
+          "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis impedit nisi possimus dolore accusamus adipisci. Porro rem saepe voluptatem deleniti provident ipsam debitis adipisci eaque voluptate, quas, sint, numquam fugit?",
+          "image": "img/lending-page/Zimzolend_14-1024x683.jpg",
+          "thumbnail": "img/lending-page/Zimzolend_14-1024x683.jpg"
+        }
+      ],
+      "eatDrink": [
+        {
+          "id": 1,
+          "title": "Neki naslov",
+          "subtitle": "Neki podnaslov",
+          "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis impedit nisi possimus dolore accusamus adipisci. Porro rem saepe voluptatem deleniti provident ipsam debitis adipisci eaque voluptate, quas, sint, numquam fugit?",
+          "image": "img/lending-page/Zimzolend_14-1024x683.jpg",
+          "thumbnail": "img/lending-page/Zimzolend_14-1024x683.jpg"
+        },
+        {
+          "id": 2,
+          "title": "Neki naslov",
+          "subtitle": "Neki podnaslov",
+          "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis impedit nisi possimus dolore accusamus adipisci. Porro rem saepe voluptatem deleniti provident ipsam debitis adipisci eaque voluptate, quas, sint, numquam fugit?",
+          "image": "img/lending-page/Zimzolend_14-1024x683.jpg",
+          "thumbnail": "img/lending-page/Zimzolend_14-1024x683.jpg"
+        },
+        {
+          "id": 3,
+          "title": "Neki naslov",
+          "subtitle": "Neki podnaslov",
+          "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis impedit nisi possimus dolore accusamus adipisci. Porro rem saepe voluptatem deleniti provident ipsam debitis adipisci eaque voluptate, quas, sint, numquam fugit?",
+          "image": "img/lending-page/Zimzolend_14-1024x683.jpg",
+          "thumbnail": "img/lending-page/Zimzolend_14-1024x683.jpg"
+        },
+        {
+          "id": 4,
+          "title": "Neki naslov",
+          "subtitle": "Neki podnaslov",
+          "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis impedit nisi possimus dolore accusamus adipisci. Porro rem saepe voluptatem deleniti provident ipsam debitis adipisci eaque voluptate, quas, sint, numquam fugit?",
+          "image": "img/lending-page/Zimzolend_14-1024x683.jpg",
+          "thumbnail": "img/lending-page/Zimzolend_14-1024x683.jpg"
+        }
+      ],
+      "events": [
+        {
+          "id": 1,
+          "title": "Neki naslov",
+          "subtitle": "Neki podnaslov",
+          "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis impedit nisi possimus dolore accusamus adipisci. Porro rem saepe voluptatem deleniti provident ipsam debitis adipisci eaque voluptate, quas, sint, numquam fugit?",
+          "image": "img/lending-page/Zimzolend_14-1024x683.jpg",
+          "thumbnail": "img/lending-page/Zimzolend_14-1024x683.jpg"
+        },
+        {
+          "id": 2,
+          "title": "Neki naslov",
+          "subtitle": "Neki podnaslov",
+          "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis impedit nisi possimus dolore accusamus adipisci. Porro rem saepe voluptatem deleniti provident ipsam debitis adipisci eaque voluptate, quas, sint, numquam fugit?",
+          "image": "img/lending-page/Zimzolend_14-1024x683.jpg",
+          "thumbnail": "img/lending-page/Zimzolend_14-1024x683.jpg"
+        },
+        {
+          "id": 3,
+          "title": "Neki naslov",
+          "subtitle": "Neki podnaslov",
+          "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis impedit nisi possimus dolore accusamus adipisci. Porro rem saepe voluptatem deleniti provident ipsam debitis adipisci eaque voluptate, quas, sint, numquam fugit?",
+          "image": "img/lending-page/Zimzolend_14-1024x683.jpg",
+          "thumbnail": "img/lending-page/Zimzolend_14-1024x683.jpg"
+        },
+        {
+          "id": 4,
+          "title": "Neki naslov",
+          "subtitle": "Neki podnaslov",
+          "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis impedit nisi possimus dolore accusamus adipisci. Porro rem saepe voluptatem deleniti provident ipsam debitis adipisci eaque voluptate, quas, sint, numquam fugit?",
+          "image": "img/lending-page/Zimzolend_14-1024x683.jpg",
+          "thumbnail": "img/lending-page/Zimzolend_14-1024x683.jpg"
+        }
+      ],
+      "explore": [
+        {
+          "id": 1,
+          "title": "Neki naslov",
+          "subtitle": "Neki podnaslov",
+          "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis impedit nisi possimus dolore accusamus adipisci. Porro rem saepe voluptatem deleniti provident ipsam debitis adipisci eaque voluptate, quas, sint, numquam fugit?",
+          "image": "img/lending-page/Zimzolend_14-1024x683.jpg",
+          "thumbnail": "img/lending-page/Zimzolend_14-1024x683.jpg"
+        },
+        {
+          "id": 2,
+          "title": "Neki naslov",
+          "subtitle": "Neki podnaslov",
+          "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis impedit nisi possimus dolore accusamus adipisci. Porro rem saepe voluptatem deleniti provident ipsam debitis adipisci eaque voluptate, quas, sint, numquam fugit?",
+          "image": "img/lending-page/Zimzolend_14-1024x683.jpg",
+          "thumbnail": "img/lending-page/Zimzolend_14-1024x683.jpg"
+        },
+        {
+          "id": 3,
+          "title": "Neki naslov",
+          "subtitle": "Neki podnaslov",
+          "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis impedit nisi possimus dolore accusamus adipisci. Porro rem saepe voluptatem deleniti provident ipsam debitis adipisci eaque voluptate, quas, sint, numquam fugit?",
+          "image": "img/lending-page/Zimzolend_14-1024x683.jpg",
+          "thumbnail": "img/lending-page/Zimzolend_14-1024x683.jpg"
+        },
+        {
+          "id": 4,
+          "title": "Neki naslov",
+          "subtitle": "Neki podnaslov",
+          "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis impedit nisi possimus dolore accusamus adipisci. Porro rem saepe voluptatem deleniti provident ipsam debitis adipisci eaque voluptate, quas, sint, numquam fugit?",
+          "image": "img/lending-page/Zimzolend_14-1024x683.jpg",
+          "thumbnail": "img/lending-page/Zimzolend_14-1024x683.jpg"
+        }
+      ]
     }
   },
   "sr_SR": {
@@ -91,8 +237,8 @@
           "link": "blog.html"
         }
       ],
-			"cityGuide": "Vodič kroz Novi Sad",
-			"bookTrip": "Rezerviši"
+      "cityGuide": "Vodič kroz Novi Sad",
+      "bookTrip": "Rezerviši"
     },
     "footer": {
       "secwrap": [
@@ -140,6 +286,152 @@
             "info@nazivsajta.com",
             "Pon. - Pet. 08h - 16h"
           ]
+        }
+      ]
+    },
+    "main": {
+      "home": [
+        {
+          "id": 1,
+          "title": "Neki naslov",
+          "subtitle": "Neki podnaslov",
+          "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis impedit nisi possimus dolore accusamus adipisci. Porro rem saepe voluptatem deleniti provident ipsam debitis adipisci eaque voluptate, quas, sint, numquam fugit?"
+        }
+      ],
+      "accomodation": [
+        {
+          "id": 1,
+          "title": "Neki naslov",
+          "subtitle": "Neki podnaslov",
+          "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis impedit nisi possimus dolore accusamus adipisci. Porro rem saepe voluptatem deleniti provident ipsam debitis adipisci eaque voluptate, quas, sint, numquam fugit?",
+          "image": "img/lending-page/Zimzolend_14-1024x683.jpg",
+          "thumbnail": "img/lending-page/Zimzolend_14-1024x683.jpg"
+        },
+        {
+          "id": 2,
+          "title": "Neki naslov",
+          "subtitle": "Neki podnaslov",
+          "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis impedit nisi possimus dolore accusamus adipisci. Porro rem saepe voluptatem deleniti provident ipsam debitis adipisci eaque voluptate, quas, sint, numquam fugit?",
+          "image": "img/lending-page/Zimzolend_14-1024x683.jpg",
+          "thumbnail": "img/lending-page/Zimzolend_14-1024x683.jpg"
+        },
+        {
+          "id": 3,
+          "title": "Neki naslov",
+          "subtitle": "Neki podnaslov",
+          "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis impedit nisi possimus dolore accusamus adipisci. Porro rem saepe voluptatem deleniti provident ipsam debitis adipisci eaque voluptate, quas, sint, numquam fugit?",
+          "image": "img/lending-page/Zimzolend_14-1024x683.jpg",
+          "thumbnail": "img/lending-page/Zimzolend_14-1024x683.jpg"
+        },
+        {
+          "id": 4,
+          "title": "Neki naslov",
+          "subtitle": "Neki podnaslov",
+          "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis impedit nisi possimus dolore accusamus adipisci. Porro rem saepe voluptatem deleniti provident ipsam debitis adipisci eaque voluptate, quas, sint, numquam fugit?",
+          "image": "img/lending-page/Zimzolend_14-1024x683.jpg",
+          "thumbnail": "img/lending-page/Zimzolend_14-1024x683.jpg"
+        }
+      ],
+      "eatDrink": [
+        {
+          "id": 1,
+          "title": "Neki naslov",
+          "subtitle": "Neki podnaslov",
+          "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis impedit nisi possimus dolore accusamus adipisci. Porro rem saepe voluptatem deleniti provident ipsam debitis adipisci eaque voluptate, quas, sint, numquam fugit?",
+          "image": "img/lending-page/Zimzolend_14-1024x683.jpg",
+          "thumbnail": "img/lending-page/Zimzolend_14-1024x683.jpg"
+        },
+        {
+          "id": 2,
+          "title": "Neki naslov",
+          "subtitle": "Neki podnaslov",
+          "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis impedit nisi possimus dolore accusamus adipisci. Porro rem saepe voluptatem deleniti provident ipsam debitis adipisci eaque voluptate, quas, sint, numquam fugit?",
+          "image": "img/lending-page/Zimzolend_14-1024x683.jpg",
+          "thumbnail": "img/lending-page/Zimzolend_14-1024x683.jpg"
+        },
+        {
+          "id": 3,
+          "title": "Neki naslov",
+          "subtitle": "Neki podnaslov",
+          "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis impedit nisi possimus dolore accusamus adipisci. Porro rem saepe voluptatem deleniti provident ipsam debitis adipisci eaque voluptate, quas, sint, numquam fugit?",
+          "image": "img/lending-page/Zimzolend_14-1024x683.jpg",
+          "thumbnail": "img/lending-page/Zimzolend_14-1024x683.jpg"
+        },
+        {
+          "id": 4,
+          "title": "Neki naslov",
+          "subtitle": "Neki podnaslov",
+          "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis impedit nisi possimus dolore accusamus adipisci. Porro rem saepe voluptatem deleniti provident ipsam debitis adipisci eaque voluptate, quas, sint, numquam fugit?",
+          "image": "img/lending-page/Zimzolend_14-1024x683.jpg",
+          "thumbnail": "img/lending-page/Zimzolend_14-1024x683.jpg"
+        }
+      ],
+      "events": [
+        {
+          "id": 1,
+          "title": "Neki naslov",
+          "subtitle": "Neki podnaslov",
+          "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis impedit nisi possimus dolore accusamus adipisci. Porro rem saepe voluptatem deleniti provident ipsam debitis adipisci eaque voluptate, quas, sint, numquam fugit?",
+          "image": "img/lending-page/Zimzolend_14-1024x683.jpg",
+          "thumbnail": "img/lending-page/Zimzolend_14-1024x683.jpg"
+        },
+        {
+          "id": 2,
+          "title": "Neki naslov",
+          "subtitle": "Neki podnaslov",
+          "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis impedit nisi possimus dolore accusamus adipisci. Porro rem saepe voluptatem deleniti provident ipsam debitis adipisci eaque voluptate, quas, sint, numquam fugit?",
+          "image": "img/lending-page/Zimzolend_14-1024x683.jpg",
+          "thumbnail": "img/lending-page/Zimzolend_14-1024x683.jpg"
+        },
+        {
+          "id": 3,
+          "title": "Neki naslov",
+          "subtitle": "Neki podnaslov",
+          "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis impedit nisi possimus dolore accusamus adipisci. Porro rem saepe voluptatem deleniti provident ipsam debitis adipisci eaque voluptate, quas, sint, numquam fugit?",
+          "image": "img/lending-page/Zimzolend_14-1024x683.jpg",
+          "thumbnail": "img/lending-page/Zimzolend_14-1024x683.jpg"
+        },
+        {
+          "id": 4,
+          "title": "Neki naslov",
+          "subtitle": "Neki podnaslov",
+          "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis impedit nisi possimus dolore accusamus adipisci. Porro rem saepe voluptatem deleniti provident ipsam debitis adipisci eaque voluptate, quas, sint, numquam fugit?",
+          "image": "img/lending-page/Zimzolend_14-1024x683.jpg",
+          "thumbnail": "img/lending-page/Zimzolend_14-1024x683.jpg"
+        }
+      ],
+      "explore": [
+        {
+          "id": 1,
+          "title": "Neki naslov",
+          "subtitle": "Neki podnaslov",
+          "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis impedit nisi possimus dolore accusamus adipisci. Porro rem saepe voluptatem deleniti provident ipsam debitis adipisci eaque voluptate, quas, sint, numquam fugit?",
+          "image": "img/lending-page/Zimzolend_14-1024x683.jpg",
+          "thumbnail": "img/lending-page/Zimzolend_14-1024x683.jpg"
+        },
+        {
+          "id": 2,
+          "title": "Neki naslov",
+          "subtitle": "Neki podnaslov",
+          "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis impedit nisi possimus dolore accusamus adipisci. Porro rem saepe voluptatem deleniti provident ipsam debitis adipisci eaque voluptate, quas, sint, numquam fugit?",
+          "image": "img/lending-page/Zimzolend_14-1024x683.jpg",
+          "thumbnail": "img/lending-page/Zimzolend_14-1024x683.jpg"
+        },
+        {
+          "id": 3,
+          "title": "Neki naslov",
+          "subtitle": "Neki podnaslov",
+          "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis impedit nisi possimus dolore accusamus adipisci. Porro rem saepe voluptatem deleniti provident ipsam debitis adipisci eaque voluptate, quas, sint, numquam fugit?",
+          "image": "img/lending-page/Zimzolend_14-1024x683.jpg",
+          "thumbnail": "img/lending-page/Zimzolend_14-1024x683.jpg"
+        },
+        {
+          "id": 4,
+          "title": "Neki naslov",
+          "subtitle": "Neki podnaslov",
+          "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis impedit nisi possimus dolore accusamus adipisci. Porro rem saepe voluptatem deleniti provident ipsam debitis adipisci eaque voluptate, quas, sint, numquam fugit?",
+          "image": "img/lending-page/Zimzolend_14-1024x683.jpg",
+          "thumbnail": "img/lending-page/Zimzolend_14-1024x683.jpg"
         }
       ]
     }
