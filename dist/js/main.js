@@ -38,6 +38,9 @@ async function initData() {
 
       // Ispis main-a u zavisnostio od lokacije
       switch (location()) {
+        case '':
+          main.innerHTML = writeHome(data[`${lang}`]);
+          break;
         case 'index.html':
           main.innerHTML = writeHome(data[`${lang}`]);
           break;
