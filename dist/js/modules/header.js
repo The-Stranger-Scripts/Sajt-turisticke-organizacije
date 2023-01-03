@@ -28,6 +28,15 @@ const writeHeader = function(data) {
                     aria-labelledby="offcanvasNavbarLabel">
                     <div class="offcanvas-header pe-4">
                         <h5 class="offcanvas-title" id="offcanvasNavbarLabel">${cityGuide}</h5>
+
+                        <div id="langBtnGroup" class="btn-group btn-group-sm ms-4 me-auto" role="group" aria-label="Basic radio toggle button group">
+                          <input type="radio" class="btn-check" name="btnradio" id="srSmallDisplay" autocomplete="off" checked>
+                          <label class="btn btn-outline-dark" for="srSmallDisplay">SR</label>
+
+                          <input type="radio" class="btn-check" name="btnradio" id="enSmallDisplay" autocomplete="off" checked>
+                          <label class="btn btn-outline-dark" for="enSmallDisplay">EN</label>
+                        </div>
+
                         <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                     </div>
                     <div class="offcanvas-body p-0">
