@@ -12,13 +12,20 @@ if (!lang) {
   localStorage.setItem('language', 'sr_SR');
 }
 
+let initialLoad = true;
+
 // Function for initial rendering of header and footer
 async function initData() {
   return fetch('db/db.json')
     .then(res => res.json())
     .then(data => {
       lang = localStorage.getItem('language')
-      nav.innerHTML = header.writeHeader(data[`${lang}`]);
+      if(initialLoad) {
+        nav.innerHTML = header.writeHeader(data[`${lang}`]);
+        initialLoad = false;
+      } else {
+        header.writeHeaderTitles(data[`${lang}`]);
+      }
       ft.innerHTML = writeFooter(data[`${lang}`]);
     }).then(() => {
       const srOption = document.getElementById('sr');
