@@ -2,6 +2,7 @@
 import * as header from './modules/header.js';
 import writeFooter from './modules/footer.js';
 import writeHome from './modules/home.js';
+// ! importovati module za svaku stranicu
 
 // Get Html elements
 let nav = document.getElementById('nav-container');
@@ -19,7 +20,6 @@ let location = () => {
   let queryArr = window.location.href.split('/');
   return queryArr[queryArr.length - 1];
 };
-console.log(location());
 
 let initialLoad = true;
 
@@ -44,6 +44,7 @@ async function initData() {
         case 'index.html':
           main.innerHTML = writeHome(data[`${lang}`]);
           break;
+        // Odkomentarisati case za koji se uradi neki kontent u odg. JS-u
         // case 'accomondation.html':
         //   main.innerHTML = writeAccomondation(data[`${lang}`]);
         //   break;
@@ -80,30 +81,3 @@ async function initData() {
 
 // Inner content to html elements
 await initData();
-
-// // On-click loading and rendering header, footer, etc.
-// async function getData() {
-//   return fetch('db/db.json')
-//     .then(res => res.json())
-//     .then(data => {
-//       lang = localStorage.getItem('language')
-//       header.writeHeaderTitles(data[`${lang}`])
-//       ft.innerHTML = writeFooter(data[`${lang}`]);
-//       // ovde mogu biti dodate slične funkcije za ispis headera i main-a
-//     })
-// };
-
-// const srOption = document.getElementById('sr');
-// const enOption = document.getElementById('en');
-
-// srOption.addEventListener('click', () => {
-//   lang = localStorage.setItem('language', 'sr_SR');
-//   initData();
-// });
-// enOption.addEventListener('click', () => {
-//   lang = localStorage.setItem('language', 'en_EN');
-//   initData();
-// });
-
-// Change Navbar background on scroll
-// header.navbarBackgroundScroll();

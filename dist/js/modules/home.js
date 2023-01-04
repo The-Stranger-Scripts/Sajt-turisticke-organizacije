@@ -1,234 +1,112 @@
-// Ovde se mogu kuckati funkcionalnosti vezane za Home stranicu!
-// Ovde se mogu kuckati funkcionalnosti vezane za Home stranicu!
-function writeHome(data) {
-    console.log(data);
+function writeHome(db) {
+    let data = db.main;
     let homeCtn = '';
-    let exploreSection = () => {
-        let exploreData = '';
 
-        for (let i = 0; i < 3; i++) {
-            exploreData += `
-            <div class="home-card-ctn home-card-ctn-sm">
-                <img class="card-img" src="img/lending-page/Zimzolend_14-1024x683.jpg" alt="">
+    let homeHeaderSec = (data) => {
+        return `
+        <div class="header-card">
+            <h2>${data.title}</h2>
+            <h5>${data.subtitle}</h5>
+            <p>${data.content}</p>
+        </div>
+        `
+    }
+
+    let homeHeadingSec = (data) => {
+            return `
+            <div class="home-heading">
+                <h5>${data.title}</h5>
+                <p>${data.content}</p>
+            </div>
+            `
+    }
+
+    let homeMediaSec = (data) => {
+        let dataSec = homeHeadingSec(data.heading);
+        dataSec += `
+        <div class="home-img">
+            <img src="${data.image.link}" alt="">
+            <div class="header-card">
+                <h2>${data.image.title}</h2>
+                <p>${data.image.content}</p>
+            </div>
+        </div>
+
+        <div class="home-video">
+            <iframe src="${data.video.link}" title="${data.video.title}" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+        </div>
+        `
+        return dataSec;
+    }
+
+    let writeHomeSec = (data, cardSize) => {
+        let secData = homeHeadingSec(data.heading);
+        secData += '<div class="home-card">';
+
+        let count;
+        switch (cardSize) {
+            case "xs":
+                count = 4;
+                break;
+            case "sm":
+                count = 3;
+                break;
+            case "m":
+                count = 2;
+                break;
+            default:
+                break;
+        }
+        for (let i = 0; i < count; i++) {
+            secData += `
+            <div class="home-card-ctn home-card-ctn-${cardSize}">
+                <img class="card-img" src="${data.content[i].image}" alt="">
                 <div class="card-body">
-                    <h3>${data.main.explore[i].title}</h3>
-                    <h6><span>${data.main.explore[i].subtitle}</span></h6>
-                    <p>${data.main.explore[i].content}</p>
+                    <h3>${data.content[i].title}</h3>
+                    <h6><span>${data.content[i].subtitle}</span></h6>
+                    <p>${data.content[i].content}</p>
                 </div>
             </div>`
         }
-        return exploreData;
+        secData += '</div>';
+        return secData;
     }
 
-    let eatDrink = () => {
-        let eatDrinkData = '';
+    let homeFormSec = (data) => {
+        return `
+        <div class="form-newsletter">
+            <h2>${data.title}</h2>
+            <p>${data.content}</p>
 
-        console.log(data.main.eatDrink);
-        for (let i = 0; i < 3; i++) {
-            eatDrinkData += `
-            <div class="home-card-ctn home-card-ctn-sm">
-                <img class="card-img" src="${data.main.eatDrink[i].image}" alt="">
-                <div class="card-body">
-                    <h3>${data.main.eatDrink[i].title}</h3>
-                    <h6><span>${data.main.eatDrink[i].subtitle}</span></h6>
-                    <p>${data.main.eatDrink[i].content}</p>
-                </div>
-            </div>`
-        }
-        return eatDrinkData;
+            <div class="form-input">
+                <label for="email-newsletter">${data.label}</label>
+                <input type="email" id="email-newsletter">
+                <button id="email-newsletter-btn">${data.buttonText}</button>
+            </div>
+        </div>
+        `
     }
-
-    let events = () => {
-        let eventsData = '';
-
-        for (let i = 0; i < 2; i++) {
-            eventsData += `
-            <div class="home-card-ctn home-card-ctn-m">
-                <img class="card-img" src="${data.main.events[i].image}" alt="">
-                <div class="card-body">
-                    <h3>${data.main.events[i].title}</h3>
-                    <h6><span>${data.main.events[i].subtitle}</span></h6>
-                    <p>${data.main.events[i].content}</p>
-                </div>
-            </div>`
-        }
-        return eventsData;
-    }
-
 
     homeCtn += `
         <div class="container-xxl">
-            <div class="header-card">
-                <h2>${data.main.home[0].title}</h2>
-                <h5>${data.main.home[0].subtitle}</h5>
-                <p>${data.main.home[0].content}</p>
-            </div>
+            ${homeHeaderSec(data.home.header)}
 
-            <div class="home-card">
-                ${exploreSection()}
-            </div>
+            ${writeHomeSec(data.explore, "sm")}
 
-            <div class="home-heading">
-                <h5>Your guide to the perfect Novi Sad expirience</h5>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio delectus quis est excepturi corrupti
-                    saepe
-                    obcaecati, reprehenderit tempore architecto itaque veritatis provident, accusamus fuga corporis
-                    laborum
-                    eos facere? Harum, ullam.</p>
-            </div>
+            ${writeHomeSec(data.eatDrink, "sm")}
 
-            <div class="home-card">
-                ${eatDrink()}
-            </div>
+            ${homeMediaSec(data.home)}
 
-            <div class="home-heading">
-                <h5>Your guide to the perfect Novi Sad expirience</h5>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio delectus quis est excepturi corrupti
-                    saepe
-                    obcaecati, reprehenderit tempore architecto itaque veritatis provident, accusamus fuga corporis
-                    laborum
-                    eos facere? Harum, ullam.</p>
-            </div>
+            ${writeHomeSec(data.events, "m")}
 
-            <div class="home-img">
-                <img src="img/lending-page/Gradska_kuca_Novi_Sad.jpg" alt="">
-                <div class="header-card">
-                    <h2>Gradska kuća<br> (Magistrat)</h2>
-                    <p>GRADSKA KUĆA (Magistrat) na Trgu slobode je monumentalno neorenesansno zdanje izgrađeno 1895. Za
-                        podizanje Magistrata
-                        raspisan je 1855</p>
-                </div>
-            </div>
+            ${writeHomeSec(data.accomodation, "sm")}
 
-            <div class="home-video">
-                <iframe src="https://www.youtube.com/embed/Z1y7SRO5Rg0" title="YouTube video player" frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen></iframe>
-            </div>
+            ${writeHomeSec(data.blog, "xs")}
 
-            <div class="home-heading">
-                <h5>Your guide to the perfect Novi Sad expirience</h5>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio delectus quis est excepturi corrupti
-                    saepe
-                    obcaecati, reprehenderit tempore architecto itaque veritatis provident, accusamus fuga corporis
-                    laborum
-                    eos facere? Harum, ullam.</p>
-            </div>
-
-            <div class="home-card">
-                ${events()}
-            </div>
-
-            <div class="home-heading">
-                <h5>Your guide to the perfect Novi Sad expirience</h5>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio delectus quis est excepturi corrupti
-                    saepe
-                    obcaecati, reprehenderit tempore architecto itaque veritatis provident, accusamus fuga corporis
-                    laborum
-                    eos facere? Harum, ullam.</p>
-            </div>
-
-            <div class="home-card">
-                <div class="home-card-ctn home-card-ctn-sm">
-                    <img class="card-img" src="img/lending-page/Zimzolend_14-1024x683.jpg" alt="">
-                    <div class="card-body">
-                        <h3>Neki naslov</h3>
-                        <h6><span>Decembar 31</span></h6>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, ratione voluptatum vitae
-                            eum fugit
-                            officiis odio mollitia quo adipisci hic!</p>
-                    </div>
-                </div>
-                <div class="home-card-ctn home-card-ctn-sm">
-                    <img class="card-img" src="img/lending-page/Zimzolend_14-1024x683.jpg" alt="">
-                    <div class="card-body">
-                        <h3>Neki naslov</h3>
-                        <h6><span>Decembar 31</span></h6>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, ratione voluptatum vitae
-                            eum fugit
-                            officiis odio mollitia quo adipisci hic!</p>
-                    </div>
-                </div>
-                <div class="home-card-ctn home-card-ctn-sm">
-                    <img class="card-img" src="img/lending-page/Zimzolend_14-1024x683.jpg" alt="">
-                    <div class="card-body">
-                        <h3>Neki naslov</h3>
-                        <h6><span>Decembar 31</span></h6>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, ratione voluptatum vitae
-                            eum fugit
-                            officiis odio mollitia quo adipisci hic!</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="home-heading">
-                <h5>Your guide to the perfect Novi Sad expirience</h5>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio delectus quis est excepturi corrupti
-                    saepe
-                    obcaecati, reprehenderit tempore architecto itaque veritatis provident, accusamus fuga corporis
-                    laborum
-                    eos facere? Harum, ullam.</p>
-            </div>
-
-            <div class="home-card">
-                <div class="home-card-ctn home-card-ctn-xs">
-                    <img class="card-img" src="img/lending-page/Zimzolend_14-1024x683.jpg" alt="">
-                    <div class="card-body">
-                        <h3>Neki naslov</h3>
-                        <h6><span>Decembar 31</span></h6>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, ratione voluptatum vitae
-                            eum fugit
-                            officiis odio mollitia quo adipisci hic!</p>
-                    </div>
-                </div>
-                <div class="home-card-ctn home-card-ctn-xs">
-                    <img class="card-img" src="img/lending-page/Zimzolend_14-1024x683.jpg" alt="">
-                    <div class="card-body">
-                        <h3>Neki naslov</h3>
-                        <h6><span>Decembar 31</span></h6>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, ratione voluptatum vitae
-                            eum fugit
-                            officiis odio mollitia quo adipisci hic!</p>
-                    </div>
-                </div>
-                <div class="home-card-ctn home-card-ctn-xs">
-                    <img class="card-img" src="img/lending-page/Zimzolend_14-1024x683.jpg" alt="">
-                    <div class="card-body">
-                        <h3>Neki naslov</h3>
-                        <h6><span>Decembar 31</span></h6>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, ratione voluptatum vitae
-                            eum fugit
-                            officiis odio mollitia quo adipisci hic!</p>
-                    </div>
-                </div>
-                <div class="home-card-ctn home-card-ctn-xs">
-                    <img class="card-img" src="img/lending-page/Zimzolend_14-1024x683.jpg" alt="">
-                    <div class="card-body">
-                        <h3>Neki naslov</h3>
-                        <h6><span>Decembar 31</span></h6>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, ratione voluptatum vitae
-                            eum fugit
-                            officiis odio mollitia quo adipisci hic!</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="form-newsletter">
-                <h2>Subscribe to out monnthly newsletter Nazivsjta Unfolded</h2>
-                <p>Yes, please! I would like to get Copenhagen Unfolded, a newsletter about what to do, see, experience,
-                    and taste in
-                    Copenhagen. Sponsored content might occur. By signing up I confirm that I have read and accept
-                    Wonderful Copenhagen's
-                    Privacy Policy. I can at any time unsubscribe from the newsletter and withdraw my consent.</p>
-
-                <div class="form-input">
-                    <label for="email-newsletter">Email</label>
-                    <input type="email" id="email-newsletter">
-                    <button id="email-newsletter-btn">Sounds great! Sing me up!</button>
-                </div>
-            </div>
+            ${homeFormSec(data.home.form)}
         </div>
-        <!-- U ovom elementu se kuca sav ostali content stranice po dizajnu -->
     `
     return homeCtn;
 }
