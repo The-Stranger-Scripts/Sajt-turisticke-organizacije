@@ -22,6 +22,8 @@ let location = () => {
 };
 
 let initialLoad = true;
+let initialLangLoad = true;
+// let srOption, enOption;
 
 // Function for initial rendering of header and footer
 async function initData() {
@@ -35,45 +37,48 @@ async function initData() {
       } else {
         header.writeHeaderTitles(data[`${lang}`]);
       }
-
+      
       // Ispis main-a u zavisnostio od lokacije
       switch (location()) {
         case '':
           main.innerHTML = writeHome(data[`${lang}`]);
           break;
-        case 'index.html':
-          main.innerHTML = writeHome(data[`${lang}`]);
-          break;
-        // Odkomentarisati case za koji se uradi neki kontent u odg. JS-u
-        // case 'accomondation.html':
-        //   main.innerHTML = writeAccomondation(data[`${lang}`]);
-        //   break;
-        // case 'eat-drink.html':
-        //   main.innerHTML = writeEatDrink(data[`${lang}`]);
-        //   break;
-        // case 'events.html':
-        //   main.innerHTML = writeEvents(data[`${lang}`]);
+          case 'index.html':
+            main.innerHTML = writeHome(data[`${lang}`]);
+            break;
+            // Odkomentarisati case za koji se uradi neki kontent u odg. JS-u
+            // case 'accomondation.html':
+            //   main.innerHTML = writeAccomondation(data[`${lang}`]);
+            //   break;
+            // case 'eat-drink.html':
+            //   main.innerHTML = writeEatDrink(data[`${lang}`]);
+            //   break;
+            // case 'events.html':
+            //   main.innerHTML = writeEvents(data[`${lang}`]);
         //   break;
         // case 'explore.html':
         //   main.innerHTML = writeExplore(data[`${lang}`]);
         //   break;
-
+        
         default:
           break;
+        }
+        
+        ft.innerHTML = writeFooter(data[`${lang}`]);
+      }).then(() => {
+        let srOption, enOption;
+
+        if(initialLangLoad) {
+          if(window.matchMedia('(max-width: 960px)').matches) {
+            srOption = document.getElementById('srSmallDisplay');
+            enOption = document.getElementById('enSmallDisplay');
+          } else {
+            srOption = document.getElementById('srLargeDisplay');
+            enOption = document.getElementById('enLargeDisplay');
+        }
+        initialLangLoad = false;
       }
 
-      ft.innerHTML = writeFooter(data[`${lang}`]);
-    }).then(() => {
-      let srOption, enOption;
-
-      if(window.matchMedia('(max-width: 960px)').matches) {
-        srOption = document.getElementById('srSmallDisplay');
-        enOption = document.getElementById('enSmallDisplay');
-      } else {
-        srOption = document.getElementById('srLargeDisplay');
-        enOption = document.getElementById('enLargeDisplay');
-      }
-      
       srOption.addEventListener('click', () => {
         lang = localStorage.setItem('language', 'sr_SR');
         initData();
@@ -83,6 +88,26 @@ async function initData() {
         initData();
       });
       header.navbarBackgroundScroll();
+      
+      window.onresize = () => {
+        if(window.innerWidth < 960) {
+          srOption = document.getElementById('srSmallDisplay');
+          enOption = document.getElementById('enSmallDisplay');
+        } else {
+          srOption = document.getElementById('srLargeDisplay');
+          enOption = document.getElementById('enLargeDisplay');
+        }
+
+        srOption.addEventListener('click', () => {
+          lang = localStorage.setItem('language', 'sr_SR');
+          initData();
+        });
+        enOption.addEventListener('click', () => {
+          lang = localStorage.setItem('language', 'en_EN');
+          initData();
+        });
+        header.navbarBackgroundScroll();
+      }
     })
 };
 
