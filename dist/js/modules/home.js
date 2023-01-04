@@ -1,10 +1,8 @@
-// Ovde se mogu kuckati funkcionalnosti vezane za Home stranicu!
-// Ovde se mogu kuckati funkcionalnosti vezane za Home stranicu!
 function writeHome(db) {
     let data = db.main;
     let homeCtn = '';
 
-    let header = (data) => {
+    let homeHeaderSec = (data) => {
         return `
         <div class="header-card">
             <h2>${data.title}</h2>
@@ -14,16 +12,18 @@ function writeHome(db) {
         `
     }
 
-    let heading = (data) => {
-        return `
-        <div class="home-heading">
-            <h5>${data.title}</h5>
-            <p>${data.content}</p>
-        </div>
-        `
+    let homeHeadingSec = (data) => {
+
+            return `
+            <div class="home-heading">
+                <h5>${data.title}</h5>
+                <p>${data.content}</p>
+            </div>
+            `
+
     }
 
-    let media = (data) => {
+    let homeMediaSec = (data) => {
         return `
         <div class="home-img">
             <img src="${data.image.link}" alt="">
@@ -41,102 +41,40 @@ function writeHome(db) {
         `
     }
 
-    let explore = (data) => {
-        let exploreData = '<div class="home-card">';
+    let writeHomeSec = (data, cardSize) => {
+        let secData = homeHeadingSec(data.heading);
+        secData += '<div class="home-card">';
 
-        for (let i = 0; i < 3; i++) {
-            exploreData += `
-            <div class="home-card-ctn home-card-ctn-sm">
-                <img class="card-img" src="img/lending-page/Zimzolend_14-1024x683.jpg" alt="">
+        let count;
+        switch (cardSize) {
+            case "xs":
+                count = 4;
+                break;
+            case "sm":
+                count = 3;
+                break;
+            case "m":
+                count = 2;
+                break;
+            default:
+                break;
+        }
+        for (let i = 0; i < count; i++) {
+            secData += `
+            <div class="home-card-ctn home-card-ctn-${cardSize}">
+                <img class="card-img" src="${data.content[i].image}" alt="">
                 <div class="card-body">
-                    <h3>${data[i].title}</h3>
-                    <h6><span>${data[i].subtitle}</span></h6>
-                    <p>${data[i].content}</p>
+                    <h3>${data.content[i].title}</h3>
+                    <h6><span>${data.content[i].subtitle}</span></h6>
+                    <p>${data.content[i].content}</p>
                 </div>
             </div>`
         }
-        exploreData += '</div>';
-        return exploreData;
+        secData += '</div>';
+        return secData;
     }
 
-    let eatDrink = (data) => {
-        let eatDrinkData = '<div class="home-card">';
-
-        for (let i = 0; i < 3; i++) {
-            eatDrinkData += `
-            <div class="home-card-ctn home-card-ctn-sm">
-                <img class="card-img" src="${data[i].image}" alt="">
-                <div class="card-body">
-                    <h3>${data[i].title}</h3>
-                    <h6><span>${data[i].subtitle}</span></h6>
-                    <p>${data[i].content}</p>
-                </div>
-            </div>`
-        }
-        eatDrinkData += '</div>';
-
-        return eatDrinkData;
-    }
-
-    let events = (data) => {
-        let eventsData = `<div class="home-card">`;
-
-        for (let i = 0; i < 2; i++) {
-            eventsData += `
-            <div class="home-card-ctn home-card-ctn-m">
-                <img class="card-img" src="${data[i].image}" alt="">
-                <div class="card-body">
-                    <h3>${data[i].title}</h3>
-                    <h6><span>${data[i].subtitle}</span></h6>
-                    <p>${data[i].content}</p>
-                </div>
-            </div>`
-        }
-        eventsData += '</div>';
-
-        return eventsData;
-    }
-
-    let accomodation = (data) => {
-        let accomodationData = `<div class="home-card">`;
-
-        for (let i = 0; i < 3; i++) {
-            accomodationData += `
-            <div class="home-card-ctn home-card-ctn-sm">
-                <img class="card-img" src="${data[i].image}" alt="">
-                    <div class="card-body">
-                        <h3>${data[i].title}</h3>
-                        <h6><span>${data[i].subtitle}</span></h6>
-                        <p>${data[i].content}</p>
-                    </div>
-            </div>
-            `
-        }
-        accomodationData += '</div>';
-        return accomodationData;
-    }
-
-    let blog = (data) => {
-        let blogData = '<div class="home-card">';
-
-        for (let i = 0; i < 3; i++) {
-            blogData += `
-            <div class="home-card-ctn home-card-ctn-sm">
-                <img class="card-img" src="${data[i].image}" alt="">
-                    <div class="card-body">
-                        <h3>${data[i].title}</h3>
-                        <h6><span>${data[i].subtitle}</span></h6>
-                        <p>${data[i].content}</p>
-                    </div>
-            </div>
-            `
-        }
-        blogData += '</div>';
-
-        return blogData;
-    }
-
-    let form = (data) => {
+    let homeFormSec = (data) => {
         return `
         <div class="form-newsletter">
             <h2>${data.title}</h2>
@@ -153,28 +91,22 @@ function writeHome(db) {
 
     homeCtn += `
         <div class="container-xxl">
-            ${header(data.home.header)}
+            ${homeHeaderSec(data.home.header)}
 
-            ${explore(data.explore.content)}
+            ${writeHomeSec(data.explore, "sm")}
 
-            ${heading(data.eatDrink.heading)}
-            ${eatDrink(data.eatDrink.content)}
+            ${writeHomeSec(data.eatDrink, "sm")}
 
-            ${heading(data.home.heading)}
 
-            ${media(data.home)}
+            ${homeMediaSec(data.home)}
 
-            ${heading(data.events.heading)}
-            ${events(data.events.content)}
+            ${writeHomeSec(data.events, "m")}
 
-            ${heading(data.accomodation.heading)}
-            ${accomodation(data.accomodation.content)}
+            ${writeHomeSec(data.accomodation, "sm")}
 
-            ${heading(data.blog.heading)}
-            ${blog(data.blog.content)}
+            ${writeHomeSec(data.blog, "xs")}
 
-            ${form(data.home.form)}
-
+            ${homeFormSec(data.home.form)}
         </div>
     `
     return homeCtn;
