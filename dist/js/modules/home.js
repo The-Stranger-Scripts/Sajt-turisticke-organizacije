@@ -13,18 +13,17 @@ function writeHome(db) {
     }
 
     let homeHeadingSec = (data) => {
-
             return `
             <div class="home-heading">
                 <h5>${data.title}</h5>
                 <p>${data.content}</p>
             </div>
             `
-
     }
 
     let homeMediaSec = (data) => {
-        return `
+        let dataSec = homeHeadingSec(data.heading);
+        dataSec += `
         <div class="home-img">
             <img src="${data.image.link}" alt="">
             <div class="header-card">
@@ -39,6 +38,7 @@ function writeHome(db) {
                 allowfullscreen></iframe>
         </div>
         `
+        return dataSec;
     }
 
     let writeHomeSec = (data, cardSize) => {
@@ -96,7 +96,6 @@ function writeHome(db) {
             ${writeHomeSec(data.explore, "sm")}
 
             ${writeHomeSec(data.eatDrink, "sm")}
-
 
             ${homeMediaSec(data.home)}
 
