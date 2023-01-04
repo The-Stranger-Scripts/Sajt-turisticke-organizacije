@@ -24,7 +24,9 @@
         }
       ],
 			"cityGuide": "Guide to Novi Sad",
-			"bookTrip": "Book"
+			"bookTrip": "Book",
+      "searchPlaceholder": "Search...",
+      "searchButton": "Search"
     },
     "footer": {
       "secwrap": [
@@ -92,7 +94,9 @@
         }
       ],
 			"cityGuide": "Vodič kroz Novi Sad",
-			"bookTrip": "Rezerviši"
+			"bookTrip": "Rezerviši",
+      "searchPlaceholder": "Pretraži...",
+      "searchButton": "Pretraga"
     },
     "footer": {
       "secwrap": [

@@ -5,7 +5,7 @@
 }
 
 #offcanvasNavbarLabel {
-  flex-basis: 210px;
+  flex-basis: 209px;
 }
 
 .bg-nav-white-gradient {
@@ -43,6 +43,12 @@
   .logo-img {
     width: auto;
     max-height: 40px;
+  }
+}
+
+@media (max-width: 500px) {
+  #offcanvasNavbarLabel {
+    flex-basis: 190px;
   }
 }
 

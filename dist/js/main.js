@@ -28,9 +28,16 @@ async function initData() {
       }
       ft.innerHTML = writeFooter(data[`${lang}`]);
     }).then(() => {
-      const srOption = document.getElementById('sr');
-      const enOption = document.getElementById('en');
+      let srOption, enOption;
 
+      if(window.matchMedia('(max-width: 960px)').matches) {
+        srOption = document.getElementById('srSmallDisplay');
+        enOption = document.getElementById('enSmallDisplay');
+      } else {
+        srOption = document.getElementById('srLargeDisplay');
+        enOption = document.getElementById('enLargeDisplay');
+      }
+      
       srOption.addEventListener('click', () => {
         lang = localStorage.setItem('language', 'sr_SR');
         initData();
