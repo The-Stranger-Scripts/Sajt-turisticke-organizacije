@@ -43,8 +43,9 @@ function writeHome(db) {
 
     let writeHomeSec = (data, cardSize) => {
         let secData = homeHeadingSec(data.heading);
-        secData += '<div class="home-card">';
-
+        secData += `
+        <a href="${data.heading.link}"><div class="home-card">`;
+        console.log(data);
         let count;
         switch (cardSize) {
             case "xs":
@@ -70,7 +71,7 @@ function writeHome(db) {
                 </div>
             </div>`
         }
-        secData += '</div>';
+        secData += '</div><a/>';
         return secData;
     }
 
