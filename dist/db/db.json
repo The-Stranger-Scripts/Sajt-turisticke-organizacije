@@ -70,7 +70,7 @@
       "home": {
         "header": {
           "id": 1,
-          "title": "Neki naslov",
+          "title": "Get to know the city",
           "subtitle": "Neki podnaslov",
           "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis impedit nisi possimus dolore accusamus adipisci. Porro rem saepe voluptatem deleniti provident ipsam debitis adipisci eaque voluptate, quas, sint, numquam fugit?"
         },
@@ -216,38 +216,39 @@
       },
       "explore": {
         "heading": {
-          "title": "Neki header title",
-          "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis impedit nisi possimus dolore accusamus adipisci. Porro rem saepe voluptatem deleniti provident ipsam debitis adipisci eaque voluptate, quas, sint, numquam fugit?"
+          "title": "Tourist attractions",
+          "content": "Novi Sad attracts visitors with its safe and cozy positioning across the Petrovaradin fortress – the Gibraltar on the Danube, with its various languages that are spoken by its inhabitants, and with leisurely rhythm that is in contrast to the usual fast-paced and chaotic urban life. In the vicinity of the city nucleus loaded with Baroque, Neo-Renaissance, Classical and Bauhaus buildings, one can find picnic sites, preserved ecosystems and a complex of Orthodox monasteries scattered across the Fruška Gora National Park. The farmhouses, vineyards and wine routes at the outskirts of Novi Sad provide visitors with the opportunity to experience the richness of gastronomy and rural customs.",
+          "link": "explore.html"
         },
         "content": [
           {
             "id": 1,
-            "title": "Neki naslov",
-            "subtitle": "Neki podnaslov",
-            "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis impedit nisi possimus dolore accusamus adipisci. Porro rem saepe voluptatem deleniti provident ipsam debitis adipisci eaque voluptate, quas, sint, numquam fugit?",
-            "image": "img/lending-page/Zimzolend_14-1024x683.jpg",
-            "thumbnail": "img/lending-page/Zimzolend_14-1024x683.jpg"
+            "title": "City Centre",
+            "subtitle": "Explore",
+            "content": "The central city square : Trg Slobode (Liberty Square) is the starting point of many Novi Sad tourist routes. The City Hall and Roman Catholic Church of the Name of Mary are some of the buildings dominating this square. Zmaj Jovina and Dunavska Street intersected with passages accommodating a multitude of shops, restaurants, craft shops, museums and galleries make the parts of always lively pedestrian zone of the central city core. Pašićeva Street with Zlatne Grede, Grčkoškolska, and Miletićeva Street and Marija Trandafil’s Square makes another important zone of the old core of Novi Sad. This is where you can see the Serbian Orthodox Congregational Church of Saint George, Platoneum, the building of the former Serbian Orthodox Grammar School, Serbian Orthodox Church of Relocation of the Relics of St. Nicholas – Saint Nicholas’ Church, Matica Srpska … Jevrejska Street, with a reputable Novi Sad Synagogue also belongs to the old core of Novi Sad in historical and architectural sense.",
+            "image": "https://novisad.travel/wp-content/uploads/2018/12/444444-min.jpg",
+            "thumbnail": "https://novisad.travel/wp-content/uploads/2018/12/444444-min.jpg"
           },
           {
             "id": 2,
-            "title": "Neki naslov",
-            "subtitle": "Neki podnaslov",
-            "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis impedit nisi possimus dolore accusamus adipisci. Porro rem saepe voluptatem deleniti provident ipsam debitis adipisci eaque voluptate, quas, sint, numquam fugit?",
-            "image": "img/lending-page/Zimzolend_14-1024x683.jpg",
-            "thumbnail": "img/lending-page/Zimzolend_14-1024x683.jpg"
+            "title": "Petrovaradin fortress",
+            "subtitle": "Explore",
+            "content": "Petrovaradin Fortress belongs to the most significant, preserved European fortifications. In addition to being the symbol of the city it is also the witness to multiconfessional tradition that relies strongly on European culture and most attractive tourist zone of Novi Sad. It is currently the area with around one hundred of art studios, restaurants, cafes, museums, galleries… Petrovaradin Fortress is the venue of the EXIT Festival, one of the most significant music festivals in Europe. A baroque Suburbium, a part of Petrovaradin is located in the foothills of the Upper Fortress and Roman Catholic Church of Saint George can be singled out there due to its significance.",
+            "image": "https://novisad.travel/wp-content/uploads/2019/04/Petrovaradisnka_tvrdjava_Baner.jpg",
+            "thumbnail": "https://novisad.travel/wp-content/uploads/2019/04/Petrovaradisnka_tvrdjava_Baner.jpg"
           },
           {
             "id": 3,
-            "title": "Neki naslov",
-            "subtitle": "Neki podnaslov",
-            "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis impedit nisi possimus dolore accusamus adipisci. Porro rem saepe voluptatem deleniti provident ipsam debitis adipisci eaque voluptate, quas, sint, numquam fugit?",
-            "image": "img/lending-page/Zimzolend_14-1024x683.jpg",
-            "thumbnail": "img/lending-page/Zimzolend_14-1024x683.jpg"
+            "title": "Danube",
+            "subtitle": "Explore",
+            "content": "The Danube is the main street of Novi Sad around which the cores of Petrovaradin and Sremska Kamenica are grouped on the right Srem bank and Novi Sad of Bačka, on the left bank of the river. The city descended onto the river banks not only with its older streets and most representative buildings, but also with the entire city districts, walking areas, beaches, \"čardas\" i.e. fish restaurants and weekend settlements. The City beach \"Štrand\", weekend resort of Ribarsko Ostrvo and Kamenjar are traditional sites on the Danube for relaxation and leisure. The riparian Danube area accommodates important bird habitats some of which, such as the Special Nature Reservation Kovilj-Petrovaradin Marsh and Nature Park Begečka Jama are of international significance.",
+            "image": "https://novisad.travel/wp-content/uploads/2019/04/Novi_Sad_na_Dunavu_Baner-i-veliki-slider.jpg",
+            "thumbnail": "https://novisad.travel/wp-content/uploads/2019/04/Novi_Sad_na_Dunavu_Baner-i-veliki-slider.jpg"
           },
           {
             "id": 4,
             "title": "Neki naslov",
-            "subtitle": "Neki podnaslov",
+            "subtitle": "Explore",
             "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis impedit nisi possimus dolore accusamus adipisci. Porro rem saepe voluptatem deleniti provident ipsam debitis adipisci eaque voluptate, quas, sint, numquam fugit?",
             "image": "img/lending-page/Zimzolend_14-1024x683.jpg",
             "thumbnail": "img/lending-page/Zimzolend_14-1024x683.jpg"
@@ -376,7 +377,7 @@
       "home": {
         "header": {
           "id": 1,
-          "title": "Neki naslov",
+          "title": "Upoznajte grad",
           "subtitle": "Neki podnaslov",
           "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis impedit nisi possimus dolore accusamus adipisci. Porro rem saepe voluptatem deleniti provident ipsam debitis adipisci eaque voluptate, quas, sint, numquam fugit?"
         },
@@ -522,38 +523,39 @@
       },
       "explore": {
         "heading": {
-          "title": "Neki header title",
-          "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis impedit nisi possimus dolore accusamus adipisci. Porro rem saepe voluptatem deleniti provident ipsam debitis adipisci eaque voluptate, quas, sint, numquam fugit?"
+          "title": "Turističke atrakcije",
+          "content": "Novi Sad posetioce privlači svojom uređenošću, sigurnom ukotvljenošću uz Petrovaradinsku tvrđavu – Gibraltar na Dunavu, različitim jezicima koje govore njegovi stanovnici, ritmom koji odudara od užurbanog, haotičnog gradskog vremena. U okolini urbanog gradskog jezgra koje obeležavaju barokne, neorenesansne, klasicističke i bauhaus građevine, su izletišta, očuvani eko sistemi i kompleks pravoslavnih manastira na prostoru Nacionalnog parka Fruška gora. Salaši, čarde i vinski putevi na obodima Novog Sada posetiocima pružaju mogućnost da dožive svo bogatstvo gastronomije i seoskih običaja.",
+          "link": "explore.html"
         },
         "content": [
           {
             "id": 1,
-            "title": "Neki naslov",
-            "subtitle": "Neki podnaslov",
-            "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis impedit nisi possimus dolore accusamus adipisci. Porro rem saepe voluptatem deleniti provident ipsam debitis adipisci eaque voluptate, quas, sint, numquam fugit?",
-            "image": "img/lending-page/Zimzolend_14-1024x683.jpg",
-            "thumbnail": "img/lending-page/Zimzolend_14-1024x683.jpg"
+            "title": "Centar grada",
+            "subtitle": "Razgledanje",
+            "content": "Čitava centralna zona Novog Sada, koju čine Trg slobode, Zmaj Jovina, Dunavska i ulice u njihovom okruženju, je svojevrsni izložbeni prostor, kolaž arhitektonskih stilova i realizovanih ideja inostranih i domaćih arhitekata-graditelja koja privlače pažnju posetilaca. Na prelazu iz 17. u 18. vek centar varoši je bio na kraju savremene Zmaj Jovine ulice tamo gde je već 1741. izgrađen stari Vladičanski dvor. Već tokom prve polovine 18. veka centar se pomerao duž današnje Zmaj Jovine ulice sve dok se nije zaustavio na postojećem Trgu slobode.",
+            "image": "https://novisad.travel/wp-content/uploads/2018/12/444444-min.jpg",
+            "thumbnail": "https://novisad.travel/wp-content/uploads/2018/12/444444-min.jpg"
           },
           {
             "id": 2,
-            "title": "Neki naslov",
-            "subtitle": "Neki podnaslov",
-            "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis impedit nisi possimus dolore accusamus adipisci. Porro rem saepe voluptatem deleniti provident ipsam debitis adipisci eaque voluptate, quas, sint, numquam fugit?",
-            "image": "img/lending-page/Zimzolend_14-1024x683.jpg",
-            "thumbnail": "img/lending-page/Zimzolend_14-1024x683.jpg"
+            "title": "Petrovaradinska tvrđava",
+            "subtitle": "Razgledanje",
+            "content": "Petrovaradinska tvrđava spada među najznačajnije, sačuvane, evropske fortifikacije. Pored toga što je simbol Grada, ona je svedok multikonfesionalne tradicije snažno oslonjene na evropsku kulturu, ali i najatraktivnija turistička zona Novog Sada. Danas je to prostor gde se nalazi oko stotinu umetničkih ateljea, zatim restorani, kafei, muzeji, galerije … Petrovaradinska tvrđava je mesto gde se održava EXIT festival, jedan od najznačajnijih muzičkih festivala u Evropi. U podnožju Gornje tvrđave je Podgrađe – barokni Gradić, deo Petrovaradina gde se značajem izdvaja Rimokatolička crkva Sv. Juraja sa samostanom.",
+            "image": "https://novisad.travel/wp-content/uploads/2019/04/Petrovaradisnka_tvrdjava_Baner.jpg",
+            "thumbnail": "https://novisad.travel/wp-content/uploads/2019/04/Petrovaradisnka_tvrdjava_Baner.jpg"
           },
           {
             "id": 3,
-            "title": "Neki naslov",
-            "subtitle": "Neki podnaslov",
-            "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis impedit nisi possimus dolore accusamus adipisci. Porro rem saepe voluptatem deleniti provident ipsam debitis adipisci eaque voluptate, quas, sint, numquam fugit?",
-            "image": "img/lending-page/Zimzolend_14-1024x683.jpg",
-            "thumbnail": "img/lending-page/Zimzolend_14-1024x683.jpg"
+            "title": "Dunav",
+            "subtitle": "Razgledanje",
+            "content": "Dunav je glavna ulica Novog Sada oko koje su grupisana jezgra Petrovaradina i Sremske Kamenice, na desnoj sremskoj strani i bačkog Novog Sada, na levoj strani reke. Grad se na reku spustio ne samo najstarijim ulicama i reprezentativnim građevimama već i novim gradskim četvrtima, šetalištima, plažama, čardama i vikend naseljima. Gradska plaža Štrand, vikend naselja Ribarsko ostrvo i Kamenjar su tradicionalna mesta za odmor i uživanje na Dunavu. U priobalju Dunava nalaze se područja značajnih staništa ptica od kojih su neka, kao što su Specijalni rezervat prirode Koviljsko – petrovaradinski rit i Park prirode Begečka jama, od međunarodnog značaja.",
+            "image": "https://novisad.travel/wp-content/uploads/2019/04/Novi_Sad_na_Dunavu_Baner-i-veliki-slider.jpg",
+            "thumbnail": "https://novisad.travel/wp-content/uploads/2019/04/Novi_Sad_na_Dunavu_Baner-i-veliki-slider.jpg"
           },
           {
             "id": 4,
             "title": "Neki naslov",
-            "subtitle": "Neki podnaslov",
+            "subtitle": "Razgledanje",
             "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis impedit nisi possimus dolore accusamus adipisci. Porro rem saepe voluptatem deleniti provident ipsam debitis adipisci eaque voluptate, quas, sint, numquam fugit?",
             "image": "img/lending-page/Zimzolend_14-1024x683.jpg",
             "thumbnail": "img/lending-page/Zimzolend_14-1024x683.jpg"
