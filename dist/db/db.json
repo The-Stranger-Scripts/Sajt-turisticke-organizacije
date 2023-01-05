@@ -23,8 +23,10 @@
           "link": "blog.html"
         }
       ],
-      "cityGuide": "Guide to Novi Sad",
-      "bookTrip": "Book"
+			"cityGuide": "Guide to Novi Sad",
+			"bookTrip": "Book",
+      "searchPlaceholder": "Search...",
+      "searchButton": "Search"
     },
     "footer": {
       "secwrap": [
@@ -321,8 +323,10 @@
           "link": "blog.html"
         }
       ],
-      "cityGuide": "Vodič kroz Novi Sad",
-      "bookTrip": "Rezerviši"
+			"cityGuide": "Vodič kroz Novi Sad",
+			"bookTrip": "Rezerviši",
+      "searchPlaceholder": "Pretraži...",
+      "searchButton": "Pretraga"
     },
     "footer": {
       "secwrap": [

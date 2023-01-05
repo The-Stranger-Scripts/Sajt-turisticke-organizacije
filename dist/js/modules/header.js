@@ -11,6 +11,8 @@ const writeHeader = function(data) {
 
   let cityGuide = data.header.cityGuide;
   let bookTrip = data.header.bookTrip;
+  let searchPlaceholder = data.header.searchPlaceholder;
+  let searchButton = data.header.searchButton;
 
   let nav = `
               <div class="container-xxl">
@@ -20,7 +22,7 @@ const writeHeader = function(data) {
                     <img src="img/logo.png" alt="Turistička agencija Novog Sada" width="221"
                         class="d-inline-block align-text-top py-1 px-3 logo-img">
                     </a>
-                    <button class="navbar-toggler align-self-center" type="button" data-bs-toggle="offcanvas"
+                    <button class="navbar-toggler align-self-center ms-3 mx-2 me-sm-0" type="button" data-bs-toggle="offcanvas"
                     data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
                     <span class="navbar-toggler-icon"></span>
                     </button>
@@ -28,6 +30,15 @@ const writeHeader = function(data) {
                     aria-labelledby="offcanvasNavbarLabel">
                     <div class="offcanvas-header pe-4">
                         <h5 class="offcanvas-title" id="offcanvasNavbarLabel">${cityGuide}</h5>
+
+                        <div id="langBtnGroup" class="btn-group btn-group-sm mx-2 me-auto" role="group" aria-label="Basic radio toggle button group">
+                          <input type="radio" class="btn-check" name="btnradio" id="srSmallDisplay" autocomplete="off" ${localStorage.getItem('language') === 'sr_SR' ? 'checked' : ''}>
+                          <label class="btn btn-outline-dark" for="srSmallDisplay">SR</label>
+
+                          <input type="radio" class="btn-check" name="btnradio" id="enSmallDisplay" autocomplete="off" ${localStorage.getItem('language') === 'en_EN' ? 'checked' : ''}>
+                          <label class="btn btn-outline-dark" for="enSmallDisplay">EN</label>
+                        </div>
+
                         <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                     </div>
                     <div class="offcanvas-body p-0">
@@ -44,8 +55,8 @@ const writeHeader = function(data) {
                             <i class="fa-solid fa-language"></i>
                         </button>
                           <div class="dropdown-menu">
-                            <li><button class="dropdown-item" id="sr">Srpski</button></li>
-                            <li><button class="dropdown-item" id="en">English</button></li>                    
+                            <li><button class="dropdown-item" id="srLargeDisplay">Srpski</button></li>
+                            <li><button class="dropdown-item" id="enLargeDisplay">English</button></li>                    
                           </div>
                         </div>
                         <a class="text-decoration-none text-danger px-2" id="cityGuide" href="">${cityGuide}</a>
@@ -61,9 +72,9 @@ const writeHeader = function(data) {
                             </div>
                         </div>
                         <form class="d-flex flex-nowrap gap-1 mx-0 d-lg-none m-sm-2 px-2">
-                            <input class="form-control flex-grow-1 my-2 my-sm-0" type="search" placeholder="Search"
+                            <input id="searchPlaceholder" class="form-control flex-grow-1 my-2 my-sm-0" type="search" placeholder="${searchPlaceholder}"
                             aria-label="Search">
-                            <button class="btn btn-outline-danger my-2 my-sm-0" type="submit">Search</button>
+                            <button id="searchButton" class="btn btn-outline-danger my-2 my-sm-0" type="submit">${searchButton}</button>
                         </form>
                         </div>
                     </div>
@@ -91,6 +102,12 @@ const writeHeaderTitles = function(data) {
 
   let bookTrip = document.getElementById('bookTrip');
   bookTrip.innerText = data.header.bookTrip;
+
+  let searchPlaceholder = document.getElementById('searchPlaceholder');
+  searchPlaceholder.value = data.header.searchPlaceholder;
+
+  let searchButton = document.getElementById('searchButton');
+  searchButton.innerText = data.header.searchButton;
 }
 
 /* EXCLUDED
