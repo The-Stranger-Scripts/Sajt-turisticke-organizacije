@@ -63,6 +63,11 @@ main {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.153);
 }
 
+.home-card-ctn:hover img {
+    transition: 0.2s ease-in-out;
+    opacity: 0.9;
+}
+
 .home-card-ctn-sm {
     width: 30%;
 }
