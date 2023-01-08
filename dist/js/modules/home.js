@@ -112,4 +112,4 @@ function writeHome(db) {
     return homeCtn;
 }
 
-export default writeHome;
+export { writeHome };
