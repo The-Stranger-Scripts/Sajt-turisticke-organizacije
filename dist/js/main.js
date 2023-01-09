@@ -111,3 +111,6 @@ async function initData() {
 
 // Inner content to html elements
 await initData();
+
+// AOS init function
+AOS.init();
