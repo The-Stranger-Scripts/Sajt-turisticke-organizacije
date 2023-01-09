@@ -1,7 +1,7 @@
 // Import modules
 import * as header from './modules/header.js';
 import writeFooter from './modules/footer.js';
-import writeHome from './modules/home.js';
+import * as home from './modules/home.js';
 // ! importovati module za svaku stranicu
 
 // Get Html elements
@@ -42,7 +42,7 @@ async function initData() {
       switch (location()) {
         case '':
         case 'index.html':
-          main.innerHTML = writeHome(data[`${lang}`]);
+          main.innerHTML = home.writeHome(data[`${lang}`]);
           break;
             // Odkomentarisati case za koji se uradi neki kontent u odg. JS-u
             // case 'accomondation.html':
