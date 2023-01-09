@@ -14,13 +14,6 @@
 /* components */
 @import 'components/buttons.css';
 
-
-#topLevelBtn {
-  z-index:3333;
-  position: fixed;
-  top: 100px;
-  right: 0;
-}
 html {
     overflow-x: hidden;
 }
