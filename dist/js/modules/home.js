@@ -4,7 +4,7 @@ function writeHome(db) {
 
     let homeHeaderSec = (data) => {
         return `
-        <div class="header-card">
+        <div data-aos="fade-up" class="header-card">
             <h2>${data.title}</h2>
             <h5>${data.subtitle}</h5>
             <p>${data.content}</p>
@@ -25,7 +25,7 @@ function writeHome(db) {
         let dataSec = homeHeadingSec(data.heading);
         dataSec += `
         <div class="home-img">
-            <img src="${data.image.link}" alt="">
+            <img  src="${data.image.link}" alt="">
             <div class="header-card">
                 <h2>${data.image.title}</h2>
                 <p>${data.image.content}</p>
