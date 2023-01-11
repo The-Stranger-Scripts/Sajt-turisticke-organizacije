@@ -16,14 +16,84 @@
   border: 0;
 }
 
-.main-sec-card {
+.main-sec-label {
   margin: 0 auto;
   width: 70%;
   position: relative;
   background-color: rgb(255, 255, 255);
-  top: -3rem;
-  z-index: 5;
-  background-color: #fff;
-  padding: 3rem;
+  top: -4rem;
+  padding: 2rem 4rem;
   text-align: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.153);
+  color: #222222;
+}
+
+.main-sec-label h2 {
+  color: #00CDD7;
+  font-size: 2.4rem;
+  margin-bottom: 2.5rem;
+}
+
+.main-sec-label h5 {
+  margin-bottom: 2rem;
+}
+
+.two-col-card {
+  width: 100%;
+  display: flex;
+  gap: 2rem;
+  margin-bottom: 4.5rem;
+}
+
+.event-label {
+  width: 70%;
+  margin: 0 auto;
+  background-color: rgb(255, 255, 255);
+  padding: 2rem 4rem;
+  text-align: center;
+  margin-bottom: .5rem;
+}
+
+.event-card {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.event-card img {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+}
+
+.event-card h4 {
+  margin: 0;
+  padding: .8rem 0 0 0;
+  color: #00CDD7;
+}
+
+.text-date {
+  margin-bottom: 1.5rem;
+}
+
+.one-event-card {
+  margin: 0 auto;
+  width: 80%;
+  /* position: relative; */
+}
+
+.one-event-card img {
+  width: 100%;
+}
+
+.one-event-card .event-label {
+  position: relative;
+  left: -130px;
+  top: -100px;
+  background-color: #00CDD7;
+  text-align: left;
+  width: fit-content
+}
+
+.bold-text {
+  font-weight: 900;
 }

@@ -1,83 +1,165 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <!-- JS Scripts -->
+    <script defer src="js/modules/events.js"></script>
+    <script defer type="module" src="js/main.js"></script>
+    <!-- Bootstrap scripts -->
+    <script
+      defer
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Custom Css -->
+    <link rel="stylesheet" href="css/pages/events.css" />
+    <!-- AOS Css CDN -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <title>Events</title>
+  </head>
 
-	<head>
-		<meta charset="UTF-8">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<!-- Bootstrap -->
-		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
-			integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-		<!-- Google Fonts -->
-		<link rel="preconnect" href="https://fonts.googleapis.com">
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-		<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
-		<!-- JS Scripts -->
-		<script defer src="js/modules/events.js"></script>
-		<script defer type="module" src="js/main.js"></script>
-		<!-- Bootstrap scripts -->
-		<script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
-			integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
-			crossorigin="anonymous"></script>
-		<!-- Font Awesome -->
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
-			integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
-			crossorigin="anonymous" referrerpolicy="no-referrer" />
-		<!-- Custom Css -->
-		<link rel="stylesheet" href="css/pages/events.css">
-		<!-- AOS Css CDN -->
-		<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-		<title>Events</title>
-	</head>
+  <body>
+    <!-- Header -->
+    <header>
+      <!-- Navigacija-->
+      <div id="nav-container"></div>
 
-	<body>
-		<!-- Header -->
-		<header>
-			<!-- Navigacija-->
-			<div id="nav-container"></div>
-
-			<!-- Ovde se dodaje ostatak headera po dizajnu-->
-			<div class="banner-video-wrapper">
-				<iframe class="main-sec-video" src="https://yewtu.be/embed/Z1y7SRO5Rg0" title="" frameborder="0"
-					allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope" allowfullscreen></iframe>
-				<!-- <iframe class="main-sec-video" src="https://www.youtube.com/embed/Z1y7SRO5Rg0" title="" frameborder="0"
+      <!-- Ovde se dodaje ostatak headera po dizajnu-->
+      <div class="banner-video-wrapper">
+        <iframe
+          class="main-sec-video"
+          src="https://yewtu.be/embed/Z1y7SRO5Rg0"
+          title=""
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope"
+          allowfullscreen
+        ></iframe>
+        <!-- <iframe class="main-sec-video" src="https://www.youtube.com/embed/Z1y7SRO5Rg0" title="" frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope"
                     allowfullscreen></iframe> -->
-			</div>
-		</header>
+      </div>
+    </header>
 
-		<!-- Main -->
-		<main id="events">
-			<!-- U ovom elementu se kuca sav ostali content stranice po dizajnu -->
+    <!-- Main -->
+    <main id="events">
+      <!-- U ovom elementu se kuca sav ostali content stranice po dizajnu -->
 
-			<div class="container-xxl px-0">
-				<section class="main-sec-card" data-aos="fade-up">
-					<h2>Osetite duh Zimske fantazije u Novom Sadu</h2>
-					<h3>“Ledena šuma” i bajkovito klizalište Dunavskog parka</h3>
-					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
-						been the industry's standard dummy text ever since the 1500s, when an unknown printer took a
-						galley of type and scrambled it to make a type specimen book. It has survived not only five
-						centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
-						It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum
-						passages.
-					</p>
+      <div class="container-xxl px-0">
+        <section class="main-sec-label" data-aos="fade-up">
+          <h2>Osetite duh Zimske fantazije u Novom Sadu</h2>
+          <h5>“Ledena šuma” i bajkovito klizalište Dunavskog parka</h5>
+          <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text
+            ever since the 1500s, when an unknown printer took a galley of type
+            and scrambled it to make a type specimen book. It has survived not
+            only five centuries, but also the leap into electronic typesetting,
+            remaining essentially unchanged. It was popularised in the 1960s
+            with the release of Letraset sheets containing Lorem Ipsum passages.
+          </p>
+        </section>
+        <section class="two-col-sec">
+          <div class="event-label">
+            <h2>
+              Doček Nove godine u <br />
+              Petrovaradinskom podgrađu
+            </h2>
+            <p>
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy
+              texLorem Ipsum is simply dummy text of the printing and
+              typesetting industry. Lorem Ipsum has been the industry's standard
+              dummy tex
+            </p>
+          </div>
+          <div class="two-col-card container-lg">
+            <div class="event-card">
+              <img src="img/events/pogled-sa-tvrdjave.jpeg" alt="" />
+              <h4>Naslov</h4>
+              <p class="text-date">Decembar 13</p>
+              <p class="event-text">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum
+                dolore saepe nulla officia quibusdam veniam error amet tenetur
+                rerum ut aliquam, itaque sunt corporis perferendis iste quo
+                libero minus magni odio laboriosam doloremque consectetur
+                explicabo. Deserunt necessitatibus reiciendis, voluptatum natus
+                ut dolore minus repudiandae provident doloribus, porro soluta
+                placeat rerum.
+              </p>
+            </div>
+            <div class="event-card">
+              <img src="img/events/ns-night.webp" alt="" />
+              <h4>Naslov</h4>
+              <p class="text-date">Decembar 13</p>
+              <p class="event-text">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum
+                dolore saepe nulla officia quibusdam veniam error amet tenetur
+                rerum ut aliquam, itaque sunt corporis perferendis iste quo
+                libero minus magni odio laboriosam doloremque consectetur
+                explicabo. Deserunt necessitatibus reiciendis, voluptatum natus
+                ut dolore minus repudiandae provident doloribus, porro soluta
+                placeat rerum.
+              </p>
+            </div>
+          </div>
+        </section>
+        <section class="one-col-sec">
+          <div class="event-label">
+            <h2>Božićno-novogodišnji koncerti</h2>
+						<p class="text-date">Decembar 15, 2022 - Decembar 28, 2022</p>
+            <p>
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy
+              texLorem Ipsum is simply dummy text of the printing and
+              typesetting industry. Lorem Ipsum has been the industry's standard
+              dummy tex
+            </p>
+          </div>
+					<div class="one-event-card">
+						<img src="img/events/solisti-i-orkestar.webp" alt="">
+						<div class="event-label">
+							<h4 class="bold-text">AMIRA MEDUNJANIN i <br> VOJVOĐANSKI SIMFONIJSKI ORKESTAR</h4>
+							<p class="text-date">Petak, 16. decembar</p>
+							<p>Srpsko narodno pozorište</p>
+						</div>
+					</div>
+        </section>
+        <section class="three-col-sec"></section>
+        <section class="one-col-sec"></section>
+        <section class="four-col-sec"></section>
+        <section class="three-col-sec"></section>
+      </div>
+    </main>
 
-				</section>
-				<section class="two-col-sec"></section>
-				<section class="one-col-sec"></section>
-				<section class="three-col-sec"></section>
-				<section class="one-col-sec"></section>
-				<section class="four-col-sec"></section>
-				<section class="three-col-sec"></section>
-			</div>
-		</main>
+    <!-- Footer -->
+    <footer id="ft-container"></footer>
 
-		<!-- Footer -->
-		<footer id="ft-container"></footer>
-
-		<!-- AOS JS CDN -->
-		<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-
-	</body>
-
+    <!-- AOS JS CDN -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  </body>
 </html>
