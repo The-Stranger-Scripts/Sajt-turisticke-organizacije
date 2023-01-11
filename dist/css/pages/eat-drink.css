@@ -1,1 +1,8 @@
 @import "../main.css";
+
+.home-heading {
+    text-align: center;
+    margin: 6rem auto 3rem;
+    width: 70%;
+}
+
