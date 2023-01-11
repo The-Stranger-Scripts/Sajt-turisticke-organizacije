@@ -17,7 +17,7 @@ const writeHeader = function(data) {
   let nav = `
               <div class="container-xxl">
                 <nav class="navbar navbar-expand-lg fixed-top pt-0 pb-lg-5 pb-0">
-                  <div class="container-xxl px-0 ps-sm-1 pe-sm-2">
+                  <div class="container-xxl px-0 ps-sm-1 pe-sm-2 pe-lg-0">
                     <a class="navbar-brand m-0 pt-1 pt-sm-0" href="index.html">
                     <img src="img/logo.png" alt="Turistička agencija Novog Sada" width="221"
                         class="d-inline-block align-text-top py-1 px-3 logo-img">
