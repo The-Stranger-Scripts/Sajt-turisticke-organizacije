@@ -3,6 +3,10 @@
     "header": {
       "nav": [
         {
+          "title": "Home",
+          "link": "index.html"
+        },
+        {
           "title": "Explore",
           "link": "explore.html"
         },
@@ -302,6 +306,10 @@
   "sr_SR": {
     "header": {
       "nav": [
+        {
+          "title": "Naslovna",
+          "link": "index.html"
+        },
         {
           "title": "Razgledanje",
           "link": "explore.html"

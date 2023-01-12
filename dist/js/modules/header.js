@@ -1,12 +1,21 @@
 const writeHeader = function(data) {
   let navbarUlElements = '';
   
-  data.header.nav.forEach(element => {
-    navbarUlElements += `
-      <li class="nav-item p-lg-0 py-2 ps-5 me-3">
-        <a class="nav-link" href="${element.link}">${element.title}</a>
-      </li>
-    `
+  data.header.nav.forEach((element, i) => {
+    if(i === 0) { 
+      navbarUlElements += `
+        <li class="nav-item p-lg-0 py-2 ps-5 me-3 d-lg-none">
+          <a class="nav-link" href="${element.link}">${element.title}</a>
+        </li>
+      `
+    } else {
+      navbarUlElements += `
+        <li class="nav-item p-lg-0 py-2 ps-5 me-3">
+          <a class="nav-link" href="${element.link}">${element.title}</a>
+        </li>
+      `
+    }
+    
   });
 
   let cityGuide = data.header.cityGuide;
