@@ -1,96 +1,208 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- Bootstrap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
     <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
-    <!-- Scripts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <!-- JS Scripts -->
     <script defer src="js/modules/eatDrink.js"></script>
     <script defer type="module" src="js/main.js"></script>
     <!-- Bootstrap scripts -->
-    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    <script
+      defer
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
     <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
-    integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <!-- Custom Css -->
-    <link rel="stylesheet" href="css/pages/eat-drink.css">
+    <link rel="stylesheet" href="css/pages/eat-drink.css" />
+    <!-- AOS Css CDN -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <title>Eat & Drink</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <!-- Header -->
     <header>
-        <!-- Navigacija-->
-        <div id="nav-container"></div>
-      
-        <!-- Ovde se dodaje ostatak headera po dizajnu-->
+      <!-- Navigacija-->
+      <div id="nav-container"></div>
+
+      <!-- Ovde se dodaje ostatak headera po dizajnu-->
+      <div class="video">
+        
+        <iframe
+          class="mv"
+          src="https://www.youtube.com/embed/GZRE3KT4hII"
+          title="NoviSadRestoran"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope"
+          allowfullscreen
+        ></iframe>
+      </div>
     </header>
 
     <!-- Main -->
     <main id="eat-drink">
-        
- <div class="container-xxl"> 
-            
-        <div class="home-heading"> 
-            <img  class="img-fluid" src="https://www.gdecemo.rs/images/company/large/show%20room%20novi%20sad%20enterijer%202-xrXd.jpg" alt="show-room">  <br>
-            <br>
-            <h1> Eat & Drink</h1> 
-       
-        <br>
+      <!-- U ovom elementu se kuca sav ostali content stranice po dizajnu -->
 
-       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis impedit nisi possimus 
-        dolore accusamus adipisci. 
-        Porro rem saepe voluptatem deleniti provident 
-        ipsam debitis adipisci eaque voluptate, quas, sint, numquam fugit?Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis impedit nisi possimus 
-        dolore accusamus adipisci. 
-        Porro rem saepe voluptatem deleniti provident 
-        ipsam debitis adipisci eaque voluptate, quas, sint, numquam fugit?</p>
-       </div>
-       
-       <div class="card-group">
-        <div class="card">
-          <img src="https://media-cdn.tripadvisor.com/media/photo-s/12/68/93/51/petrus-cafe-gallery-bar.jpg" class="card-img-top" alt="petrus">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis impedit nisi possimus dolore accusamus adipisci. Porro rem saepe voluptatem deleniti provident ipsam debitis adipisci eaque voluptate, quas, sint, numquam fugit?</p>
+      <div class="container-xxl">
+        <section class="ml" data-aos="fade-up">
+          <h2>! In Vino Veritas !</h2>
+          <h5> Zadovoljite Vaša čula najkvalitetnijom hranom i pićem u gradu. </h5>
+          <p>
+            Nakon duge šetnje, teškog posla, napornog dana, zaslužili ste predah, a 
+            kako sebe drugačije nagraditi nego uživanjem u najboljim zalogajima i gutljajima, zato, prepustite se hedonizmu i 
+            ne žalite. Život ulepšavaju sitnice. 
+            Novi Sad Vam nudi sve ono što Vam nedostaje! 
+            </p>
+          <br> 
+          <h5 class="text-align:center"> Dobro došli! </h5>
+        </section>
+        <section>
+          <div class="rl">
+            <h2>
+               RESTORANI
+            </h2>
            
           </div>
-        </div>
-        <div class="card">
-          <img src="https://media-cdn.tripadvisor.com/media/photo-s/0e/51/85/ff/variety-of-food-combined.jpg" class="card-img-top" alt="variety-of-food-combined">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis impedit nisi possimus dolore accusamus adipisci. Porro rem saepe voluptatem deleniti provident ipsam debitis adipisci eaque voluptate, quas, sint, numquam fugit?</p>
-           
-          </div>
-        </div>
-        <div class="card">
-          <img src="https://homerent.rs/wp-content/uploads/2020/08/shutterstock_1010843569-scaled.jpg" class="card-img-top" alt="food">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis impedit nisi possimus dolore accusamus adipisci. Porro rem saepe voluptatem deleniti provident ipsam debitis adipisci eaque voluptate, quas, sint, numquam fugit?</p>
+          <div class="card-columns container-lg data-aos=fade-up">
+            <div class="rc">
+              <img class="img"src="https://yugotour.com/wp-content/uploads/2017/12/9c924e010ccaed50415e25c96877bb39_view_l.jpg" alt="" />
+              <div class="rcb">
+                <h4>Nacionalni</h4>
+                <p class="text-date"></p>
+                <p>
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry. Lorem Ipsum has been the Lorem Ipsum has
+                  been the industry's standard dummy texLorem Ipsum is simply
+                  dummy text of the printing and typesetting..
+                </p>
+              </div>
+            </div>
+            <div class="rc">
+              <img src="https://media-cdn.tripadvisor.com/media/photo-s/1c/89/a4/b3/karadjordje-steak.jpg" alt="" />
+              <div class="rcb">
+                <h4>Ekspres</h4>
+               
+                <p>
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry. Lorem Ipsum has been the Lorem Ipsum has
+                  been the industry's standard dummy texLorem Ipsum is simply
+                  dummy text of the printing and typesetting..
+                </p>
+              </div>
+            </div>
+            <div class="rc">
+              <img src="https://mrd-cdn.fra1.digitaloceanspaces.com/merchant/thumbnail/_vu3eyiq034fvnnb_1642065298840_pirina%C4%8D%20%281%29_thumbnail.webp" alt="" />
+              <div class="rcb">
+                <h4>Internacionalni</h4>
+               
+                <p>
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry. Lorem Ipsum has been the Lorem Ipsum has
+                  been the industry's standard dummy texLorem Ipsum is simply
+                  dummy text of the printing and typesetting..
+                </p>
+              </div>
+            </div>
+            <div class="rc">
+              <img src="https://images.everydayhealth.com/images/what-is-a-vegan-diet-benefits-food-list-beginners-guide-alt-1440x810.jpg?sfvrsn=1d260c85_1" alt="" />
+              <div class="rcb">
+                <h4>Veganski</h4>
+             
+                <p>
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry. Lorem Ipsum has been the industry's
+                  standard dummy texLorem Ipsum is simply dummy text of the
+                  printing and typesetting..
+                </p>
+              </div>
+            </div>
+          </div> <br> <br>
+          <h2 style="text-align: center">
+            POSLASTIČARNICE I KAFETERIJE
+         </h2> <br> <br>
+          <div class="card-columns container-lg">
+            <div class="rc">
+              <img src="https://i.pinimg.com/originals/de/e9/a4/dee9a45e0b9626f5953c4b813775450d.jpg" alt="" />
+              <div class="rcb">
+                <h4>Slatko da sve ide glatko</h4>
+              
+                <p>
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Ipsum dolore saepe nulla officia quibusdam veniam error amet
+                  tenetur rerum ut aliquam, itaque sunt corporis perferendis
+                  iste quo libero minus magni odio laboriosam doloremque
+                  consectetur explicabo. Deserunt necessitatibus reiciendis,
+                  voluptatum natus ut dolore minus repudiandae provident
+                  doloribus, porro soluta placeat rerum.
+                  </p>
+              </div>
+            </div>
+            <div class="rc">
+              <img src="https://novisad.travel/wp-content/uploads/2019/04/Frida-Kahlo-frida2_compressed.jpg" alt="" />
+              <div class="rcb">
+                <h4>Kafica za balansiranje</h4>
             
+                <p>
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Ipsum dolore saepe nulla officia quibusdam veniam error amet
+                  tenetur rerum ut aliquam, itaque sunt corporis perferendis
+                  iste quo libero minus magni odio laboriosam doloremque
+                  consectetur explicabo. Deserunt necessitatibus reiciendis,
+                  voluptatum natus ut dolore minus repudiandae provident
+                  doloribus, porro soluta placeat rerum.
+                </p>
+              </div>
+            </div>
           </div>
-        </div>
+        </section> 
+        <br><br>
+        <section>
+         <h2 style="text-align: center">PIVNICE I PABOVI</h2> 
+          <h6 style="text-align: center; color: rgb(205, 230, 243)">Kako bez piva?!</h6> <br>
+          <div class="ec">
+            <img src="https://www.mojnovisad.com/files/news/7/8/6/23786/23786-gradska-pivnica-vojislav-menadzer.jpg" alt="" />
+            <div class="el">
+              <h4>
+                "NOVOSADSKI DANI PIVA" <br />
+               
+              </h4>
+              <p>4. i 5. novembar</p>
+              <p>Novosadski sajam</p>
+            </div>
+          </div>
+        </section>
+      
       </div>
-    </div>
-  
- 
- <!-- U ovom elementu se kuca sav ostali content stranice po dizajnu -->
     </main>
 
     <!-- Footer -->
     <footer id="ft-container"></footer>
 
-</body>
-
+    <!-- AOS JS CDN -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  </body>
 </html>
