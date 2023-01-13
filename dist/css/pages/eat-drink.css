@@ -1,8 +1,119 @@
 @import "../main.css";
 
-.home-heading {
-    text-align: center;
-    margin: 6rem auto 3rem;
-    width: 70%;
+
+.video {
+  position: relative;
+  width: 100%;
+  padding-bottom: 50%; 
 }
+
+
+.mv {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+.ml {
+  margin: auto;
+  width: 70%;
+  position: relative;
+  background-color: rgb(255, 255, 255);
+  top: -4rem;
+  padding: 2rem;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(233, 3, 3, 0.153);
+  color: #222222;
+  
+}
+
+.ml h2 {
+  color: #00CDD7;
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  text-shadow: 1px 1px #141fc0;
+}
+
+
+h2 {
+    
+    font-weight: bold;
+}
+
+
+.card-columns {
+  display: flex;
+  width: 100%;
+  gap: 2.2rem;
+  border-radius: 5px;
+}
+
+.rl {
+  width: 70%;
+  margin: 0 auto;
+  background-color: rgb(255, 255, 255);
+  padding: 2rem 4rem;
+  text-align: center;
+ 
+}
+
+
+.rc {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  
+  
+}
+
+.rcb {
+  padding: 1rem;
+  box-shadow: 0 2px 3px rgba(233, 3, 3, 0.153);
+  height: 50%;
+  border-radius: 5px;
+}
+
+.rc img {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+}
+
+.rc h4 {
+  color: #00CDD7;
+}
+
+.rc p {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+}
+
+
+.ec {
+  margin: 0 auto 10rem;
+  width: 84%;
+  position: relative;
+  
+}
+
+.ec img {
+  width: 100%;
+}
+
+.ec .el {
+  position: absolute;
+  left: 6%;
+  top: 92%;
+  padding: 1rem;
+  background-color: #00CDD7;
+  text-align: left;
+  margin-bottom: 1rem;
+  min-width: 40%;
+}
+
 
