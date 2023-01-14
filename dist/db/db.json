@@ -27,8 +27,8 @@
           "link": "blog.html"
         }
       ],
-			"cityGuide": "Guide to Novi Sad",
-			"bookTrip": "Book",
+      "cityGuide": "Guide to Novi Sad",
+      "bookTrip": "Book",
       "searchPlaceholder": "Search...",
       "searchButton": "Search"
     },
@@ -331,8 +331,8 @@
           "link": "blog.html"
         }
       ],
-			"cityGuide": "Vodič kroz Novi Sad",
-			"bookTrip": "Rezerviši",
+      "cityGuide": "Vodič kroz Novi Sad",
+      "bookTrip": "Rezerviši",
       "searchPlaceholder": "Pretraži...",
       "searchButton": "Pretraga"
     },
@@ -494,26 +494,31 @@
         ]
       },
       "events": {
+        "header": {
+          "title": "Osetite duh Zimske fantazije u Novom Sadu",
+          "subtitle": "“Ledena šuma” i bajkovito klizalište Dunavskog parka",
+          "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages."
+        },
         "heading": {
-          "title": "Neki header title",
+          "title": "Doček Nove godine u Petrovaradinskom podgrađu",
           "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis impedit nisi possimus dolore accusamus adipisci. Porro rem saepe voluptatem deleniti provident ipsam debitis adipisci eaque voluptate, quas, sint, numquam fugit?"
         },
         "content": [
           {
             "id": 1,
-            "title": "Neki naslov",
-            "subtitle": "Neki podnaslov",
+            "title": "Naslov",
+            "subtitle": "Decembar 13",
             "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis impedit nisi possimus dolore accusamus adipisci. Porro rem saepe voluptatem deleniti provident ipsam debitis adipisci eaque voluptate, quas, sint, numquam fugit?",
-            "image": "img/home/Zimzolend_14-1024x683.jpg",
-            "thumbnail": "img/home/Zimzolend_14-1024x683.jpg"
+            "image": "img/events/pogled-sa-tvrdjave.jpeg",
+            "thumbnail": "img/events/pogled-sa-tvrdjave.jpeg"
           },
           {
             "id": 2,
-            "title": "Neki naslov",
-            "subtitle": "Neki podnaslov",
+            "title": "Naslov",
+            "subtitle": "Decembar 13",
             "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis impedit nisi possimus dolore accusamus adipisci. Porro rem saepe voluptatem deleniti provident ipsam debitis adipisci eaque voluptate, quas, sint, numquam fugit?",
-            "image": "img/home/Zimzolend_14-1024x683.jpg",
-            "thumbnail": "img/home/Zimzolend_14-1024x683.jpg"
+            "image": "img/events/ns-night.webp",
+            "thumbnail": "img/events/ns-night.webp"
           },
           {
             "id": 3,
@@ -614,6 +619,195 @@
           }
         ]
       }
+    },
+    "events": {
+      "header": {
+        "title": "Osetite duh Zimske fantazije u Novom Sadu",
+        "subtitle": "“Ledena šuma” i bajkovito klizalište Dunavskog parka",
+        "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages."
+      },
+      "content": [
+        {
+          "heading": {
+            "title": "Doček Nove godine u Petrovaradinskom podgrađu",
+            "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis impedit nisi possimus dolore accusamus adipisci. Porro rem saepe voluptatem deleniti provident ipsam debitis adipisci eaque voluptate, quas, sint, numquam fugit?",
+            "date": ""
+          },
+          "eventCard": [
+            {
+              "id": 1,
+              "title": "Naslov",
+              "subtitle": "",
+              "date": "Decembar 13",
+              "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis impedit nisi possimus dolore accusamus adipisci. Porro rem saepe voluptatem deleniti provident ipsam debitis adipisci eaque voluptate, quas, sint, numquam fugit?",
+              "image": "img/events/pogled-sa-tvrdjave.jpeg",
+              "thumbnail": "img/events/pogled-sa-tvrdjave.jpeg"
+            },
+            {
+              "id": 2,
+              "title": "Naslov",
+              "subtitle": "",
+              "date": "Decembar 13",
+              "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis impedit nisi possimus dolore accusamus adipisci. Porro rem saepe voluptatem deleniti provident ipsam debitis adipisci eaque voluptate, quas, sint, numquam fugit?",
+              "image": "img/events/ns-night.webp",
+              "thumbnail": "img/events/ns-night.webp"
+            }
+          ]
+        },
+        {
+          "heading": {
+            "title": "Božićno-novogodišnji koncerti",
+            "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis impedit nisi possimus dolore accusamus adipisci. Porro rem saepe voluptatem deleniti provident ipsam debitis adipisci eaque voluptate, quas, sint, numquam fugit?",
+            "date": "Decembar 15, 2022 - Decembar 28, 2022"
+          },
+          "eventCard": [
+            {
+              "id": 1,
+              "title": "AMIRA MEDUNJANIN i VOJVOĐANSKI SIMFONIJSKI ORKESTAR",
+              "subtitle": "Srpsko narodno pozorište",
+              "date": "Petak, 16. decembar",
+              "content": "",
+              "image": "img/events/solisti-i-orkestar.webp",
+              "thumbnail": "img/events/solisti-i-orkestar.webp"
+            }
+          ]
+        },
+        {
+          "heading": {
+            "title": "Muzeji i aktuelne izložbe",
+            "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis impedit nisi possimus dolore accusamus adipisci. Porro rem saepe voluptatem deleniti provident ipsam debitis adipisci eaque voluptate, quas, sint, numquam fugit?",
+            "date": ""
+          },
+          "eventCard": [
+            {
+              "id": 1,
+              "title": "Zimzarije u Muzeju Vojvodine",
+              "subtitle": "",
+              "date": "10-13. januara",
+              "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis impedit nisi possimus dolore accusamus adipisci. Porro rem saepe voluptatem deleniti provident ipsam debitis adipisci eaque voluptate, quas, sint, numquam fugit?",
+              "image": "img/events/zimzarije-2023.jpg",
+              "thumbnail": "img/events/zimzarije-2023.jpg"
+            },
+            {
+              "id": 2,
+              "title": "Život posvećen lepoti i umetnosti",
+              "subtitle": "",
+              "date": "7. oktobar 2022 - 31. januar 2023.",
+              "content": "U godini obeležavanja značajnog jubileja - 175 godina od osnivanja Galerije Matice srpske, realizujemo veliku monografsku izložbu posvećenu stvaralaštvu jednog od najistaknutijih nacionalnih slikara Uroša Predića. Kroz priču o liku i delu ovog velikana srpske kulture i umetnosti, istovremeno se ukazuje na temeljne vrednosti Galerije Matice srpske: zadužbinarstvo, posvećenost opštem dobru i nacionalnim",
+              "image": "img/events/uros-predic-poster.jpg",
+              "thumbnail": "img/events/uros-predic-poster.jpg"
+            },
+            {
+              "id": 3,
+              "title": "Sava Šumanović i evropski realizmi između dva svetska rata",
+              "subtitle": "",
+              "date": "24. septembar 2022. - 4. decembar 2022.",
+              "content": "Slikarski opus Save Šumanovića (1896 - 1942) gotovo u potpunosti pripada periodu između dva svetska rata. Njegove pojedine slike ili čitavi ciklusi pokazuju direktnu uključenost u bitne faze razvoja evropskog modernizma. Stvaranje celovite slike o Šumanovićevim realizmima i njihovim relacijama sa međunarodnim umetničkim tokovima bilo je polazište u realizaciji izložbe u Spomen-zbirci Pavla Beljanskog, Galeriji",
+              "image": "img/events/sava-sumanovic-poster.jpg",
+              "thumbnail": "img/events/sava-sumanovic-poster.jpg"
+            }
+          ]
+        },
+        {
+          "heading": {
+            "title": "Poslednja trka u godini",
+            "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis impedit nisi possimus dolore accusamus adipisci. Porro rem saepe voluptatem deleniti provident ipsam debitis adipisci eaque voluptate, quas, sint, numquam fugit?",
+            "date": "Decembar 24, 2022"
+          },
+          "eventCard": [
+            {
+              "id": 1,
+              "title": " “Winter Trail Race” Fruška gora",
+              "subtitle": "Fruška gora - Iriški venac",
+              "date": "Nedelja, 24. decembar",
+              "content": "",
+              "image": "img/events/winter-trail-race.webp",
+              "thumbnail": "img/events/winter-trail-race.webp"
+            }
+          ]
+        },
+        {
+          "heading": {
+            "title": "Sport i rekreacija",
+            "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis impedit nisi possimus dolore accusamus adipisci. Porro rem saepe voluptatem deleniti provident ipsam debitis adipisci eaque voluptate, quas, sint, numquam fugit?",
+            "date": ""
+          },
+          "eventCard": [
+            {
+              "id": 1,
+              "title": "Ledena dvorana Spens",
+              "subtitle": "",
+              "date": "",
+              "content": "Sezona klizanja u Novom Sadu uveliko je počela. Ledena dvorana Spensa će i ove zime biti mesto dobrog provoda i zabave, za najmlađe, zaljubljene, društvo, ali i za mame i tate i one malo starije...",
+              "image": "img/events/ice-skating.jpeg",
+              "thumbnail": "img/events/ice-skating.jpeg"
+            },
+            {
+              "id": 2,
+              "title": "Trčanje i rekreacija",
+              "subtitle": "",
+              "date": "",
+              "content": "Trim staza koja se nalazi na Beogradskom keju, napravljena je posle celokupne rekonstrukcije keja i važi za stazu koja je uredjena po najsavremenijim standardima. Dužina trim staze je u celoj dužini Beogradskog keja. Na ovoj stazi se...",
+              "image": "img/events/trim-staza-bg-kej.jpg",
+              "thumbnail": "img/events/trim-staza-bg-kej.jpg"
+            },
+            {
+              "id": 3,
+              "title": "Biciklizam",
+              "subtitle": "",
+              "date": "",
+              "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis impedit nisi possimus dolore accusamus adipisci. Porro rem saepe voluptatem deleniti provident ipsam debitis adipisci eaque voluptate, quas, sint, numquam fugit?",
+              "image": "img/events/biciklista_ns.webp",
+              "thumbnail": "img/events/biciklista_ns.webp"
+            },
+            {
+              "id": 4,
+              "title": "Bazen SPC Slana Bara",
+              "subtitle": "",
+              "date": "",
+              "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis impedit nisi possimus dolore accusamus adipisci. Porro rem saepe voluptatem deleniti provident ipsam debitis adipisci eaque voluptate, quas, sint, numquam fugit?",
+              "image": "img/events/bazen.jpg",
+              "thumbnail": "img/events/bazen.jpg"
+            }
+          ]
+        },
+        {
+          "heading": {
+            "title": "Zabava",
+            "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis impedit nisi possimus dolore accusamus adipisci. Porro rem saepe voluptatem deleniti provident ipsam debitis adipisci eaque voluptate, quas, sint, numquam fugit?",
+            "date": ""
+          },
+          "eventCard": [
+            {
+              "id": 1,
+              "title": "Dani meda u Novom Sadu",
+              "subtitle": "",
+              "date": "10-13. januara",
+              "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis impedit nisi possimus dolore accusamus adipisci. Porro rem saepe voluptatem deleniti provident ipsam debitis adipisci eaque voluptate, quas, sint, numquam fugit?",
+              "image": "img/events/dani-meda.jpeg",
+              "thumbnail": "img/events/dani-meda.jpeg"
+            },
+            {
+              "id": 2,
+              "title": "Cvetna pijaca",
+              "subtitle": "",
+              "date": "7. oktobar 2022.",
+              "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis impedit nisi possimus dolore accusamus adipisci. Porro rem saepe voluptatem deleniti provident ipsam debitis adipisci eaque voluptate, quas, sint, numquam fugit?",
+              "image": "img/events/cvetna-pijaca.jpeg",
+              "thumbnail": "img/events/cvetna-pijaca.jpeg"
+            },
+            {
+              "id": 3,
+              "title": "Najbolja tamburica",
+              "subtitle": "",
+              "date": "24. septembar 2022.",
+              "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis impedit nisi possimus dolore accusamus adipisci. Porro rem saepe voluptatem deleniti provident ipsam debitis adipisci eaque voluptate, quas, sint, numquam fugit?",
+              "image": "img/events/tamburasi.jpeg",
+              "thumbnail": "img/events/tamburasi.jpeg"
+            }
+          ]
+        }
+      ]
     }
   }
 }
