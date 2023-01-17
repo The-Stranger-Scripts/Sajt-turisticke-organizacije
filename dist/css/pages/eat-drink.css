@@ -72,21 +72,21 @@ h2 {
 .rcb {
   padding: 1rem;
   box-shadow: 0 2px 3px rgba(233, 3, 3, 0.153);
-  height: 50%;
+  height: 38%;
   border-radius: 5px;
 }
 
-.rc img {
+.rc  img {
   width: 100%;
   aspect-ratio: 1 / 1;
   object-fit: cover;
 }
 
-.rc h4 {
+.rc  h4 {
   color: #00CDD7;
 }
 
-.rc p {
+.rc  p {
   overflow: hidden;
   display: -webkit-box;
   -webkit-line-clamp: 4;
@@ -114,6 +114,39 @@ h2 {
   text-align: left;
   margin-bottom: 1rem;
   min-width: 40%;
+}
+
+.ecb {
+
+  padding: 1rem;
+  box-shadow: 0 2px 3px rgba(233, 3, 3, 0.153);
+  height: 50%;
+  border-radius: 5px;
+}
+
+.ec1 {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+
+} 
+
+.ec1 img {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+}
+
+.ec1 h4 {
+  margin: 0;
+  color: #00CDD7;
+}
+
+.ec1 p {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
 }
 
 
