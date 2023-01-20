@@ -45,7 +45,6 @@ function writeHome(db) {
         let secData = homeHeadingSec(data.heading);
         secData += `
         <a href="${data.heading.link}"><div class="home-card">`;
-        console.log(data);
         let count;
         switch (cardSize) {
             case "xs":
@@ -90,6 +89,40 @@ function writeHome(db) {
         `
     }
 
+    let writeEventSec = (data, cardSize) => {
+        let secData = homeHeadingSec(data.header);
+        secData += `
+        <a href=""><div class="home-card">`;
+        let count;
+        switch (cardSize) {
+            case "xs":
+                count = 4;
+                break;
+            case "sm":
+                count = 3;
+                break;
+            case "m":
+                count = 2;
+                break;
+            default:
+                break;
+        }
+        data.content[0].eventCard.forEach(el => {
+            secData += `
+            <div class="home-card-ctn home-card-ctn-${cardSize}">
+                <img class="card-img" src="${el.image}" alt="">
+                <div class="card-body">
+                    <h3>${el.title}</h3>
+                    <h6><span>${el.subtitle}</span></h6>
+                    <p>${el.content}</p>
+                </div>
+            </div>`
+        });
+
+        secData += '</div><a/>';
+        return secData;
+    }
+
     homeCtn += `
         <div class="container-xxl">
             ${homeHeaderSec(data.home.header)}
@@ -98,15 +131,15 @@ function writeHome(db) {
 
             ${writeHomeSec(data.eatDrink, "sm")}
 
-            ${homeMediaSec(data.home)}
+            ${homeMediaSec(data.home.content[0])}
 
-            ${writeHomeSec(data.events, "m")}
+            ${writeEventSec(data.events, "m")}
 
             ${writeHomeSec(data.accomodation, "sm")}
 
             ${writeHomeSec(data.blog, "xs")}
 
-            ${homeFormSec(data.home.form)}
+            ${homeFormSec(data.home.content[0].form)}
         </div>
     `
     return homeCtn;
