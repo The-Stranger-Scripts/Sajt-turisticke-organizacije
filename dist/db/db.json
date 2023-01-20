@@ -80,25 +80,29 @@
           "subtitle": "Neki podnaslov",
           "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis impedit nisi possimus dolore accusamus adipisci. Porro rem saepe voluptatem deleniti provident ipsam debitis adipisci eaque voluptate, quas, sint, numquam fugit?"
         },
-        "heading": {
-          "title": "Neki header title",
-          "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis impedit nisi possimus dolore accusamus adipisci. Porro rem saepe voluptatem deleniti provident ipsam debitis adipisci eaque voluptate, quas, sint, numquam fugit?"
-        },
-        "image": {
-          "title": "Gradska kuca",
-          "content": "GRADSKA KUĆA (Magistrat) na Trgu slobode je monumentalno neorenesansno zdanje izgrađeno 1895. Zapodizanje Magistrata raspisan je 1855",
-          "link": "img/home/Gradska_kuca_Novi_Sad.jpg"
-        },
-        "video": {
-          "title": "video title",
-          "link": "https://www.youtube.com/embed/Z1y7SRO5Rg0"
-        },
-        "form": {
-          "title": "Subscribe to out monnthly newsletter Nazivsjta Unfolded",
-          "content": "Yes, please! I would like to get Copenhagen Unfolded, a newsletter about what to do, see, experience, and taste in Copenhagen. Sponsored content might occur. By signing up I confirm that I have read and accept Wonderful Copenhagen's Privacy Policy. I can at any time unsubscribe from the newsletter and withdraw my consent.",
-          "label": "Email",
-          "buttonText": "Sounds great! Sing me up!"
-        }
+        "content": [
+          {
+            "heading": {
+              "title": "Neki header title",
+              "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis impedit nisi possimus dolore accusamus adipisci. Porro rem saepe voluptatem deleniti provident ipsam debitis adipisci eaque voluptate, quas, sint, numquam fugit?"
+            },
+            "image": {
+              "title": "Gradska kuca",
+              "content": "GRADSKA KUĆA (Magistrat) na Trgu slobode je monumentalno neorenesansno zdanje izgrađeno 1895. Zapodizanje Magistrata raspisan je 1855",
+              "link": "img/home/Gradska_kuca_Novi_Sad.jpg"
+            },
+            "video": {
+              "title": "video title",
+              "link": "https://www.youtube.com/embed/Z1y7SRO5Rg0"
+            },
+            "form": {
+              "title": "Subscribe to out monnthly newsletter Nazivsjta Unfolded",
+              "content": "Yes, please! I would like to get Copenhagen Unfolded, a newsletter about what to do, see, experience, and taste in Copenhagen. Sponsored content might occur. By signing up I confirm that I have read and accept Wonderful Copenhagen's Privacy Policy. I can at any time unsubscribe from the newsletter and withdraw my consent.",
+              "label": "Email",
+              "buttonText": "Sounds great! Sing me up!"
+            }
+          }
+        ]
       },
       "accomodation": {
         "heading": {
@@ -542,25 +546,29 @@
           "subtitle": "Neki podnaslov",
           "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis impedit nisi possimus dolore accusamus adipisci. Porro rem saepe voluptatem deleniti provident ipsam debitis adipisci eaque voluptate, quas, sint, numquam fugit?"
         },
-        "heading": {
-          "title": "Neki header title",
-          "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis impedit nisi possimus dolore accusamus adipisci. Porro rem saepe voluptatem deleniti provident ipsam debitis adipisci eaque voluptate, quas, sint, numquam fugit?"
-        },
-        "image": {
-          "title": "Gradska kuca",
-          "content": "GRADSKA KUĆA (Magistrat) na Trgu slobode je monumentalno neorenesansno zdanje izgrađeno 1895. Zapodizanje Magistrata raspisan je 1855",
-          "link": "img/home/Gradska_kuca_Novi_Sad.jpg"
-        },
-        "video": {
-          "title": "video title",
-          "link": "https://www.youtube.com/embed/Z1y7SRO5Rg0"
-        },
-        "form": {
-          "title": "Subscribe to out monnthly newsletter Nazivsjta Unfolded",
-          "content": "Yes, please! I would like to get Copenhagen Unfolded, a newsletter about what to do, see, experience, and taste in Copenhagen. Sponsored content might occur. By signing up I confirm that I have read and accept Wonderful Copenhagen's Privacy Policy. I can at any time unsubscribe from the newsletter and withdraw my consent.",
-          "label": "Email",
-          "buttonText": "Sounds great! Sing me up!"
-        }
+        "content": [
+          {
+            "heading": {
+              "title": "Neki header title",
+              "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis impedit nisi possimus dolore accusamus adipisci. Porro rem saepe voluptatem deleniti provident ipsam debitis adipisci eaque voluptate, quas, sint, numquam fugit?"
+            },
+            "image": {
+              "title": "Gradska kuca",
+              "content": "GRADSKA KUĆA (Magistrat) na Trgu slobode je monumentalno neorenesansno zdanje izgrađeno 1895. Zapodizanje Magistrata raspisan je 1855",
+              "link": "img/home/Gradska_kuca_Novi_Sad.jpg"
+            },
+            "video": {
+              "title": "video title",
+              "link": "https://www.youtube.com/embed/Z1y7SRO5Rg0"
+            },
+            "form": {
+              "title": "Subscribe to out monnthly newsletter Nazivsjta Unfolded",
+              "content": "Yes, please! I would like to get Copenhagen Unfolded, a newsletter about what to do, see, experience, and taste in Copenhagen. Sponsored content might occur. By signing up I confirm that I have read and accept Wonderful Copenhagen's Privacy Policy. I can at any time unsubscribe from the newsletter and withdraw my consent.",
+              "label": "Email",
+              "buttonText": "Sounds great! Sing me up!"
+            }
+          }
+        ]
       },
       "accomodation": {
         "heading": {
