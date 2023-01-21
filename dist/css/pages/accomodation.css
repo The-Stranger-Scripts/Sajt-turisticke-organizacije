@@ -13,3 +13,91 @@
     height: 100%;
     border: 0;
 }
+
+.main-card {
+    margin: auto;
+    width: 70%;
+    top: -6rem;
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    padding: 2rem 4rem;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.153);
+    color: #222222;
+}
+
+.main-card h2 {
+    color: #00CDD7;
+    font-size: 2.4rem;
+    margin-bottom: 2.5rem;
+}
+
+.main-card h5 {
+    margin-bottom: 2rem;
+}
+
+.card-columns {
+    width: 100%;
+    display: flex;
+    gap: 2rem;
+    margin-bottom: 4.5rem;
+    height: max-content;
+}
+
+.accomodation-label {
+    width: 70%;
+    margin: 0 auto;
+    background-color: rgb(255, 255, 255);
+    padding: 2rem 4rem;
+    text-align: center;
+    margin-bottom: .5rem;
+}
+
+.accomodation-label h2 {
+    color: #00CDD7;
+}
+
+.accomodation-label>h4 {
+    font-weight: 900;
+}
+
+.accomodation-card {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.accomodation-card-body {
+    padding: 1rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.153);
+    height: 100%;
+}
+
+.accomodation-card img {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+}
+
+.accomodation-card p {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+}
+
+.exit-video-container {
+    width: 100%;
+    position: relative;
+    padding-bottom: 55%
+}
+
+.accomodation-video {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 150%;
+    width: 100%;
+    height: 80%;
+    border: 0;
+}
