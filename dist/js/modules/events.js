@@ -50,7 +50,7 @@ const writeEvents = (data) => {
         
         eventSection.eventCard.forEach(cardItem => {
           cardColumns.innerHTML += `
-            <div class="event-card col-two">
+            <div class="event-card">
               <img src="${cardItem.image}" alt="" />
               <div class="event-card-body">
                 <h4>${cardItem.title}</h4>
