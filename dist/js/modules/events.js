@@ -22,7 +22,7 @@ const writeEvents = (data) => {
     let eventsRegularSection = document.createElement('section');
 
       // Section Heading/Label
-      eventsRegularSection.innerHTML += `
+      eventsRegularSection.innerHTML = `
       <div class="event-label">
         <h2>${eventSection.heading.title}</h2>
         <p>${eventSection.heading.content}</p>
@@ -37,19 +37,17 @@ const writeEvents = (data) => {
       if(eventSection.eventCard.length === 1) {
         eventsRegularSection.innerHTML += `
           <div class="one-event-card">
-            <img src="img/events/solisti-i-orkestar.webp" alt="" />
+            <img src="${eventSection.eventCard[0].image}" alt="" />
             <div class="event-label">
-              <h4>
-                AMIRA MEDUNJANIN i <br />
-                VOJVOĐANSKI SIMFONIJSKI ORKESTAR
-              </h4>
-              <p class="text-date">Petak, 16. decembar</p>
-              <p>Srpsko narodno pozorište</p>
+              <h4>${eventSection.eventCard[0].title}</h4>
+              <p class="text-date">${eventSection.eventCard[0].date}</p>
+              <p>${eventSection.eventCard[0].subtitle}</p>
             </div>
           </div>
         `
       } else {
       // Two or more cards section
+        
         eventSection.eventCard.forEach(cardItem => {
           cardColumns.innerHTML += `
             <div class="event-card">
