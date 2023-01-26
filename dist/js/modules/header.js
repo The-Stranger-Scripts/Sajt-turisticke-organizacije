@@ -26,10 +26,9 @@ const writeHeader = function(data) {
   let nav = `
               <div class="container-xxl">
                 <nav class="navbar navbar-expand-lg fixed-top pt-0 pb-lg-5 pb-0">
-                  <div class="container-xxl px-0 ps-sm-1 pe-sm-2 pe-lg-0">
+                  <div id="nav-container" class="container-xxl px-0 ps-sm-1 pe-sm-2 pe-lg-0">
                     <a class="navbar-brand m-0 pt-1 pt-sm-0" href="index.html">
-                    <img src="img/logo.png" alt="Turistička agencija Novog Sada" width="221"
-                        class="d-inline-block align-text-top py-1 px-3 logo-img">
+                    <img src="img/ns-logo-final-ver-transparent.svg" alt="Turistička agencija Novog Sada" class="d-inline-block align-text-top py-1 px-3 logo-img">
                     </a>
                     <button class="navbar-toggler align-self-center ms-3 mx-2 me-sm-0" type="button" data-bs-toggle="offcanvas"
                     data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
@@ -118,12 +117,6 @@ const writeHeaderTitles = function(data) {
   let searchButton = document.getElementById('searchButton');
   searchButton.innerText = data.header.searchButton;
 }
-
-/* EXCLUDED
-<li class="nav-item p-lg-0 py-2 ps-5 me-3">
-    <a class="nav-link active" aria-current="page" href="#">Naslovna</a>
-</li>
- */
 
 // Change Navbar background on scroll
 const navbarBackgroundScroll = function () {
