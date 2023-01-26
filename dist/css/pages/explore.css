@@ -83,7 +83,7 @@
     font-size: 1rem;
   }
 
-   .video-container {
+  .video-container {
     width: 78%;
     position: relative;
     padding-bottom: 55%
@@ -94,12 +94,9 @@
       position: absolute;
       top: 0;
       bottom: 0;
-      left: 150px;
       width: 100%;
       height: 80%;
       border: 0;
+      left: 160px;
     }
     
- 
- 
- 
