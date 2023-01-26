@@ -3,13 +3,12 @@
 .video {
   position: relative;
   width: 100%;
-  padding-bottom: 50%; 
+  padding-bottom: 57%; 
+  
 }
 
 .video-main {
   position: absolute;
-  top: 0;
-  left: 0;
   width: 100%;
   height: 100%;
   border: 0;
@@ -21,7 +20,7 @@
   position: relative;
   background-color: rgb(255, 255, 255);
   top: -4rem;
-  padding: 2rem;
+  padding: 2rem 4rem;
   text-align: center;
   box-shadow: 0 2px 5px rgba(233, 3, 3, 0.153);
   color: #222222;
