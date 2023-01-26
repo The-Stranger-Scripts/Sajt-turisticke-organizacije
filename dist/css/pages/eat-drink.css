@@ -71,11 +71,19 @@ h2 {
   width: 100%;
   aspect-ratio: 1 / 0.8;
   object-fit: cover;
+  cursor: pointer; 
+  transition: 0.5s all ease-in-out;
+  transform-origin: 50% 100%;
+ 
 }
 
+.universal-card img:hover {
+  transform: scale(1.1)
+}
 .universal-card  h4 {
   color: #00CDD7;
   margin-top: 15px;
+  cursor: pointer; 
 }
 
 .universal-card  p {
