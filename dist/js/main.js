@@ -67,11 +67,13 @@ async function initData() {
     })
     .then(() => {
       let srOption, enOption;
+      let logoVersion = document.querySelector('.logo-img');
 
       if (initialLangLoad) {
         if (window.matchMedia('(max-width: 960px)').matches) {
           srOption = document.getElementById('srSmallDisplay');
           enOption = document.getElementById('enSmallDisplay');
+
         } else {
           srOption = document.getElementById('srLargeDisplay');
           enOption = document.getElementById('enLargeDisplay');
@@ -93,9 +95,13 @@ async function initData() {
         if (window.innerWidth < 960) {
           srOption = document.getElementById('srSmallDisplay');
           enOption = document.getElementById('enSmallDisplay');
+
+          logoVersion.src = 'img/ns-logo-final-ver-justV.svg';
         } else {
           srOption = document.getElementById('srLargeDisplay');
           enOption = document.getElementById('enLargeDisplay');
+
+          logoVersion.src = 'img/ns-logo-final-ver-transparent.svg';
         }
 
         srOption.addEventListener('click', () => {
