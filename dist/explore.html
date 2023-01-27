@@ -355,6 +355,26 @@
         <!-- Footer -->
         <footer id="ft-container"></footer>
 
+        <script>
+          let lang="sr_SR";
+          let initialLoad=true;
+          fetch('db/db.json')
+            .then(res => res.json())
+            .then(data => {
+              lang = localStorage.getItem('language');
+              if (initialLoad) {
+                //nav.innerHTML = header.writeHeader(data[`${lang}`]);
+                initialLoad = false;
+              } else {
+                //header.writeHeaderTitles(data[`${lang}`]);
+              }
+              console.log(data[lang])
+            }
+            )
+
+
+        </script>
+
     </body>
 
 </html>
