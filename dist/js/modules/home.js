@@ -65,10 +65,10 @@ let writeHome = data => {
           `;
   };
 
-  let writeHomeSec = (data, dataCards, cardSize) => {
+  let writeHomeSec = (data, dataCards, cardSize, link) => {
     let secData = homeHeadingSec(data.heading);
     secData += `
-            <a href=""><div class="home-card">`;
+            <a href="${link}"><div class="home-card">`;
     dataCards.forEach(el => {
       secData += `
             <div class="home-card-ctn home-card-ctn-${cardSize}">
@@ -87,9 +87,11 @@ let writeHome = data => {
   homeCtn += `
   <div class="container-xxl">
     ${homeHeaderSec(homeData.header)}
-    ${writeHomeSec(exploreData, exploreDataCards, 'sm')}
-    ${writeHomeSec(eventsData, eventsDataCards, 'm')}
+    ${writeHomeSec(exploreData, exploreDataCards, 'sm', 'explore.html')}
+
     ${homeMediaSec(homeData.content[0])}
+    ${writeHomeSec(eventsData, eventsDataCards, 'm', 'events.html')}
+   
     ${homeFormSec(homeData.content[0].form)}
   </div>
   `;

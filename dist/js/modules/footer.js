@@ -18,7 +18,9 @@ function writeFooter(data) {
 
     <div class="ft-container">
         <div class="ft-wrap">
-            <img src="img/ns-logo-final-ver-transparent.svg" alt="" class="ft-logo">
+            <a href="#">
+                <img src="img/ns-logo-final-ver-transparent.svg" alt="" class="ft-logo">
+            </a>
         </div>
         <div class="ft-wrap">
             <div class="ft-wrap-sec">
