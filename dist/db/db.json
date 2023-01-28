@@ -221,12 +221,11 @@
         ]
       },
       "explore": {
-        "header": {
+        "heading": {
           "title": "Explore Novi Sad",
           "subtitle": "The European Capital of Culture for 2022",
           "content": "To explore the many spaces of Novi Sad means to listen to its messages of multiculturalism, to feel the voices and faces of its many meanings, above all to discover a puzzle that is waiting to be understood anew. It is not a difficult task, you just need to stop and stay for a while in Novi Sad. You can't explore all Novi Sad's stories and places in one, two, three days...but you can get a sense of the unique content of Novi Sad's days, the warmth of its inhabitants, and you will remember everything together as an experience you want to experience again.",
-          "image": "img/explore/Centar_grada.webp",
-          "thumbnail": "img/explore/Centar_grada.webp"
+          "image": "img/explore/Centar_grada.webp"
         },
         "content": [
           {
@@ -419,8 +418,9 @@
            }
           ]  
          }
+      ]
 
-    ],
+      },
       "blog": {
         "heading": {
           "title": "Neki header title",
@@ -693,99 +693,97 @@
           }
         ]
       },
-      
       "explore": {
-        "header": {
+        "heading": {
           "title": "Istražite Novi Sad",
           "subtitle": "Evropsku prestonicu kulture za 2022. godinu",
-          "content": "Istražiti mnogobrojne prostore Novog Sada znači osluškivati njegove poruke multikulturalnosti osećati glasove i lica njegovih mnogoznačnosti, nadasve otkriti slagalicu koja čeka da bude nanovo shvaćena. To nije težak zadatak, potrebno je samo zastati i ostati neko vreme u Novom Sadu. Ne možete istražiti sve novosadske priče i prostore za jedan, dva, tri dana...ali možete naslutiti neponovljivu sadržajnost novosadskih dana, srdačnost njegovih stanovnika, a sve zajedno ćete pamtiti kao iskustvo koje želite ponovo da doživite.",
-          "image": "img/explore/Centar_grada.webp",
-          "thumbnail": "img/explore/Centar_grada.webp"
+          "content": "Istražiti mnogobrojne prostore Novog Sada znači osluškivati njegove poruke multikulturalnosti, osećati glasove i lica njegovih mnogoznačnosti, nadasve otkriti slagalicu koja čeka da bude nanovo shvaćena. To nije težak zadatak, potrebno je samo zastati i ostati neko vreme u Novom Sadu. Ne možete istražiti sve novosadske priče i prostore za jedan, dva, tri dana...ali možete naslutiti neponovljivu sadržajnost novosadskih dana, srdačnost njegovih stanovnika, a sve zajedno ćete pamtiti kao iskustvo koje želite ponovo da doživite.",
+          "image": "img/explore/Centar_grada.webp"
         },
         "content": [
           {
-          "heading": {
-          "title": "Centar grada",
-          "content": "Čitava centralna zona Novog Sada, koju čine Trg slobode, Zmaj Jovina, Dunavska i ulice u njihovom okruženju,je svojevrsni izložbeni prostor, kolaž arhitektonskih stilova i realizovanih ideja inostranih i domaćih arhitekata-graditelja koja privlače pažnju posetilaca."
+            "heading": {
+            "title": "Centar grada",
+            "content": "Čitava centralna zona Novog Sada, koju čine Trg slobode, Zmaj Jovina, Dunavska i ulice u njihovom okruženju,je svojevrsni izložbeni prostor, kolaž arhitektonskih stilova i realizovanih ideja inostranih i domaćih arhitekata-graditelja koja privlače pažnju posetilaca."
         },
         "exploreCard": [
           {
             "id": 1,
             "title": "Gradska kuca",
             "subtitle": "",
-            "content": "The city hall, built in the Neo-Renaissance style in 1894 according to the project of Đerđe Molnar, with exterior decoration (allegorical figures) by Julije Anika, is one of the most beautiful buildings in the center of Novi Sad.",
+            "content": "Gradska kuća izgrađena je u neorenesansno silu,1894. godine, predstavlja jednu od najlepših, građevina u Novom sadu. Ispred nje nalazi se spomenik,Svetozaru Miletiću, najznačajniji srpski političar iz 19. veka. Delo je vajara Ivana Meštrovića iz 1939. godine.",
             "image": "img/explore/gradska-kuca-min.webp",
             "thumbnail": "img/explore/gradska-kuca-min.webp"
           },
           {
             "id": 2,
-            "title": "Monument of Svetozar Miletic",
+            "title": "Spomenik Svetozaru Miletiću",
             "subtitle": "",
-            "content": "On Freedom Square there is a monument to the most important Serbian politician in Vojvodina in the 19th century, the work of sculptor Ivan Meštrović from 1939.",
+            "content": "Na Trgu slobode se nalazi spomenik najznačajnijem srpskom političaru u Vojvodini u 19. veku, rad vajara Ivana Meštrovića iz 1939. godine.",
             "image": "img/explore/Spomenik_Svetozaru_Miletiću.jpg",
             "thumbnail": "img/explore/Spomenik_Svetozaru_Miletiću.jpg"
           },
           {
             "id": 3,
-            "title": "Roman Catholic church",
+            "title": "Rimokatolička crkva",
             "subtitle": "",
-            "content": "Built in the neo-Gothic style according to the project of Đerđa Molnara between 1893 and 1895, with a tower 73 meters high, it is the highest place of worship in the city.",
+            "content": "Izgrađena u neogotskom stilu po projektu Đerđa Molnara između 1893. i 1895. godine, sa tornjem visokim 73 metra, predstavlja najvišu bogomolju u gradu.",
             "image": "img/explore/crkva-imena-marijinog.webp",
             "thumbnail": "img/explore/crkva-imena-marijinog.webp"
           },
           {
             "id": 4,
-            "title": "The Sinagogue",
+            "title": "Sinagoga",
             "subtitle": "",
-            "content": "Together with the buildings of the former Jewish school and the Jewish community, the synagogue is a single unit built in 1909 in the Hungarian Art Nouveau style, according to the design of Lipot Baumhorn.",
+            "content": "Sa zgradama nekadašnje Jevrejske škole i Jevrejske opštine, sinagoga predstavlja jednu celinu izgrađenu 1909. godine u stilu mađarske secesije, po projektu Lipota Baumhorna.",
             "image": "img/explore/Novi_Sad_Sinagoga.jpg",
             "thumbnail": "img/explore/Novi_Sad_Sinagoga.jpg"
           },
           {
             "id": 5,
-            "title": "Matica Serbia",
+            "title": "Matica srpska",
             "subtitle": "",
-            "content": "Matica srpska is the oldest and most respected cultural and scientific institution among the Serbs. It was founded in 1826 in Pest, and moved to Novi Sad in 1864.",
+            "content": "Matica srpska je najstarija i najuglednija kulturna i naučna institucija kod Srba. Osnovana je 1826. godine u Pešti, a u Novi Sad preseljena 1864. godine.",
             "image": "img/explore/matica-sroska.webp",
             "thumbnail": "img/explore/matica-sroska.webp"
           },
           {
             "id": 6,
-            "title": "Dunavska street",
+            "title": "Dunavska ulica",
             "subtitle": "",
-            "content": "Is one of the oldest streets in the pedestrian zone, connecting the Danube bank and Zmaj Jovina Street. It starts with the oldest house in the city The House at the White Lion and the City Library. A large number of passages hide shops, souvenir shops, pastry shops and restaurants.",
+            "content": "Jedna je od najstarijih ulica u pešačkoj zoni, a spaja obalu Dunava i Zmaj Jovinu ulicu. Započinje najstarijom kućom u gradu Kućom kod belog lava i Gradskom bibliotekom. Veliki broj pasaža krije prodavnice, suvenirnice, poslastičarnice i restorane.",
             "image": "img/explore/Dunavska_ulica.jpg",
             "thumbnail": "img/explore/Dunavska_ulica.jpg"
           },
           {
             "id": 7,
-            "title": "Zmaj Jovina street",
+            "title": "Zmaj Jovina ulica",
             "subtitle": "",
-            "content": "The main street is in the pedestrian zone. It stretches from Freedom Square to Bishop's Palace. In this street there have always been shops and stores, and the oldest building is at number 28 - At the White Lion from 1720.",
+            "content": "Glavna je ulica u pešačkoj zoni. Prostire se od Trga slobode do Vladičanskog dvora. U ovoj ulici oduvek su se nalazile trgovine i dućani, a najstarija zgrada je na broju 28 - Kod belog lava iz 1720. godine.",
             "image": "img/explore/Dunavska_ulica.jpg",
             "thumbnail": "img/explore/Dunavska_ulica.jpg"
           },
           {
             "id": 8,
-            "title": "The Republic square and fish market",
+            "title": "Trg Republike i riblja pijaca",
             "subtitle": "",
-            "content": "Republic Square is decorated with a monument to King Peter the First Karađorđević. The fish market is a place where you can buy products with geographical origin from Novi Sad and its surroundings, but also a place to meet and present traditions in the production of food, artisanal products, wine, honey, as well as a space where various manifestations take place in honor of food and wine.",
+            "content": "Trg republike krasi spomenik kralju Petru Prvom Karađorđeviću. Riblja pijaca je mesto gde se mogu kupiti proizvodi sa geografskim poreklom iz Novog Sada i okoline, ali i mesto susretanja i prezentovanja tradicije u proizvodnji hrane, zanatskih proizvoda, vina, meda, kao i prostor na kome se dešavaju različite manifestacije u slavu hrane i vina.",
             "image": "img/explore/trg-republike.webp",
             "thumbnail": "img/explore/trg-republike.webp"
           },
           {
             "id": 9,
-            "title": "Museums",
+            "title": "Muzeji",
             "subtitle": "",
-            "content": "Visit the Museum of Vojvodina with a tradition of over 150 years, the Museum of Accession in 1918, as well as the Museum of Contemporary Art.",
+            "content": "Posetite muzej Vojvodine sa tradicijum dugom preko 150 godina, Muzej prisajedinjenja 1918., kao i muzej Savremene umetnosti.",
             "image": "img/explore/muzej-vojvodine-min.jpg",
             "thumbnail": "img/explore/muzej-vojvodine-min.jpg"
           },
           {
             "id": 10,
-            "title": "Theaters",
+            "title": "Pozorišta",
             "subtitle": "",
-            "content": "The Serbian National Theater was established in 1861, as the first professional theater in the Serbs, today it has three ensembles: Ballet, Opera and Drama.",
+            "content": "Srpsko narodno pozorište ustanovljeno je 1861. godine, kao prvo profesionalno pozorište u Srba, danas ima tri ansambla: Balet, Operu i Dramu.",
             "image": "img/explore/srpsko-narodno-pozoriste-min.webp",
             "thumbnail": "img/explore/srpsko-narodno-pozoriste-min.webp"
           }
@@ -793,35 +791,39 @@
       },
       {
         "heading":{
-          "title": "Green Novi Sad",
-          "content": "When your legs are tired and your senses are saturated from the colorful city center, take a break in one of the city's parks."
+          "title": "Zeleni Novi Sad",
+          "content": "Kada vam se noge zamore i čula zasite od živopisnog centra grada, napravite predah u jednom od gradskih parkova."
         },
         "exploreCard": [
         {
           "id": 1,
           "title": "Dunavski park",
-          "content": "One part of it is based on Dunavska Street, after which it got its name. At the beginning of the 19th century, the place where the park is located today was a marshy land, which began to be drained and landscaped at the end of the 19th century.",
+          "subtitle": "",
+          "content": "Jednim svojim delom se oslanja na Dunavsku ulicu po kojoj je i dobio ime. Početkom 19. veka na mestu gde se danas nalazi park bilo je močvarno zemljište koje je krajem 19. veka počelo da se isušuje i uređuje.",
           "image": "img/explore/Dunavski-park-_ALE8018_compressed.jpg",
           "thumbnail": "img/explore/Dunavski-park-_ALE8018_compressed.jpg"
         },
         {
           "id": 2,
           "title": "Futoski park",
-          "content": "Futoski Park was built in the first decade of the 20th century as a special purpose park around the Jodna Spa (Special Hospital for Rheumatic Diseases, Novi Sad). It covers an area of 8 ha, 13 ares, 6 m2 and is protected as a nature monument, i.e. a natural asset of the II and III categories.",
+          "subtitle": "",
+          "content": "Futoški park je podignut  u prvoj dekadi 20. veka kao park specijalne namene oko Jodne banje (Specijalna bolnica za reumatske bolesti, Novi Sad). Prostire se na površini od 8 ha, 13 ari, 6 m2 i zaštićen je kao spomenik  prirode, odnosno prirodno dobro II i III kategorije.",
           "image": "img/explore/Futoški_park.jpg",
           "thumbnail": "img/explore/Futoški_park.jpg"
         },
         {
           "id": 3,
           "title": "Kamenicki park",
-          "content": "In Sremska Kamenica, on the northern slopes of Fruska Gora, along the banks of the Danube, the largest and oldest park in Novi Sad is located - Kamenica Park, which covers an area of 33 ha and has been protected as a significant natural asset since 2008.",
+          "subtitle": "",
+          "content": "U Sremskoj Kamenici na severnim obroncima Fruške gore, duž obale Dunava, lociran je najveći i najstariji park u Novom Sadu – Kamenički park,koji se prostire  na 33 ha površine  i od 2008. godine je stavljen pod zaštitu kao značajno prirodno dobro.",
           "image": "img/explore/Kamenički_park.jpg",
           "thumbnail": "img/explore/Kamenički_park.jpg"
         },
         {
           "id": 4,
           "title": "Limanski park",
-          "content": "Liman Park is located in the central part of the Liman residential area in Novi Sad, in the immediate vicinity of the Danube River, and covers 12.9 ha. It is located on Liman III, between Oslobođenja Boulevard, Despot Stefana Boulevard, Šekspirova Street and Narodnog Street.",
+          "subtitle": "",
+          "content": "Limanski park se nalazi u središnjem delu stambenog naselja Liman u Novom Sadu u neposrednoj blizini reke Dunav i prostire se na 12,9 ha. Nalazi se na Limanu III, između Bulevara Oslobođenja, Bulevara despota Stefana, Šekspirove ulice i Ulice Narodnog.",
           "image": "img/explore/Limanski_park.jpg",
           "thumbnail": "img/explore/Limanski_park.jpg"
         }
@@ -829,34 +831,34 @@
       },
       {
         "heading":{
-          "title": "Petrovaradin Fortress",
-          "content": "Petrovaradin Fortress belongs to the most significant, preserved European fortifications. In addition to being the symbol of the city it is also the witness to multiconfessional tradition that relies strongly on European culture and most attractive tourist zone of Novi Sad. It is currently the area with around one hundred of art studios, restaurants, cafes, museums, galleries…"
+          "title": "Petrovaradinska tvrdjava",
+          "content": "Na desnoj obali Dunava nalazi se Petrovaradinska tvrđava koja spada među najznačajnije, sačuvane, evropske fortifikacije. Pored toga što je simbol Grada, ona je svedok multikonfesionalne tradicije snažno oslonjene na evropsku kulturu, ali i najatraktivnija turistička zona Novog Sada. Danas je to prostor gde se nalazi oko stotinu umetničkih ateljea, zatim restorani, kafei, muzeji, galerije…"
         }
       },  
     {
     "heading":{
-      "title": "Escape from the city",
-      "content": "If you are a lover of nature, good wines, and a more peaceful way of vacation, we invite you to go with us to Fruška Gora..."
+      "title": "Bekstvo iz grada",
+      "content": "Ukoliko ste ljubitelj prirode, dobrih vina, i mirnijeg načina odmora, prelažemo vam da krenete sa nama do Fruške gore..."
      },
     "exploreCard": [
       {
         "id": 1,
         "title": "Fruska gora",
-        "content": "Fruska Gora National Park was founded in 1960 as the oldest park in socialist Yugoslavia. On an area of about 25,000 ha, unique landscapes, valuable geological and geomorphological units, rare plant and animal species and forest complexes are protected.",
+        "content": "Nacionalni park Fruška gora osnovan je 1960. kao najstariji u socijalističkoj Jugoslaviji. Na površini od oko 25.000 ha, koliko obuhvata NP Fruška gora, zaštićeni su jedinstveni pejzaži,vredne geološke i geomorfološke celine, retke biljne i životinjske vrste i šumski kompleksi.",
         "image": "img/explore/FruskaGora.jpg",
         "thumbnail": "img/explore/FruskaGora.jpg"
       },
       {
         "id": 2,
-        "title": "Vineyards",
-        "content": "The history of Fruskogor's vineyards is an exciting story. Many people are familiar with the fact that the planned planting of scotch on Fruška Gora dates back to the reign of Emperor Probus (Marcus Aurelius Probus), who allowed vineyards to be planted in the Roman provinces as well.",
+        "title": "Vinogradi",
+        "content": "Istorija fruškogorskih vinograda je uzbudljiva priča. Mnogima je poznata spoznaja koja plansku sadnju čokota na Fruškoj gori smešta u vreme vladavine cara Proba (Marcus Aurelius Probus), koji je dozvolio da se i u rimskim provincijama podižu vinogradi",
         "image": "img/explore/grozdje_vinograd.jpg",
         "thumbnail": "img/explore/grozdje_vinograd.jpg"
       },
        {
         "id": 3,
-        "title": "Farms",
-        "content": "In the vicinity of Novi Sad, there are numerous farms that offer a special type of vacation. In the realm of silence, a pleasant and relaxed atmosphere, visitors can enjoy horseback riding and carriage rides, a rich offer of Vojvodina specialties.",
+        "title": "Salaši",
+        "content": "U okolini Novog Sada su brojni salaši koji nude poseban vid odmora. U cаrstvu tišine, prijаtnoj i opuštenoj аtmosferi posetioci mogu uživati u jаhаnju i vožnji fijаkerom, bogаtoj ponudi vojvođаnskih specijаlitetа.",
         "image": "img/explore/Salaši.jpg",
         "thumbnail": "img/explore/Salaši.jpg"
         }
@@ -865,78 +867,36 @@
 
        {
         "heading":{
-          "title": "Sightseeing tours ",
-          "content": "The tourist organization of Novi Sad offers its visitors organized tours of the city's sights and familiarization with its rich history. It's just up to you to choose the way to get around."
+          "title": "Ture i obilasci ",
+          "content": "Turistička organizacija Novog Sad nudi svojim posetiocima, organizovane ture obilazaka znamenitosti grada i upoznavanje sa bogatom istorijom. Na vama je samo da odaberete način obilaska."
         },
 
         "exploreCard": [
            {
             "id": 1,
-            "title": "Walking tours",
-            "content": "To visitors of Novi Sad, who want to create their own way of visiting Novi Sad, the Tourism Organization of the City of Novi Sad suggests one of the routes offered in the Map of walking tours. You can choose the Blue and Red routes, which include the central zone on the Bač side of the City, or the Yellow route, which takes you to the Petrovaradin Fortress.",
+            "title": "Pešačke ture",
+            "content": "Posetiocima Novog Sada, koji žele da sami kreiraju način na koji će obići Novi Sad, Turistička organizacija Grada Novog Sada predlaze jednu od ponuđenih ruta u Mapi pešačkih tura. Možete izabrati Plavu i Crvenu rutu koje obuhvataju centralnu zonu na bačkoj strani Grada ili Žutu rutu koja vas vodi na Petrovaradinsku tvrđavu. Ali, možete napraviti i neki drugi odabir koji je baš po vašem osećanju za lepo i interesantno. Istražite Novi Sad!",
             "image": "img/explore/Pesacke-ture.webp",
             "thumbnail": "img/explore/Pesacke-ture.webp"
            },
            {
             "id": 2,
-            "title": "By bike through Novi Sad",
-            "content": "Novi Sad currently has about 90 kilometers of trails and over 700 parking spaces for bicycles, and Serbian Athens is slowly becoming recognizable as Serbian Amsterdam. Bicycle paths lead past the most important city locations, the most important city roads and even further - recreationalists and tourists can visit several places near Novi Sad, but also try a slightly more extreme form of riding on Fruska Gora, where mountain biking has become increasingly popular in recent years.",
+            "title": "Biciklom kroz Novi Sad",
+            "content": "Novi Sad trenutno ima oko 90 kilometara staza i preko 700 parking mesta za bicikle, a srpska Atina polako postaje prepoznatljiva i kao srpski Amsterdam. Biciklističke staze vode pored najznačajnijih gradskih lokacija, najvažnijih gradskih saobraćajnica i još dalje – rekreativci i turisti mogu da obiđu nekoliko mesta pored Novog Sada, ali i da se oprobaju u nešto ekstremnijem obliku vožnje na Fruškoj gori, gde se poslednjih godina razvio sve popularniji planinski biciklizam.",
             "image": "img/explore/biciklizam-foto.jpg",
             "thumbnail": "img/explore/biciklizam-foto.jpg"
            },
            {
             "id": 3,
-            "title": "Running tours",
-            "content": "If you are passionate about running and plan to take your sneakers on the road, let us show you the best scenic routes in Novi Sad. It would be great to share with you the first-hand stories of the city.",
+            "title": "Trkačka tura",
+            "content": "Ako ste strastveni za trčanjem i planirate da ponesete patike na put, dozvolite nam da vam pokažemo najbolje živopisne rute Novog Sada. Bilo bi sjajno podeliti sa vama gradske priče iz prve ruke.",
             "image": "img/explore/Trčanje.jpg",
             "thumbnail": "img/explore/Trčanje.jpg"
            }
           ]  
          }
-
     ],
-      "blog": {
-        "heading": {
-          "title": "Neki header title",
-          "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis impedit nisi possimus dolore accusamus adipisci. Porro rem saepe voluptatem deleniti provident ipsam debitis adipisci eaque voluptate, quas, sint, numquam fugit?"
-        },
-        "content": [
-          {
-            "id": 1,
-            "title": "Neki naslov",
-            "subtitle": "Neki podnaslov",
-            "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis impedit nisi possimus dolore accusamus adipisci. Porro rem saepe voluptatem deleniti provident ipsam debitis adipisci eaque voluptate, quas, sint, numquam fugit?",
-            "image": "img/home/Zimzolend_14-1024x683.jpg",
-            "thumbnail": "img/home/Zimzolend_14-1024x683.jpg"
-          },
-          {
-            "id": 2,
-            "title": "Neki naslov",
-            "subtitle": "Neki podnaslov",
-            "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis impedit nisi possimus dolore accusamus adipisci. Porro rem saepe voluptatem deleniti provident ipsam debitis adipisci eaque voluptate, quas, sint, numquam fugit?",
-            "image": "img/home/Zimzolend_14-1024x683.jpg",
-            "thumbnail": "img/home/Zimzolend_14-1024x683.jpg"
-          },
-          {
-            "id": 3,
-            "title": "Neki naslov",
-            "subtitle": "Neki podnaslov",
-            "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis impedit nisi possimus dolore accusamus adipisci. Porro rem saepe voluptatem deleniti provident ipsam debitis adipisci eaque voluptate, quas, sint, numquam fugit?",
-            "image": "img/home/Zimzolend_14-1024x683.jpg",
-            "thumbnail": "img/home/Zimzolend_14-1024x683.jpg"
-          },
-          {
-            "id": 4,
-            "title": "Neki naslov",
-            "subtitle": "Neki podnaslov",
-            "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis impedit nisi possimus dolore accusamus adipisci. Porro rem saepe voluptatem deleniti provident ipsam debitis adipisci eaque voluptate, quas, sint, numquam fugit?",
-            "image": "img/home/Zimzolend_14-1024x683.jpg",
-            "thumbnail": "img/home/Zimzolend_14-1024x683.jpg"
-          }
-        ]
-      }
-    }
-  },
+
       "blog": {
         "heading": {
           "title": "Neki header title",
@@ -979,7 +939,5 @@
       }
     }
   }
-
-    
-  
-
+}
+}
