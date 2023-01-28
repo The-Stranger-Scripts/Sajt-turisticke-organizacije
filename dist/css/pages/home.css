@@ -247,10 +247,15 @@ main {
     .home-img .header-card h2 {
         margin-bottom: 1rem;
     }
-        .form-newsletter {
-            width: 80%;
-            padding: 2rem;
-        }
+
+    .home-video iframe {
+        height: 50vw;
+    }
+
+    .form-newsletter {
+        width: 80%;
+        padding: 2rem;
+    }
 }
 
 @media (max-width: 768px) {
@@ -264,10 +269,11 @@ main {
     .home-card-ctn .card-img {
         width: 100%;
     }
-        .form-newsletter {
-            width: 90%;
-            padding: 1.5rem;
-        }
+
+    .form-newsletter {
+        width: 90%;
+        padding: 1.5rem;
+    }
 }
 
 @media (max-width: 500px) {
@@ -295,13 +301,13 @@ main {
     }
 
 
-    .home-img {
+    /* .home-img {
         width: 100vw;
         margin: 0;
         padding: 0;
         position: relative;
         margin: auto;
-    }
+    } */
 
     .home-img .header-card {
         width: 100%;

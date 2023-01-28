@@ -70,7 +70,9 @@
             "Public Transort"
           ]
         }
-      ]
+      ],
+      "nav": "Navigation",
+      "contact": "Contact us"
     },
     "main": {
       "home": {
@@ -696,7 +698,9 @@
             "Pon. - Pet. 08h - 16h"
           ]
         }
-      ]
+      ],
+      "nav": "Navigacija",
+      "contact": "Kontakt"
     },
     "main": {
       "home": {
