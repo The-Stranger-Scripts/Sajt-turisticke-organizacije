@@ -148,41 +148,189 @@
       },
       "eatDrink": {
         "heading": {
-          "title": "Neki header title",
-          "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis impedit nisi possimus dolore accusamus adipisci. Porro rem saepe voluptatem deleniti provident ipsam debitis adipisci eaque voluptate, quas, sint, numquam fugit?"
+          "title": "!In Vino Veritas!",
+          "subtitle": "Satisfy your senses with the best quality food and drink in town.",
+          "content": "After a long walk, hard work, a tiring day, you deserve a break, and what better way to reward yourself than by enjoying the best bites and sips, so indulge in hedonism and don't regret it. Life is made better by little things. Novi Sad offers you everything you are missing! Welcome!"
         },
         "content": [
           {
-            "id": 1,
-            "title": "Neki naslov",
-            "subtitle": "Neki podnaslov",
-            "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis impedit nisi possimus dolore accusamus adipisci. Porro rem saepe voluptatem deleniti provident ipsam debitis adipisci eaque voluptate, quas, sint, numquam fugit?",
-            "image": "img/home/Zimzolend_14-1024x683.jpg",
-            "thumbnail": "img/home/Zimzolend_14-1024x683.jpg"
+            "heading": {
+              "title": "RESTAURANTS",
+              "content": "Whether you like eating at an upscale restaurant or a casual bar, it is good to know where you can grab a delicious meal. Whether it's a business lunch, a romantic dinner, or just a hearty appetizer with your favorite drink, you'll always find a suitable place for it in Novi Sad."
+            },
+            "eatDrinkCard": [
+              {
+                "id": 1,
+                "title": "National",
+                "subtitle": "",
+                "content": "What is tastier than homemade food? Enjoy sarma, karađorđeva steak, pihtije, čvarci, etc",
+                "image": "img/eatDrink/nationalRestaurant.jpg",
+                "thumbnail": "img/eatDrink/nationalRestaurant.jpg"
+              },
+              {
+                "id": 2,
+                "title": "Express",
+                "subtitle": "",
+                "content": "Hungry and in a hurry? The best option for you are express restaurants that offer cooked meals of the highest quality.",
+                "image": "img/eatDrink/internationalRestaurant.jpg",
+                "thumbnail": "img/eatDrink/internationalRestaurant.jpg"
+              },
+              {
+                "id": 3,
+                "title": "International",
+                "subtitle": "",
+                "content": " If you like new tastes and experimenting with food, visit one of the best international restaurants.",
+                "image": "img/eatDrink/internationalRestaurant.jpg",
+                "thumbnail": "img/eatDrink/internationalRestaurant.jpg"
+              },
+              {
+                "id": 4,
+                "title": "Vegan",
+                "subtitle": "",
+                "content": "Not a fan of meat and other animal products? Then vegan restaurants are the right choice for you.",
+                "image": "img/eatDrink/veganRestaurant.jpg",
+                "thumbnail": "img/eatDrink/veganRestaurant.jpg"
+              }
+            ]
           },
           {
-            "id": 2,
-            "title": "Neki naslov",
-            "subtitle": "Neki podnaslov",
-            "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis impedit nisi possimus dolore accusamus adipisci. Porro rem saepe voluptatem deleniti provident ipsam debitis adipisci eaque voluptate, quas, sint, numquam fugit?",
-            "image": "img/home/Zimzolend_14-1024x683.jpg",
-            "thumbnail": "img/home/Zimzolend_14-1024x683.jpg"
+            "heading": {
+              "title": "PIZZERIAS / BAKERIES / PANCAKE SHOPS / STREET FOOD",
+              "content": "Don't have enough time for restaurants? No problem, there are bakeries, street food, pancake shops, pizzerias, etc. You won't be hungry."
+            },
+            "eatDrinkCard": [
+              {
+                "id": 1,
+                "title": "Pizzerias",
+                "subtitle": "",
+                "content": "What's the first thing that comes to your mind when you're hungry? Maybe a pizza? Try our specialties, you won't regret.",
+                "image": "img/eatDrink/pizza.jpg",
+                "thumbnail": "img/eatDrink/pizza.jpg"
+              },
+              {
+                "id": 2,
+                "title": "Bakeries",
+                "subtitle": "",
+                "content": "Is there a better smell than freshly baked bread? Come and try various types of pastries, sweet products, burek, sandwiches. ",
+                "image": "img/eatDrink/pekara.jpg",
+                "thumbnail": "img/eatDrink/pekara.jpg"
+              },
+              {
+                "id": 3,
+                "title": "Pancake shops",
+                "subtitle": "",
+                "content": " Soft, melting, satin-soft, filled as desired, I became a symbol of many childhoods. The accessories kept changing, but I stayed the same. Salty or sweet? Everything to your taste! ",
+                "image": "img/eatDrink/palacinka.jpg",
+                "thumbnail": "img/eatDrink/palacinka.jpg"
+              },
+              {
+                "id": 4,
+                "title": "Street food",
+                "subtitle": "",
+                "content": "The global popularity trend of the so-called street food is becoming ever more expressed in Novi Sad. The offer itself is the most diverse possible: from burgers, salads, pancakes, gyros, pies, grill…",
+                "image": "img/eatDrink/streetFood.jpg",
+                "thumbnail": "img/eatDrink/streetFood.jpg"
+              }
+            ]
           },
           {
-            "id": 3,
-            "title": "Neki naslov",
-            "subtitle": "Neki podnaslov",
-            "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis impedit nisi possimus dolore accusamus adipisci. Porro rem saepe voluptatem deleniti provident ipsam debitis adipisci eaque voluptate, quas, sint, numquam fugit?",
-            "image": "img/home/Zimzolend_14-1024x683.jpg",
-            "thumbnail": "img/home/Zimzolend_14-1024x683.jpg"
+            "heading": {
+              "title": "PASTRY SHOPS /  CAFETERIAS",
+              "content": "If you want that taste of cakes and cookies with coffee, which reminds you of some more beautiful and cheerful, carefree times, come and visit us. We are waiting for you!"
+            },
+            "eatDrinkCard": [
+              {
+                "id": 1,
+                "title": "Sweet to make everything go smoothly",
+                "subtitle": "",
+                "content": "For those who cannot imagine a meal without dessert, there are patisseries that offer homemade strudels, dumplings, vanilla crannies, dumplings, cakes, donuts, anything you want. Visit us and enjoy sweet snacks.",
+                "image": "img/eatDrink/kolaci.jpeg",
+                "thumbnail": "img/eatDrink/kolaci.jpeg"
+              },
+              {
+                "id": 2,
+                "title": "Coffee for balance",
+                "subtitle": "",
+                "content": "We start our day with coffee, so take a break, relax and enjoy the smell and taste of the powerful drink. There are more and more places with an excellent selection of coffee in our city, so don't wait and try different types of coffee. ",
+                "image": "img/eatDrink/kafeterija.jpg",
+                "thumbnail": "img/eatDrink/kafeterija.jpg"
+              }
+            ]
           },
           {
-            "id": 4,
-            "title": "Neki naslov",
-            "subtitle": "Neki podnaslov",
-            "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis impedit nisi possimus dolore accusamus adipisci. Porro rem saepe voluptatem deleniti provident ipsam debitis adipisci eaque voluptate, quas, sint, numquam fugit?",
-            "image": "img/home/Zimzolend_14-1024x683.jpg",
-            "thumbnail": "img/home/Zimzolend_14-1024x683.jpg"
+            "heading": {
+              "title": "BEERHOUSES  / PUBS",
+              "subtitle": "What? No beer?!",
+              "content": "To begin with, you can visit one of Novi Sad's cafes or beer halls. A popular microbrewery that serves its craft beers is \"Brauhaus\", where parties are also held. You can get an unusual service in PUBeraj, a pub that is also a barbershop, so you can wait your turn for a haircut with a beer."
+            },
+            "eatDrinkCard": [
+              {
+                "id": 1,
+                "title": "NOVI SAD BEER FESTIVAL",
+                "subtitle": "",
+                "content": "4. i 5. novembar",
+                "image": "img/eatDrink/gradskaPivnica.jpg",
+                "thumbnail": "img/eatDrink/gradskaPivnica.jpg"
+              }
+            ]
+          },
+          {
+            "heading": {
+              "title": "",
+              "subtitle": "",
+              "content": ""
+            },
+            "eatDrinkCard": [
+              {
+                "id": 1,
+                "title": "Live music",
+                "subtitle": "",
+                "content": "This Friday, we have singled out for you the most interesting nightlife options in Novi Sad. Since a special spectacle awaits you on Saturday, the offer of other bars in Novi Sad for that day is not as varied as for Friday.",
+                "image": "img/eatDrink/musicPub.jpg",
+                "thumbnail": "img/eatDrink/musicPub.jpg"
+              },
+              {
+                "id": 2,
+                "title": "Techno and beer",
+                "subtitle": "",
+                "content": "The weather forecast predicts rain, but this does not affect the parties that are announced. Read what awaits you this coming weekend in Novi Sad, with a special surprise for all lovers of techno sound.",
+                "image": "img/eatDrink/brauhausPivnica.jpg",
+                "thumbnail": "img/eatDrink/brauhausPivnica.jpg"
+              }
+            ]
+          },
+          {
+            "heading": {
+              "title": "OTHER...",
+              "subtitle": "",
+              "content": "Novi Sad is the place where food is always delicious and meals could be eaten at a slow pace. If you wish to enjoy in autochthonous dishes, excellent wines, fruit “rakijas”, and music of “tamburitza” players we recommend you to go to one of the “čardas” along the Danube or “salaš” restaurants in the nearby settlements. The wines from Fruška Gora: Riesling, Neoplanta, Semillon, Sirmium, Slankamenka, or Bermet are served traditionally with local dishes."
+            },
+            "eatDrinkCard": [
+              {
+                "id": 1,
+                "title": "Carde",
+                "subtitle": "",
+                "content": "If you want to escape from the noise and hustle and bustle of the city this weekend, to spend the day in the fresh air by the river bank, and to eat well at the same time, the right place for you is Carda. There are some good fish restaurants around 5km far from the center of Novi Sad.",
+                "image": "img/eatDrink/dunav.jpg",
+                "thumbnail": "img/eatDrink/dunav.jpg"
+              },
+              {
+                "id": 2,
+                "title": "WINERIES",
+                "subtitle": "",
+                "content": "In vino veritas! The modern assortment for the production of Fruška Gora's red wines consists of: Merlot, Probus, Frankovka, Portugizer, Cabernet Sauvignon, Cabernet Franc, Pinot Red, and for white wines: Italian Riesling, Chardonnay, Župljanka, Sauvignon, Traminac, then Neoplanta, Sila, Rhine Riesling...",
+                "image": "img/eatDrink/vino.jpg",
+                "thumbnail": "img/eatDrink/vino.jpg"
+              },
+              {
+                "id": 3,
+                "title": "Farmsteads",
+                "subtitle": "",
+                "content": "If you want silence and rest, farmsteads are the choice for you. You will be able to recharge your batteries and enjoy the relaxed atmosphere and rich offer of various Vojvodina specialties.",
+                "image": "img/eatDrink/salasi.jpg",
+                "thumbnail": "img/eatDrink/salasi.jpg"
+              }
+            ]
           }
         ]
       },

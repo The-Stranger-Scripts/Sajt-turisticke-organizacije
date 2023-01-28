@@ -4,11 +4,12 @@ let writeHome = data => {
   let exploreData = data.main.explore;
   let exploreDataCards = exploreData.content[3].exploreCard;
 
-  let eatDrinkData = data.main.eatDrink.content;
+  let eatDrinkData = data.main.eatDrink;
+  let eatDrinkDataCards = eatDrinkData.content[1].eatDrinkCard;
 
   let eventsData = data.main.events;
   let eventsDataCards = eventsData.content[0].eventCard;
-  let accomodationData = data.main.accomodation.content;
+  // let accomodationData = data.main.accomodation.content;
 
   let homeCtn = '';
 
@@ -88,10 +89,12 @@ let writeHome = data => {
   <div class="container-xxl">
     ${homeHeaderSec(homeData.header)}
     ${writeHomeSec(exploreData, exploreDataCards, 'sm', 'explore.html')}
+    ${writeHomeSec(eatDrinkData, eatDrinkDataCards, 'xs', 'eat-drink.html')}
+
 
     ${homeMediaSec(homeData.content[0])}
     ${writeHomeSec(eventsData, eventsDataCards, 'm', 'events.html')}
-   
+
     ${homeFormSec(homeData.content[0].form)}
   </div>
   `;
@@ -101,8 +104,8 @@ let writeHome = data => {
 
   // console.log(eatDrinkData);
   // console.log(eventsData);
-  // console.log(eventsDataCards);
-  // console.log(accomodationData);
+  // console.log(eatDrinkDataCards);
+  // eatDrinkonsole.log(accomodationData);
 
   return homeCtn;
 };
