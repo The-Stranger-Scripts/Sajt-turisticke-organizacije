@@ -52,9 +52,9 @@ async function initData() {
         // case 'eat-drink.html':
         //   main.innerHTML = writeEatDrink(data[`${lang}`]);
         //   break;
-        case 'events.html':
-          main.innerHTML = writeEvents(data[`${lang}`]);
-          break;
+        // case 'events.html':
+        //   main.innerHTML = writeEvents(data[`${lang}`]);
+        //   break;
         // case 'explore.html':
         //   main.innerHTML = writeExplore(data[`${lang}`]);
         //   break;
@@ -64,6 +64,9 @@ async function initData() {
       }
 
       ft.innerHTML = writeFooter(data[`${lang}`]);
+
+      // AOS init function
+      AOS.init();
     })
     .then(() => {
       let srOption, enOption;
@@ -73,7 +76,6 @@ async function initData() {
         if (window.matchMedia('(max-width: 960px)').matches) {
           srOption = document.getElementById('srSmallDisplay');
           enOption = document.getElementById('enSmallDisplay');
-
         } else {
           srOption = document.getElementById('srLargeDisplay');
           enOption = document.getElementById('enLargeDisplay');
@@ -116,9 +118,5 @@ async function initData() {
       };
     });
 }
-
 // Inner content to html elements
 await initData();
-
-// AOS init function
-AOS.init();
