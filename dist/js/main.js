@@ -24,7 +24,7 @@ let location = () => {
 
 let initialLoad = true;
 let initialLangLoad = true;
-// let srOption, enOption;
+let srOption, enOption;
 
 // Function for initial rendering of header and footer
 async function initData() {
@@ -64,16 +64,18 @@ async function initData() {
       }
 
       ft.innerHTML = writeFooter(data[`${lang}`]);
+
+      // AOS init function
+      AOS.init();
     })
     .then(() => {
-      let srOption, enOption;
+      // let srOption, enOption;
       let logoVersion = document.querySelector('.logo-img');
 
       if (initialLangLoad) {
         if (window.matchMedia('(max-width: 960px)').matches) {
           srOption = document.getElementById('srSmallDisplay');
           enOption = document.getElementById('enSmallDisplay');
-
         } else {
           srOption = document.getElementById('srLargeDisplay');
           enOption = document.getElementById('enLargeDisplay');
@@ -116,9 +118,5 @@ async function initData() {
       };
     });
 }
-
 // Inner content to html elements
 await initData();
-
-// AOS init function
-AOS.init();
