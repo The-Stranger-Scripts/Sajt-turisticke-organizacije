@@ -13,7 +13,9 @@ const writeEvents = data => {
   eventsContainer.append(eventsHeaderSection);
 
   eventsHeaderSection.innerHTML = `
-  <h2>${events.heading.title}</h2>
+  <a href="#">
+    <h2>${events.heading.title}</h2>
+  </a>
   <h5>${events.heading.subtitle}</h5>
   <p>${events.heading.content}</p>
   `;
@@ -24,7 +26,9 @@ const writeEvents = data => {
     // Section Heading/Label
     eventsRegularSection.innerHTML = `
       <div class="event-label">
-        <h2>${eventSection.heading.title}</h2>
+        <a href="#">
+          <h2>${eventSection.heading.title}</h2>
+        </a>
         <p>${eventSection.heading.content}</p>
       </div>
       `;
@@ -37,9 +41,13 @@ const writeEvents = data => {
     if (eventSection.eventCard.length === 1) {
       eventsRegularSection.innerHTML += `
           <div class="one-event-card">
-            <img src="${eventSection.eventCard[0].image}" alt="" />
+            <a href="#">
+              <img src="${eventSection.eventCard[0].image}" alt="" />
+            </a>
             <div class="event-label">
-              <h4>${eventSection.eventCard[0].title}</h4>
+              <a href="#">
+                <h4>${eventSection.eventCard[0].title}</h4>
+              </a>
               <p class="text-date">${eventSection.eventCard[0].date}</p>
               <p>${eventSection.eventCard[0].subtitle}</p>
             </div>
@@ -51,9 +59,13 @@ const writeEvents = data => {
       eventSection.eventCard.forEach(cardItem => {
         cardColumns.innerHTML += `
             <div class="event-card">
-              <img src="${cardItem.image}" alt="" />
+              <a href="#">
+                <img src="${cardItem.image}" alt="" />
+              </a>
               <div class="event-card-body">
-                <h4>${cardItem.title}</h4>
+                <a href="#">
+                  <h4>${cardItem.title}</h4>
+                </a>
                 <p class="text-date">${cardItem.date}</p>
                 <p class="event-text">${cardItem.content}</p>
               </div>
@@ -68,3 +80,5 @@ const writeEvents = data => {
 
   return eventsContainer.outerHTML;
 };
+
+export default writeEvents;
