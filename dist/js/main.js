@@ -52,9 +52,9 @@ async function initData() {
         // case 'eat-drink.html':
         //   main.innerHTML = writeEatDrink(data[`${lang}`]);
         //   break;
-        // case 'events.html':
-        //   main.innerHTML = writeEvents(data[`${lang}`]);
-        //   break;
+        case 'events.html':
+          main.innerHTML = writeEvents(data[`${lang}`]);
+          break;
         // case 'explore.html':
         //   main.innerHTML = writeExplore(data[`${lang}`]);
         //   break;
