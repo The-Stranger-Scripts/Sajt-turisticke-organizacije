@@ -24,7 +24,7 @@ let location = () => {
 
 let initialLoad = true;
 let initialLangLoad = true;
-// let srOption, enOption;
+let srOption, enOption;
 
 // Function for initial rendering of header and footer
 async function initData() {
@@ -66,7 +66,7 @@ async function initData() {
       ft.innerHTML = writeFooter(data[`${lang}`]);
     })
     .then(() => {
-      let srOption, enOption;
+      // let srOption, enOption;
       let logoVersion = document.querySelector('.logo-img');
 
       if (initialLangLoad) {
