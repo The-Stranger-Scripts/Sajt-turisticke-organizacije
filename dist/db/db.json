@@ -150,7 +150,7 @@
         "heading": {
           "title": "!In Vino Veritas!",
           "subtitle": "Satisfy your senses with the best quality food and drink in town.",
-          "content": "After a long walk, hard work, a tiring day, you deserve a break, and what better way to reward yourself than by enjoying the best bites and sips, so indulge in hedonism and don't regret it. Life is made better by little things. Novi Sad offers you everything you are missing! Welcome!"
+          "content": "After a long walk, hard work, a tiring day, you deserve a break, and is there any better way to reward yourself than by enjoying the best bites and sips, so indulge in hedonism and don't regret it. Little things in everyday life can make you happy . Novi Sad offers you everything you are missing! Welcome!"
         },
         "content": [
           {
@@ -179,7 +179,7 @@
                 "id": 3,
                 "title": "International",
                 "subtitle": "",
-                "content": " If you like new tastes and experimenting with food, visit one of the best international restaurants.",
+                "content": "If you like new tastes and experimenting with food, visit one of the best international restaurants.",
                 "image": "img/eatDrink/internationalRestaurant.jpg",
                 "thumbnail": "img/eatDrink/internationalRestaurant.jpg"
               },
@@ -187,7 +187,7 @@
                 "id": 4,
                 "title": "Vegan",
                 "subtitle": "",
-                "content": "Not a fan of meat and other animal products? Then vegan restaurants are the right choice for you.",
+                "content": "Not a fan of meat and other animal products? Vegan restaurants are the right choice for you.",
                 "image": "img/eatDrink/veganRestaurant.jpg",
                 "thumbnail": "img/eatDrink/veganRestaurant.jpg"
               }
@@ -203,7 +203,7 @@
                 "id": 1,
                 "title": "Pizzerias",
                 "subtitle": "",
-                "content": "What's the first thing that comes to your mind when you're hungry? Maybe a pizza? Try our specialties, you won't regret.",
+                "content": "What's the first thing that comes to your mind when you're hungry? Pizza maybe? Try our specialties, you won't regret.",
                 "image": "img/eatDrink/pizza.jpg",
                 "thumbnail": "img/eatDrink/pizza.jpg"
               },
@@ -219,7 +219,7 @@
                 "id": 3,
                 "title": "Pancake shops",
                 "subtitle": "",
-                "content": " Soft, melting, satin-soft, filled as desired, I became a symbol of many childhoods. The accessories kept changing, but I stayed the same. Salty or sweet? Everything to your taste! ",
+                "content": "Soft, melting, satin-soft, filled as desired, I became a symbol of many childhoods. The accessories kept changing, but I stayed the same. Salty or sweet? Everything to your taste! ",
                 "image": "img/eatDrink/palacinka.jpg",
                 "thumbnail": "img/eatDrink/palacinka.jpg"
               },
@@ -261,7 +261,7 @@
             "heading": {
               "title": "BEERHOUSES  / PUBS",
               "subtitle": "What? No beer?!",
-              "content": "To begin with, you can visit one of Novi Sad's cafes or beer halls. A popular microbrewery that serves its craft beers is \"Brauhaus\", where parties are also held. You can get an unusual service in PUBeraj, a pub that is also a barbershop, so you can wait your turn for a haircut with a beer."
+              "content": "You can visit some beerhouses and pubs in Novi Sad. “Brauhaus” is a popular microbrewery that serves its craft beers. You can get an unusual service in PUBeraj, a pub that is also a barbershop, so you can wait your turn for a haircut."
             },
             "eatDrinkCard": [
               {
@@ -310,15 +310,15 @@
                 "id": 1,
                 "title": "Carde",
                 "subtitle": "",
-                "content": "If you want to escape from the noise and hustle and bustle of the city this weekend, to spend the day in the fresh air by the river bank, and to eat well at the same time, the right place for you is Carda. There are some good fish restaurants around 5km far from the center of Novi Sad.",
+                "content": "If you want to escape from the noise and bustle of the city this weekend, to spend the day in the fresh air by the river bank, and to eat well at the same time, the right place for you is “carda”. There are some good fish restaurants around 5km far from the center of Novi Sad.",
                 "image": "img/eatDrink/dunav.jpg",
                 "thumbnail": "img/eatDrink/dunav.jpg"
               },
               {
                 "id": 2,
-                "title": "WINERIES",
+                "title": "Wineries",
                 "subtitle": "",
-                "content": "In vino veritas! The modern assortment for the production of Fruška Gora's red wines consists of: Merlot, Probus, Frankovka, Portugizer, Cabernet Sauvignon, Cabernet Franc, Pinot Red, and for white wines: Italian Riesling, Chardonnay, Župljanka, Sauvignon, Traminac, then Neoplanta, Sila, Rhine Riesling...",
+                "content": "“In vino veritas!” The modern assortment for the production of Fruška Gora's red wines consists of: Merlot, Probus, Frankovka, Portugizer, Cabernet Sauvignon, Cabernet Franc, Pinot Red, and for white wines: Italian Riesling, Chardonnay, Župljanka, Sauvignon, Traminac, then Neoplanta, Sila, Rhine Riesling...",
                 "image": "img/eatDrink/vino.jpg",
                 "thumbnail": "img/eatDrink/vino.jpg"
               },
