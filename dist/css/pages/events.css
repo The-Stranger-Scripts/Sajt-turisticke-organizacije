@@ -30,8 +30,13 @@
 .main-sec-label h2 {
   color: #00cdd7;
   font-size: 2.4rem;
-  font-weight: 700;
+  font-weight: 500;
   margin-bottom: 2.5rem;
+  transition: color .2s;
+}
+
+.main-sec-label h2:hover {
+  color: black;
 }
 
 .main-sec-label h5 {
@@ -96,7 +101,7 @@
 }
 
 .event-card h4:hover {
-  color: #00a8b1;
+  color: #000000;
 }
 
 .event-card p {
