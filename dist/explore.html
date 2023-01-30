@@ -1,380 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-        <!-- Bootstrap -->
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
-            integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-        <!-- Google Fonts -->
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap"
-            rel="stylesheet">
-        <!-- Scripts -->
-        <script defer src="js/modules/explore.js"></script>
-        <script defer type="module" src="js/main.js"></script>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
-        <!-- Bootstrap scripts -->
-        <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
-            crossorigin="anonymous"></script>
-        <!-- Font Awesome -->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
-            integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
-            crossorigin="anonymous" referrerpolicy="no-referrer" />
-        <!-- Custom Css -->
-        <link rel="stylesheet" href="css/pages/explore.css">
-        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-        <title>Explore</title>
-    </head>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <!-- Scripts -->
+  <script defer src="js/modules/explore.js"></script>
+  <script defer type="module" src="js/main.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+  <!-- Bootstrap scripts -->
+  <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+    crossorigin="anonymous"></script>
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- Custom Css -->
+  <link rel="stylesheet" href="css/pages/explore.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <title>Explore</title>
+</head>
 
-    <body>
-        <!-- Header -->
-        <header>
-            <!-- Navigacija-->
-            <div id="nav-container"></div>
-          <!-- Ovde se dodaje ostatak headera po dizajnu-->
-          <div class="main-img">
-            <img src="img/explore/Centar_grada.webp">  
-            </div> 
-        </header>
-        <!-- Main -->
-        <main id="explore">
-            <!-- U ovom elementu se kuca sav ostali content stranice po dizajnu -->
-            <div class="container-xxl px-0">
-                <section class="main-card" data-aos="fade-up">
-                  <h2>Istražite Novi Sad</h2>
-                  <h5>Evropsku predstonicu kulture za 2022. godinu</h5>
-                  <p>
-                    Istražiti mnogobrojne prostore Novog Sada znači osluškivati njegove poruke multikulturalnosti, 
-                    osećati glasove i lica njegovih mnogoznačnosti, nadasve otkriti slagalicu koja čeka da bude nanovo shvaćena. 
-                    To nije težak zadatak, potrebno je samo zastati i ostati neko vreme u Novom Sadu. 
-                    Ne možete istražiti sve novosadske priče i prostore za jedan, dva, tri dana... 
-                    ali možete naslutiti neponovljivu sadržajnost novosadskih dana, srdačnost njegovih stanovnika, 
-                    a sve zajedno ćete pamtiti kao iskustvo koje želite ponovo da doživite.
-                  </p>
-                </section> 
-               </div>
+<body>
+  <!-- Header -->
+  <header>
+    <!-- Navigacija-->
+    <div id="nav-container"></div>
+    <!-- Ovde se dodaje ostatak headera po dizajnu-->
+    <div class="main-img">
+      <img src="img/explore/Centar_grada.webp">
+    </div>
+  </header>
+  <!-- Main -->
+  <main id="explore">
+    <!-- U ovom elementu se kuca sav ostali content stranice po dizajnu -->
+    <div class="container-xxl px-0">
+      <section class="main-card" data-aos="fade-up">
+        <h2 id="headingTitle"></h2>
+        <h5 id="headingSubtitle"></h5>
+        <p id="headingContent"></p>
+      </section>
+    </div>
 
-                <section class="five-col-sec">
-                  <div class="explore-label">
-                    <h2>Centar grada</h2>
-                    <p>
-                      Čitava centralna zona Novog Sada, koju čine Trg slobode, Zmaj Jovina, Dunavska i ulice u njihovom okruženju,
-                       je svojevrsni izložbeni prostor, kolaž arhitektonskih stilova i realizovanih ideja inostranih
-                       i domaćih arhitekata-graditelja koja privlače pažnju posetilaca.
-                    </p>
-                  </div>
-                  <div class="card-columns container-lg">
-                    <div class="explore-card">
-                      <img src="img/explore/gradska-kuca-min.webp" alt="" />
-                      <div class="explore-card-body">
-                        <h4>Gradska kuća</h4>
-                        <p class="explore-text">
-                          Gradska kuća izgrađena je u neorenesansno silu,
-                          1894. godine, predstavlja jednu od najlepših,
-                          građevina u Novom sadu. Ispred nje nalazi se spomenik,
-                          Svetozaru Miletiću, najznačajniji srpski političar iz 19. veka.
-                          Delo je vajara Ivana Meštrovića iz 1939. godine.
-                        </p>
-                      </div>
-                    </div>
-                    <div class="explore-card">
-                      <img src="img/explore/Spomenik_Svetozaru_Miletiću.jpg" alt="" />
-                      <div class="explore-card-body">
-                        <h4>Spomenik Svetozaru Miletiću</h4>
-                        <p class="explore-text">
-                          Na Trgu slobode se nalazi spomenik najznačajnijem srpskom političaru u Vojvodini
-                           u 19. veku, rad vajara Ivana Meštrovića iz 1939. godine.
-                        </p>
-                      </div>
-                    </div>
-                    <div class="explore-card">
-                      <img src="img/explore/crkva-imena-marijinog.webp" alt="" />
-                      <div class="explore-card-body">
-                        <h4>Rimokatolička crkva</h4>
-                        <p class="explore-text">
-                          Izgrađena u neogotskom stilu po projektu Đerđa Molnara
-                           između 1893. i 1895. godine, sa tornjem visokim 73 metra, predstavlja najvišu bogomolju u gradu.
-                        </p>
-                      </div>
-                    </div>
-                    <div class="explore-card">
-                      <img src="img/explore/Novi_Sad_Sinagoga.jpg" alt="" />
-                      <div class="explore-card-body">
-                        <h4>Sinagoga</h4>
-                        <p class="explore-text">
-                          Sa zgradama nekadašnje Jevrejske škole i Jevrejske opštine, 
-                          sinagoga predstavlja jednu celinu izgrađenu 1909. godine u stilu mađarske secesije,
-                          po projektu Lipota Baumhorna.
-                        </p>
-                      </div>
-                    </div>
-                    <div class="explore-card">
-                      <img src="img/explore/matica-sroska.webp" alt="" />
-                      <div class="explore-card-body">
-                        <h4>Matica srpska</h4>
-                        <p class="explore-text">
-                          Matica srpska je najstarija i najuglednija kulturna i naučna institucija kod Srba.
-                          Osnovana je 1826. godine u Pešti, a u Novi Sad preseljena 1864. godine.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </section>
+    <div id="firstHalfSections"></div>
+    <section class="one-col-sec">
+      <div id="tvrdjava" class="explore-label" style="display:none;">
+        <h2>Petrovaradinska tvrđava</h2>
+        <p>
+          Na desnoj obali Dunava nalazi se Petrovaradinska tvrđava koja spada među najznačajnije, sačuvane, evropske
+          fortifikacije.
+          Pored toga što je simbol Grada, ona je svedok multikonfesionalne tradicije snažno oslonjene na evropsku
+          kulturu,
+          ali i najatraktivnija turistička zona Novog Sada.
+          Danas je to prostor gde se nalazi oko stotinu umetničkih ateljea, zatim restorani, kafei, muzeji, galerije…
+        </p>
+      </div>
+      <div id="fortress" class="explore-label">
+        <h2>Petrovaradin Fortress</h2>
+        <p>
+          Petrovaradin Fortress belongs to the most significant, preserved European fortifications.
+          In addition to being the symbol of the city it is also the witness to multiconfessional tradition that relies
+          strongly on European culture and most attractive tourist zone of Novi Sad. It is currently the area with
+          around one hundred of art studios, restaurants, cafes, museums, galleries…
+        </p>
+      </div>
+      <div class="video-container">
+        <video autoplay="" muted="" loop="" src="../dist/videos/PETROVARADINSKA-TVRDJAVA.mp4"></video>
+      </div>
+    </section>
+    <div id="secondHalfSections"></div>
 
-                <section class="five-col-sec">
-                  <div class="card-columns container-lg">
-                    <div class="explore-card">
-                      <img src="img/explore/Dunavska_ulica.jpg" alt="" />
-                      <div class="explore-card-body">
-                        <h4>Dunavska ulica</h4>
-                        <p class="explore-text">
-                          Jedna je od najstarijih ulica u pešačkoj zoni, a spaja obalu Dunava i Zmaj Jovinu ulicu. 
-                          Započinje najstarijom kućom u gradu "Kućom kod belog lava"
-                          i Gradskom bibliotekom. Veliki broj pasaža krije prodavnice, suvenirnice, poslastičarnice i restorane.
-                        </p>
-                      </div>
-                    </div>
-                    <div class="explore-card">
-                      <img src="img/explore/zmaj-jovina-min.jpg" alt="" />
-                      <div class="explore-card-body">
-                        <h4>Zmaj Jovina ulica</h4>
-                        <p class="explore-text">
-                          Glavna je ulica u pešačkoj zoni. Prostire se od Trga slobode do Vladičanskog dvora. 
-                          U ovoj ulici oduvek su se nalazile trgovine i dućani,
-                          a najstarija zgrada je na broju 28 - "Kod belog lava" iz 1720. godine.
-                        </p>
-                      </div>
-                    </div>
-                    <div class="explore-card">
-                      <img src="img/explore/trg-republike.webp" alt="" />
-                      <div class="explore-card-body">
-                        <h4>Trg Republike i riblja pijaca</h4>
-                        <p class="explore-text">
-                          Trg republike krasi spomenik kralju Petru Prvom Karađorđeviću. 
-                          Riblja pijaca je mesto gde se mogu kupiti proizvodi sa geografskim poreklom
-                          iz Novog Sada i okoline, ali i mesto susretanja i prezentovanja tradicije u proizvodnji hrane, zanatskih proizvoda, 
-                          vina, meda, kao i prostor na kome se dešavaju različite manifestacije u slavu hrane i vina.
-                        </p>
-                      </div>
-                    </div>
-                    <div class="explore-card">
-                      <img src="img/explore/muzej-vojvodine-min.jpg" alt="" />
-                      <div class="explore-card-body">
-                        <h4>Muzeji</h4>
-                        <p class="explore-text">
-                          Posetite muzej Vojvodine sa tradicijum dugom preko 150 godina, Muzej prisajedinjenja 1918.,
-                          kao i muzej Savremene umetnosti.
-                        </p>
-                      </div>
-                    </div>
-                    <div class="explore-card">
-                      <img src="img/explore/srpsko-narodno-pozoriste-min.webp" alt="" />
-                      <div class="explore-card-body">
-                        <h4>Pozorišta</h4>
-                        <p class="explore-text">
-                          Srpsko narodno pozorište ustanovljeno je 1861. godine, kao prvo profesionalno pozorište u Srba,
-                          danas ima tri ansambla: Balet, Operu i Dramu.Pozorište
-                        </p>
-                      </div>
-                    </div>
-            
-                  </div>
-                </section>
+  </main>
 
-                <section class="four-col-sec">
-                    <div class="explore-label">
-                      <h2>Zeleni Novi Sad</h2>
-                      <p>
-                        Kada vam se noge zamore i čula zasite od živopisnog centra grada, napravite predah u jednom od gradskih parkova.
-                      </p>
-                    </div>
-                    <div class="card-columns container-lg">
-                      <div class="explore-card">
-                        <img src="img/explore/Dunavski-park-_ALE8018_compressed.jpg" alt="" />
-                        <div class="explore-card-body">
-                          <h4>Dunavski park</h4>
-                          <p class="explore-text">
-                            Jednim svojim delom se oslanja na Dunavsku ulicu po kojoj je i dobio ime. 
-                            Početkom 19. veka na mestu gde se danas nalazi park bilo je močvarno zemljište koje je krajem 19. veka
-                            počelo da se isušuje i uređuje. U okviru prvih mera hidromelioracije izvršeno je nasipanje zemlje za
-                            gradnju hotela “Kod engleske kraljice” u čiju zgradu će se kasnije useliti sud, a zatim i Muzej Vojvodine.
-                            Dunavski park je danas spomenik prirode i predstavlja zaštićeno prirodno dobro.
-                            U parku se nalaze biste pesnika Branka Radičevića, Miroslava Antića i pesnika i slikara Đure Jakšića,
-                            figura Nimfe koja drži rog obilja i spomenik Prepodobnom Sergeju Radonješkom.
-                            Među 750 parkovskih stabala mogu se naći: platani, jablani, lešnici, breze, koprivić,
-                            divlji kesten i druge vrste drveća i jedan reprezentativni primerak hrasta lužnjaka, 
-                            koji je pod režimom zaštite. Dunavski park je poznat i po jezeru u njegovom centru. 
-                            Ovde se takođe dešavaju i različita događanja: koncerti, performansi i sl.
-                          </p>
-                        </div>
-                      </div>
-                      <div class="explore-card">
-                        <img src="img/explore/Futoški_park.jpg" alt="" />
-                        <div class="explore-card-body">
-                          <h4>Futoški park</h4>
-                          <p class="explore-text">
-                            Futoški park je podignut  u prvoj dekadi 20. veka kao park specijalne namene oko Jodne banje (Specijalna bolnica za reumatske bolesti, Novi Sad). 
-                            Prostire se na površini od 8 ha, 13 ari, 6 m2 i zaštićen je kao spomenik  prirode, odnosno prirodno dobro II i III kategorije.
-                          </p>
-                        </div>
-                      </div>
-                      <div class="explore-card">
-                        <img src="img/explore/Kamenički_park.jpg" alt="" />
-                        <div class="explore-card-body">
-                          <h4>Kamenički park</h4>
-                          <p class="explore-text">
-                            U Sremskoj Kamenici na severnim obroncima Fruške gore, duž obale Dunava, lociran je najveći i najstariji park u Novom Sadu – Kamenički park,
-                            koji se prostire  na 33 ha površine  i od 2008. godine je stavljen pod zaštitu kao značajno prirodno dobro.
-                          </p>
-                        </div>
-                      </div>
-                      <div class="explore-card">
-                        <img src="img/explore/Limanski_park.jpg" alt="" />
-                        <div class="explore-card-body">
-                          <h4>Limanski park</h4>
-                          <p class="explore-text">
-                            Limanski park se nalazi u središnjem delu stambenog naselja Liman u Novom Sadu u neposrednoj blizini reke Dunav i prostire se na 12,9 ha.  
-                            Nalazi se na Limanu III, između Bulevara Oslobođenja, Bulevara despota Stefana, Šekspirove ulice i Ulice Narodnog
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                  </section>
+  <!-- Footer -->
+  <footer id="ft-container"></footer>
 
-                  <section class="one-col-sec">
-                    <div class="explore-label">
-                      <h2>Petrovaradinska tvrđava</h2>
-                      <p>
-                        Na desnoj obali Dunava nalazi se Petrovaradinska tvrđava koja spada među najznačajnije, sačuvane, evropske fortifikacije. 
-                        Pored toga što je simbol Grada, ona je svedok multikonfesionalne tradicije snažno oslonjene na evropsku kulturu, 
-                        ali i najatraktivnija turistička zona Novog Sada. 
-                        Danas je to prostor gde se nalazi oko stotinu umetničkih ateljea, zatim restorani, kafei, muzeji, galerije…
-                      </p>
-                    </div>
-                      <div class="video-container">
-                        <video autoplay="" muted="" loop="" src="../dist/videos/PETROVARADINSKA-TVRDJAVA.mp4"></video>
-                      </div>
-                    
-                    
-                    <section class="three-col-sec">
-                      <div class="explore-label">
-                        <h2>Bekstvo iz grada</h2>
-                        <p>
-                          Ukoliko ste ljubitelj prirode, dobrih vina, i mirnijeg načina odmora, prelažemo vam da krenete sa nama do Fruške gore...
-                        </p>
-                       </div>
-                      <div class="card-columns container-lg">
-                        <div class="explore-card">
-                          <img src="img/explore/FruskaGora.jpg" alt="" />
-                          <div class="explore-card-body">
-                            <h4>Fruška gora</h4>
-                            <p class="explore-text">
-                              Nacionalni park "Fruška gora" osnovan je 1960. kao najstariji u socijalističkoj Jugoslaviji. 
-                              Na površini od oko 25.000 ha, koliko obuhvata "NP "Fruška gora", zaštićeni su jedinstveni pejzaži,
-                              vredne geološke i geomorfološke celine, retke biljne i životinjske vrste i šumski kompleksi.
-                            </p>
-                          </div>
-                        </div>
-                        <div class="explore-card">
-                          <img src="img/explore/grozdje_vinograd.jpg" alt="" />
-                          <div class="explore-card-body">
-                            <h4>Vinogradi</h4>
-                            <p class="explore-text">
-                              Istorija fruškogorskih vinograda je uzbudljiva priča. Mnogima je poznata spoznaja koja plansku sadnju čokota na Fruškoj gori
-                              smešta u vreme vladavine cara Proba (Marcus Aurelius Probus),
-                              koji je dozvolio da se i u rimskim provincijama podižu vinogradi
-                            </p>
-                          </div>
-                        </div>
-                        <div class="explore-card">
-                          <img src="img/explore/Salaši.jpg" alt="" />
-                          <div class="explore-card-body">
-                            <h4>Salaši</h4>
-                            <p class="explore-text">
-                              U okolini Novog Sada su brojni salaši koji nude poseban vid odmora. U cаrstvu tišine, prijаtnoj i opuštenoj аtmosferi posetioci mogu uživati u jаhаnju
-                              i vožnji fijаkerom, bogаtoj ponudi vojvođаnskih specijаlitetа.
-                            </p>
-                          </div>
-                        </div>
-                      </section>
-
-                        <section class="three-col-sec">
-                          <div class="explore-label">
-                            <h2>Ture i obilasci</h2>
-                            <p>
-                              Turistička organizacija Novog Sad nudi svojim posetiocima, organizovane ture obilazaka znamenitosti grada
-                              i upoznavanje sa bogatom istorijom. Na vama je samo da odaberete način obilaska.
-                            </p>
-                          </div>
-                          <div class="card-columns container-lg">
-                            <div class="explore-card">
-                              <img src="img/explore/Pesacke-ture.webp" alt="" />
-                              <div class="explore-card-body">
-                                <h4>Pešačke ture</h4>
-                                <p class="explore-text">
-                                  Posetiocima Novog Sada, koji žele da sami kreiraju način na koji će obići Novi Sad, 
-                                  Turistička organizacija Grada Novog Sada predlaze jednu od ponuđenih ruta u Mapi pešačkih tura. 
-                                  Možete izabrati Plavu i Crvenu rutu koje obuhvataju centralnu zonu na bačkoj strani Grada ili Žutu rutu koja vas vodi na Petrovaradinsku tvrđavu. 
-                                  Ali, možete napraviti i neki drugi odabir koji je baš po vašem osećanju za lepo i interesantno. Istražite Novi Sad!
-                                </p>
-                              </div>
-                            </div>
-                            <div class="explore-card">
-                              <img src="img/explore/biciklizam-foto.jpg" alt="" />
-                              <div class="explore-card-body">
-                                <h4>Biciklom kroz Novi Sad </h4>
-                                <p class="explore-text">
-                                  Novi Sad trenutno ima oko 90 kilometara staza i preko 700 parking mesta za bicikle,
-                                  a srpska Atina polako postaje prepoznatljiva i kao srpski Amsterdam. Biciklističke staze vode pored najznačajnijih gradskih lokacija,
-                                  najvažnijih gradskih saobraćajnica i još dalje – rekreativci i turisti mogu da obiđu nekoliko mesta pored Novog Sada, 
-                                  ali i da se oprobaju u nešto ekstremnijem obliku vožnje na Fruškoj gori, gde se poslednjih godina razvio sve popularniji planinski biciklizam.
-                                </p>
-                              </div>
-                            </div>
-                            <div class="explore-card">
-                              <img src="img/explore/Trčanje.jpg" alt="" />
-                              <div class="explore-card-body">
-                                <h4>Trkačka tura</h4>
-                                <p class="explore-text">
-                                  Ako ste strastveni za trčanjem i planirate da ponesete patike na put, dozvolite nam da vam pokažemo najbolje živopisne rute Novog Sada. 
-                                  Bilo bi sjajno podeliti sa vama gradske priče iz prve ruke.
-                                </p>
-                              </div>
-                            </div>
-                      </div>
-                    </section>
-                  </div> 
-                </main>
-
-        <!-- Footer -->
-        <footer id="ft-container"></footer>
-
-        <script>
-          let lang="sr_SR";
-          let initialLoad=true;
-          fetch('db/db.json')
-            .then(res => res.json())
-            .then(data => {
-              lang = localStorage.getItem('language');
-              if (initialLoad) {
-                //nav.innerHTML = header.writeHeader(data[`${lang}`]);
-                initialLoad = false;
-              } else {
-                //header.writeHeaderTitles(data[`${lang}`]);
-              }
-              console.log(data[lang])
-            }
-            )
-
-
-        </script>
-
-    </body>
+</body>
 
 </html>

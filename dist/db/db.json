@@ -590,8 +590,8 @@
                 "title": "Zmaj Jovina street",
                 "subtitle": "",
                 "content": "The main street is in the pedestrian zone. It stretches from Freedom Square to Bishop's Palace. In this street there have always been shops and stores, and the oldest building is at number 28 - At the White Lion from 1720.",
-                "image": "img/explore/Dunavska_ulica.jpg",
-                "thumbnail": "img/explore/Dunavska_ulica.jpg"
+                "image": "img/explore/zmaj-jovina-min.jpg",
+                "thumbnail": "img/explore/zmaj-jovina-min.jpg"
               },
               {
                 "id": 8,
@@ -622,7 +622,7 @@
           {
             "heading": {
               "title": "Green Novi Sad",
-              "content": "When your legs are tired and your senses are saturated from the colorful city center, take a break in one of the city's parks."
+              "content": "When your legs are tired and your senses are saturated from the colorful city center, take a break in one of the city's parks. They hide a wealth of protected species, while they themselves are natural monuments. Thanks to them, the city breathes, because they are its lungs."
             },
             "exploreCard": [
               {
@@ -657,14 +657,8 @@
           },
           {
             "heading": {
-              "title": "Petrovaradin Fortress",
-              "content": "Petrovaradin Fortress belongs to the most significant, preserved European fortifications. In addition to being the symbol of the city it is also the witness to multiconfessional tradition that relies strongly on European culture and most attractive tourist zone of Novi Sad. It is currently the area with around one hundred of art studios, restaurants, cafes, museums, galleries…"
-            }
-          },
-          {
-            "heading": {
               "title": "Escape from the city",
-              "content": "If you are a lover of nature, good wines, and a more peaceful way of vacation, we invite you to go with us to Fruška Gora..."
+              "content": "If you are a lover of nature, good wines, and a more peaceful way of vacation, we invite you to go with us to Fruška Gora. Places that belong to most important material and cultural heritage in the territory of the National Park Fruška Gora include the complex of Serbian Orthodox monasteries. Fruška Gora is the area of good wines with the following prominent wine centres: Irig, Banoštor, Sremski Karlovci, and Šid."
             },
             "exploreCard": [
               {
@@ -968,7 +962,7 @@
           },
           {
             "heading": {
-              "title": "PICERIJE  /  PEKARE  /  PALAČINKANICE  /  STREET FOOD",
+              "title": "PICERIJE  /  PEKARE  /  PALAČINKARNICE  /  STREET FOOD",
               "content": "Nemate dovoljno vremena za restorane? Nema problema, tu su pekare, street food, palačinkarnice, picerije itd. Nećete ostati gladni."
             },
             "eatDrinkCard": [
@@ -1363,8 +1357,8 @@
                 "title": "Zmaj Jovina ulica",
                 "subtitle": "",
                 "content": "Glavna je ulica u pešačkoj zoni. Prostire se od Trga slobode do Vladičanskog dvora. U ovoj ulici oduvek su se nalazile trgovine i dućani, a najstarija zgrada je na broju 28 - Kod belog lava iz 1720. godine.",
-                "image": "img/explore/Dunavska_ulica.jpg",
-                "thumbnail": "img/explore/Dunavska_ulica.jpg"
+                "image": "img/explore/zmaj-jovina-min.jpg",
+                "thumbnail": "img/explore/zmaj-jovina-min.jpg"
               },
               {
                 "id": 8,
@@ -1395,7 +1389,7 @@
           {
             "heading": {
               "title": "Zeleni Novi Sad",
-              "content": "Kada vam se noge zamore i čula zasite od živopisnog centra grada, napravite predah u jednom od gradskih parkova."
+              "content": "Kada vam se noge zamore i čula zasite od živopisnog centra grada, napravite predah u jednom od gradskih parkova, koji kriju bogatstvo zaštićenih vrsta, dok su i sami spomenici prirode. Zahvaljujući njima grad diše, jer su oni njegova pluća."
             },
             "exploreCard": [
               {
@@ -1408,7 +1402,7 @@
               },
               {
                 "id": 2,
-                "title": "Futoski park",
+                "title": "Futoški park",
                 "subtitle": "",
                 "content": "Futoški park je podignut  u prvoj dekadi 20. veka kao park specijalne namene oko Jodne banje (Specijalna bolnica za reumatske bolesti, Novi Sad). Prostire se na površini od 8 ha, 13 ari, 6 m2 i zaštićen je kao spomenik  prirode, odnosno prirodno dobro II i III kategorije.",
                 "image": "img/explore/Futoški_park.jpg",
@@ -1416,7 +1410,7 @@
               },
               {
                 "id": 3,
-                "title": "Kamenicki park",
+                "title": "Kamenički park",
                 "subtitle": "",
                 "content": "U Sremskoj Kamenici na severnim obroncima Fruške gore, duž obale Dunava, lociran je najveći i najstariji park u Novom Sadu – Kamenički park,koji se prostire  na 33 ha površine  i od 2008. godine je stavljen pod zaštitu kao značajno prirodno dobro.",
                 "image": "img/explore/Kamenički_park.jpg",
@@ -1434,19 +1428,13 @@
           },
           {
             "heading": {
-              "title": "Petrovaradinska tvrdjava",
-              "content": "Na desnoj obali Dunava nalazi se Petrovaradinska tvrđava koja spada među najznačajnije, sačuvane, evropske fortifikacije. Pored toga što je simbol Grada, ona je svedok multikonfesionalne tradicije snažno oslonjene na evropsku kulturu, ali i najatraktivnija turistička zona Novog Sada. Danas je to prostor gde se nalazi oko stotinu umetničkih ateljea, zatim restorani, kafei, muzeji, galerije…"
-            }
-          },
-          {
-            "heading": {
               "title": "Bekstvo iz grada",
-              "content": "Ukoliko ste ljubitelj prirode, dobrih vina, i mirnijeg načina odmora, prelažemo vam da krenete sa nama do Fruške gore..."
+              "content": "Ukoliko ste ljubitelj prirode, dobrih vina, i mirnijeg načina odmora, prelažemo vam da krenete sa nama do Fruške gore. Među najznačajniju materijalnu kulturnu baštinu koja se nalazi na prostoru Nacionalnog parka Fruška gora možemo uvrstiti kompleks srpskih pravoslavnih manastira. Fruška gora je područje dobrih vina gde se izdvajaju sledeći vinski centri: Irig, Banoštor, Sremski Karlovci i Šid."
             },
             "exploreCard": [
               {
                 "id": 1,
-                "title": "Fruska gora",
+                "title": "Fruška gora",
                 "content": "Nacionalni park Fruška gora osnovan je 1960. kao najstariji u socijalističkoj Jugoslaviji. Na površini od oko 25.000 ha, koliko obuhvata NP Fruška gora, zaštićeni su jedinstveni pejzaži,vredne geološke i geomorfološke celine, retke biljne i životinjske vrste i šumski kompleksi.",
                 "image": "img/explore/FruskaGora.jpg",
                 "thumbnail": "img/explore/FruskaGora.jpg"
