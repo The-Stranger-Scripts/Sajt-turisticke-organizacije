@@ -488,7 +488,7 @@
           {
             "heading": {
               "title": "Entertainment",
-              "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis impedit nisi possimus dolore accusamus adipisci. Porro rem saepe voluptatem deleniti provident ipsam debitis adipisci eaque voluptate, quas, sint, numquam fugit?",
+              "content": "Get ready for a weekend of fun, food, and honey as the city prepares to host a variety of entertaining festivals and activities, including a food festival and a honey festival",
               "date": ""
             },
             "eventCard": [
@@ -497,7 +497,7 @@
                 "title": "Days of Honey in Novi Sad",
                 "subtitle": "",
                 "date": "January 10-13th, 2023",
-                "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis impedit nisi possimus dolore accusamus adipisci. Porro rem saepe voluptatem deleniti provident ipsam debitis adipisci eaque voluptate, quas, sint, numquam fugit?",
+                "content": "The third annual honey festival, “Days of Honey”, will be held in Zmaj Jovina Street from December 10th to 13th. Beekeepers will showcase their offerings of bee products at stalls in the central street of Novi Sad.",
                 "image": "img/events/dani-meda.jpeg",
                 "thumbnail": "img/events/dani-meda.jpeg"
               },
@@ -505,8 +505,8 @@
                 "id": 2,
                 "title": "Flower Market",
                 "subtitle": "",
-                "date": "OCtober 7th, 2022.",
-                "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis impedit nisi possimus dolore accusamus adipisci. Porro rem saepe voluptatem deleniti provident ipsam debitis adipisci eaque voluptate, quas, sint, numquam fugit?",
+                "date": "October 7th, 2022.",
+                "content": "The Novi Sad Goran Movement is organizing a new flower market on the plaza in front of SPENS on October 7th (Saturday). The Novi Sad flower market will be complemented with exhibitors of honey and health-safe food in addition to exhibitors of flowers, seedlings and horticulture equipment. Working hours from 8.30am to 6.00pm.",
                 "image": "img/events/cvetna-pijaca.jpeg",
                 "thumbnail": "img/events/cvetna-pijaca.jpeg"
               },
@@ -515,7 +515,7 @@
                 "title": "Best Tamburitza",
                 "subtitle": "",
                 "date": "September 24th, 2022.",
-                "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis impedit nisi possimus dolore accusamus adipisci. Porro rem saepe voluptatem deleniti provident ipsam debitis adipisci eaque voluptate, quas, sint, numquam fugit?",
+                "content": "Get ready for the ultimate tamburica competition, taking place at the wine cellar, “A sad adio”! Watch as talented musicians showcase their skills and compete for the title of best tamburica player. Join us for a night of unforgettable music and entertainment",
                 "image": "img/events/tamburasi.jpeg",
                 "thumbnail": "img/events/tamburasi.jpeg"
               }
@@ -1261,7 +1261,7 @@
           {
             "heading": {
               "title": "Zabava",
-              "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis impedit nisi possimus dolore accusamus adipisci. Porro rem saepe voluptatem deleniti provident ipsam debitis adipisci eaque voluptate, quas, sint, numquam fugit?",
+              "content": "Začinite svoj vikend nezaboravnim iskustvima, probajte opojne ukuse meda, neodoljive kulinarske specijalitete i mnogo više. Dođite i uživajte u raskošnom vremenu uz šarenoliku zabavu i gastronomske užitke",
               "date": ""
             },
             "eventCard": [
@@ -1270,7 +1270,7 @@
                 "title": "Dani meda u Novom Sadu",
                 "subtitle": "",
                 "date": "10-13. januara",
-                "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis impedit nisi possimus dolore accusamus adipisci. Porro rem saepe voluptatem deleniti provident ipsam debitis adipisci eaque voluptate, quas, sint, numquam fugit?",
+                "content": "U Zmaj Jovinoj ulici od 10. do 13. decembra održava treći po redu festival pčelarskih prozvoda pod nazivom “Dani meda”. Na tezgama u centralnoj novosadskoj ulici svoje ponude izneće pčelari sa ponudom pčelinjih proizvoda, proizvođači pčelarske opreme, proizvođači kozmetike i preparata na bazi pčelinjih proizvoda, proizvođači vina, lekovitog bilja i čajeva, kao i proizvođači konditorskih proizvoda.",
                 "image": "img/events/dani-meda.jpeg",
                 "thumbnail": "img/events/dani-meda.jpeg"
               },
@@ -1279,7 +1279,7 @@
                 "title": "Cvetna pijaca",
                 "subtitle": "",
                 "date": "7. oktobar 2022.",
-                "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis impedit nisi possimus dolore accusamus adipisci. Porro rem saepe voluptatem deleniti provident ipsam debitis adipisci eaque voluptate, quas, sint, numquam fugit?",
+                "content": "Pokret gorana Novog Sada, organizuje 7. oktobra (subota) na platou ispred SPENS-a novu cvetnu pijacu. Novosadska cvetna pijaca će pored izlagača sa cvećem, sadnicama i opremom za hortikulturu biti upotpunjena sa izlagačima meda i zdravstveno-bezbedne hrane. Radno vreme od 8.30 do 18.00 časova",
                 "image": "img/events/cvetna-pijaca.jpeg",
                 "thumbnail": "img/events/cvetna-pijaca.jpeg"
               },
@@ -1288,7 +1288,7 @@
                 "title": "Najbolja tamburica",
                 "subtitle": "",
                 "date": "24. septembar 2022.",
-                "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis impedit nisi possimus dolore accusamus adipisci. Porro rem saepe voluptatem deleniti provident ipsam debitis adipisci eaque voluptate, quas, sint, numquam fugit?",
+                "content": "Legendarni vinski podrum “A sad adio” i ove godine biće domaćin takmičenja za najbolju tamburicu Novog Sada. Vlasnik podruma, Dušan Belaja, u gradu poznat kao Beli, smatra da je ugođaj zagarantovan, a cena karte opravdana.",
                 "image": "img/events/tamburasi.jpeg",
                 "thumbnail": "img/events/tamburasi.jpeg"
               }
