@@ -92,6 +92,11 @@
 .event-card h4 {
   margin: 0;
   color: #00cdd7;
+  transition: color .2s;
+}
+
+.event-card h4:hover {
+  color: #00a8b1;
 }
 
 .event-card p {
@@ -108,13 +113,18 @@
 }
 
 .one-event-card {
-  margin: 0 auto 10rem;
+  margin: 0 auto 9rem;
   width: 80%;
   position: relative;
 }
 
 .one-event-card img {
   width: 100%;
+  transition: all .3s;
+}
+
+.one-event-card img:hover {
+  transform: scale(1.02);
 }
 
 .one-event-card .event-label {
@@ -135,9 +145,14 @@
   font-size: 1.4rem;
 }
 
+.one-event-card a:hover {
+  color: #fff;
+}
+
 a {
   color: black;
   text-decoration: none;
+  transition: color .2s;
 }
 
 a:hover {
