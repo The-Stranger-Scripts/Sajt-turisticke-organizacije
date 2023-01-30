@@ -1,29 +1,40 @@
-function writeHome(db) {
-    let data = db.main;
-    let homeCtn = '';
+let writeHome = data => {
+  let homeData = data.main.home;
 
-    let homeHeaderSec = (data) => {
-        return `
-        <div data-aos="fade-up" class="header-card">
-            <h2>${data.title}</h2>
-            <h5>${data.subtitle}</h5>
-            <p>${data.content}</p>
-        </div>
-        `
-    }
+  let exploreData = data.main.explore;
+  let exploreDataCards = exploreData.content[3].exploreCard;
 
-    let homeHeadingSec = (data) => {
-            return `
+  let eatDrinkData = data.main.eatDrink;
+  let eatDrinkDataCards = eatDrinkData.content[1].eatDrinkCard;
+
+  let eventsData = data.main.events;
+  let eventsDataCards = eventsData.content[0].eventCard;
+  // let accomodationData = data.main.accomodation.content;
+
+  let homeCtn = '';
+
+  let homeHeaderSec = data => {
+    return `
+          <div data-aos="fade-up" class="header-card">
+              <h2>${data.title}</h2>
+              <h5>${data.subtitle}</h5>
+              <p>${data.content}</p>
+          </div>
+          `;
+  };
+
+  let homeHeadingSec = data => {
+    return `
             <div class="home-heading">
                 <h5>${data.title}</h5>
                 <p>${data.content}</p>
             </div>
-            `
-    }
+            `;
+  };
 
-    let homeMediaSec = (data) => {
-        let dataSec = homeHeadingSec(data.heading);
-        dataSec += `
+  let homeMediaSec = data => {
+    let dataSec = homeHeadingSec(data.heading);
+    dataSec += `
         <div class="home-img">
             <img  src="${data.image.link}" alt="">
             <div class="header-card">
@@ -37,112 +48,66 @@ function writeHome(db) {
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowfullscreen></iframe>
         </div>
-        `
-        return dataSec;
-    }
+        `;
+    return dataSec;
+  };
+  let homeFormSec = data => {
+    return `
+          <div class="form-newsletter">
+              <h2>${data.title}</h2>
+              <p>${data.content}</p>
 
-    let writeHomeSec = (data, cardSize) => {
-        let secData = homeHeadingSec(data.heading);
-        secData += `
-        <a href="${data.heading.link}"><div class="home-card">`;
-        let count;
-        switch (cardSize) {
-            case "xs":
-                count = 4;
-                break;
-            case "sm":
-                count = 3;
-                break;
-            case "m":
-                count = 2;
-                break;
-            default:
-                break;
-        }
-        for (let i = 0; i < count; i++) {
-            secData += `
-            <div class="home-card-ctn home-card-ctn-${cardSize}">
-                <img class="card-img" src="${data.content[i].image}" alt="">
-                <div class="card-body">
-                    <h3>${data.content[i].title}</h3>
-                    <h6><span>${data.content[i].subtitle}</span></h6>
-                    <p>${data.content[i].content}</p>
-                </div>
-            </div>`
-        }
-        secData += '</div><a/>';
-        return secData;
-    }
+              <div class="form-input">
+                  <label for="email-newsletter">${data.label}</label>
+                  <input type="email" id="email-newsletter">
+                  <button id="email-newsletter-btn">${data.buttonText}</button>
+              </div>
+          </div>
+          `;
+  };
 
-    let homeFormSec = (data) => {
-        return `
-        <div class="form-newsletter">
-            <h2>${data.title}</h2>
-            <p>${data.content}</p>
-
-            <div class="form-input">
-                <label for="email-newsletter">${data.label}</label>
-                <input type="email" id="email-newsletter">
-                <button id="email-newsletter-btn">${data.buttonText}</button>
-            </div>
-        </div>
-        `
-    }
-
-    let writeEventSec = (data, cardSize) => {
-        let secData = homeHeadingSec(data.header);
-        secData += `
-        <a href=""><div class="home-card">`;
-        let count;
-        switch (cardSize) {
-            case "xs":
-                count = 4;
-                break;
-            case "sm":
-                count = 3;
-                break;
-            case "m":
-                count = 2;
-                break;
-            default:
-                break;
-        }
-        data.content[0].eventCard.forEach(el => {
-            secData += `
+  let writeHomeSec = (data, dataCards, cardSize, link) => {
+    let secData = homeHeadingSec(data.heading);
+    secData += `
+            <a href="${link}"><div class="home-card">`;
+    dataCards.forEach(el => {
+      secData += `
             <div class="home-card-ctn home-card-ctn-${cardSize}">
                 <img class="card-img" src="${el.image}" alt="">
                 <div class="card-body">
                     <h3>${el.title}</h3>
-                    <h6><span>${el.subtitle}</span></h6>
                     <p>${el.content}</p>
                 </div>
-            </div>`
-        });
+            </div>`;
+    });
 
-        secData += '</div><a/>';
-        return secData;
-    }
+    secData += '</div><a/>';
+    return secData;
+  };
 
-    homeCtn += `
-        <div class="container-xxl">
-            ${homeHeaderSec(data.home.header)}
+  homeCtn += `
+  <div class="container-xxl">
+    ${homeHeaderSec(homeData.header)}
+    ${writeHomeSec(exploreData, exploreDataCards, 'sm', 'explore.html')}
+    ${writeHomeSec(eatDrinkData, eatDrinkDataCards, 'xs', 'eat-drink.html')}
 
-            ${writeHomeSec(data.explore, "sm")}
 
-            ${writeHomeSec(data.eatDrink, "sm")}
+    ${homeMediaSec(homeData.content[0])}
+    ${writeHomeSec(eventsData, eventsDataCards, 'm', 'events.html')}
 
-            ${homeMediaSec(data.home.content[0])}
+    ${homeFormSec(homeData.content[0].form)}
+  </div>
+  `;
+  // console.log(homeData);
+  // console.log(exploreData);
+  // console.log(exploreDataCards);
 
-            ${writeEventSec(data.events, "m")}
+  // console.log(eatDrinkData);
+  // console.log(eventsData);
+  // console.log(eatDrinkDataCards);
+  // eatDrinkonsole.log(accomodationData);
 
-            ${writeHomeSec(data.accomodation, "sm")}
-
-            ${writeHomeSec(data.blog, "xs")}
-
-            ${homeFormSec(data.home.content[0].form)}
-        </div>
-    `
-    return homeCtn;
-}
+  return homeCtn;
+};
 
 export { writeHome };

@@ -3,124 +3,108 @@ footer * {
 }
 
 footer {
+    width: 100%;
     font-size: calc(9px + 0.390625vw);
+    background-color: whitesmoke;
 }
 
 footer a {
-    color: aliceblue;
+    color: var(--bs-body-color);
     transition: all 0.3s ease;
-    display: flex;
-    align-items: baseline;
-    line-height: 2.3;
 }
 
 .ft-wrap-sec p {
     display: flex;
-    align-items: baseline;
-    line-height: 2.3;
-}
-
-footer {
-    background-color: #121212;
-    width: 100vw;
-    color: aliceblue;
-    line-height: 2rem;
-    overflow-x: hidden;
-}
-
-footer p {
-    margin: 0;
+    align-items: center;
+    line-height: 2.5;
+    font-size: 0.8rem;
 }
 
 .ft-wrap i {
     padding-right: 0.5rem;
+    color: #00CDD7;
+    font-size: 0.8rem;
 }
 
-.ft-wrap:nth-child(2) a {
-    margin-top: 1rem;
+footer h3,
+footer h4 {
+    font-size: 1rem;
 }
 
 footer h3 {
-    color: beige;
-    box-shadow: 0 3px 2px -3px var(--yellow);
-    margin: 1rem 0;
+    box-shadow: 0 3px 2px -3px var(--bs-body-color);
     width: -moz-fit-content;
     width: fit-content;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+}
+
+footer h4 {
+    font-weight: 400;
+    display: flex;
+    align-items: center;
 }
 
 .ft-wrap a:hover {
-    color: var(--yellow);
+    color: #00CDD7;
 }
 
 .ft-container {
     display: flex;
     max-width: 1440px;
     width: -moz-fit-content;
-    width: fit-content;
-    margin: auto;
+    width: inherit;
     flex-wrap: wrap;
     justify-content: space-around;
-    margin-top: 4rem;
-}
-
-.ft-wrap img {
-    margin: 2rem 0;
-    background: beige;
-    padding: 1rem;
-    border-radius: 40% 20% 40% 20%;
-    box-shadow: 0px 5px 15px -1px rgb(0, 0, 0);
+    margin: 2rem auto;
 }
 
 .ft-wrap {
     display: flex;
     flex-direction: column;
     padding: 1.2rem;
-    width: 33%;
+    width: 30%;
+}
+
+.ft-logo {
+    width: 50%;
+    margin: 0 auto;
 }
 
 .ft-wrap-sec {
-    display: flex;
-    flex-direction: column;
-}
-
-.ft-wrap-sec p i {
-    font-size: 1rem;
-}
-
-.link-arrow {
-    color: beige;
+    width: fit-content;
+    margin: 0 auto;
 }
 
 .ft-social-icons {
-    max-width: 1440px;
     display: flex;
     justify-content: center;
-    align-items: center;
-    padding: 2rem 0;
+    /* align-items: center; */
+    padding: 1rem 0;
     margin: auto;
     border-top: 1px solid rgba(245, 245, 220, 0.2);
     flex-wrap: wrap;
+    background-color: #00CDD7;
 }
 
 .ft-social-icons a {
     margin: 0.5rem;
-    width: 2.5rem;
-    height: 2.5rem;
+    width: 2.2rem;
+    height: 2.2rem;
     border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 1.4rem;
-    box-shadow: 0px 5px 15px -1px rgb(0, 0, 0);
+    box-shadow: 0px 2px 10px -5px rgba(47, 47, 47, 0.7);
 }
 
 .ft-social-icons a i {
-    font-size: 1.4rem;
+    font-size: 1.1rem;
+    color: whitesmoke;
 }
 
 .ft-social-icons a:hover {
     opacity: 0.8;
-    color: beige;
 }
 
 .insta-container {
@@ -147,42 +131,77 @@ footer h3 {
     background: #0e76a8;
 }
 
+.map {
+    width: inherit;
+}
+
+.map iframe {
+    width: 100%;
+}
+
 .copyright {
-    background-color: black;
     width: 100%;
     padding: 1.8rem;
-    border-top: 1px solid rgba(245, 245, 220, 0.2);
+    border-top: 1px solid rgba(32, 32, 32, 0.2);
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: rgba(112, 112, 112, 0.1);
+    color: rgba(47, 47, 47, 0.8);
 }
 
 .copyright p {
-    margin-left: 1rem;
+    margin-left: 0.5rem;
 }
 
-.copyright i {
+/* .copyright i {
     min-width: -moz-fit-content;
     min-width: fit-content;
-}
-
-@media only screen and (min-width: 768px) and (max-width: 1000px) {
+} */
+@media (max-width: 945px) {
     .ft-wrap {
-        width: 50%;
+        padding: 1.2rem 0;
     }
 }
 
 @media (max-width: 767px) {
+    .ft-container .ft-wrap:first-child {
+        width: 100%;
+    }
+
+    .ft-logo {
+        width: 30%;
+    }
+
+    .ft-wrap {
+        width: 50%;
+    }
+
+    .ft-wrap-sec {
+        padding: 0 1rem;
+    }
+
+    .ft-wrap img {
+        max-width: 100%;
+    }
+
+    .home-img .header-card {
+        width: 80% !important;
+        left: 10% !important;
+    }
+}
+
+@media (max-width: 510px) {
     .ft-container {
         flex-direction: column;
     }
 
     .ft-wrap {
+        padding-left: 1rem;
         width: 100%;
-        padding: 2rem;
     }
 
-    .ft-wrap img {
-        max-width: 100%;
+    .ft-wrap-sec {
+        margin: inherit;
     }
 }

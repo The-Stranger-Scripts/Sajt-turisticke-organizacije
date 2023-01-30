@@ -24,7 +24,7 @@ let location = () => {
 
 let initialLoad = true;
 let initialLangLoad = true;
-// let srOption, enOption;
+let srOption, enOption;
 
 // Function for initial rendering of header and footer
 async function initData() {
@@ -64,9 +64,13 @@ async function initData() {
       }
 
       ft.innerHTML = writeFooter(data[`${lang}`]);
+
+      // AOS init function
+      AOS.init();
     })
     .then(() => {
-      let srOption, enOption;
+      // let srOption, enOption;
+      let logoVersion = document.querySelector('.logo-img');
 
       if (initialLangLoad) {
         if (window.matchMedia('(max-width: 960px)').matches) {
@@ -93,9 +97,13 @@ async function initData() {
         if (window.innerWidth < 960) {
           srOption = document.getElementById('srSmallDisplay');
           enOption = document.getElementById('enSmallDisplay');
+
+          logoVersion.src = 'img/ns-logo-final-ver-justV.svg';
         } else {
           srOption = document.getElementById('srLargeDisplay');
           enOption = document.getElementById('enLargeDisplay');
+
+          logoVersion.src = 'img/ns-logo-final-ver-transparent.svg';
         }
 
         srOption.addEventListener('click', () => {
@@ -110,9 +118,5 @@ async function initData() {
       };
     });
 }
-
 // Inner content to html elements
 await initData();
-
-// AOS init function
-AOS.init();

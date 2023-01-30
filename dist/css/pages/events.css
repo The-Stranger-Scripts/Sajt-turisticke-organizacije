@@ -1,10 +1,9 @@
-@import "../main.css";
+@import '../main.css';
 
 .banner-video-wrapper {
   width: 100%;
   position: relative;
   padding-bottom: 56.25%;
-  /* background-color: lightblue; */
 }
 
 .main-sec-video {
@@ -29,19 +28,22 @@
 }
 
 .main-sec-label h2 {
-  color: #00CDD7;
+  color: #00cdd7;
   font-size: 2.4rem;
+  font-weight: 700;
   margin-bottom: 2.5rem;
 }
 
 .main-sec-label h5 {
   margin-bottom: 2rem;
+  font-weight: 700;
 }
 
 .card-columns {
   width: 100%;
   display: flex;
   gap: 2rem;
+  flex-wrap: wrap;
   margin-bottom: 4.5rem;
   height: max-content;
 }
@@ -52,18 +54,17 @@
   background-color: rgb(255, 255, 255);
   padding: 2rem 4rem;
   text-align: center;
-  margin-bottom: .5rem;
+  margin-bottom: 0.5rem;
 }
 
 .event-label > h4 {
   font-weight: 900;
 }
 
-
 .event-card {
   display: flex;
   flex-direction: column;
-  width: 50%;
+  flex: 1 1 300px;
 }
 
 .event-card-body {
@@ -74,14 +75,14 @@
 
 .event-card img {
   width: 100%;
+  max-height: 600px;
   aspect-ratio: 1 / 1;
   object-fit: cover;
 }
 
 .event-card h4 {
   margin: 0;
-  /* padding: .8rem 0 0 0; */
-  color: #00CDD7;
+  color: #00cdd7;
 }
 
 .event-card p {
@@ -92,7 +93,7 @@
 }
 
 .text-date {
-  margin-top: .2rem;
+  margin-top: 0.2rem;
   margin-bottom: 1.5rem;
   color: gray;
 }
@@ -112,9 +113,8 @@
   left: 6%;
   top: 84%;
   padding: 1rem 2rem;
-  background-color: #00CDD7;
+  background-color: #00cdd7;
   text-align: left;
-  min-width: 500px;
 }
 
 .one-event-card .event-label .text-date {
@@ -124,4 +124,62 @@
 
 .one-event-card .event-label p:nth-of-type(2) {
   font-size: 1.4rem;
+}
+
+@media (max-width: 960px) {
+  .main-sec-label {
+    width: 90%;
+    padding: 1.5rem 3rem;
+  }
+
+  .main-sec-label h2 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .main-sec-label h5 {
+    margin-bottom: 1rem;
+  }
+
+  .main-sec-label p {
+    font-size: 0.875rem;
+  }
+
+  .event-label {
+    width: 90%;
+    padding: 1.5rem;
+    text-align: center;
+    margin-bottom: 0.5rem;
+  }
+
+  .card-columns {
+    gap: 1.2rem;
+  }
+
+  .one-event-card {
+    position: relative;
+    margin: 0;
+    width: 100%;
+  }
+
+  .one-event-card .event-label {
+    position: relative;
+    top: -4rem;
+    left: 0;
+    width: 90%;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 560px) {
+  .main-sec-label {
+    padding: 1.5rem;
+  }
+  .main-sec-label h2 {
+    font-size: 1.5rem;
+  }
+
+  .main-sec-label h5 {
+    font-size: 1rem;
+  }
 }

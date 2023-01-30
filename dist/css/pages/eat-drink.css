@@ -1,49 +1,57 @@
 @import "../main.css";
 
-
 .video {
   position: relative;
   width: 100%;
-  padding-bottom: 50%; 
+  padding-bottom: 57%; 
+  
 }
 
-
-.mv {
+.video-main {
   position: absolute;
-  top: 0;
-  left: 0;
   width: 100%;
   height: 100%;
   border: 0;
 }
 
-.ml {
+.welcome-card {
   margin: auto;
-  width: 70%;
+  width: 60%;
   position: relative;
   background-color: rgb(255, 255, 255);
   top: -4rem;
-  padding: 2rem;
+  padding: 2rem 4rem;
   text-align: center;
-  box-shadow: 0 2px 5px rgba(233, 3, 3, 0.153);
+  box-shadow: 0 1px 4px rgba(156, 13, 13, 0.192);
   color: #222222;
   
 }
 
-.ml h2 {
+
+.welcome-card h2 {
   color: #00CDD7;
   font-size: 2.5rem;
   margin-bottom: 1rem;
-  text-shadow: 1px 1px #141fc0;
+ 
 }
-
 
 h2 {
     
-    font-weight: bold;
+  font-weight: bold;
+  color:#2e2e2e;
+    
 }
-
-
+.h2:hover {
+  cursor: pointer;
+}
+.text {
+  width: 60%;
+  margin: 0 auto;
+  background-color: rgb(255, 255, 255);
+  padding: 2rem 4rem;
+  text-align: center;
+ 
+}
 .card-columns {
   display: flex;
   width: 100%;
@@ -51,61 +59,54 @@ h2 {
   border-radius: 5px;
 }
 
-.rl {
-  width: 70%;
-  margin: 0 auto;
-  background-color: rgb(255, 255, 255);
-  padding: 2rem 4rem;
-  text-align: center;
+.universal-card {
+  display: flex;
+  flex-grow: 1; 
+  flex-direction: column;
+  width: 50%;
+  padding: 1rem;
+  height: 38%;
+ 
+}
+  
+.universal-card  img {
+  width: 100%;
+  aspect-ratio: 1 / 0.8;
+  object-fit: cover;
+  cursor: pointer; 
+  transition: 0.5s all ease-in-out;
+  transform-origin: 50% 100%;
  
 }
 
-
-.rc {
-  display: flex;
-  flex-direction: column;
-  width: 50%;
-  
-  
+.universal-card img:hover {
+  transform: scale(1.1)
 }
-
-.rcb {
-  padding: 1rem;
-  box-shadow: 0 2px 3px rgba(233, 3, 3, 0.153);
-  height: 38%;
-  border-radius: 5px;
-}
-
-.rc  img {
-  width: 100%;
-  aspect-ratio: 1 / 1;
-  object-fit: cover;
-}
-
-.rc  h4 {
+.universal-card  h4 {
   color: #00CDD7;
+  margin-top: 15px;
+  cursor: pointer; 
 }
 
-.rc  p {
+.universal-card  p {
   overflow: hidden;
   display: -webkit-box;
-  -webkit-line-clamp: 4;
+  -webkit-line-clamp: 5;
   -webkit-box-orient: vertical;
 }
 
-
-.ec {
+.invitation-card {
   margin: 0 auto 10rem;
-  width: 84%;
+  width: 82%;
   position: relative;
   
 }
 
-.ec img {
+.invitation-card img {
   width: 100%;
 }
 
-.ec .el {
+.invitation-label {
   position: absolute;
   left: 6%;
   top: 92%;
@@ -116,37 +117,10 @@ h2 {
   min-width: 40%;
 }
 
-.ecb {
-
-  padding: 1rem;
-  box-shadow: 0 2px 3px rgba(233, 3, 3, 0.153);
-  height: 50%;
-  border-radius: 5px;
+@media (max-width: 959px) {
+  .card-columns, .universal-card, .text {
+    flex-direction: column;
+    width: 100%;
+  }
 }
-
-.ec1 {
-  display: flex;
-  flex-direction: column;
-  width: 50%;
-
-} 
-
-.ec1 img {
-  width: 100%;
-  aspect-ratio: 1 / 1;
-  object-fit: cover;
-}
-
-.ec1 h4 {
-  margin: 0;
-  color: #00CDD7;
-}
-
-.ec1 p {
-  overflow: hidden;
-  display: -webkit-box;
-  -webkit-line-clamp: 4;
-  -webkit-box-orient: vertical;
-}
-
 

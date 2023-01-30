@@ -1,20 +1,24 @@
 @import "../main.css";
 
+
+
 .main-img {
     position: relative;
     top: 0;
     border: 0;
-    margin: auto;
-    width: 100%;
-    height: 100%;
+    width: max-content;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+     
   }
 
   .main-card {
     margin: auto;
     width: 70%;
-    top: -6rem;
     position: relative;
     background-color: rgb(255, 255, 255);
+    top: -4rem;
     padding: 2rem 4rem;
     text-align: center;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.153);
@@ -53,6 +57,7 @@
 
   .explore-label > h4 {
     font-weight: 900;
+    
   }
   
   
@@ -72,6 +77,12 @@
     width: 100%;
     aspect-ratio: 1 / 1;
     object-fit: cover;
+    transition: 0.5s all ease-in-out;
+    transform-origin: 50% 100%;
+  }
+
+  .explore-card img:hover {
+    transform: scale(1.1); 
   }
   
   .explore-card p {
@@ -79,26 +90,19 @@
     display: -webkit-box;
     -webkit-line-clamp: 5;
     -webkit-box-orient: vertical;
+    font-size: 1rem;
   }
 
-   .video-container {
-    width: 78%;
-    position: relative;
-    padding-bottom: 55%
-
-   }
-  
-    .explore-video {
-      position: absolute;
-      top: 0;
-      bottom: 0;
-      left: 150px;
-      width: 100%;
-      height: 80%;
-      border: 0;
-    }
+  .video-container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 50px;
+  }
+  video{
+    width: 100%;
+    height: auto;
+    display: block;
+  }
   
   
- 
- 
- 
+  
