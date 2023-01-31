@@ -150,7 +150,8 @@
         "heading": {
           "title": "!In Vino Veritas!",
           "subtitle": "Satisfy your senses with the best quality food and drink in town.",
-          "content": "After a long walk, hard work, a tiring day, you deserve a break, and is there any better way to reward yourself than by enjoying the best bites and sips, so indulge in hedonism and don't regret it. Little things in everyday life can make you happy . Novi Sad offers you everything you are missing! Welcome!"
+          "content": "After a long walk, hard work, a tiring day, you deserve a break, and is there any better way to reward yourself than by enjoying the best bites and sips, so indulge in hedonism and don't regret it. Little things in everyday life can make you happy . Novi Sad offers you everything you are missing!",
+          "text": "Welcome!"
         },
         "content": [
           {
@@ -338,47 +339,47 @@
         "heading": {
           "title": "Feel the spirit of the Winter Fantasy in Novi Sad!",
           "subtitle": "“Ice Forest” and the Danube Park fairy-tale ice rink",
-          "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages."
+          "content": "The sixth “Ice Forest” event will take place from December 17, 2022 to January 16, 2023 and will offer a variety of cultural events, educational gatherings, exhibitions, and humanitarian meetings in the spirit of holiday tradition and fun. The diverse program and unique setting of the Danube Park will be complemented by holiday decorations and the Snow City - winter bazaar, which is aimed at showcasing local crafts and artists as well as promoting Vojvodinian culinary specialties and winter delicacies"
         },
         "content": [
           {
             "heading": {
               "title": "New Year's Eve in the Suburbium of the Petrovaradin Fortress",
-              "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis impedit nisi possimus dolore accusamus adipisci. Porro rem saepe voluptatem deleniti provident ipsam debitis adipisci eaque voluptate, quas, sint, numquam fugit?",
+              "content": "Novi Sad, as the European Capital of Culture, will close the year 2022 with New Year's Eve, an extraordinary artistic and production program that will highlight the baroque ambiance of the Petrovaradin Fortress Suburb. On December 31st, the audience will enjoy a musical program on several stages: Perpetuum Jazzile will open the main stage in front of the Belgrade Gate at 9 pm, followed by Kosheen at 11 pm, and DJ Biesmans who will perform half an hour after midnight",
               "date": ""
             },
             "eventCard": [
               {
                 "id": 1,
-                "title": "Main title",
+                "title": "Perpetuum Jazzile",
                 "subtitle": "",
-                "date": "Decembar 13",
-                "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis impedit nisi possimus dolore accusamus adipisci. Porro rem saepe voluptatem deleniti provident ipsam debitis adipisci eaque voluptate, quas, sint, numquam fugit?",
+                "date": "Decembar 31",
+                "content": "“When voice becomes an instrument… and an instrument becomes the voice, one can hear the pulse of rhythmic freshness and harmonic fusion of Perpetuum Jazzile.”",
                 "image": "img/events/pogled-sa-tvrdjave.jpeg",
                 "thumbnail": "img/events/pogled-sa-tvrdjave.jpeg"
               },
               {
                 "id": 2,
-                "title": "Main title",
+                "title": "Repetitor",
                 "subtitle": "",
-                "date": "Decembar 13",
-                "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis impedit nisi possimus dolore accusamus adipisci. Porro rem saepe voluptatem deleniti provident ipsam debitis adipisci eaque voluptate, quas, sint, numquam fugit?",
-                "image": "img/events/ns-night.webp",
-                "thumbnail": "img/events/ns-night.webp"
+                "date": "Decembar 31",
+                "content": "One of the most exciting concert attractions of European alternative rock, a favorite name at many festivals - Repetitor is coming to the Suburb! With their creative skills since their first album, they have received high ratings from critics, and their live performances bring a unique energy, which we will not miss on December 31st. See you at New Year's Eve on Štrosmajerova street, on the small stage at 11 pm.",
+                "image": "img/events/docek-podgradje.jpg",
+                "thumbnail": "img/events/docek-podgradje.jpg"
               }
             ]
           },
           {
             "heading": {
               "title": "Christmas-New Year's Eve concerts",
-              "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis impedit nisi possimus dolore accusamus adipisci. Porro rem saepe voluptatem deleniti provident ipsam debitis adipisci eaque voluptate, quas, sint, numquam fugit?",
+              "content": "Celebrate the holidays with an unforgettable series of Christmas and New Year's concerts, featuring some of the most talented artists in the region",
               "date": "Decembar 15, 2022 - Decembar 28, 2022"
             },
             "eventCard": [
               {
                 "id": 1,
                 "title": "AMIRA MEDUNJANIN and VOJVODINA SYMPHONISTS",
-                "subtitle": "serbian National Theatre",
+                "subtitle": "Serbian National Theatre",
                 "date": "Friday, December 16",
                 "content": "",
                 "image": "img/events/solisti-i-orkestar.webp",
@@ -389,7 +390,7 @@
           {
             "heading": {
               "title": "Museums and exhibitions",
-              "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis impedit nisi possimus dolore accusamus adipisci. Porro rem saepe voluptatem deleniti provident ipsam debitis adipisci eaque voluptate, quas, sint, numquam fugit?",
+              "content": "Explore the world of art and culture with a visit to our museums and exhibitions, featuring the latest and greatest in the world of creativity.",
               "date": ""
             },
             "eventCard": [
@@ -398,7 +399,7 @@
                 "title": "Zimzarije in Museum of Vojvodina",
                 "subtitle": "",
                 "date": "January 10-13",
-                "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis impedit nisi possimus dolore accusamus adipisci. Porro rem saepe voluptatem deleniti provident ipsam debitis adipisci eaque voluptate, quas, sint, numquam fugit?",
+                "content": "A winter children's art workshop is being held, providing an opportunity for kids to express their creativity and imagination through hands-on activities and projects.",
                 "image": "img/events/zimzarije-2023.jpg",
                 "thumbnail": "img/events/zimzarije-2023.jpg"
               },
@@ -425,7 +426,7 @@
           {
             "heading": {
               "title": "The last race of the year",
-              "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis impedit nisi possimus dolore accusamus adipisci. Porro rem saepe voluptatem deleniti provident ipsam debitis adipisci eaque voluptate, quas, sint, numquam fugit?",
+              "content": "Get ready for the final race of the year! The Winter Trail Race is coming to the slopes of Fruška Gora, offering a challenging and exhilarating experience for all participants. Don't miss out on this opportunity to push your limits and end the year on a high note.",
               "date": "Decembar 24, 2022"
             },
             "eventCard": [
@@ -443,7 +444,7 @@
           {
             "heading": {
               "title": "Sport and recreation",
-              "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis impedit nisi possimus dolore accusamus adipisci. Porro rem saepe voluptatem deleniti provident ipsam debitis adipisci eaque voluptate, quas, sint, numquam fugit?",
+              "content": "Enjoy various recreational and sporting activities in the city! From cycling, swimming, yoga, to various team sports, there are many options for those who want to have fun and stay fit. Join the fun and challenge yourself with one of these activities!",
               "date": ""
             },
             "eventCard": [
@@ -470,7 +471,7 @@
                 "title": "Cycling",
                 "subtitle": "",
                 "date": "",
-                "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis impedit nisi possimus dolore accusamus adipisci. Porro rem saepe voluptatem deleniti provident ipsam debitis adipisci eaque voluptate, quas, sint, numquam fugit?",
+                "content": "Get ready to hit the streets on two wheels! A city cycling race is taking place, offering a fun and thrilling experience for all levels of riders. Join in and test your skills as you pedal through the heart of the city.",
                 "image": "img/events/biciklista_ns.webp",
                 "thumbnail": "img/events/biciklista_ns.webp"
               },
@@ -479,7 +480,7 @@
                 "title": "Pool SPC Slana Bara",
                 "subtitle": "",
                 "date": "",
-                "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis impedit nisi possimus dolore accusamus adipisci. Porro rem saepe voluptatem deleniti provident ipsam debitis adipisci eaque voluptate, quas, sint, numquam fugit?",
+                "content": "Get ready to dive in! The indoor pool season is starting, offering a perfect place to swim, exercise, and have fun regardless of the weather.",
                 "image": "img/events/bazen.jpg",
                 "thumbnail": "img/events/bazen.jpg"
               }
@@ -488,7 +489,7 @@
           {
             "heading": {
               "title": "Entertainment",
-              "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis impedit nisi possimus dolore accusamus adipisci. Porro rem saepe voluptatem deleniti provident ipsam debitis adipisci eaque voluptate, quas, sint, numquam fugit?",
+              "content": "Get ready for a weekend of fun, food, and honey as the city prepares to host a variety of entertaining festivals and activities, including a food festival and a honey festival",
               "date": ""
             },
             "eventCard": [
@@ -497,7 +498,7 @@
                 "title": "Days of Honey in Novi Sad",
                 "subtitle": "",
                 "date": "January 10-13th, 2023",
-                "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis impedit nisi possimus dolore accusamus adipisci. Porro rem saepe voluptatem deleniti provident ipsam debitis adipisci eaque voluptate, quas, sint, numquam fugit?",
+                "content": "The third annual honey festival, “Days of Honey”, will be held in Zmaj Jovina Street from December 10th to 13th. Beekeepers will showcase their offerings of bee products at stalls in the central street of Novi Sad.",
                 "image": "img/events/dani-meda.jpeg",
                 "thumbnail": "img/events/dani-meda.jpeg"
               },
@@ -505,8 +506,8 @@
                 "id": 2,
                 "title": "Flower Market",
                 "subtitle": "",
-                "date": "OCtober 7th, 2022.",
-                "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis impedit nisi possimus dolore accusamus adipisci. Porro rem saepe voluptatem deleniti provident ipsam debitis adipisci eaque voluptate, quas, sint, numquam fugit?",
+                "date": "October 7th, 2022.",
+                "content": "The Novi Sad Goran Movement is organizing a new flower market on the plaza in front of SPENS on October 7th (Saturday). The Novi Sad flower market will be complemented with exhibitors of honey and health-safe food in addition to exhibitors of flowers, seedlings and horticulture equipment. Working hours from 8.30am to 6.00pm.",
                 "image": "img/events/cvetna-pijaca.jpeg",
                 "thumbnail": "img/events/cvetna-pijaca.jpeg"
               },
@@ -515,7 +516,7 @@
                 "title": "Best Tamburitza",
                 "subtitle": "",
                 "date": "September 24th, 2022.",
-                "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis impedit nisi possimus dolore accusamus adipisci. Porro rem saepe voluptatem deleniti provident ipsam debitis adipisci eaque voluptate, quas, sint, numquam fugit?",
+                "content": "Get ready for the ultimate tamburica competition, taking place at the wine cellar, “A sad adio”! Watch as talented musicians showcase their skills and compete for the title of best tamburica player. Join us for a night of unforgettable music and entertainment",
                 "image": "img/events/tamburasi.jpeg",
                 "thumbnail": "img/events/tamburasi.jpeg"
               }
@@ -590,8 +591,8 @@
                 "title": "Zmaj Jovina street",
                 "subtitle": "",
                 "content": "The main street is in the pedestrian zone. It stretches from Freedom Square to Bishop's Palace. In this street there have always been shops and stores, and the oldest building is at number 28 - At the White Lion from 1720.",
-                "image": "img/explore/Dunavska_ulica.jpg",
-                "thumbnail": "img/explore/Dunavska_ulica.jpg"
+                "image": "img/explore/zmaj-jovina-min.jpg",
+                "thumbnail": "img/explore/zmaj-jovina-min.jpg"
               },
               {
                 "id": 8,
@@ -622,7 +623,7 @@
           {
             "heading": {
               "title": "Green Novi Sad",
-              "content": "When your legs are tired and your senses are saturated from the colorful city center, take a break in one of the city's parks."
+              "content": "When your legs are tired and your senses are saturated from the colorful city center, take a break in one of the city's parks. They hide a wealth of protected species, while they themselves are natural monuments. Thanks to them, the city breathes, because they are its lungs."
             },
             "exploreCard": [
               {
@@ -657,14 +658,8 @@
           },
           {
             "heading": {
-              "title": "Petrovaradin Fortress",
-              "content": "Petrovaradin Fortress belongs to the most significant, preserved European fortifications. In addition to being the symbol of the city it is also the witness to multiconfessional tradition that relies strongly on European culture and most attractive tourist zone of Novi Sad. It is currently the area with around one hundred of art studios, restaurants, cafes, museums, galleries…"
-            }
-          },
-          {
-            "heading": {
               "title": "Escape from the city",
-              "content": "If you are a lover of nature, good wines, and a more peaceful way of vacation, we invite you to go with us to Fruška Gora..."
+              "content": "If you are a lover of nature, good wines, and a more peaceful way of vacation, we invite you to go with us to Fruška Gora. Places that belong to most important material and cultural heritage in the territory of the National Park Fruška Gora include the complex of Serbian Orthodox monasteries. Fruška Gora is the area of good wines with the following prominent wine centres: Irig, Banoštor, Sremski Karlovci, and Šid."
             },
             "exploreCard": [
               {
@@ -968,7 +963,7 @@
           },
           {
             "heading": {
-              "title": "PICERIJE  /  PEKARE  /  PALAČINKANICE  /  STREET FOOD",
+              "title": "PICERIJE  /  PEKARE  /  PALAČINKARNICE  /  STREET FOOD",
               "content": "Nemate dovoljno vremena za restorane? Nema problema, tu su pekare, street food, palačinkarnice, picerije itd. Nećete ostati gladni."
             },
             "eatDrinkCard": [
@@ -1111,41 +1106,41 @@
         "heading": {
           "title": "Osetite duh Zimske fantazije u Novom Sadu",
           "subtitle": "“Ledena šuma” i bajkovito klizalište Dunavskog parka",
-          "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages."
+          "content": "Šesta po redu manifestacija „Ledena šuma“ će se ove godine održati u periodu od 17. decembra, 2022. godine do 16. januara, 2023. godine, a na programu nas u duhu praznične tradicije i dobre zabave očekuje mnoštvo kulturnih dešavanja, edukativnih druženja, izložbenih aktivnosti i humanitarnih susreta. Uz raznovrstan program, jedinstveni ambijent Dunavskog parka upotpuniće i praznična dekoracija kao i Snežni grad-zimski bazar koji je namenjen prezentaciji lokalnih zanatlija i umetnika kao i promociji vojvođanskih gastronomskih specijaliteta i zimskih delikatesa"
         },
         "content": [
           {
             "heading": {
               "title": "Doček Nove godine u Petrovaradinskom podgrađu",
-              "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis impedit nisi possimus dolore accusamus adipisci. Porro rem saepe voluptatem deleniti provident ipsam debitis adipisci eaque voluptate, quas, sint, numquam fugit?",
+              "content": "Novi Sad kao Evropska prestonica kulture zatvara titularnu 2022. godinu uz Doček, nesvakidašnji umetnički i produkcijski program koji će osvetliti barokni ambijent Podgrađa Petrovaradinske tvrđave. Publika će 31. decembra na nekoliko bina uživati u muzičkom programu: na glavnoj sceni ispred Beogradske kapije u 21 čas program otvara Perpetuum Jazzile, a nakon njih koncert će održati Kosheen od 23 časa i DJ Biesmans koji će nastupiti pola sata posle ponoći",
               "date": ""
             },
             "eventCard": [
               {
                 "id": 1,
-                "title": "Naslov",
+                "title": "Perpetuum Jazzile",
                 "subtitle": "",
-                "date": "Decembar 13",
-                "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis impedit nisi possimus dolore accusamus adipisci. Porro rem saepe voluptatem deleniti provident ipsam debitis adipisci eaque voluptate, quas, sint, numquam fugit?",
+                "date": "31. decembar",
+                "content": "“Kada glas postane instrument... i instrument postane glas, čuje se puls ritmičke svježine i harmonijske fuzije Perpetuum Jazzile.”",
                 "image": "img/events/pogled-sa-tvrdjave.jpeg",
                 "thumbnail": "img/events/pogled-sa-tvrdjave.jpeg"
               },
               {
                 "id": 2,
-                "title": "Naslov",
+                "title": "Repetitor",
                 "subtitle": "",
-                "date": "Decembar 13",
-                "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis impedit nisi possimus dolore accusamus adipisci. Porro rem saepe voluptatem deleniti provident ipsam debitis adipisci eaque voluptate, quas, sint, numquam fugit?",
-                "image": "img/events/ns-night.webp",
-                "thumbnail": "img/events/ns-night.webp"
+                "date": "31. decembar",
+                "content": "Jedna od najuzbudljivijih koncertnih atrakcija evropskog alternativnog roka, omiljeno ime mnogih festivala — Repetitor dolazi u Podgrađe! Svojom stvaralačkom veštinom još od prvog albuma osvajaju visoke ocene kritike, a njihovi živi nastupi publici donose jedinstvenu energiju, koju 31. decembra nećemo propustiti. Vidimo se na Dočeku u Štrosmajerovoj ulici, na maloj sceni u 23 časa.",
+                "image": "img/events/docek-podgradje.jpg",
+                "thumbnail": "img/events/docek-podgradje.jpg"
               }
             ]
           },
           {
             "heading": {
               "title": "Božićno-novogodišnji koncerti",
-              "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis impedit nisi possimus dolore accusamus adipisci. Porro rem saepe voluptatem deleniti provident ipsam debitis adipisci eaque voluptate, quas, sint, numquam fugit?",
-              "date": "Decembar 15, 2022 - Decembar 28, 2022"
+              "content": "Proslavite praznike nezaboravnim serijalom Božićnih i Novogodišnjih koncerata koji će uključivati neke od najtalentovanijih umetnika u regionu",
+              "date": "15-28. decembra 2022."
             },
             "eventCard": [
               {
@@ -1162,7 +1157,7 @@
           {
             "heading": {
               "title": "Muzeji i aktuelne izložbe",
-              "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis impedit nisi possimus dolore accusamus adipisci. Porro rem saepe voluptatem deleniti provident ipsam debitis adipisci eaque voluptate, quas, sint, numquam fugit?",
+              "content": "Istražite svet umetnosti i kulture. Posetite naše muzeje i izložbe.",
               "date": ""
             },
             "eventCard": [
@@ -1171,7 +1166,7 @@
                 "title": "Zimzarije u Muzeju Vojvodine",
                 "subtitle": "",
                 "date": "10-13. januara",
-                "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis impedit nisi possimus dolore accusamus adipisci. Porro rem saepe voluptatem deleniti provident ipsam debitis adipisci eaque voluptate, quas, sint, numquam fugit?",
+                "content": "Naša umetnička radionica će deci zimu učiniti kreativnom i pružiti im priliku da istraže svoje talente i stvore nezaboravna dela uz razne materijale i tehnike. Radionicu vode stručni umetnički pedagozi koji će podržavati i motivisati decu u njihovom umetničkom putu.",
                 "image": "img/events/zimzarije-2023.jpg",
                 "thumbnail": "img/events/zimzarije-2023.jpg"
               },
@@ -1198,8 +1193,8 @@
           {
             "heading": {
               "title": "Poslednja trka u godini",
-              "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis impedit nisi possimus dolore accusamus adipisci. Porro rem saepe voluptatem deleniti provident ipsam debitis adipisci eaque voluptate, quas, sint, numquam fugit?",
-              "date": "Decembar 24, 2022"
+              "content": "Spremite se za poslednju trku u godini! Winter Trail Race stiže na obronke Fruške Gore, pružajući izazovno i uzbudljivo iskustvo za sve učesnike. Ne propustite ovu priliku da prekoračite svoje granice i godinu završite u vrhunskom raspoloženju",
+              "date": "24. decembar 2022."
             },
             "eventCard": [
               {
@@ -1216,7 +1211,7 @@
           {
             "heading": {
               "title": "Sport i rekreacija",
-              "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis impedit nisi possimus dolore accusamus adipisci. Porro rem saepe voluptatem deleniti provident ipsam debitis adipisci eaque voluptate, quas, sint, numquam fugit?",
+              "content": "Uživajte u raznim rekreativnim i sportskim aktivnostima u gradu! Od biciklizma, plivanja, joge, do raznih timskih sportova, postoje mnoge opcije za one koji žele da se zabave i održavaju formu. Pridružite se zabavi i provozajte sebe na nekoj od ovih aktivnosti!",
               "date": ""
             },
             "eventCard": [
@@ -1243,7 +1238,7 @@
                 "title": "Biciklizam",
                 "subtitle": "",
                 "date": "",
-                "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis impedit nisi possimus dolore accusamus adipisci. Porro rem saepe voluptatem deleniti provident ipsam debitis adipisci eaque voluptate, quas, sint, numquam fugit?",
+                "content": "Pripremite se za biciklističku trku! Dođite i pokažite svoje veštine u ovom uzbudljivom događaju i takmičite se protiv drugih biciklista na zahtevnom terenu. Ne propustite priliku da se zabavite i pokažete svoj talent.",
                 "image": "img/events/biciklista_ns.webp",
                 "thumbnail": "img/events/biciklista_ns.webp"
               },
@@ -1252,7 +1247,7 @@
                 "title": "Bazen SPC Slana Bara",
                 "subtitle": "",
                 "date": "",
-                "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis impedit nisi possimus dolore accusamus adipisci. Porro rem saepe voluptatem deleniti provident ipsam debitis adipisci eaque voluptate, quas, sint, numquam fugit?",
+                "content": "Spremi se da zaroniš! Zatvoreni bazen je ponovo otvoren! Nakon dve godine renoviranja i instalacije sistema za kvantnu filtraciju delimično hidrogenizovane vode, SPC Slana Bara kreće sa radom u nedelju, 18. decembra.",
                 "image": "img/events/bazen.jpg",
                 "thumbnail": "img/events/bazen.jpg"
               }
@@ -1261,7 +1256,7 @@
           {
             "heading": {
               "title": "Zabava",
-              "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis impedit nisi possimus dolore accusamus adipisci. Porro rem saepe voluptatem deleniti provident ipsam debitis adipisci eaque voluptate, quas, sint, numquam fugit?",
+              "content": "Začinite svoj vikend nezaboravnim iskustvima",
               "date": ""
             },
             "eventCard": [
@@ -1270,7 +1265,7 @@
                 "title": "Dani meda u Novom Sadu",
                 "subtitle": "",
                 "date": "10-13. januara",
-                "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis impedit nisi possimus dolore accusamus adipisci. Porro rem saepe voluptatem deleniti provident ipsam debitis adipisci eaque voluptate, quas, sint, numquam fugit?",
+                "content": "U Zmaj Jovinoj ulici od 10. do 13. decembra održava treći po redu festival pčelarskih prozvoda pod nazivom “Dani meda”. Na tezgama u centralnoj novosadskoj ulici svoje ponude izneće pčelari sa ponudom pčelinjih proizvoda, proizvođači pčelarske opreme, proizvođači kozmetike i preparata na bazi pčelinjih proizvoda, proizvođači vina, lekovitog bilja i čajeva, kao i proizvođači konditorskih proizvoda.",
                 "image": "img/events/dani-meda.jpeg",
                 "thumbnail": "img/events/dani-meda.jpeg"
               },
@@ -1279,7 +1274,7 @@
                 "title": "Cvetna pijaca",
                 "subtitle": "",
                 "date": "7. oktobar 2022.",
-                "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis impedit nisi possimus dolore accusamus adipisci. Porro rem saepe voluptatem deleniti provident ipsam debitis adipisci eaque voluptate, quas, sint, numquam fugit?",
+                "content": "Pokret gorana Novog Sada, organizuje 7. oktobra (subota) na platou ispred SPENS-a novu cvetnu pijacu. Novosadska cvetna pijaca će pored izlagača sa cvećem, sadnicama i opremom za hortikulturu biti upotpunjena sa izlagačima meda i zdravstveno-bezbedne hrane. Radno vreme od 8.30 do 18.00 časova",
                 "image": "img/events/cvetna-pijaca.jpeg",
                 "thumbnail": "img/events/cvetna-pijaca.jpeg"
               },
@@ -1288,7 +1283,7 @@
                 "title": "Najbolja tamburica",
                 "subtitle": "",
                 "date": "24. septembar 2022.",
-                "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis impedit nisi possimus dolore accusamus adipisci. Porro rem saepe voluptatem deleniti provident ipsam debitis adipisci eaque voluptate, quas, sint, numquam fugit?",
+                "content": "Legendarni vinski podrum “A sad adio” i ove godine biće domaćin takmičenja za najbolju tamburicu Novog Sada. Vlasnik podruma, Dušan Belaja, u gradu poznat kao Beli, smatra da je ugođaj zagarantovan, a cena karte opravdana.",
                 "image": "img/events/tamburasi.jpeg",
                 "thumbnail": "img/events/tamburasi.jpeg"
               }
@@ -1363,8 +1358,8 @@
                 "title": "Zmaj Jovina ulica",
                 "subtitle": "",
                 "content": "Glavna je ulica u pešačkoj zoni. Prostire se od Trga slobode do Vladičanskog dvora. U ovoj ulici oduvek su se nalazile trgovine i dućani, a najstarija zgrada je na broju 28 - Kod belog lava iz 1720. godine.",
-                "image": "img/explore/Dunavska_ulica.jpg",
-                "thumbnail": "img/explore/Dunavska_ulica.jpg"
+                "image": "img/explore/zmaj-jovina-min.jpg",
+                "thumbnail": "img/explore/zmaj-jovina-min.jpg"
               },
               {
                 "id": 8,
@@ -1395,7 +1390,7 @@
           {
             "heading": {
               "title": "Zeleni Novi Sad",
-              "content": "Kada vam se noge zamore i čula zasite od živopisnog centra grada, napravite predah u jednom od gradskih parkova."
+              "content": "Kada vam se noge zamore i čula zasite od živopisnog centra grada, napravite predah u jednom od gradskih parkova, koji kriju bogatstvo zaštićenih vrsta, dok su i sami spomenici prirode. Zahvaljujući njima grad diše, jer su oni njegova pluća."
             },
             "exploreCard": [
               {
@@ -1408,7 +1403,7 @@
               },
               {
                 "id": 2,
-                "title": "Futoski park",
+                "title": "Futoški park",
                 "subtitle": "",
                 "content": "Futoški park je podignut  u prvoj dekadi 20. veka kao park specijalne namene oko Jodne banje (Specijalna bolnica za reumatske bolesti, Novi Sad). Prostire se na površini od 8 ha, 13 ari, 6 m2 i zaštićen je kao spomenik  prirode, odnosno prirodno dobro II i III kategorije.",
                 "image": "img/explore/Futoški_park.jpg",
@@ -1416,7 +1411,7 @@
               },
               {
                 "id": 3,
-                "title": "Kamenicki park",
+                "title": "Kamenički park",
                 "subtitle": "",
                 "content": "U Sremskoj Kamenici na severnim obroncima Fruške gore, duž obale Dunava, lociran je najveći i najstariji park u Novom Sadu – Kamenički park,koji se prostire  na 33 ha površine  i od 2008. godine je stavljen pod zaštitu kao značajno prirodno dobro.",
                 "image": "img/explore/Kamenički_park.jpg",
@@ -1434,19 +1429,13 @@
           },
           {
             "heading": {
-              "title": "Petrovaradinska tvrdjava",
-              "content": "Na desnoj obali Dunava nalazi se Petrovaradinska tvrđava koja spada među najznačajnije, sačuvane, evropske fortifikacije. Pored toga što je simbol Grada, ona je svedok multikonfesionalne tradicije snažno oslonjene na evropsku kulturu, ali i najatraktivnija turistička zona Novog Sada. Danas je to prostor gde se nalazi oko stotinu umetničkih ateljea, zatim restorani, kafei, muzeji, galerije…"
-            }
-          },
-          {
-            "heading": {
               "title": "Bekstvo iz grada",
-              "content": "Ukoliko ste ljubitelj prirode, dobrih vina, i mirnijeg načina odmora, prelažemo vam da krenete sa nama do Fruške gore..."
+              "content": "Ukoliko ste ljubitelj prirode, dobrih vina, i mirnijeg načina odmora, prelažemo vam da krenete sa nama do Fruške gore. Među najznačajniju materijalnu kulturnu baštinu koja se nalazi na prostoru Nacionalnog parka Fruška gora možemo uvrstiti kompleks srpskih pravoslavnih manastira. Fruška gora je područje dobrih vina gde se izdvajaju sledeći vinski centri: Irig, Banoštor, Sremski Karlovci i Šid."
             },
             "exploreCard": [
               {
                 "id": 1,
-                "title": "Fruska gora",
+                "title": "Fruška gora",
                 "content": "Nacionalni park Fruška gora osnovan je 1960. kao najstariji u socijalističkoj Jugoslaviji. Na površini od oko 25.000 ha, koliko obuhvata NP Fruška gora, zaštićeni su jedinstveni pejzaži,vredne geološke i geomorfološke celine, retke biljne i životinjske vrste i šumski kompleksi.",
                 "image": "img/explore/FruskaGora.jpg",
                 "thumbnail": "img/explore/FruskaGora.jpg"

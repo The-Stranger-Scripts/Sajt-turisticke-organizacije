@@ -1,7 +1,5 @@
 @import "../main.css";
 
-
-
 .main-img {
     position: relative;
     top: 0;
@@ -9,8 +7,7 @@
     width: max-content;
     display: block;
     margin-left: auto;
-    margin-right: auto;
-     
+    margin-right: auto;     
   }
 
   .main-card {
@@ -56,16 +53,14 @@
   }
 
   .explore-label > h4 {
-    font-weight: 900;
-    
-  }
-  
+    font-weight: 900;    
+  }  
   
   .explore-card {
     display: flex;
     flex-direction: column;
     width: 50%;
-  }
+  }  
   
   .explore-card-body {
     padding: 1rem;
@@ -91,6 +86,15 @@
     -webkit-line-clamp: 5;
     -webkit-box-orient: vertical;
     font-size: 1rem;
+  }
+
+  #c0 {
+    flex-wrap: wrap;   
+    justify-content: space-between;
+  }
+
+  #c0 .explore-card {
+    width: 17%;
   }
 
   .video-container{
