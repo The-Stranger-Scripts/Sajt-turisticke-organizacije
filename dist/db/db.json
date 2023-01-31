@@ -232,7 +232,7 @@
                     "title": "!In Vino Veritas!",
                     "subtitle": "Satisfy your senses with the best quality food and drink in town.",
                     "content": "After a long walk, hard work, a tiring day, you deserve a break, and is there any better way to reward yourself than by enjoying the best bites and sips, so indulge in hedonism and don't regret it. Little things in everyday life can make you happy . Novi Sad offers you everything you are missing!",
-                    "text": ""
+                    "text": "Welcome!"
                 },
                 "content": [{
                         "heading": {
@@ -252,8 +252,8 @@
                                 "title": "Express",
                                 "subtitle": "",
                                 "content": "Hungry and in a hurry? The best option for you are express restaurants that offer cooked meals of the highest quality.",
-                                "image": "img/eatDrink/expressRestaurant.jpg",
-                                "thumbnail": "img/eatDrink/expressRestaurant.jpg"
+                                "image": "img/eatDrink/internationalRestaurant.jpg",
+                                "thumbnail": "img/eatDrink/internationalRestaurant.jpg"
                             },
                             {
                                 "id": 3,
@@ -354,7 +354,7 @@
                         "heading": {
                             "title": "",
                             "subtitle": "",
-                            "content": "Novi Sad fair will open at 6:00 p.m., and tickets will be available at a price of 500 dinars for one evening, while the price for both evenings will be 800 dinars."
+                            "content": ""
                         },
                         "eatDrinkCard": [{
                                 "id": 1,
@@ -717,15 +717,6 @@
                             }
                         ]
                     },
-          {
-            "heading": {
-              "title": "Petrovaradin Fortress",
-              "content": " Petrovaradin Fortress belongs to the most significant, preserved European fortifications.In addition to being the symbol of the city it is also the witness to multiconfessional tradition that reliesstrongly on European culture and most attractive tourist zone of Novi Sad. It is currently the area with around one hundred of art studios, restaurants, cafes, museums, galleries…."
-            },
-            "exploreCard": [],
-            "videoLink": "../dist/videos/PETROVARADINSKA-TVRDJAVA.mp4"
-
-          },
                     {
                         "heading": {
                             "title": "Escape from the city",
@@ -919,20 +910,20 @@
             },
             "accomodation": {
                 "heading": {
-                    "title": "Accomodation in Novi Sad",
-                    "subtitle": "Get cozy at the heart of the city",
-                    "content": "A large offer of accommodation in the most beautiful city of Vojvodina. In recent years, Novi Sad has become an increasingly popular tourist destination. The Exit, the city 's cultural contents, events and the special atmosphere that the city exudes attract tourists from all over the world. In accordance with this, the accommodation offer is developed. The capital of Vojvodina offers its visitors a variety of apartments, which are decorated according to the highest European standards. All apartments in Day Novi Sad have modern furniture, a series of details that create a pleasant atmosphere and elements necessary for a pleasant stay. They are distributed in all Novi Sad settlements, so they manage to adapt to different reasons for staying in the city. See the entire offer of apartments in Novi Sad and find accommodation that will meet all your requirements and show you all the beauties of the capital of Vojvodina."
+                    "title": "Smeštaj u Novom Sadu",
+                    "subtitle": "Udobnost u srcu grada",
+                    "content": "Velika ponuda smeštaja u najlepšem gradu Vojvodine. Poslednjih godina Novi Sad postaje sve posećenija turisička destinacija. Egzit, gradski kulturni sadržaji, manifestacije i posebna atmosfera kojom grad odiše privlače turiste iz svih delova sveta. U skladu sa ovim dolazi do razvoja smeštajne ponude.Glavni grad Vojvodine nudi svojim posetiocima raznovrsne apartmane, koji su uređeni po najvišim evropskim standardima.Svi stanovi na dan Novi Sad poseduju moderan nameštaj, niz detalja koji stvaraju prijatnu atmosferu i elemenata neophodnih za ugodan boravak.Raspoređeni su u svim novosadskim naseljima, tako da uspevaju da se prilagode različitim razlozima boravka u gradu.Pogledajte celokupnu ponudu apartmana u Novom Sadu i pronađite smeštaj koji će zadovoljiti sve vaše zahteve i pokazati vam sve lepote vojvođanske prestonice."
                 },
                 "content": [{
                         "heading": {
-                            "title": "Top 10 4-star Hotels",
-                            "content": "Novi Sad can boast a wide range of hotels and accommodation facilities, which will satisfy the needs of tourists of very different affinities.. Novi Sad has a total of 31 hotels of all categories, so you can easily find a place to stay or stay for a few days in one of them, if you want to get to know this Serbian capital of culture a little closer, and the city that was chosen as the European capital of culture for 2022."
+                            "title": "Top 10 hotela sa četiri zvezdice",
+                            "content": "Novi Sad može da se pohvali raznovrsnom ponudom hotela i smeštajnih kapaciteta, koji će zadovoljiti potrebe turista veoma različitih afiniteta."
                         },
                         "accomodationCard": [{
                                 "id": 1,
                                 "title": "1. Arhiv Boutique House",
                                 "subtitle": "",
-                                "content": "Arhiv Boutique House offers accommodation with a restaurant and free WiFi in all areas, as well as free private parking for guests who drive. It is located in Novi Sad, 1 km from SPENS Sports Center and 1.7 km from Promenada Shopping Center. Family rooms and a terrace are available to guests of this accommodation facility. The accommodation facility offers room service and luggage storage. All guest rooms have air conditioning, flat-screen TV with cable channels, kettle, shower, hair dryer and desk. Some rooms also have a kitchenette with a refrigerator, mini-bar and cooking plate. All accommodation units have a private bathroom, free toiletries and bed linen. Continental and à-la-carte breakfast are available each morning at the inn. Popular attractions near Arhiv Boutique House include Museum of Vojvodina, Serbian National Theater and Bulevar Tourist Information Center. Nearest airport is Nikola Tesla Airport in Belgrade, 83 km from the accommodation. Airport shuttle service is available at an additional cost.",
+                                "content": "Objekat Arhiv Boutique House nudi smeštaj sa restoranom i besplatnim WiFi internetom u svim prostorijama, kao i besplatan privatni parking za goste koji voze, a nalazi se u Novom Sadu, na 1 km od Sportskog centra SPENS i 1,7 km od tržnog centra Promenada. Gostima ovog smeštajnog objekta su na raspolaganju porodične sobe i terasa. Ponuda smeštajnog objekta uključuje poslugu u sobi i skladište za prtljag. Sve sobe za goste imaju klima-uređaj, flat-screen TV sa kablovskim kanalima, kuvalo, tuš, fen za kosu i radni sto. Pojedine sobe poseduju i čajnu kuhinju sa frižiderom, mini-barom i pločom za kuvanje. Sve smeštajne jedinice sadrže sopstveno kupatilo, besplatan toaletni pribor i posteljinu. Kontinentaln i à-la-carte doručak su dostupni svakog jutra u gostionici. Popularne atrakcije u blizini objekta Arhiv Boutique House su Muzej Vojvodine, Srpsko narodno pozorište i Turističko-informativni centar Bulevar. Najbliži aerodrom je Aerodrom Nikola Tesla u Beogradu, udaljen 83 km od smeštaja. Usluga prevoza od/do aerodroma je dostupna uz doplatu.",
                                 "image": "img/explore/Spomenik_Svetozaru_Miletiću.jpg",
                                 "thumbnail": "img/explore/Spomenik_Svetozaru_Miletiću.jpg"
                             },
@@ -940,15 +931,15 @@
                                 "id": 2,
                                 "title": "2. Kombinat Rooms City Center",
                                 "subtitle": "",
-                                "content": "The Kombinat Rooms City Center facility offers express check-in and check-out, rooms, a restaurant, free WiFi in all areas of the facility, as well as a garden, and is located in Novi Sad, less than 1 km from the SPENS Sports Center. They are available to the guests of this facility family rooms and terrace. Accommodation offers include room service and luggage storage. All hotel rooms have air conditioning, a seating area and a flat-screen TV with cable channels. A safe and a private bathroom are offered with a shower. Certain rooms in the Kombinat Rooms City Center offer a view of the city. The rooms also have a patio. Towels and bed linen are provided in the rooms. Guests of Kombinat Rooms City Center can enjoy in continental or à la carte breakfast. Popular attractions near the hotel include the Promenada shopping center, the Museum of Vojvodina and the Serbian National Theatre. The nearest airport is Nikola Tesla Airport in Belgrade, 81 km from the property Kombinat Rooms City Center. Airport shuttle service is available at an additional cost.",
+                                "content": " Objekat Kombinat Rooms City Center nudi ekspresno prijavljivanje i odjavljivanje, sobe, restoran, besplatan WiFi u svim prostorijama objekta, kao i vrt, a nalazi se u Novom Sadu, na manje od 1 km od Sportskog centra SPENS. Gostima ovog objekta su na raspolaganju porodične sobe i terasa. Ponuda smeštaja uključuje poslugu u sobi i skladište za prtljag. Sve hotelske sobe imaju klima-uređaj, prostor za sedenje i flat-screen TV sa kablovskim kanalima. U ponudi su sef i sopstveno kupatilo sa tušem. Iz pojedinih soba u objektu Kombinat Rooms City Center se pruža pogled na grad. Sobe takođe imaju popločano dvorište. U sobama su obezbeđeni peškiri i posteljina. Gosti objekta Kombinat Rooms City Center mogu da uživaju u kontinentalnom ili à la carte doručku. Popularne atrakcije u blizini hotela su tržni centar Promenada, Muzej Vojvodine i Srpsko narodno pozorište. Najbliži aerodrom je Aerodrom Nikola Tesla u Beogradu, udaljen 81 km od objekta Kombinat Rooms City Center. Usluga prevoza od/do aerodroma je dostupna uz doplatu.",
                                 "image": "img/accommodation/2. Kombinat Rooms City Center.jpeg",
                                 "thumbnail": "img/accommodation/2. Kombinat Rooms City Center.jpeg"
                             },
                             {
                                 "id": 3,
-                                "title": "3. Novi Sad Pupin Hotel",
+                                "title": "3. Hotel Pupin Novi Sad",
                                 "subtitle": "",
-                                "content": "Hotel Pupin Novi Sad has a restaurant, private parking and a bar. It is located in Novi Sad, 800 meters from the sports center SPENS. Built in 2020, this five-star hotel is located 1.1 km from Promenada Shopping Center and 500 meters from the Serbian National Theatre.The reception is open 24 / 7, while free Wi - Fi is available throughout the facility.The hotel 's offer also includes airport transfer and room service. Some accommodation units have a kitchenette with mini - bar.The hotel serves a buffet breakfast.The Museum of Vojvodina is less than 1 km away, and the Novi Sad Synagogue is a 3 - minute walk from Hotel Pupin Novi Sad.The nearest airport is Nikola Tesla Airport in Belgrade, 81 km away.",
+                                "content": "Hotel Pupin Novi Sad raspolaže restoranom, privatnim parkingom i barom. Smešten je u Novom Sadu, na 800 metara od sportskog centra SPENS. Ovaj hotel sa pet zvezdica je izgrađen 2020. godine i nalazi se na 1,1 km od tržnog centra Promenada i 500 metara od Srpskog narodnog pozorišta. Recepcija radi non-stop, dok je besplatan WiFi dostupan u celom objektu. Ponuda hotela takođe obuhvata prevoz od/do aerodroma i poslugu u sobi. Pojedine smeštajne jedinice imaju čajnu kuhinju sa mini-barom. U hotelu se služi doručak na bazi švedskog stola. Muzej Vojvodine se nalazi na manje od 1 km, a Novosadska sinagoga na 3 minuta hoda od hotela Pupin Novi Sad. Najbliži aerodrom je Aerodrom Nikola Tesla u Beogradu, udaljen 81 km.",
                                 "image": "img/accommodation/3. Hotel Pupin Novi Sad .jpeg",
                                 "thumbnail": "img/accommodation/3. Hotel Pupin Novi Sad .jpeg"
                             },
@@ -956,15 +947,15 @@
                                 "id": 4,
                                 "title": "4. Pupin Palace Apartments",
                                 "subtitle": "",
-                                "content": "Located less than 1 km from SPENS Sports Center, Pupin Palace Apartments provides accommodation with a bar, a terrace and a 24-hour front desk for your convenience. Free WiFi is available in all rooms, and private parking is available within the facility. The air - conditioned accommodation units have a living room with a flat - screen TV, a kitchen with a dishwasher and a fridge, a washing machine, a safe and a private bathroom with bathrobes and slippers.Each unit contains space for sitting and dining.Cars can be rented on site.Popular destinations near Pupin Palace Apartments include the Promenada shopping center, the Serbian National Theater and the Museum of Vojvodina.Nearest airport is Nikola Tesla Airport in Belgrade, 84 km from the accommodation facility.Airport shuttle service is available at an additional cost.",
+                                "content": "Objekat Pupin Palace Apartments nudi smeštaj sa barom, terasom i recepcijom koja radi non-stop, a nalazi se na manje od 1 km od Sportskog centra SPENS. Besplatan WiFi je dostupan u svim prostorijama, a na raspolaganju je i privatni parking u okviru objekta. Klimatizovane smeštajne jedinice imaju dnevnu sobu sa flat-screen TV-om, kuhinju sa mašinom za pranje posuđa i frižiderom, mašinu za pranje veša, sef i sopstveno kupatilo sa bademantilima i papučama. Svaka jedinica sadrži prostor za sedenje i trpezariju. Automobili se mogu iznajmiti u okviru objekta. Popularna odredišta u blizini objekta Pupin Palace Apartments su tržni centar Promenada, Srpsko narodno pozorište i Muzej Vojvodine. Najbliži aerodrom je Aerodrom Nikola Tesla u Beogradu, udaljen 84 km od smeštajnog objekta. Usluga prevoza od/do aerodroma je dostupna uz doplatu.",
                                 "image": "img/accommodation/4. Pupin Palace Apartments.jpeg",
                                 "thumbnail": "img/accommodation/4. Pupin Palace Apartments.jpeg"
                             },
                             {
                                 "id": 5,
-                                "title": "5. Garni hotel Ami ",
+                                "title": "5. Objekat Garni hotel Ami",
                                 "subtitle": "",
-                                "content": "The Garni Hotel Ami has a common lounge, free private parking, a restaurant and a bar. It is located in Novi Sad, 2 km from the Promenada shopping center. This four-star hotel offers luggage storage, an airport shuttle and valet parking in the room.The reception is open 24 / 7, while free Wi - Fi is available throughout the facility.The rooms are air - conditioned and include a seating area, a flat - screen TV with satellite channels and a private bathroom with a shower,free toiletries accessories and hair dryer.They are equipped with a safe and a kettle.Some rooms have a paved courtyard, while some have a view of the city.Towels and bed linen are provided in the rooms of the GARNI HOTEL AMI facility.It is served in the facility buffet breakfast or continental breakfast.Not far from the GARNI HOTEL AMI facility are popular destinations, such as the Serbian National Theatre, the Museum of Vojvodina and the Novi Sad Synagogue.The nearest airport is Aerodrom Nikola Tesla in Belgrade, 80 km away.",
+                                "content": "Objekat Garni hotel Ami raspolaže zajedničkim salonom, besplatnim privatnim parkingom, restoranom i barom. Smešten je u Novom Sadu, na 2 km od tržnog centra Promenada. Ovaj hotel sa četiri zvezdice nudi ostavu za prtljag, prevoz od/do aerodroma i poslugu u sobi. Recepcija radi non-stop, dok je besplatan WiFi dostupan u celom objektu. Sobe su klimatizovane i sadrže prostor za sedenje, flat-screen TV sa satelitskim kanalima i sopstveno kupatilo sa tušem, besplatnim toaletnim priborom i fenom za kosu. Opremljene su sefom i kuvalom. Pojedine sobe imaju popločano dvorište, dok se iz pojedinih pruža pogled na grad. U sobama objekta GARNI HOTEL AMI su obezbeđeni peškiri i posteljina. U objektu se služi doručak na bazi švedskog stola ili kontinentalni doručak. Nedaleko od objekta GARNI HOTEL AMI se nalaze popularna odredišta, kao što su Srpsko narodno pozorište, Muzej Vojvodine i Novosadska sinagoga. Najbliži aerodrom je Aerodrom Nikola Tesla u Beogradu, udaljen 80 km.",
                                 "image": "img/explore/matica-sroska.webp",
                                 "thumbnail": "img/explore/matica-sroska.webp"
                             },
@@ -972,7 +963,7 @@
                                 "id": 6,
                                 "title": "6. Lanterna Rooms City Center",
                                 "subtitle": "",
-                                "content": "Located in Novi Sad, 1.4 km from SPENS Sports Center, Lanterna Rooms City Center provides accommodation with a restaurant, private parking, a bar and a garden. Guests are also offered room service, luggage storage and free WiFi in all areas. The guesthouse has family rooms. Air-conditioned rooms with wardrobe, kettle, fridge, safe, flat-screen TV, patio and private bathroom with shower are available to guests of the pension. All rooms at Lanterna Rooms City Center have bed linen and towels. Continental or à-la-carte breakfast is served in the accommodation facility. Lanterna Rooms City Center has a terrace. Popular places near this guesthouse are the Museum of Vojvodina, the Serbian National Theater and the venue of the Exit festival. The nearest airport is Nikola Tesla Airport in Belgrade, 84 km from the Lanterna Rooms City Center facility. Airport shuttle service is available at an additional cost.",
+                                "content": "Objekat Lanterna Rooms City Center nudi smeštaj sa restoranom, privatnim parkingom, barom i vrtom u Novom Sadu, na 1,4 km od Sportskog centra SPENS. Gostima su takođe na raspolaganju posluga u sobi, ostava za prtljag i besplatan WiFi u svim prostorijama. Pansion poseduje porodične sobe. Gostima pansiona su na raspolaganju klimatizovane sobe sa garderoberom, kuvalom, frižiderom, sefom, flat-screen TV-om, popločanim dvorištem i sopstvenim kupatilom sa tušem. Sve sobe u objektu Lanterna Rooms City Center imaju posteljinu i peškire. U smeštajnom objektu se služi kontinentalni ili à-la-carte doručak. Objekat Lanterna Rooms City Center poseduje terasu. Popularna mesta u blizini ovog pansiona su Muzej Vojvodine, Srpsko narodno pozorište i mesto održavanja Exit festivala. Najbliži aerodrom je Aerodrom Nikola Tesla u Beogradu, udaljen 84 km od objekta Lanterna Rooms City Center. Usluga prevoza od/do aerodroma je dostupna uz doplatu.",
                                 "image": "img/accommodation/6. Lanterna Rooms City Center.jpeg",
                                 "thumbnail": "img/accommodation/6. Lanterna Rooms City Center.jpeg"
                             },
@@ -980,7 +971,7 @@
                                 "id": 7,
                                 "title": "7. Lux New White Apartment",
                                 "subtitle": "",
-                                "content": "Lux new white apartment is located in an attractive location in Novi Sad, 1.3 km from SPENS Sports Center and 1.5 km from Serbian National Theatre. The offer includes a terrace and a 24-hour reception. The air-conditioned accommodation is 1 km from the Promenada Shopping Center, and guests can enjoy private on-site parking and free Wi-Fi. The apartment has 1 bedroom, a flat-screen TV with satellite channels and an equipped kitchen with a fridge and a stove. It also includes a washing machine and 1 bathroom with a shower. The offer of apartments includes a car rental service. Museum of Vojvodina is 2.3 km from Lux new white apartment, while Novi Sad Fair is 2.4 km away. The nearest airport is Belgrade Nikola Tesla Airport, 59 km away. Transfer from/to the airport is available for a surcharge.",
+                                "content": "Objekat Lux new white apartment nalazi se na atraktivnoj lokaciji u Novom Sadu, na 1,3 km od Sportskog centra SPENS i na 1,5 km od Srpskog narodnog pozorišta. Ponuda obuhvata terasu i recepciju otvorenu non-stop. Klimatizovani smeštaj je udaljen 1 km od tržnog centra Promenada, a gostima su na raspolaganju privatni parking u okviru objekta i besplatan WiFi. Apartman ima 1 spavaću sobu, flat-screen TV sa satelitskim kanalima i opremljenu kuhinju sa frižiderom i pločom za  kuvanje. Takođe sadrži mašinu za pranje veša i 1 kupatilo sa tušem. Ponuda apartmana uključuje uslugu iznajmljivanja automobila. Muzej Vojvodine se nalazi na 2,3 km od objekta Lux new white apartment, a do Novosadskog sajma ima 2,4 km. Najbliži aerodrom je Aerodrom Beograd Nikola Tesla, udaljen 59 km. Prevoz od/do aerodroma dostupan je uz doplatu.",
                                 "image": "img/explore/zmaj-jovina-min.jpg",
                                 "thumbnail": "img/explore/zmaj-jovina-min.jpg"
                             },
@@ -988,7 +979,7 @@
                                 "id": 8,
                                 "title": "8. Apartment Eugen",
                                 "subtitle": "",
-                                "content": "Apartment Eugen is located in Novi Sad, 1.5 km from SPENS Sports Center and 1.8 km from Promenada Shopping Center. We offer air-conditioned accommodation with a balcony and free WiFi. The Novi Sad Fair is 2.5 km away, and the venue of the Exit Festival is 2.8 km from the property. The apartment has 1 bedroom, 1 bathroom with a shower and an equipped kitchen with a fridge and an oven. It also includes a washing machine and a flat-screen TV with satellite channels. Towels and bed linen are provided. Guests staying in the apartment can use the terrace. Popular points of interest near Apartment Eugen include Serbian National Theatre, Museum of Vojvodina and Tourist Information Center Jevrejska. The nearest airport is Nikola Tesla Airport in Belgrade, 83 km from the accommodation. Airport shuttle service is available at an additional cost.",
+                                "content": "Apartment Eugen se nalazi u Novom Sadu, na 1,5 km od sportskog centra SPENS i 1,8 km od tržnog centra Promenada. U ponudi je klimatizovan smeštaj sa balkonom i besplatnim WiFi internetom. Novosadski sajam je udaljen 2,5 km, a mesto održavanja Exit festivala 2,8 km od objekta. Apartman ima 1 spavaću sobu, 1 kupatilo sa tušem i opremljenu kuhinju sa frižiderom i rernom. Takođe sadrži mašinu za pranje veša i flat-screen TV sa satelitskim kanalima. Peškiri i posteljina su obezbeđeni. Gosti koji borave u apartmanu mogu da koriste terasu. Popularna mesta u blizini objekta Apartment Eugen su Srpsko narodno pozorište, Muzej Vojvodine i Turistički informativni centar Jevrejska. Najbliži aerodrom je Aerodrom Nikola Tesla u Beogradu, udaljen 83 km od smeštaja. Usluga prevoza od/do aerodroma je dostupna uz doplatu.",
                                 "image": "img/accommodation/8. Apartment Eugen.jpeg",
                                 "thumbnail": "img/accommodation/8. Apartment Eugen.jpeg"
                             },
@@ -996,7 +987,7 @@
                                 "id": 9,
                                 "title": "9. Sheraton Novi Sad",
                                 "subtitle": "",
-                                "content": "Sheraton Novi Sad has private parking, a fitness center and a common lounge. It is located in Novi Sad, 2.7 km from the Promenada shopping center. This four-star hotel offers an ATM, a business center, an airport shuttle, and room service. The reception is open 24 hours a day, while Wi-Fi and bicycles can be used free of charge. Sheraton Novi Sad serves a buffet breakfast, full English/Irish or Italian breakfast every day. In the hotel restaurant you can enjoy Spanish and international dishes. Vegetarian, vegan and gluten-free dishes can be prepared upon request. The offer of this four-star property also includes a hammam. SPENS Sports Center is 3 km from Sheraton Novi Sad, while Serbian National Theater is 2.7 km away. The nearest airport is Belgrade Nikola Tesla Airport, 83 km away.",
+                                "content": "Sheraton Novi Sad raspolaže privatnim parkingom, fitnes centrom i zajedničkim salonom. Smešten je u Novom Sadu, na 2,7 km od tržnog centra Promenada. Ovaj hotel sa četiri zvezdice nudi bankomat, poslovni centar, prevoz od/do aerodroma i poslugu u sobi. Recepcija radi non-stop, dok se WiFi i bicikli mogu besplatno koristiti. U objektu Sheraton Novi Sad se svakog dana služe doručak na bazi švedskog stola, pun engleski/irski ili italijanski doručak. U hotelskom restoranu možete uživati u španskim i internacionalnim jelima. Na zahtev se mogu pripremiti vegetarijanska, veganska i bezglutenska jela. Ponuda ovog objekta sa četiri zvezdice takođe obuhvata hamam. Sportski centar SPENS se nalazi na 3 km, a Srpsko narodno pozorište na 2,7 km od objekta Sheraton Novi Sad. Najbliži aerodrom je Aerodrom Nikola Tesla Beograd, udaljen 83 km.",
                                 "image": "img/accommodation/9. Sheraton Novi Sad.jpeg",
                                 "thumbnail": "img/accommodation/9. Sheraton Novi Sad.jpeg"
                             },
@@ -1004,7 +995,7 @@
                                 "id": 10,
                                 "title": "10. Premium Apartments",
                                 "subtitle": "",
-                                "content": "Premium Apartments is located 2.6 km from Promenada Shopping Center. The offer includes a garden, a terrace and air-conditioned accommodation with a balcony and free WiFi. Each unit has a sofa, a seating area, a flat-screen TV with satellite channels, a well-equipped kitchen with a dining area, and a private bathroom with slippers. An additional convenience is provided by towels and bed linen, which guests can get for an additional fee. A children's playground is also available to the guests of the apartment. Popular attractions near Premium Apartments include Novi Sad Fair, Serbian National Theater and Tourist Information Center Jevrejska. The nearest airport is Nikola Tesla Airport in Belgrade, 82 km from the accommodation facility. Airport shuttle service is available at an additional cost.",
+                                "content": "Objekat Premium Apartments se nalazi na 2,6 km od tržnog centra Promenada. Ponuda obuhvata vrt, terasu i klimatizovani smeštaj sa balkonom i besplatnim WiFi internetom. Svaka smeštajna jedinica ima kauč, prostor za sedenje, flat-screen TV sa satelitskim kanalima, dobro opremljenu kuhinju sa trpezarijom i sopstveno kupatilo sa papučama. Dodatnu pogodnost predstavljaju peškiri i posteljina koje gosti mogu da dobiju uz dodatnu naknadu. Gostima apartmana je takođe na raspolaganju dečije igralište. Popularne atrakcije u blizini objekta Premium Apartments su Novosadski sajam, Srpsko narodno pozorište i Turističko-informativni centar Jevrejska. Najbliži aerodrom je Aerodrom Nikola Tesla u Beogradu, udaljen 82 km od smeštajnog objekta. Usluga prevoza od/do aerodroma je dostupna uz doplatu.",
                                 "image": "img/accommodation/10. Premium Apartments.jpeg",
                                 "thumbnail": "img/accommodation/10. Premium Apartments.jpeg"
                             }
@@ -1013,21 +1004,21 @@
                     {
                         "heading": {
                             "title": "Stan na dan",
-                            "content": "Apartments Novi Sad - a large offer of accommodation in the most beautiful city of Vojvodina. In recent years, Novi Sad has become an increasingly popular tourist destination. The exit, the city's cultural contents, events and the special atmosphere that the city exudes attract tourists from all over the world. In accordance with this, the accommodation offer is developed. The capital of Vojvodina offers its visitors a variety of apartments, which are decorated according to the highest European standards. All apartments in Day Novi Sad have modern furniture, a series of details that create a pleasant atmosphere and elements necessary for a pleasant stay. They are distributed in all Novi Sad settlements, so they manage to adapt to different reasons for staying in the city. See the entire offer of apartments in Novi Sad and find accommodation that will meet all your requirements and show you all the beauties of the capital of Vojvodina."
+                            "content": "Apartmani Novi Sad - velika ponuda smeštaja u najlepšem gradu Vojvodine. Poslednjih godina Novi Sad postaje sve posećenija turisička destinacija. Egzit, gradski kulturni sadržaji, manifestacije i posebna atmosfera kojom grad odiše privlače turiste iz svih delova sveta. U skladu sa ovim dolazi do razvoja smeštajne ponude. Glavni grad Vojvodine nudi svojim posetiocima raznovrsne apartmane, koji su uređeni po najvišim evropskim standardima. Svi stanovi na dan Novi Sad poseduju moderan nameštaj, niz detalja koji stvaraju prijatnu atmosferu i elemenata neophodnih za ugodan boravak. Raspoređeni su u svim novosadskim naseljima, tako da uspevaju da se prilagode različitim razlozima boravka u gradu. Pogledajte celokupnu ponudu apartmana u Novom Sadu i pronađite smeštaj koji će zadovoljiti sve vaše zahteve i pokazati vam sve lepote vojvođanske prestonice."
                         },
                         "accomodationCard": [{
                                 "id": 1,
-                                "title": "City Centre",
+                                "title": "Centar grada",
                                 "subtitle": "",
-                                "content": "When it comes to the locations of the apartments, they are located in all important parts of the city, both in the center of Novi Sad and in the suburbs. If your choice is a Novi Sad apartment for the day, there is no doubt that you will find an object that will meet all your criteria.",
+                                "content": "Kada je reč o lokacijama stanova, oni se nalaze u svim važnim gradskim delovima, kako u samom centru Novog Sada, tako i u prigradskim naseljima. Ukoliko je vaš izbor Novi Sad stan na dan, nesumnjivo je da ćete naći objekat koji će zadovoljiti sve vaše kriterijume.",
                                 "image": "img/accommodation/city centre.jpeg",
                                 "thumbnail": "img/accommodation/city centre.jpeg"
                             },
                             {
                                 "id": 2,
-                                "title": "Novi Sad Outscirts",
+                                "title": "Periferija Novog Sada",
                                 "subtitle": "",
-                                "content": "",
+                                "content": "Posebna pogodnost boravka u Novom Sadu jesu vrlo pristupačne cene. Stan na dan možete rezervisati za manje od deset evra po osobi. Sa druge strane, u svakom apartmanu imaćete potpun komfor i sve što je potrebno za udoban i prijatan boravak. Za sve onekoji žele posebne pogodnosti Novi Sad je pripremio naročite vrste apartmana na periferiji grada okružene prirodnim lepotama.",
                                 "image": "img//accommodation/novo naselje.jpeg",
                                 "thumbnail": "img//accommodation/novo naselje.jpeg"
                             }
@@ -1035,8 +1026,8 @@
                     },
                     {
                         "heading": {
-                            "title": "Accommodation for the Exit festival",
-                            "content": "The Exit festival has been going on for more than a decade and is becoming an increasingly popular music festival in Southeastern Europe. The Exit festival in Novi Sad takes place every year in the middle of summer and it is always somewhere around July 5 to 10, which leaves room for many to reserve a room or apartment. In the period before the very beginning of Exit, it is literally impossible to find a place to spend the night or even not for any person. For this reason, we advise you to rent an apartment as soon as possible."
+                            "title": "Smeštaj za Exit festival",
+                            "content": "Već više od deceniju nastavlja se Exit festival koji postaje sve popularniji muzički festival na prostorima jugoistočne Evrope.Exit festival u Novom Sadu održava se svake godine u sredini leta i uvek je to negde oko 5. do 10. jula,što mnogima ostavlja prostor za rezervisanje sobe ili apartmana.U periodu pred sam početak Exita bukvalno je nemoguće pronaći mesto za noćenje pa čak ni za jednu osobu.Iz tog razloga savetujemo da se rentiranje stana obavi što pre."
                         },
                         "accomodationCard": [{
                             "id": 1,
@@ -1047,30 +1038,30 @@
                     },
                     {
                         "heading": {
-                            "title": "Accommodation for the New Year and Holidays",
-                            "content": "If you have decided to stay overnight in Novi Sad, we suggest that you consider different categories of apartments for the day and thus provide yourself with the best possible accommodation for a short trip. In addition to the standard ones, the quality of stay can be greatly improved by staying in apartments with a pool, apartments with a jacuzzi, apartments for the day located in the very center and in the most beautiful parts of Novi Sad, such as the Old Town and Liman."
+                            "title": "Smeštaj za Novu Godinu i praznike",
+                            "content": "Ukoliko ste se odlučili za prenoćište u Novom Sadu, predlažemo vam da razmotrite različite kategorije apartmana na dan i time sebi obezbedite najbolji mogući smeštaj za kratak izlet. Osim standardnih, kvalitet boravka može itekako popraviti boravak uapartmanima sa bazenom, stanovima koji poseduju djakuzi, apartmanima na dan koji se nalaze u najužem centru i u najlepšim delovima Novog Sada, kao što su Stari grad i Liman."
                         },
                         "accomodationCard": [{
                                 "id": 1,
-                                "title": "Festive atmosphere",
+                                "title": "Praznična atmosfera",
                                 "subtitle": "",
-                                "content": "The now traditional Zimzolend awaits us in Liberty Square every day throughout December – from 1 to 28. So far, Zimzoland is proof that snow is not necessary to enjoy the holiday spirit – festive candles and lights, the scent of mulled wine and gingerbread, and inevitable smiles! In over 30 New Year’s houses, you will be able to try and buy the best homemade products: sweets, cakes, mulled wine, craft beers, and other food and New Year’s decorations. In addition to this, children’s choirs will perform every evening, and Novi Sad bands and DJs on weekends.",
+                                "content": "Sada već tradicionalni Zimzolend nas čeka na Trgu slobode svakog dana tokom celog decembra – od 1. do 28. decembra. Zimzoland je do sada dokaz da sneg nije neophodan za uživanje u prazničnom duhu – prazničnim svećama i rasvetama, mirisu kuvanog vina i medenjaka i neizbežni osmeh! U preko 30 novogodišnjih kućica moći ćete da probate i kupite najbolje domaće proizvode: slatkiše, kolače, kuvano vino, zanatsko pivo i drugu hranu i novogodišnje ukrase. Pored toga, svako veče će nastupati dečiji horovi, a vikendom novosadski bendovi i di-džejevi.",
                                 "image": "img/accommodation/new year.jpeg",
                                 "thumbnail": "img/accommodation/new year.jpeg"
                             },
                             {
                                 "id": 2,
-                                "title": "Novi Sad Downtown",
+                                "title": "U srcu Novog Sada",
                                 "subtitle": "",
-                                "content": "The center of the cultural capital exudes a festive atmosphere, the mood of the people is visibly different, the city and the streets are sparkling, while the decorated city center looks magical!",
-                                "image": "img//accommodation/new year 2.jpeg",
+                                "content": "Centar prestonice kulture odiše prazničnom antmostferom, raspoloženje ljudi je vidno drugačije, grad i ulice blistaju, dok ukrašeni centar grada izgleda magično!",
+                                "image ": "img //accommodation/new year 3.jpeg",
                                 "thumbnail": "img//accommodation/new year 2.jpeg"
                             },
                             {
                                 "id": 3,
-                                "title": "Take a Carriage Ride",
+                                "title": "Fijakerom do vašeg apartmana",
                                 "subtitle": "",
-                                "content": "Residents of Novi Sad, as well as many tourists and guests of Novi Sad, are delighted with the carriage and horses. Give it a go!",
+                                "content": "Novosađani, ali i mnogobrojni turisti i gosti Novog Sada oduševljeni fijakerom i konjima. Probajte i vi!",
                                 "image": "img//accommodation/new year 3.jpeg",
                                 "thumbnail": "img//accommodation/new year 3.jpeg"
                             }
@@ -1082,8 +1073,7 @@
                 "heading": {
                     "title": "!In Vino Veritas!",
                     "subtitle": "Zadovoljite Vaša čula najkvalitetnijom hranom i pićem u gradu.",
-                    "content": "Nakon duge šetnje, teškog posla, napornog dana, zaslužili ste predah, a kako sebe drugačije nagraditi nego uživanjem u najboljim zalogajima i gutljajima, zato, prepustite se hedonizmu i ne žalite. Život ulepšavaju sitnice. Novi Sad Vam nudi sve ono što Vam nedostaje!",
-          "text": ""
+                    "content": "Nakon duge šetnje, teškog posla, napornog dana, zaslužili ste predah, a kako sebe drugačije nagraditi nego uživanjem u najboljim zalogajima i gutljajima, zato, prepustite se hedonizmu i ne žalite. Život ulepšavaju sitnice. Novi Sad Vam nudi sve ono što Vam nedostaje! Dobro došli!"
                 },
                 "content": [{
                         "heading": {
@@ -1103,16 +1093,16 @@
                                 "title": "Ekspres",
                                 "subtitle": "",
                                 "content": "Žurite, a gladni ste? Najbolja opcija za Vas jesu ekspres restorani koji nude kuvana jela vrhunskog kvaliteta.",
-                                "image": "img/eatDrink/expressRestaurant.jpg",
-                                "thumbnail": "img/eatDrink/expressRestaurant.jpg"
+                                "image": "img/eatDrink/internationalRestaurant.jpg",
+                                "thumbnail": "img/eatDrink/internationalRestaurant.jpg"
                             },
                             {
                                 "id": 3,
-                                "title": "Internacionalni",
+                                "title": "Veganski",
                                 "subtitle": "",
                                 "content": " Niste fan mesa i ostalih proizvoda životinjskog porekla? Onda su veganski restorani pravi izbor za Vas.",
-                                "image": "img/eatDrink/internationalRestaurant.jpg",
-                                "thumbnail": "img/eatDrink/internationalRestaurant.jpg"
+                                "image": "img/home/Zimzolend_14-1024x683.jpg",
+                                "thumbnail": "img/home/Zimzolend_14-1024x683.jpg"
                             },
                             {
                                 "id": 4,
@@ -1205,7 +1195,7 @@
                         "heading": {
                             "title": "",
                             "subtitle": "",
-                            "content": "Vrata Novosadskog sajma biće otvorena od 18 časova, a karte će moći da se kupe po ceni od 500 dinara za jedno veče, dok će cena obe večeri iznositi 800 dinara."
+                            "content": ""
                         },
                         "eatDrinkCard": [{
                                 "id": 1,
@@ -1252,8 +1242,8 @@
                                 "title": "Salaši",
                                 "subtitle": "",
                                 "content": " Ukoliko želite tišinu i odmor, salaši su izbor za vas. Moći ćete da napunite svoje baterije i da uživate u opuštenoj atmosferi i bogatoj ponudi raznih vojvođanskih specijaliteta.",
-                                "image": "img/eatDrink/salasi.jpg",
-                                "thumbnail": "img/eatDrink/salasi.jpg"
+                                "image": "img/eatDrink/restoranSalas.jpg",
+                                "thumbnail": "img/eatDrink/restoranSalas.jpg"
                             }
                         ]
                     }
@@ -1572,15 +1562,6 @@
                             }
                         ]
                     },
-          {
-            "heading": {
-              "title": "Petrovaradinska tvrđava",
-              "content": " Na desnoj obali Dunava nalazi se Petrovaradinska tvrđava koja spada među najznačajnije, sačuvane, evropskefortifikacije.Pored toga što je simbol Grada, ona je svedok multikonfesionalne tradicije snažno oslonjene na evropsku kulturu, ali i najatraktivnija turistička zona Novog Sada. Danas je to prostor gde se nalazi oko stotinu umetničkih ateljea, zatim restorani, kafei, muzeji, galerije…."
-            },
-            "exploreCard": [],
-            "videoLink": "../dist/videos/PETROVARADINSKA-TVRDJAVA.mp4"
-
-          },
                     {
                         "heading": {
                             "title": "Bekstvo iz grada",
