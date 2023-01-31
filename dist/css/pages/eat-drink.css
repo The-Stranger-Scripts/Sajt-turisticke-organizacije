@@ -97,6 +97,10 @@ h2 {
   -webkit-box-orient: vertical;
 }
 
+.text {
+  margin-bottom: 2rem; 
+}
+
 .invitation-card {
   margin: 0 auto 3rem;
   width: 82%;
