@@ -55,9 +55,9 @@ async function initData() {
         case 'events.html':
           main.innerHTML = writeEvents(data[`${lang}`]);
           break;
-        // case 'explore.html':
-        //   main.innerHTML = writeExplore(data[`${lang}`]);
-        //   break;
+        case 'explore.html':
+         explore(data[`${lang}`]);
+          break;
 
         default:
           break;
