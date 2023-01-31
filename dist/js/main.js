@@ -2,7 +2,7 @@
 import * as header from './modules/header.js';
 import writeFooter from './modules/footer.js';
 import * as home from './modules/home.js';
-// import writeEvents from './modules/events.js';
+import writeEvents from './modules/events.js';
 // ! importovati module za svaku stranicu
 
 // Get Html elements
@@ -49,9 +49,9 @@ async function initData() {
         // case 'accomondation.html':
         //   main.innerHTML = writeAccomondation(data[`${lang}`]);
         //   break;
-        // case 'eat-drink.html':
-        //   main.innerHTML = writeEatDrink(data[`${lang}`]);
-        //   break;
+        case 'eat-drink.html':
+          main.innerHTML = eatDrinkPage(data[`${lang}`]);
+          break;
         case 'events.html':
           main.innerHTML = writeEvents(data[`${lang}`]);
           break;
@@ -69,13 +69,14 @@ async function initData() {
       AOS.init();
     })
     .then(() => {
-      // let srOption, enOption;
       let logoVersion = document.querySelector('.logo-img');
 
       if (initialLangLoad) {
-        if (window.matchMedia('(max-width: 960px)').matches) {
+        if (window.matchMedia('(max-width: 992px)').matches) {
           srOption = document.getElementById('srSmallDisplay');
           enOption = document.getElementById('enSmallDisplay');
+
+          logoVersion.src = 'img/ns-logo-final-ver-justV.svg';
         } else {
           srOption = document.getElementById('srLargeDisplay');
           enOption = document.getElementById('enLargeDisplay');
@@ -94,7 +95,7 @@ async function initData() {
       header.navbarBackgroundScroll();
 
       window.onresize = () => {
-        if (window.innerWidth < 960) {
+        if (window.innerWidth < 992) {
           srOption = document.getElementById('srSmallDisplay');
           enOption = document.getElementById('enSmallDisplay');
 
@@ -112,6 +113,7 @@ async function initData() {
         });
         enOption.addEventListener('click', () => {
           lang = localStorage.setItem('language', 'en_EN');
+          
           initData();
         });
         header.navbarBackgroundScroll();
