@@ -242,19 +242,26 @@
                     },
                     "accomodationCard": [{
                             "id": 1,
-                            "title": "City Centre",
+                            "title": "Festive atmosphere",
                             "subtitle": "",
-                            "content": "When it comes to the locations of the apartments, they are located in all important parts of the city, both in the center of Novi Sad and in the suburbs. If your choice is a Novi Sad apartment for the day, there is no doubt that you will find an object that will meet all your criteria.",
-                            "image": "img/accommodation/city centre.jpeg",
-                            "thumbnail": "img/accommodation/city centre.jpeg"
+                            "content": "The now traditional Zimzolend awaits us in Liberty Square every day throughout December – from 1 to 28. So far, Zimzoland is proof that snow is not necessary to enjoy the holiday spirit – festive candles and lights, the scent of mulled wine and gingerbread, and inevitable smiles! In over 30 New Year’s houses, you will be able to try and buy the best homemade products: sweets, cakes, mulled wine, craft beers, and other food and New Year’s decorations. In addition to this, children’s choirs will perform every evening, and Novi Sad bands and DJs on weekends.",
+                            "image": "img/accommodation/new year.jpeg",
+                            "thumbnail": "img/accommodation/new year.jpeg"
                         },
                         {
                             "id": 2,
-                            "title": "Novi Sad Outscirts",
+                            "title": "Novi Sad Downtown",
                             "subtitle": "",
-                            "content": "",
-                            "image": "img//accommodation/novo naselje.jpeg",
-                            "thumbnail": "img//accommodation/novo naselje.jpeg"
+                            "content": "The center of the cultural capital exudes a festive atmosphere, the mood of the people is visibly different, the city and the streets are sparkling, while the decorated city center looks magical!",
+                            "image": "img//accommodation/new year 2.jpeg",
+                            "thumbnail": "img//accommodation/new year 2.jpeg"
+                        } {
+                            "id": 3,
+                            "title": "Take a Carriage Ride",
+                            "subtitle": "",
+                            "content": "Residents of Novi Sad, as well as many tourists and guests of Novi Sad, are delighted with the carriage and horses. Give it a go!",
+                            "image": "img//accommodation/new year 3.jpeg",
+                            "thumbnail": "img//accommodation/new year 3.jpeg"
                         }
                     ]
                 },
