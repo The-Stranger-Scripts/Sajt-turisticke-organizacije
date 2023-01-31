@@ -151,7 +151,7 @@
           "title": "!In Vino Veritas!",
           "subtitle": "Satisfy your senses with the best quality food and drink in town.",
           "content": "After a long walk, hard work, a tiring day, you deserve a break, and is there any better way to reward yourself than by enjoying the best bites and sips, so indulge in hedonism and don't regret it. Little things in everyday life can make you happy . Novi Sad offers you everything you are missing!",
-          "text": "Welcome!"
+          "text": ""
         },
         "content": [
           {
@@ -279,7 +279,7 @@
             "heading": {
               "title": "",
               "subtitle": "",
-              "content": ""
+              "content": "Novi Sad fair will open at 6:00 p.m., and tickets will be available at a price of 500 dinars for one evening, while the price for both evenings will be 800 dinars."
             },
             "eatDrinkCard": [
               {
@@ -918,7 +918,8 @@
         "heading": {
           "title": "!In Vino Veritas!",
           "subtitle": "Zadovoljite Vaša čula najkvalitetnijom hranom i pićem u gradu.",
-          "content": "Nakon duge šetnje, teškog posla, napornog dana, zaslužili ste predah, a kako sebe drugačije nagraditi nego uživanjem u najboljim zalogajima i gutljajima, zato, prepustite se hedonizmu i ne žalite. Život ulepšavaju sitnice. Novi Sad Vam nudi sve ono što Vam nedostaje! Dobro došli!"
+          "content": "Nakon duge šetnje, teškog posla, napornog dana, zaslužili ste predah, a kako sebe drugačije nagraditi nego uživanjem u najboljim zalogajima i gutljajima, zato, prepustite se hedonizmu i ne žalite. Život ulepšavaju sitnice. Novi Sad Vam nudi sve ono što Vam nedostaje!",
+          "text": ""
         },
         "content": [
           {
@@ -940,16 +941,16 @@
                 "title": "Ekspres",
                 "subtitle": "",
                 "content": "Žurite, a gladni ste? Najbolja opcija za Vas jesu ekspres restorani koji nude kuvana jela vrhunskog kvaliteta.",
-                "image": "img/eatDrink/internationalRestaurant.jpg",
-                "thumbnail": "img/eatDrink/internationalRestaurant.jpg"
+                "image": "img/eatDrink/expressRestaurant.jpg",
+                "thumbnail": "img/eatDrink/expressRestaurant.jpg"
               },
               {
                 "id": 3,
-                "title": "Veganski",
+                "title": "Internacionalni",
                 "subtitle": "",
                 "content": " Niste fan mesa i ostalih proizvoda životinjskog porekla? Onda su veganski restorani pravi izbor za Vas.",
-                "image": "img/home/Zimzolend_14-1024x683.jpg",
-                "thumbnail": "img/home/Zimzolend_14-1024x683.jpg"
+                "image": "img/eatDrink/internationalRestaurant.jpg",
+                "thumbnail": "img/eatDrink/internationalRestaurant.jpg"
               },
               {
                 "id": 4,
@@ -1046,7 +1047,7 @@
             "heading": {
               "title": "",
               "subtitle": "",
-              "content": "Vrata Novosadskog sajma biće otvorena od 18 časova, a karte će moći da se kupi po ceni od 500 dinara za jedno veče, dok će cena obe večeri iznositi 800 dinara."
+              "content": "Vrata Novosadskog sajma biće otvorena od 18 časova, a karte će moći da se kupe po ceni od 500 dinara za jedno veče, dok će cena obe večeri iznositi 800 dinara."
             },
             "eatDrinkCard": [
               {
@@ -1095,8 +1096,8 @@
                 "title": "Salaši",
                 "subtitle": "",
                 "content": " Ukoliko želite tišinu i odmor, salaši su izbor za vas. Moći ćete da napunite svoje baterije i da uživate u opuštenoj atmosferi i bogatoj ponudi raznih vojvođanskih specijaliteta.",
-                "image": "img/eatDrink/restoranSalas.jpg",
-                "thumbnail": "img/eatDrink/restoranSalas.jpg"
+                "image": "img/eatDrink/salasi.jpg",
+                "thumbnail": "img/eatDrink/salasi.jpg"
               }
             ]
           }
