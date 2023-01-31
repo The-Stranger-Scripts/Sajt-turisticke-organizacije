@@ -3,6 +3,8 @@ import * as header from './modules/header.js';
 import writeFooter from './modules/footer.js';
 import * as home from './modules/home.js';
 import writeEvents from './modules/events.js';
+import writeAccomodation from './modules/accomodation.js';
+
 // ! importovati module za svaku stranicu
 
 // Get Html elements
@@ -13,13 +15,13 @@ let main = document.querySelector('main');
 // Set initial language in localStorage
 let lang = localStorage.getItem('language');
 if (!lang) {
-  localStorage.setItem('language', 'sr_SR');
+    localStorage.setItem('language', 'sr_SR');
 }
 
 // Get queryString location of page
 let location = () => {
-  let queryArr = window.location.href.split('/');
-  return queryArr[queryArr.length - 1];
+    let queryArr = window.location.href.split('/');
+    return queryArr[queryArr.length - 1];
 };
 
 let initialLoad = true;
@@ -28,97 +30,97 @@ let srOption, enOption;
 
 // Function for initial rendering of header and footer
 async function initData() {
-  return fetch('db/db.json')
-    .then(res => res.json())
-    .then(data => {
-      lang = localStorage.getItem('language');
-      if (initialLoad) {
-        nav.innerHTML = header.writeHeader(data[`${lang}`]);
-        initialLoad = false;
-      } else {
-        header.writeHeaderTitles(data[`${lang}`]);
-      }
+    return fetch('db/db.json')
+        .then(res => res.json())
+        .then(data => {
+            lang = localStorage.getItem('language');
+            if (initialLoad) {
+                nav.innerHTML = header.writeHeader(data[`${lang}`]);
+                initialLoad = false;
+            } else {
+                header.writeHeaderTitles(data[`${lang}`]);
+            }
 
-      // Ispis main-a u zavisnostio od lokacije
-      switch (location()) {
-        case '':
-        case 'index.html':
-          main.innerHTML = home.writeHome(data[`${lang}`]);
-          break;
-        // Odkomentarisati case za koji se uradi neki kontent u odg. JS-u
-        // case 'accomondation.html':
-        //   main.innerHTML = writeAccomondation(data[`${lang}`]);
-        //   break;
-        case 'eat-drink.html':
-          main.innerHTML = eatDrinkPage(data[`${lang}`]);
-          break;
-        case 'events.html':
-          main.innerHTML = writeEvents(data[`${lang}`]);
-          break;
-        // case 'explore.html':
-        //   main.innerHTML = writeExplore(data[`${lang}`]);
-        //   break;
+            // Ispis main-a u zavisnostio od lokacije
+            switch (location()) {
+                case '':
+                case 'index.html':
+                    main.innerHTML = home.writeHome(data[`${lang}`]);
+                    break;
+                    // Odkomentarisati case za koji se uradi neki kontent u odg. JS-u
+                case 'accomodation.html':
+                    main.innerHTML = writeAccomodation(data[`${lang}`]);
+                    break;
+                case 'eat-drink.html':
+                    main.innerHTML = eatDrinkPage(data[`${lang}`]);
+                    break;
+                case 'events.html':
+                    main.innerHTML = writeEvents(data[`${lang}`]);
+                    break;
+                    // case 'explore.html':
+                    //   main.innerHTML = writeExplore(data[`${lang}`]);
+                    //   break;
 
-        default:
-          break;
-      }
+                default:
+                    break;
+            }
 
-      ft.innerHTML = writeFooter(data[`${lang}`]);
+            ft.innerHTML = writeFooter(data[`${lang}`]);
 
-      // AOS init function
-      AOS.init();
-    })
-    .then(() => {
-      let logoVersion = document.querySelector('.logo-img');
+            // AOS init function
+            AOS.init();
+        })
+        .then(() => {
+            let logoVersion = document.querySelector('.logo-img');
 
-      if (initialLangLoad) {
-        if (window.matchMedia('(max-width: 992px)').matches) {
-          srOption = document.getElementById('srSmallDisplay');
-          enOption = document.getElementById('enSmallDisplay');
+            if (initialLangLoad) {
+                if (window.matchMedia('(max-width: 992px)').matches) {
+                    srOption = document.getElementById('srSmallDisplay');
+                    enOption = document.getElementById('enSmallDisplay');
 
-          logoVersion.src = 'img/ns-logo-final-ver-justV.svg';
-        } else {
-          srOption = document.getElementById('srLargeDisplay');
-          enOption = document.getElementById('enLargeDisplay');
-        }
-        initialLangLoad = false;
-      }
+                    logoVersion.src = 'img/ns-logo-final-ver-justV.svg';
+                } else {
+                    srOption = document.getElementById('srLargeDisplay');
+                    enOption = document.getElementById('enLargeDisplay');
+                }
+                initialLangLoad = false;
+            }
 
-      srOption.addEventListener('click', () => {
-        lang = localStorage.setItem('language', 'sr_SR');
-        initData();
-      });
-      enOption.addEventListener('click', () => {
-        lang = localStorage.setItem('language', 'en_EN');
-        initData();
-      });
-      header.navbarBackgroundScroll();
+            srOption.addEventListener('click', () => {
+                lang = localStorage.setItem('language', 'sr_SR');
+                initData();
+            });
+            enOption.addEventListener('click', () => {
+                lang = localStorage.setItem('language', 'en_EN');
+                initData();
+            });
+            header.navbarBackgroundScroll();
 
-      window.onresize = () => {
-        if (window.innerWidth < 992) {
-          srOption = document.getElementById('srSmallDisplay');
-          enOption = document.getElementById('enSmallDisplay');
+            window.onresize = () => {
+                if (window.innerWidth < 992) {
+                    srOption = document.getElementById('srSmallDisplay');
+                    enOption = document.getElementById('enSmallDisplay');
 
-          logoVersion.src = 'img/ns-logo-final-ver-justV.svg';
-        } else {
-          srOption = document.getElementById('srLargeDisplay');
-          enOption = document.getElementById('enLargeDisplay');
+                    logoVersion.src = 'img/ns-logo-final-ver-justV.svg';
+                } else {
+                    srOption = document.getElementById('srLargeDisplay');
+                    enOption = document.getElementById('enLargeDisplay');
 
-          logoVersion.src = 'img/ns-logo-final-ver-transparent.svg';
-        }
+                    logoVersion.src = 'img/ns-logo-final-ver-transparent.svg';
+                }
 
-        srOption.addEventListener('click', () => {
-          lang = localStorage.setItem('language', 'sr_SR');
-          initData();
+                srOption.addEventListener('click', () => {
+                    lang = localStorage.setItem('language', 'sr_SR');
+                    initData();
+                });
+                enOption.addEventListener('click', () => {
+                    lang = localStorage.setItem('language', 'en_EN');
+
+                    initData();
+                });
+                header.navbarBackgroundScroll();
+            };
         });
-        enOption.addEventListener('click', () => {
-          lang = localStorage.setItem('language', 'en_EN');
-          
-          initData();
-        });
-        header.navbarBackgroundScroll();
-      };
-    });
 }
 // Inner content to html elements
 await initData();
