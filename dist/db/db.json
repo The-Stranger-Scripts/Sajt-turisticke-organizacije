@@ -658,6 +658,15 @@
           },
           {
             "heading": {
+              "title": "Petrovaradin Fortress",
+              "content": " Petrovaradin Fortress belongs to the most significant, preserved European fortifications.In addition to being the symbol of the city it is also the witness to multiconfessional tradition that reliesstrongly on European culture and most attractive tourist zone of Novi Sad. It is currently the area with around one hundred of art studios, restaurants, cafes, museums, galleries…."
+            },
+            "exploreCard": [],
+            "videoLink": "../dist/videos/PETROVARADINSKA-TVRDJAVA.mp4"
+
+          },
+          {
+            "heading": {
               "title": "Escape from the city",
               "content": "If you are a lover of nature, good wines, and a more peaceful way of vacation, we invite you to go with us to Fruška Gora. Places that belong to most important material and cultural heritage in the territory of the National Park Fruška Gora include the complex of Serbian Orthodox monasteries. Fruška Gora is the area of good wines with the following prominent wine centres: Irig, Banoštor, Sremski Karlovci, and Šid."
             },
@@ -1426,6 +1435,15 @@
                 "thumbnail": "img/explore/Limanski_park.jpg"
               }
             ]
+          },
+          {
+            "heading": {
+              "title": "Petrovaradinska tvrđava",
+              "content": " Na desnoj obali Dunava nalazi se Petrovaradinska tvrđava koja spada među najznačajnije, sačuvane, evropskefortifikacije.Pored toga što je simbol Grada, ona je svedok multikonfesionalne tradicije snažno oslonjene na evropsku kulturu, ali i najatraktivnija turistička zona Novog Sada. Danas je to prostor gde se nalazi oko stotinu umetničkih ateljea, zatim restorani, kafei, muzeji, galerije…."
+            },
+            "exploreCard": [],
+            "videoLink": "../dist/videos/PETROVARADINSKA-TVRDJAVA.mp4"
+
           },
           {
             "heading": {
