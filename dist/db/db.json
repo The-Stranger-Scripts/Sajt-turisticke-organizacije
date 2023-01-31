@@ -224,6 +224,23 @@
                         "content": "The Exit festival has been going on for more than a decade and is becoming an increasingly popular music festival in Southeastern Europe. The Exit festival in Novi Sad takes place every year in the middle of summer and it is always somewhere around July 5 to 10, which leaves room for many to reserve a room or apartment. In the period before the very beginning of Exit, it is literally impossible to find a place to spend the night or even not for any person. For this reason, we advise you to rent an apartment as soon as possible."
                     },
                     "accomodationCard": [{
+                        "id": 1,
+                        "video" {
+                            "title": "Exit",
+                            "link": "https://www.youtube.com/embed/i0FuvHoTkwU"
+                        },
+                    }, ]
+                },
+                {
+                    "heading": {
+                        "title": "Accommodation for the New Year and Holidays",
+                        "content": "If you have decided to stay overnight in Novi Sad, we suggest that you consider different categories of apartments for the day and thus provide yourself with the best possible accommodation for a short trip. In addition to the standard ones, the quality of stay can be greatly improved by staying in apartments with a pool, apartments with a jacuzzi,
+                        apartments
+                        for the day located in the very center and in the most beautiful parts of Novi Sad,
+                        such as the Old Town and Liman.
+                        "
+                    },
+                    "accomodationCard": [{
                             "id": 1,
                             "title": "City Centre",
                             "subtitle": "",
