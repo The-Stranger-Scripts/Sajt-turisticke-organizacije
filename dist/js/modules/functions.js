@@ -19,6 +19,3 @@
 // // let lang = 'en';
 
 // export { data };
-
-let activeBtn = document.getElementById('activeBtn');
-console.log(activeBtn);

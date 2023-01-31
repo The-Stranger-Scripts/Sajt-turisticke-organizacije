@@ -4,7 +4,7 @@ import writeFooter from './modules/footer.js';
 import * as home from './modules/home.js';
 import writeEvents from './modules/events.js';
 import writeBlog from './modules/blog.js';
-import writeAccomondation from './modules/accomodation.js';
+import writeAccomodation from './modules/accomodation.js';
 
 // ! importovati module za svaku stranicu
 
@@ -42,7 +42,7 @@ async function initData() {
         header.writeHeaderTitles(data[`${lang}`]);
       }
 
-      // Ispis main-a u zavisnsostio od lokacije
+      // Ispis main-a u zavisnostio od lokacije
       switch (location()) {
         case '':
         case 'index.html':
@@ -50,7 +50,7 @@ async function initData() {
           break;
         // Odkomentarisati case za koji se uradi neki kontent u odg. JS-u
         case 'accomodation.html':
-          main.innerHTML = writeAccomondation(data[`${lang}`]);
+          main.innerHTML = writeAccomodation(data[`${lang}`]);
           break;
         case 'eat-drink.html':
           main.innerHTML = eatDrinkPage(data[`${lang}`]);
@@ -58,9 +58,9 @@ async function initData() {
         case 'events.html':
           main.innerHTML = writeEvents(data[`${lang}`]);
           break;
-        // case 'explore.html':
-        //   main.innerHTML = writeExplore(data[`${lang}`]);
-        //   break;
+        case 'explore.html':
+          explore(data[`${lang}`]);
+          break;
         case 'blog.html':
           main.innerHTML = writeBlog(data[`${lang}`]);
           break;
