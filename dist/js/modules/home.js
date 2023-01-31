@@ -9,7 +9,9 @@ let writeHome = data => {
 
   let eventsData = data.main.events;
   let eventsDataCards = eventsData.content[0].eventCard;
-  // let accomodationData = data.main.accomodation.content;
+
+  let accomodationData = data.main.accomodation;
+  let accomodationDataCards = accomodationData.content[3].accomodationCard;
 
   let homeCtn = '';
 
@@ -94,18 +96,17 @@ let writeHome = data => {
 
     ${homeMediaSec(homeData.content[0])}
     ${writeHomeSec(eventsData, eventsDataCards, 'm', 'events.html')}
+    ${writeHomeSec(
+      accomodationData,
+      accomodationDataCards,
+      'sm',
+      'explore.html'
+    )}
+
 
     ${homeFormSec(homeData.content[0].form)}
   </div>
   `;
-  // console.log(homeData);
-  // console.log(exploreData);
-  // console.log(exploreDataCards);
-
-  // console.log(eatDrinkData);
-  // console.log(eventsData);
-  // console.log(eatDrinkDataCards);
-  // eatDrinkonsole.log(accomodationData);
 
   return homeCtn;
 };
