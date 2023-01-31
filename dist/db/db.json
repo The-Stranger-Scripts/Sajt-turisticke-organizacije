@@ -195,6 +195,52 @@
                         },
                     ]
                 },
+                {
+                    "heading": {
+                        "title": "Stan na dan",
+                        "content": "Apartments Novi Sad - a large offer of accommodation in the most beautiful city of Vojvodina. In recent years, Novi Sad has become an increasingly popular tourist destination. The exit, the city's cultural contents, events and the special atmosphere that the city exudes attract tourists from all over the world. In accordance with this, the accommodation offer is developed. The capital of Vojvodina offers its visitors a variety of apartments, which are decorated according to the highest European standards. All apartments in Day Novi Sad have modern furniture, a series of details that create a pleasant atmosphere and elements necessary for a pleasant stay. They are distributed in all Novi Sad settlements, so they manage to adapt to different reasons for staying in the city. See the entire offer of apartments in Novi Sad and find accommodation that will meet all your requirements and show you all the beauties of the capital of Vojvodina."
+                    },
+                    "accomodationCard": [{
+                            "id": 1,
+                            "title": "City Centre",
+                            "subtitle": "",
+                            "content": "When it comes to the locations of the apartments, they are located in all important parts of the city, both in the center of Novi Sad and in the suburbs. If your choice is a Novi Sad apartment for the day, there is no doubt that you will find an object that will meet all your criteria.",
+                            "image": "img/accommodation/city centre.jpeg",
+                            "thumbnail": "img/accommodation/city centre.jpeg"
+                        },
+                        {
+                            "id": 2,
+                            "title": "Novi Sad Outscirts",
+                            "subtitle": "",
+                            "content": "",
+                            "image": "img//accommodation/novo naselje.jpeg",
+                            "thumbnail": "img//accommodation/novo naselje.jpeg"
+                        }
+                    ]
+                },
+                {
+                    "heading": {
+                        "title": "Accommodation for the Exit festival",
+                        "content": "The Exit festival has been going on for more than a decade and is becoming an increasingly popular music festival in Southeastern Europe. The Exit festival in Novi Sad takes place every year in the middle of summer and it is always somewhere around July 5 to 10, which leaves room for many to reserve a room or apartment. In the period before the very beginning of Exit, it is literally impossible to find a place to spend the night or even not for any person. For this reason, we advise you to rent an apartment as soon as possible."
+                    },
+                    "accomodationCard": [{
+                            "id": 1,
+                            "title": "City Centre",
+                            "subtitle": "",
+                            "content": "When it comes to the locations of the apartments, they are located in all important parts of the city, both in the center of Novi Sad and in the suburbs. If your choice is a Novi Sad apartment for the day, there is no doubt that you will find an object that will meet all your criteria.",
+                            "image": "img/accommodation/city centre.jpeg",
+                            "thumbnail": "img/accommodation/city centre.jpeg"
+                        },
+                        {
+                            "id": 2,
+                            "title": "Novi Sad Outscirts",
+                            "subtitle": "",
+                            "content": "",
+                            "image": "img//accommodation/novo naselje.jpeg",
+                            "thumbnail": "img//accommodation/novo naselje.jpeg"
+                        }
+                    ]
+                },
                 "eatDrink": {
                     "heading": {
                         "title": "!In Vino Veritas!",
