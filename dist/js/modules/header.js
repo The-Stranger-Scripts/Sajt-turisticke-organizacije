@@ -30,7 +30,7 @@ const writeHeader = function(data) {
                     <a class="navbar-brand m-0 pt-1 pt-sm-0" href="index.html">
                     <img src="img/ns-logo-final-ver-transparent.svg" alt="Turistička agencija Novog Sada" class="d-inline-block align-text-top py-1 px-3 logo-img">
                     </a>
-                    <button class="navbar-toggler align-self-center ms-3 mx-2 me-sm-0" type="button" data-bs-toggle="offcanvas"
+                    <button class="navbar-toggler shadow-none align-self-center ms-3 mx-2 me-sm-0" type="button" data-bs-toggle="offcanvas"
                     data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
                     <span class="navbar-toggler-icon"></span>
                     </button>
@@ -41,13 +41,13 @@ const writeHeader = function(data) {
 
                         <div id="langBtnGroup" class="btn-group btn-group-sm mx-2 me-auto" role="group" aria-label="Basic radio toggle button group">
                           <input type="radio" class="btn-check" name="btnradio" id="srSmallDisplay" autocomplete="off" ${localStorage.getItem('language') === 'sr_SR' ? 'checked' : ''}>
-                          <label class="btn btn-outline-dark" for="srSmallDisplay">SR</label>
+                          <label class="btn btn-outline-dark" data-bs-dismiss="offcanvas" for="srSmallDisplay">SR</label>
 
                           <input type="radio" class="btn-check" name="btnradio" id="enSmallDisplay" autocomplete="off" ${localStorage.getItem('language') === 'en_EN' ? 'checked' : ''}>
-                          <label class="btn btn-outline-dark" for="enSmallDisplay">EN</label>
+                          <label class="btn btn-outline-dark" data-bs-dismiss="offcanvas" for="enSmallDisplay">EN</label>
                         </div>
 
-                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                        <button type="button" class="btn-close shadow-none" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                     </div>
                     <div class="offcanvas-body p-0">
                         <ul class="navbar-nav justify-content-lg-center align-items-lg-end flex-grow-1 px-0">
@@ -124,7 +124,7 @@ const navbarBackgroundScroll = function () {
   let navbarElement = document.querySelector('.navbar');
   let rightBarInfo = document.querySelector('.right-bar-info');
 
-  if (window.matchMedia('(max-width: 960px)').matches) {
+  if (window.matchMedia('(max-width: 992px)').matches) {
     navbarElement.classList.add('bg-nav-white-transparent');
   } else {
     navbarElement.classList.add('bg-nav-white-gradient');
@@ -134,7 +134,7 @@ const navbarBackgroundScroll = function () {
   window.onscroll = function () {
     let currentScrollPos = window.pageYOffset;
     if (prevScrollpos + 114 > currentScrollPos && window.pageYOffset < 228) {
-      if (window.matchMedia('(max-width: 960px)').matches) {
+      if (window.matchMedia('(max-width: 992px)').matches) {
         navbarElement.classList.remove('bg-nav-white-gradient');
         navbarElement.classList.add('bg-nav-white-transparent');
       } else {
