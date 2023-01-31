@@ -51,7 +51,7 @@ const explore = data => {
 
 
 
-//function playPauseVideo() {
+function playPauseVideo() {
     let videos = document.querySelectorAll("video");
     videos.forEach((video) => {
          video.muted = true;
@@ -79,6 +79,7 @@ const explore = data => {
         }
     });
 
+}
 
 
 
