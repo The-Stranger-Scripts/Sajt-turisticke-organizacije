@@ -3,6 +3,9 @@ import * as header from './modules/header.js';
 import writeFooter from './modules/footer.js';
 import * as home from './modules/home.js';
 import writeEvents from './modules/events.js';
+import writeBlog from './modules/blog.js';
+import writeAccomodation from './modules/accomodation.js';
+
 // ! importovati module za svaku stranicu
 
 // Get Html elements
@@ -46,9 +49,9 @@ async function initData() {
           main.innerHTML = home.writeHome(data[`${lang}`]);
           break;
         // Odkomentarisati case za koji se uradi neki kontent u odg. JS-u
-        // case 'accomondation.html':
-        //   main.innerHTML = writeAccomondation(data[`${lang}`]);
-        //   break;
+        case 'accomodation.html':
+          main.innerHTML = writeAccomodation(data[`${lang}`]);
+          break;
         case 'eat-drink.html':
           main.innerHTML = eatDrinkPage(data[`${lang}`]);
           break;
@@ -56,7 +59,10 @@ async function initData() {
           main.innerHTML = writeEvents(data[`${lang}`]);
           break;
         case 'explore.html':
-         explore(data[`${lang}`]);
+          explore(data[`${lang}`]);
+          break;
+        case 'blog.html':
+          main.innerHTML = writeBlog(data[`${lang}`]);
           break;
 
         default:
@@ -113,7 +119,7 @@ async function initData() {
         });
         enOption.addEventListener('click', () => {
           lang = localStorage.setItem('language', 'en_EN');
-          
+
           initData();
         });
         header.navbarBackgroundScroll();

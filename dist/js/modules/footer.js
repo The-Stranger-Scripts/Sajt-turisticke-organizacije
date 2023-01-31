@@ -33,8 +33,8 @@ function writeFooter(data) {
                 <h3>${data.footer.contact}</h3>
                 <p><i class="fa-solid fa-location-dot"></i> Trg slobode 3, 21101 Novi Sad</p>
                 <p><i class="fa-solid fa-phone"></i> (+381) 23 45 678</p>
-                <p><i class="fa-regular fa-envelope"></i> strangerscripts@mail.com</p>
-                <p><i class="fa-regular fa-clock"></i> Mon. - Fri. 8am - 4pm</p>
+                <p><i class="fa-regular fa-envelope"></i> strangerscripts@gmail.com</p>
+                <p><i class="fa-regular fa-clock"></i>${data.footer.time}</p>
             </div>
         </div>
     </div>
