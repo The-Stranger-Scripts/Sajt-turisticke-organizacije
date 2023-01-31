@@ -3,6 +3,9 @@ import * as header from './modules/header.js';
 import writeFooter from './modules/footer.js';
 import * as home from './modules/home.js';
 import writeEvents from './modules/events.js';
+import writeBlog from './modules/blog.js';
+import writeAccomondation from './modules/accomodation.js';
+
 // ! importovati module za svaku stranicu
 
 // Get Html elements
@@ -39,16 +42,16 @@ async function initData() {
         header.writeHeaderTitles(data[`${lang}`]);
       }
 
-      // Ispis main-a u zavisnostio od lokacije
+      // Ispis main-a u zavisnsostio od lokacije
       switch (location()) {
         case '':
         case 'index.html':
           main.innerHTML = home.writeHome(data[`${lang}`]);
           break;
         // Odkomentarisati case za koji se uradi neki kontent u odg. JS-u
-        // case 'accomondation.html':
-        //   main.innerHTML = writeAccomondation(data[`${lang}`]);
-        //   break;
+        case 'accomodation.html':
+          main.innerHTML = writeAccomondation(data[`${lang}`]);
+          break;
         case 'eat-drink.html':
           main.innerHTML = eatDrinkPage(data[`${lang}`]);
           break;
@@ -58,6 +61,9 @@ async function initData() {
         // case 'explore.html':
         //   main.innerHTML = writeExplore(data[`${lang}`]);
         //   break;
+        case 'blog.html':
+          main.innerHTML = writeBlog(data[`${lang}`]);
+          break;
 
         default:
           break;
@@ -113,7 +119,7 @@ async function initData() {
         });
         enOption.addEventListener('click', () => {
           lang = localStorage.setItem('language', 'en_EN');
-          
+
           initData();
         });
         header.navbarBackgroundScroll();

@@ -33,44 +33,7 @@
       "searchButton": "Search"
     },
     "footer": {
-      "secwrap": [
-        {
-          "title": "About Nazivsajta",
-          "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis impedit nisi possimus dolore accusamus adipisci. Porro rem saepe voluptatem deleniti provident ipsam debitis adipisci eaque voluptate, quas, sint, numquam fugit?",
-          "link": "The Privacy Policy for NazivSajta"
-        },
-        {
-          "title": "Tourist Attraction",
-          "link": [
-            "City Center",
-            "Petrovaradin",
-            "Novi Sad on the Danube",
-            "Fordress",
-            "Fruska gora",
-            "Wineries"
-          ]
-        },
-        {
-          "title": "Frequently visited",
-          "link": [
-            "Things to Do",
-            "Destination",
-            "Nature & Climate",
-            "When to go",
-            "Culture",
-            "Frequently Asked Questions"
-          ]
-        },
-        {
-          "title": "Info for tourists",
-          "link": [
-            "Tourist information centers",
-            "Services information",
-            "How to reach us",
-            "Public Transort"
-          ]
-        }
-      ],
+      "time": "Mon. - Fri. 8am - 4pm",
       "nav": "Navigation",
       "contact": "Contact us"
     },
@@ -108,44 +71,172 @@
       },
       "accomodation": {
         "heading": {
-          "title": "Neki header title",
-          "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis impedit nisi possimus dolore accusamus adipisci. Porro rem saepe voluptatem deleniti provident ipsam debitis adipisci eaque voluptate, quas, sint, numquam fugit?"
+          "title": "Accomodation in Novi Sad",
+          "subtitle": "Get cozy at the heart of the city",
+          "content": "A large offer of accommodation in the most beautiful city of Vojvodina. In recent years, Novi Sad has become an increasingly popular tourist destination. The Exit, the city 's cultural contents, events and the special atmosphere that the city exudes attract tourists from all over the world. In accordance with this, the accommodation offer is developed. The capital of Vojvodina offers its visitors a variety of apartments, which are decorated according to the highest European standards. All apartments in Day Novi Sad have modern furniture, a series of details that create a pleasant atmosphere and elements necessary for a pleasant stay. They are distributed in all Novi Sad settlements, so they manage to adapt to different reasons for staying in the city. See the entire offer of apartments in Novi Sad and find accommodation that will meet all your requirements and show you all the beauties of the capital of Vojvodina."
         },
         "content": [
           {
+            "heading": {
+              "title": "Top 10 4-star Hotels",
+            "content": "Novi Sad can boast a wide range of hotels and accommodation facilities, which will satisfy the needs of tourists of very different affinities.. Novi Sad has a total of 31 hotels of all categories, so you can easily find a place to stay or stay for a few days in one of them, if you want to get to know this Serbian capital of culture a little closer, and the city that was chosen as the European capital of culture for 2022.",
+            },
+            "accomodationCard": [
+          {
             "id": 1,
-            "title": "Neki naslov",
-            "subtitle": "Neki podnaslov",
-            "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis impedit nisi possimus dolore accusamus adipisci. Porro rem saepe voluptatem deleniti provident ipsam debitis adipisci eaque voluptate, quas, sint, numquam fugit?",
-            "image": "img/home/Zimzolend_14-1024x683.jpg",
-            "thumbnail": "img/home/Zimzolend_14-1024x683.jpg"
+            "title": "1. Arhiv Boutique House",
+            "subtitle": "",
+            "content": "Arhiv Boutique House offers accommodation with a restaurant and free WiFi in all areas, as well as free private parking for guests who drive. It is located in Novi Sad, 1 km from SPENS Sports Center and 1.7 km from Promenada Shopping Center. Family rooms and a terrace are available to guests of this accommodation facility. The accommodation facility offers room service and luggage storage. All guest rooms have air conditioning, flat-screen TV with cable channels, kettle, shower, hair dryer and desk. Some rooms also have a kitchenette with a refrigerator, mini-bar and cooking plate. All accommodation units have a private bathroom, free toiletries and bed linen. Continental and à-la-carte breakfast are available each morning at the inn. Popular attractions near Arhiv Boutique House include Museum of Vojvodina, Serbian National Theater and Bulevar Tourist Information Center. Nearest airport is Nikola Tesla Airport in Belgrade, 83 km from the accommodation. Airport shuttle service is available at an additional cost.",
+            "image": "img/explore/Spomenik_Svetozaru_Miletiću.jpg",
+            "thumbnail": "img/explore/Spomenik_Svetozaru_Miletiću.jpg"
           },
           {
-            "id": 2,
-            "title": "Neki naslov",
-            "subtitle": "Neki podnaslov",
-            "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis impedit nisi possimus dolore accusamus adipisci. Porro rem saepe voluptatem deleniti provident ipsam debitis adipisci eaque voluptate, quas, sint, numquam fugit?",
-            "image": "img/home/Zimzolend_14-1024x683.jpg",
-            "thumbnail": "img/home/Zimzolend_14-1024x683.jpg"
+              "id": 2,
+              "title": "2. Kombinat Rooms City Center",
+              "subtitle": "",
+              "content": "The Kombinat Rooms City Center facility offers express check-in and check-out, rooms, a restaurant, free WiFi in all areas of the facility, as well as a garden, and is located in Novi Sad, less than 1 km from the SPENS Sports Center. They are available to the guests of this facility family rooms and terrace. Accommodation offers include room service and luggage storage. All hotel rooms have air conditioning, a seating area and a flat-screen TV with cable channels. A safe and a private bathroom are offered with a shower. Certain rooms in the Kombinat Rooms City Center offer a view of the city. The rooms also have a patio. Towels and bed linen are provided in the rooms. Guests of Kombinat Rooms City Center can enjoy in continental or à la carte breakfast. Popular attractions near the hotel include the Promenada shopping center, the Museum of Vojvodina and the Serbian National Theatre. The nearest airport is Nikola Tesla Airport in Belgrade, 81 km from the property Kombinat Rooms City Center. Airport shuttle service is available at an additional cost.",
+              "image": "img/accommodation/2. Kombinat Rooms City Center.jpeg",
+              "thumbnail": "img/accommodation/2. Kombinat Rooms City Center.jpeg"
           },
           {
-            "id": 3,
-            "title": "Neki naslov",
-            "subtitle": "Neki podnaslov",
-            "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis impedit nisi possimus dolore accusamus adipisci. Porro rem saepe voluptatem deleniti provident ipsam debitis adipisci eaque voluptate, quas, sint, numquam fugit?",
-            "image": "img/home/Zimzolend_14-1024x683.jpg",
-            "thumbnail": "img/home/Zimzolend_14-1024x683.jpg"
+              "id": 3,
+              "title": "3. Novi Sad Pupin Hotel",
+              "subtitle": "",
+              "content": "Hotel Pupin Novi Sad has a restaurant, private parking and a bar. It is located in Novi Sad, 800 meters from the sports center SPENS. Built in 2020, this five-star hotel is located 1.1 km from Promenada Shopping Center and 500 meters from the Serbian National Theatre.The reception is open 24 / 7, while free Wi - Fi is available throughout the facility.The hotel 's offer also includes airport transfer and room service. Some accommodation units have a kitchenette with mini - bar.The hotel serves a buffet breakfast.The Museum of Vojvodina is less than 1 km away, and the Novi Sad Synagogue is a 3 - minute walk from Hotel Pupin Novi Sad.The nearest airport is Nikola Tesla Airport in Belgrade, 81 km away.",
+              "image": "img/accommodation/3. Hotel Pupin Novi Sad .jpeg",
+              "thumbnail": "img/accommodation/3. Hotel Pupin Novi Sad .jpeg"
           },
           {
-            "id": 4,
-            "title": "Neki naslov",
-            "subtitle": "Neki podnaslov",
-            "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis impedit nisi possimus dolore accusamus adipisci. Porro rem saepe voluptatem deleniti provident ipsam debitis adipisci eaque voluptate, quas, sint, numquam fugit?",
-            "image": "img/home/Zimzolend_14-1024x683.jpg",
-            "thumbnail": "img/home/Zimzolend_14-1024x683.jpg"
+              "id": 4,
+              "title": "4. Pupin Palace Apartments",
+              "subtitle": "",
+              "content": "Located less than 1 km from SPENS Sports Center, Pupin Palace Apartments provides accommodation with a bar, a terrace and a 24-hour front desk for your convenience. Free WiFi is available in all rooms, and private parking is available within the facility. The air - conditioned accommodation units have a living room with a flat - screen TV, a kitchen with a dishwasher and a fridge, a washing machine, a safe and a private bathroom with bathrobes and slippers.Each unit contains space for sitting and dining.Cars can be rented on site.Popular destinations near Pupin Palace Apartments include the Promenada shopping center, the Serbian National Theater and the Museum of Vojvodina.Nearest airport is Nikola Tesla Airport in Belgrade, 84 km from the accommodation facility.Airport shuttle service is available at an additional cost.",
+              "image": "img/accommodation/4. Pupin Palace Apartments.jpeg",
+              "thumbnail": "img/accommodation/4. Pupin Palace Apartments.jpeg"
+          },
+          {
+              "id": 5,
+              "title": "5. Garni hotel Ami ",
+              "subtitle": "",
+              "content": "The Garni Hotel Ami has a common lounge, free private parking, a restaurant and a bar. It is located in Novi Sad, 2 km from the Promenada shopping center. This four-star hotel offers luggage storage, an airport shuttle and valet parking in the room.The reception is open 24 / 7, while free Wi - Fi is available throughout the facility.The rooms are air - conditioned and include a seating area, a flat - screen TV with satellite channels and a private bathroom with a shower,free toiletries accessories and hair dryer.They are equipped with a safe and a kettle.Some rooms have a paved courtyard, while some have a view of the city.Towels and bed linen are provided in the rooms of the GARNI HOTEL AMI facility.It is served in the facility buffet breakfast or continental breakfast.Not far from the GARNI HOTEL AMI facility are popular destinations, such as the Serbian National Theatre, the Museum of Vojvodina and the Novi Sad Synagogue.The nearest airport is Aerodrom Nikola Tesla in Belgrade, 80 km away.",
+              "image": "img/explore/matica-sroska.webp",
+              "thumbnail": "img/explore/matica-sroska.webp"
+          },
+          {
+              "id": 6,
+              "title": "6. Lanterna Rooms City Center",
+              "subtitle": "",
+              "content": "Located in Novi Sad, 1.4 km from SPENS Sports Center, Lanterna Rooms City Center provides accommodation with a restaurant, private parking, a bar and a garden. Guests are also offered room service, luggage storage and free WiFi in all areas. The guesthouse has family rooms. Air-conditioned rooms with wardrobe, kettle, fridge, safe, flat-screen TV, patio and private bathroom with shower are available to guests of the pension. All rooms at Lanterna Rooms City Center have bed linen and towels. Continental or à-la-carte breakfast is served in the accommodation facility. Lanterna Rooms City Center has a terrace. Popular places near this guesthouse are the Museum of Vojvodina, the Serbian National Theater and the venue of the Exit festival. The nearest airport is Nikola Tesla Airport in Belgrade, 84 km from the Lanterna Rooms City Center facility. Airport shuttle service is available at an additional cost.",
+              "image": "img/accommodation/6. Lanterna Rooms City Center.jpeg",
+              "thumbnail": "img/accommodation/6. Lanterna Rooms City Center.jpeg"
+          },
+          {
+              "id": 7,
+              "title": "7. Lux New White Apartment",
+              "subtitle": "",
+              "content": "Lux new white apartment is located in an attractive location in Novi Sad, 1.3 km from SPENS Sports Center and 1.5 km from Serbian National Theatre. The offer includes a terrace and a 24-hour reception. The air-conditioned accommodation is 1 km from the Promenada Shopping Center, and guests can enjoy private on-site parking and free Wi-Fi. The apartment has 1 bedroom, a flat-screen TV with satellite channels and an equipped kitchen with a fridge and a stove. It also includes a washing machine and 1 bathroom with a shower. The offer of apartments includes a car rental service. Museum of Vojvodina is 2.3 km from Lux new white apartment, while Novi Sad Fair is 2.4 km away. The nearest airport is Belgrade Nikola Tesla Airport, 59 km away. Transfer from/to the airport is available for a surcharge.",
+              "image": "img/explore/zmaj-jovina-min.jpg",
+              "thumbnail": "img/explore/zmaj-jovina-min.jpg"
+          },
+          {
+              "id": 8,
+              "title": "8. Apartment Eugen",
+              "subtitle": "",
+              "content": "Apartment Eugen is located in Novi Sad, 1.5 km from SPENS Sports Center and 1.8 km from Promenada Shopping Center. We offer air-conditioned accommodation with a balcony and free WiFi. The Novi Sad Fair is 2.5 km away, and the venue of the Exit Festival is 2.8 km from the property. The apartment has 1 bedroom, 1 bathroom with a shower and an equipped kitchen with a fridge and an oven. It also includes a washing machine and a flat-screen TV with satellite channels. Towels and bed linen are provided. Guests staying in the apartment can use the terrace. Popular points of interest near Apartment Eugen include Serbian National Theatre, Museum of Vojvodina and Tourist Information Center Jevrejska. The nearest airport is Nikola Tesla Airport in Belgrade, 83 km from the accommodation. Airport shuttle service is available at an additional cost.",
+              "image": "img/accommodation/8. Apartment Eugen.jpeg",
+              "thumbnail": "img/accommodation/8. Apartment Eugen.jpeg"
+          },
+          {
+              "id": 9,
+              "title": "9. Sheraton Novi Sad",
+              "subtitle": "",
+              "content": "Sheraton Novi Sad has private parking, a fitness center and a common lounge. It is located in Novi Sad, 2.7 km from the Promenada shopping center. This four-star hotel offers an ATM, a business center, an airport shuttle, and room service. The reception is open 24 hours a day, while Wi-Fi and bicycles can be used free of charge. Sheraton Novi Sad serves a buffet breakfast, full English/Irish or Italian breakfast every day. In the hotel restaurant you can enjoy Spanish and international dishes. Vegetarian, vegan and gluten-free dishes can be prepared upon request. The offer of this four-star property also includes a hammam. SPENS Sports Center is 3 km from Sheraton Novi Sad, while Serbian National Theater is 2.7 km away. The nearest airport is Belgrade Nikola Tesla Airport, 83 km away.",
+              "image": "img/accommodation/9. Sheraton Novi Sad.jpeg",
+              "thumbnail": "img/accommodation/9. Sheraton Novi Sad.jpeg"
+          },
+          {
+              "id": 10,
+              "title": "10. Premium Apartments",
+              "subtitle": "",
+              "content": "Premium Apartments is located 2.6 km from Promenada Shopping Center. The offer includes a garden, a terrace and air-conditioned accommodation with a balcony and free WiFi. Each unit has a sofa, a seating area, a flat-screen TV with satellite channels, a well-equipped kitchen with a dining area, and a private bathroom with slippers. An additional convenience is provided by towels and bed linen, which guests can get for an additional fee. A children's playground is also available to the guests of the apartment. Popular attractions near Premium Apartments include Novi Sad Fair, Serbian National Theater and Tourist Information Center Jevrejska. The nearest airport is Nikola Tesla Airport in Belgrade, 82 km from the accommodation facility. Airport shuttle service is available at an additional cost.",
+              "image": "img/accommodation/10. Premium Apartments.jpeg",
+              "thumbnail": "img/accommodation/10. Premium Apartments.jpeg"
+          }
+            ]
+          },
+          {
+            "heading": {
+              "title": "Stan na dan",
+              "content": "Apartments Novi Sad - a large offer of accommodation in the most beautiful city of Vojvodina. In recent years, Novi Sad has become an increasingly popular tourist destination. The exit, the city's cultural contents, events and the special atmosphere that the city exudes attract tourists from all over the world. In accordance with this, the accommodation offer is developed. The capital of Vojvodina offers its visitors a variety of apartments, which are decorated according to the highest European standards. All apartments in Day Novi Sad have modern furniture, a series of details that create a pleasant atmosphere and elements necessary for a pleasant stay. They are distributed in all Novi Sad settlements, so they manage to adapt to different reasons for staying in the city. See the entire offer of apartments in Novi Sad and find accommodation that will meet all your requirements and show you all the beauties of the capital of Vojvodina."
+            },
+            "accomodationCard": [
+              {
+              "id": 1,
+              "title": "City Centre",
+              "subtitle": "",
+              "content": "When it comes to the locations of the apartments, they are located in all important parts of the city, both in the center of Novi Sad and in the suburbs. If your choice is a Novi Sad apartment for the day, there is no doubt that you will find an object that will meet all your criteria.",
+              "image": "img/accommodation/city centre.jpeg",
+              "thumbnail": "img/accommodation/city centre.jpeg"
+          },
+          {
+              "id": 2,
+              "title": "Novi Sad Outscirts",
+              "subtitle": "",
+              "content": "",
+              "image": "img//accommodation/novo naselje.jpeg",
+              "thumbnail": "img//accommodation/novo naselje.jpeg"
+          }
+            ]
+          },
+          {
+            "heading": {
+              "title": "Accommodation for the Exit festival",
+              "content": "The Exit festival has been going on for more than a decade and is becoming an increasingly popular music festival in Southeastern Europe. The Exit festival in Novi Sad takes place every year in the middle of summer and it is always somewhere around July 5 to 10, which leaves room for many to reserve a room or apartment. In the period before the very beginning of Exit, it is literally impossible to find a place to spend the night or even not for any person. For this reason, we advise you to rent an apartment as soon as possible."
+            },
+            "accomodationCard": [
+              {
+              "id": 1,
+              "title": "Exit",
+              "link": "https://www.youtube.com/embed/i0FuvHoTkwU",
+              "alt": "Exit promo video"
+            }
+            ]
+          },
+          {
+            "heading": {
+              "title": "Accommodation for the New Year and Holidays",
+              "content": "If you have decided to stay overnight in Novi Sad, we suggest that you consider different categories of apartments for the day and thus provide yourself with the best possible accommodation for a short trip. In addition to the standard ones, the quality of stay can be greatly improved by staying in apartments with a pool, apartments with a jacuzzi, apartments for the day located in the very center and in the most beautiful parts of Novi Sad, such as the Old Town and Liman."
+            },
+            "accomodationCard": [
+              {
+                "id": 1,
+                "title": "Festive atmosphere",
+                "subtitle": "",
+                "content": "The now traditional Zimzolend awaits us in Liberty Square every day throughout December – from 1 to 28. So far, Zimzoland is proof that snow is not necessary to enjoy the holiday spirit – festive candles and lights, the scent of mulled wine and gingerbread, and inevitable smiles! In over 30 New Year’s houses, you will be able to try and buy the best homemade products: sweets, cakes, mulled wine, craft beers, and other food and New Year’s decorations. In addition to this, children’s choirs will perform every evening, and Novi Sad bands and DJs on weekends.",
+                "image": "img/accommodation/new year.jpeg",
+                "thumbnail": "img/accommodation/new year.jpeg"
+            },
+            {
+                "id": 2,
+                "title": "Novi Sad Downtown",
+                "subtitle": "",
+                "content": "The center of the cultural capital exudes a festive atmosphere, the mood of the people is visibly different, the city and the streets are sparkling, while the decorated city center looks magical!",
+                "image": "img//accommodation/new year 2.jpeg",
+                "thumbnail": "img//accommodation/new year 2.jpeg"
+            },
+            {
+                "id": 3,
+                "title": "Take a Carriage Ride",
+                "subtitle": "",
+                "content": "Residents of Novi Sad, as well as many tourists and guests of Novi Sad, are delighted with the carriage and horses. Give it a go!",
+                "image": "img//accommodation/new year 3.jpeg",
+                "thumbnail": "img//accommodation/new year 3.jpeg"
+            }
+            ]
           }
         ]
-      },
+      }
+      ,
       "eatDrink": {
         "heading": {
           "title": "!In Vino Veritas!",
@@ -718,39 +809,64 @@
       },
       "blog": {
         "heading": {
-          "title": "Neki header title",
-          "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis impedit nisi possimus dolore accusamus adipisci. Porro rem saepe voluptatem deleniti provident ipsam debitis adipisci eaque voluptate, quas, sint, numquam fugit?"
+          "title": "Blog",
+          "btn": "Learn more",
+          "heading": "Latest"
         },
         "content": [
           {
             "id": 1,
-            "title": "Neki naslov",
-            "subtitle": "Neki podnaslov",
-            "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis impedit nisi possimus dolore accusamus adipisci. Porro rem saepe voluptatem deleniti provident ipsam debitis adipisci eaque voluptate, quas, sint, numquam fugit?",
+            "title": "Exit festival",
+            "content": [
+              "EXIT is an award-winning summer music festival that takes place at the Petrovaradin Fortress in Novi Sad, Serbia, with more than 1000 artists who play at over 40 stages and festival zones. It was officially proclaimed “Best Major European Festival” at the EU Festival Awards 2013 and 2017. EXIT has also won the “Best Overseas Festival” award at the UK Festival Awards in 2007, as well as “Best Summer Music Festival in Europe” title for 2016 by the travel portal “European Best Destinations” awarded in cooperation with the European Commission. In March 2018 Regional Cooperation Council awarded EXIT Festival as Champion of Regional Cooperation for 2017.",
+              "The 20th anniversary of EXIT will be celebrated according to the original plans, from 8th to 11th July at the Petrovaradin Fortress. An all-star line-up with major headliners is also confirmed, including David Guetta, DJ Snake, Tyga, Eric Prydz b2b Four Tet, Paul Kalkbrenner, Nina Kraviz, Boris Brejcha, Sheck Wes, Solomun, Paul van Dyk, Sepultura, Metronomy, Honey Dijon and many others.",
+              "This year’s EXIT will be a symbol of Serbia’s victory over the pandemic. Entry to the festival will be allowed to all those who have been vaccinated and those with antibodies. To make the festival accessible to all, everyone else will be able to take a rapid antigen test, which will be provided at low prices, in a specially made area near the festival gates."
+            ],
+            "venue": "Venue: Petrovaradin Fortress",
+            "date": "July 6 - July 9",
+            "link": "The programme can be found on the organiser’s website: https://www.exitfest.org/en/lineup",
             "image": "img/home/Zimzolend_14-1024x683.jpg",
             "thumbnail": "img/home/Zimzolend_14-1024x683.jpg"
           },
           {
             "id": 2,
-            "title": "Neki naslov",
-            "subtitle": "Neki podnaslov",
-            "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis impedit nisi possimus dolore accusamus adipisci. Porro rem saepe voluptatem deleniti provident ipsam debitis adipisci eaque voluptate, quas, sint, numquam fugit?",
+            "title": "Exit festival",
+            "content": [
+              "EXIT is an award-winning summer music festival that takes place at the Petrovaradin Fortress in Novi Sad, Serbia, with more than 1000 artists who play at over 40 stages and festival zones. It was officially proclaimed “Best Major European Festival” at the EU Festival Awards 2013 and 2017. EXIT has also won the “Best Overseas Festival” award at the UK Festival Awards in 2007, as well as “Best Summer Music Festival in Europe” title for 2016 by the travel portal “European Best Destinations” awarded in cooperation with the European Commission. In March 2018 Regional Cooperation Council awarded EXIT Festival as Champion of Regional Cooperation for 2017.",
+              "The 20th anniversary of EXIT will be celebrated according to the original plans, from 8th to 11th July at the Petrovaradin Fortress. An all-star line-up with major headliners is also confirmed, including David Guetta, DJ Snake, Tyga, Eric Prydz b2b Four Tet, Paul Kalkbrenner, Nina Kraviz, Boris Brejcha, Sheck Wes, Solomun, Paul van Dyk, Sepultura, Metronomy, Honey Dijon and many others.",
+              "This year’s EXIT will be a symbol of Serbia’s victory over the pandemic. Entry to the festival will be allowed to all those who have been vaccinated and those with antibodies. To make the festival accessible to all, everyone else will be able to take a rapid antigen test, which will be provided at low prices, in a specially made area near the festival gates."
+            ],
+            "venue": "Venue: Petrovaradin Fortress",
+            "date": "July 6 - July 9",
+            "link": "The programme can be found on the organiser’s website: https://www.exitfest.org/en/lineup",
             "image": "img/home/Zimzolend_14-1024x683.jpg",
             "thumbnail": "img/home/Zimzolend_14-1024x683.jpg"
           },
           {
             "id": 3,
-            "title": "Neki naslov",
-            "subtitle": "Neki podnaslov",
-            "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis impedit nisi possimus dolore accusamus adipisci. Porro rem saepe voluptatem deleniti provident ipsam debitis adipisci eaque voluptate, quas, sint, numquam fugit?",
+            "title": "Exit festival",
+            "content": [
+              "EXIT is an award-winning summer music festival that takes place at the Petrovaradin Fortress in Novi Sad, Serbia, with more than 1000 artists who play at over 40 stages and festival zones. It was officially proclaimed “Best Major European Festival” at the EU Festival Awards 2013 and 2017. EXIT has also won the “Best Overseas Festival” award at the UK Festival Awards in 2007, as well as “Best Summer Music Festival in Europe” title for 2016 by the travel portal “European Best Destinations” awarded in cooperation with the European Commission. In March 2018 Regional Cooperation Council awarded EXIT Festival as Champion of Regional Cooperation for 2017.",
+              "The 20th anniversary of EXIT will be celebrated according to the original plans, from 8th to 11th July at the Petrovaradin Fortress. An all-star line-up with major headliners is also confirmed, including David Guetta, DJ Snake, Tyga, Eric Prydz b2b Four Tet, Paul Kalkbrenner, Nina Kraviz, Boris Brejcha, Sheck Wes, Solomun, Paul van Dyk, Sepultura, Metronomy, Honey Dijon and many others.",
+              "This year’s EXIT will be a symbol of Serbia’s victory over the pandemic. Entry to the festival will be allowed to all those who have been vaccinated and those with antibodies. To make the festival accessible to all, everyone else will be able to take a rapid antigen test, which will be provided at low prices, in a specially made area near the festival gates."
+            ],
+            "venue": "Venue: Petrovaradin Fortress",
+            "date": "July 6 - July 9",
+            "link": "The programme can be found on the organiser’s website: https://www.exitfest.org/en/lineup",
             "image": "img/home/Zimzolend_14-1024x683.jpg",
             "thumbnail": "img/home/Zimzolend_14-1024x683.jpg"
           },
           {
             "id": 4,
-            "title": "Neki naslov",
-            "subtitle": "Neki podnaslov",
-            "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis impedit nisi possimus dolore accusamus adipisci. Porro rem saepe voluptatem deleniti provident ipsam debitis adipisci eaque voluptate, quas, sint, numquam fugit?",
+            "title": "Exit festival",
+            "content": [
+              "EXIT is an award-winning summer music festival that takes place at the Petrovaradin Fortress in Novi Sad, Serbia, with more than 1000 artists who play at over 40 stages and festival zones. It was officially proclaimed “Best Major European Festival” at the EU Festival Awards 2013 and 2017. EXIT has also won the “Best Overseas Festival” award at the UK Festival Awards in 2007, as well as “Best Summer Music Festival in Europe” title for 2016 by the travel portal “European Best Destinations” awarded in cooperation with the European Commission. In March 2018 Regional Cooperation Council awarded EXIT Festival as Champion of Regional Cooperation for 2017.",
+              "The 20th anniversary of EXIT will be celebrated according to the original plans, from 8th to 11th July at the Petrovaradin Fortress. An all-star line-up with major headliners is also confirmed, including David Guetta, DJ Snake, Tyga, Eric Prydz b2b Four Tet, Paul Kalkbrenner, Nina Kraviz, Boris Brejcha, Sheck Wes, Solomun, Paul van Dyk, Sepultura, Metronomy, Honey Dijon and many others.",
+              "This year’s EXIT will be a symbol of Serbia’s victory over the pandemic. Entry to the festival will be allowed to all those who have been vaccinated and those with antibodies. To make the festival accessible to all, everyone else will be able to take a rapid antigen test, which will be provided at low prices, in a specially made area near the festival gates."
+            ],
+            "venue": "Venue: Petrovaradin Fortress",
+            "date": "July 6 - July 9",
+            "link": "The programme can be found on the organiser’s website: https://www.exitfest.org/en/lineup",
             "image": "img/home/Zimzolend_14-1024x683.jpg",
             "thumbnail": "img/home/Zimzolend_14-1024x683.jpg"
           }
@@ -792,53 +908,7 @@
       "searchButton": "Pretraga"
     },
     "footer": {
-      "secwrap": [
-        {
-          "title": "O Nazivsajta",
-          "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis impedit nisi possimus dolore accusamus adipisci. Porro rem saepe voluptatem deleniti provident ipsam debitis adipisci eaque voluptate, quas, sint, numquam fugit?",
-          "link": "Politika privatnosti za NazivSajta"
-        },
-        {
-          "title": "Tourističke destinacije",
-          "link": [
-            "Gradski centar",
-            "Petrovaradin",
-            "Novi Sad na Dunavu",
-            "Tvrđave",
-            "Fruska gora",
-            "Vinarije"
-          ]
-        },
-        {
-          "title": "Često posećivane stranice",
-          "link": [
-            "Šta raditi",
-            "Destinacije",
-            "Klima i Priroda",
-            "Kada otići",
-            "Kultura",
-            "Najčešća pitanja"
-          ]
-        },
-        {
-          "title": "Informacije za turiste",
-          "link": [
-            "Touristički informativni centar",
-            "Servisne informacije",
-            "Kako doći do nas",
-            "Javni prevoz"
-          ]
-        },
-        {
-          "title": "Kontaktirajte nas",
-          "link": [
-            "neka adresa",
-            "(+381) 23 45 678",
-            "info@nazivsajta.com",
-            "Pon. - Pet. 08h - 16h"
-          ]
-        }
-      ],
+      "time": "Pon. - Pet. 08h - 16h",
       "nav": "Navigacija",
       "contact": "Kontakt"
     },
@@ -874,43 +944,170 @@
           }
         ]
       },
-      "accomodation": {
+         "accomodation": {
         "heading": {
-          "title": "Neki header title",
-          "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis impedit nisi possimus dolore accusamus adipisci. Porro rem saepe voluptatem deleniti provident ipsam debitis adipisci eaque voluptate, quas, sint, numquam fugit?"
+          "title": "Accomodation in Novi Sad",
+          "subtitle": "Get cozy at the heart of the city",
+          "content": "A large offer of accommodation in the most beautiful city of Vojvodina. In recent years, Novi Sad has become an increasingly popular tourist destination. The Exit, the city 's cultural contents, events and the special atmosphere that the city exudes attract tourists from all over the world. In accordance with this, the accommodation offer is developed. The capital of Vojvodina offers its visitors a variety of apartments, which are decorated according to the highest European standards. All apartments in Day Novi Sad have modern furniture, a series of details that create a pleasant atmosphere and elements necessary for a pleasant stay. They are distributed in all Novi Sad settlements, so they manage to adapt to different reasons for staying in the city. See the entire offer of apartments in Novi Sad and find accommodation that will meet all your requirements and show you all the beauties of the capital of Vojvodina."
         },
         "content": [
           {
+            "heading": {
+              "title": "Top 10 4-star Hotels",
+            "content": "Novi Sad can boast a wide range of hotels and accommodation facilities, which will satisfy the needs of tourists of very different affinities.. Novi Sad has a total of 31 hotels of all categories, so you can easily find a place to stay or stay for a few days in one of them, if you want to get to know this Serbian capital of culture a little closer, and the city that was chosen as the European capital of culture for 2022.",
+            },
+            "accomodationCard": [
+          {
             "id": 1,
-            "title": "Neki naslov",
-            "subtitle": "Neki podnaslov",
-            "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis impedit nisi possimus dolore accusamus adipisci. Porro rem saepe voluptatem deleniti provident ipsam debitis adipisci eaque voluptate, quas, sint, numquam fugit?",
-            "image": "img/home/Zimzolend_14-1024x683.jpg",
-            "thumbnail": "img/home/Zimzolend_14-1024x683.jpg"
+            "title": "1. Arhiv Boutique House",
+            "subtitle": "",
+            "content": "Arhiv Boutique House offers accommodation with a restaurant and free WiFi in all areas, as well as free private parking for guests who drive. It is located in Novi Sad, 1 km from SPENS Sports Center and 1.7 km from Promenada Shopping Center. Family rooms and a terrace are available to guests of this accommodation facility. The accommodation facility offers room service and luggage storage. All guest rooms have air conditioning, flat-screen TV with cable channels, kettle, shower, hair dryer and desk. Some rooms also have a kitchenette with a refrigerator, mini-bar and cooking plate. All accommodation units have a private bathroom, free toiletries and bed linen. Continental and à-la-carte breakfast are available each morning at the inn. Popular attractions near Arhiv Boutique House include Museum of Vojvodina, Serbian National Theater and Bulevar Tourist Information Center. Nearest airport is Nikola Tesla Airport in Belgrade, 83 km from the accommodation. Airport shuttle service is available at an additional cost.",
+            "image": "img/explore/Spomenik_Svetozaru_Miletiću.jpg",
+            "thumbnail": "img/explore/Spomenik_Svetozaru_Miletiću.jpg"
           },
           {
-            "id": 2,
-            "title": "Neki naslov",
-            "subtitle": "Neki podnaslov",
-            "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis impedit nisi possimus dolore accusamus adipisci. Porro rem saepe voluptatem deleniti provident ipsam debitis adipisci eaque voluptate, quas, sint, numquam fugit?",
-            "image": "img/home/Zimzolend_14-1024x683.jpg",
-            "thumbnail": "img/home/Zimzolend_14-1024x683.jpg"
+              "id": 2,
+              "title": "2. Kombinat Rooms City Center",
+              "subtitle": "",
+              "content": "The Kombinat Rooms City Center facility offers express check-in and check-out, rooms, a restaurant, free WiFi in all areas of the facility, as well as a garden, and is located in Novi Sad, less than 1 km from the SPENS Sports Center. They are available to the guests of this facility family rooms and terrace. Accommodation offers include room service and luggage storage. All hotel rooms have air conditioning, a seating area and a flat-screen TV with cable channels. A safe and a private bathroom are offered with a shower. Certain rooms in the Kombinat Rooms City Center offer a view of the city. The rooms also have a patio. Towels and bed linen are provided in the rooms. Guests of Kombinat Rooms City Center can enjoy in continental or à la carte breakfast. Popular attractions near the hotel include the Promenada shopping center, the Museum of Vojvodina and the Serbian National Theatre. The nearest airport is Nikola Tesla Airport in Belgrade, 81 km from the property Kombinat Rooms City Center. Airport shuttle service is available at an additional cost.",
+              "image": "img/accommodation/2. Kombinat Rooms City Center.jpeg",
+              "thumbnail": "img/accommodation/2. Kombinat Rooms City Center.jpeg"
           },
           {
-            "id": 3,
-            "title": "Neki naslov",
-            "subtitle": "Neki podnaslov",
-            "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis impedit nisi possimus dolore accusamus adipisci. Porro rem saepe voluptatem deleniti provident ipsam debitis adipisci eaque voluptate, quas, sint, numquam fugit?",
-            "image": "img/home/Zimzolend_14-1024x683.jpg",
-            "thumbnail": "img/home/Zimzolend_14-1024x683.jpg"
+              "id": 3,
+              "title": "3. Novi Sad Pupin Hotel",
+              "subtitle": "",
+              "content": "Hotel Pupin Novi Sad has a restaurant, private parking and a bar. It is located in Novi Sad, 800 meters from the sports center SPENS. Built in 2020, this five-star hotel is located 1.1 km from Promenada Shopping Center and 500 meters from the Serbian National Theatre.The reception is open 24 / 7, while free Wi - Fi is available throughout the facility.The hotel 's offer also includes airport transfer and room service. Some accommodation units have a kitchenette with mini - bar.The hotel serves a buffet breakfast.The Museum of Vojvodina is less than 1 km away, and the Novi Sad Synagogue is a 3 - minute walk from Hotel Pupin Novi Sad.The nearest airport is Nikola Tesla Airport in Belgrade, 81 km away.",
+              "image": "img/accommodation/3. Hotel Pupin Novi Sad .jpeg",
+              "thumbnail": "img/accommodation/3. Hotel Pupin Novi Sad .jpeg"
           },
           {
-            "id": 4,
-            "title": "Neki naslov",
-            "subtitle": "Neki podnaslov",
-            "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis impedit nisi possimus dolore accusamus adipisci. Porro rem saepe voluptatem deleniti provident ipsam debitis adipisci eaque voluptate, quas, sint, numquam fugit?",
-            "image": "img/home/Zimzolend_14-1024x683.jpg",
-            "thumbnail": "img/home/Zimzolend_14-1024x683.jpg"
+              "id": 4,
+              "title": "4. Pupin Palace Apartments",
+              "subtitle": "",
+              "content": "Located less than 1 km from SPENS Sports Center, Pupin Palace Apartments provides accommodation with a bar, a terrace and a 24-hour front desk for your convenience. Free WiFi is available in all rooms, and private parking is available within the facility. The air - conditioned accommodation units have a living room with a flat - screen TV, a kitchen with a dishwasher and a fridge, a washing machine, a safe and a private bathroom with bathrobes and slippers.Each unit contains space for sitting and dining.Cars can be rented on site.Popular destinations near Pupin Palace Apartments include the Promenada shopping center, the Serbian National Theater and the Museum of Vojvodina.Nearest airport is Nikola Tesla Airport in Belgrade, 84 km from the accommodation facility.Airport shuttle service is available at an additional cost.",
+              "image": "img/accommodation/4. Pupin Palace Apartments.jpeg",
+              "thumbnail": "img/accommodation/4. Pupin Palace Apartments.jpeg"
+          },
+          {
+              "id": 5,
+              "title": "5. Garni hotel Ami ",
+              "subtitle": "",
+              "content": "The Garni Hotel Ami has a common lounge, free private parking, a restaurant and a bar. It is located in Novi Sad, 2 km from the Promenada shopping center. This four-star hotel offers luggage storage, an airport shuttle and valet parking in the room.The reception is open 24 / 7, while free Wi - Fi is available throughout the facility.The rooms are air - conditioned and include a seating area, a flat - screen TV with satellite channels and a private bathroom with a shower,free toiletries accessories and hair dryer.They are equipped with a safe and a kettle.Some rooms have a paved courtyard, while some have a view of the city.Towels and bed linen are provided in the rooms of the GARNI HOTEL AMI facility.It is served in the facility buffet breakfast or continental breakfast.Not far from the GARNI HOTEL AMI facility are popular destinations, such as the Serbian National Theatre, the Museum of Vojvodina and the Novi Sad Synagogue.The nearest airport is Aerodrom Nikola Tesla in Belgrade, 80 km away.",
+              "image": "img/explore/matica-sroska.webp",
+              "thumbnail": "img/explore/matica-sroska.webp"
+          },
+          {
+              "id": 6,
+              "title": "6. Lanterna Rooms City Center",
+              "subtitle": "",
+              "content": "Located in Novi Sad, 1.4 km from SPENS Sports Center, Lanterna Rooms City Center provides accommodation with a restaurant, private parking, a bar and a garden. Guests are also offered room service, luggage storage and free WiFi in all areas. The guesthouse has family rooms. Air-conditioned rooms with wardrobe, kettle, fridge, safe, flat-screen TV, patio and private bathroom with shower are available to guests of the pension. All rooms at Lanterna Rooms City Center have bed linen and towels. Continental or à-la-carte breakfast is served in the accommodation facility. Lanterna Rooms City Center has a terrace. Popular places near this guesthouse are the Museum of Vojvodina, the Serbian National Theater and the venue of the Exit festival. The nearest airport is Nikola Tesla Airport in Belgrade, 84 km from the Lanterna Rooms City Center facility. Airport shuttle service is available at an additional cost.",
+              "image": "img/accommodation/6. Lanterna Rooms City Center.jpeg",
+              "thumbnail": "img/accommodation/6. Lanterna Rooms City Center.jpeg"
+          },
+          {
+              "id": 7,
+              "title": "7. Lux New White Apartment",
+              "subtitle": "",
+              "content": "Lux new white apartment is located in an attractive location in Novi Sad, 1.3 km from SPENS Sports Center and 1.5 km from Serbian National Theatre. The offer includes a terrace and a 24-hour reception. The air-conditioned accommodation is 1 km from the Promenada Shopping Center, and guests can enjoy private on-site parking and free Wi-Fi. The apartment has 1 bedroom, a flat-screen TV with satellite channels and an equipped kitchen with a fridge and a stove. It also includes a washing machine and 1 bathroom with a shower. The offer of apartments includes a car rental service. Museum of Vojvodina is 2.3 km from Lux new white apartment, while Novi Sad Fair is 2.4 km away. The nearest airport is Belgrade Nikola Tesla Airport, 59 km away. Transfer from/to the airport is available for a surcharge.",
+              "image": "img/explore/zmaj-jovina-min.jpg",
+              "thumbnail": "img/explore/zmaj-jovina-min.jpg"
+          },
+          {
+              "id": 8,
+              "title": "8. Apartment Eugen",
+              "subtitle": "",
+              "content": "Apartment Eugen is located in Novi Sad, 1.5 km from SPENS Sports Center and 1.8 km from Promenada Shopping Center. We offer air-conditioned accommodation with a balcony and free WiFi. The Novi Sad Fair is 2.5 km away, and the venue of the Exit Festival is 2.8 km from the property. The apartment has 1 bedroom, 1 bathroom with a shower and an equipped kitchen with a fridge and an oven. It also includes a washing machine and a flat-screen TV with satellite channels. Towels and bed linen are provided. Guests staying in the apartment can use the terrace. Popular points of interest near Apartment Eugen include Serbian National Theatre, Museum of Vojvodina and Tourist Information Center Jevrejska. The nearest airport is Nikola Tesla Airport in Belgrade, 83 km from the accommodation. Airport shuttle service is available at an additional cost.",
+              "image": "img/accommodation/8. Apartment Eugen.jpeg",
+              "thumbnail": "img/accommodation/8. Apartment Eugen.jpeg"
+          },
+          {
+              "id": 9,
+              "title": "9. Sheraton Novi Sad",
+              "subtitle": "",
+              "content": "Sheraton Novi Sad has private parking, a fitness center and a common lounge. It is located in Novi Sad, 2.7 km from the Promenada shopping center. This four-star hotel offers an ATM, a business center, an airport shuttle, and room service. The reception is open 24 hours a day, while Wi-Fi and bicycles can be used free of charge. Sheraton Novi Sad serves a buffet breakfast, full English/Irish or Italian breakfast every day. In the hotel restaurant you can enjoy Spanish and international dishes. Vegetarian, vegan and gluten-free dishes can be prepared upon request. The offer of this four-star property also includes a hammam. SPENS Sports Center is 3 km from Sheraton Novi Sad, while Serbian National Theater is 2.7 km away. The nearest airport is Belgrade Nikola Tesla Airport, 83 km away.",
+              "image": "img/accommodation/9. Sheraton Novi Sad.jpeg",
+              "thumbnail": "img/accommodation/9. Sheraton Novi Sad.jpeg"
+          },
+          {
+              "id": 10,
+              "title": "10. Premium Apartments",
+              "subtitle": "",
+              "content": "Premium Apartments is located 2.6 km from Promenada Shopping Center. The offer includes a garden, a terrace and air-conditioned accommodation with a balcony and free WiFi. Each unit has a sofa, a seating area, a flat-screen TV with satellite channels, a well-equipped kitchen with a dining area, and a private bathroom with slippers. An additional convenience is provided by towels and bed linen, which guests can get for an additional fee. A children's playground is also available to the guests of the apartment. Popular attractions near Premium Apartments include Novi Sad Fair, Serbian National Theater and Tourist Information Center Jevrejska. The nearest airport is Nikola Tesla Airport in Belgrade, 82 km from the accommodation facility. Airport shuttle service is available at an additional cost.",
+              "image": "img/accommodation/10. Premium Apartments.jpeg",
+              "thumbnail": "img/accommodation/10. Premium Apartments.jpeg"
+          }
+            ]
+          },
+          {
+            "heading": {
+              "title": "Stan na dan",
+              "content": "Apartments Novi Sad - a large offer of accommodation in the most beautiful city of Vojvodina. In recent years, Novi Sad has become an increasingly popular tourist destination. The exit, the city's cultural contents, events and the special atmosphere that the city exudes attract tourists from all over the world. In accordance with this, the accommodation offer is developed. The capital of Vojvodina offers its visitors a variety of apartments, which are decorated according to the highest European standards. All apartments in Day Novi Sad have modern furniture, a series of details that create a pleasant atmosphere and elements necessary for a pleasant stay. They are distributed in all Novi Sad settlements, so they manage to adapt to different reasons for staying in the city. See the entire offer of apartments in Novi Sad and find accommodation that will meet all your requirements and show you all the beauties of the capital of Vojvodina."
+            },
+            "accomodationCard": [
+              {
+              "id": 1,
+              "title": "City Centre",
+              "subtitle": "",
+              "content": "When it comes to the locations of the apartments, they are located in all important parts of the city, both in the center of Novi Sad and in the suburbs. If your choice is a Novi Sad apartment for the day, there is no doubt that you will find an object that will meet all your criteria.",
+              "image": "img/accommodation/city centre.jpeg",
+              "thumbnail": "img/accommodation/city centre.jpeg"
+          },
+          {
+              "id": 2,
+              "title": "Novi Sad Outscirts",
+              "subtitle": "",
+              "content": "",
+              "image": "img//accommodation/novo naselje.jpeg",
+              "thumbnail": "img//accommodation/novo naselje.jpeg"
+          }
+            ]
+          },
+          {
+            "heading": {
+              "title": "Accommodation for the Exit festival",
+              "content": "The Exit festival has been going on for more than a decade and is becoming an increasingly popular music festival in Southeastern Europe. The Exit festival in Novi Sad takes place every year in the middle of summer and it is always somewhere around July 5 to 10, which leaves room for many to reserve a room or apartment. In the period before the very beginning of Exit, it is literally impossible to find a place to spend the night or even not for any person. For this reason, we advise you to rent an apartment as soon as possible."
+            },
+            "accomodationCard": [
+              {
+              "id": 1,
+              "title": "Exit",
+              "link": "https://www.youtube.com/embed/i0FuvHoTkwU",
+              "alt": "Exit promo video"
+            }
+            ]
+          },
+          {
+            "heading": {
+              "title": "Accommodation for the New Year and Holidays",
+              "content": "If you have decided to stay overnight in Novi Sad, we suggest that you consider different categories of apartments for the day and thus provide yourself with the best possible accommodation for a short trip. In addition to the standard ones, the quality of stay can be greatly improved by staying in apartments with a pool, apartments with a jacuzzi, apartments for the day located in the very center and in the most beautiful parts of Novi Sad, such as the Old Town and Liman."
+            },
+            "accomodationCard": [
+              {
+                "id": 1,
+                "title": "Festive atmosphere",
+                "subtitle": "",
+                "content": "The now traditional Zimzolend awaits us in Liberty Square every day throughout December – from 1 to 28. So far, Zimzoland is proof that snow is not necessary to enjoy the holiday spirit – festive candles and lights, the scent of mulled wine and gingerbread, and inevitable smiles! In over 30 New Year’s houses, you will be able to try and buy the best homemade products: sweets, cakes, mulled wine, craft beers, and other food and New Year’s decorations. In addition to this, children’s choirs will perform every evening, and Novi Sad bands and DJs on weekends.",
+                "image": "img/accommodation/new year.jpeg",
+                "thumbnail": "img/accommodation/new year.jpeg"
+            },
+            {
+                "id": 2,
+                "title": "Novi Sad Downtown",
+                "subtitle": "",
+                "content": "The center of the cultural capital exudes a festive atmosphere, the mood of the people is visibly different, the city and the streets are sparkling, while the decorated city center looks magical!",
+                "image": "img//accommodation/new year 2.jpeg",
+                "thumbnail": "img//accommodation/new year 2.jpeg"
+            },
+            {
+                "id": 3,
+                "title": "Take a Carriage Ride",
+                "subtitle": "",
+                "content": "Residents of Novi Sad, as well as many tourists and guests of Novi Sad, are delighted with the carriage and horses. Give it a go!",
+                "image": "img//accommodation/new year 3.jpeg",
+                "thumbnail": "img//accommodation/new year 3.jpeg"
+            }
+            ]
           }
         ]
       },
@@ -1485,47 +1682,68 @@
               }
             ]
           }
-        ],
-        "blog": {
-          "heading": {
-            "title": "Neki header title",
-            "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis impedit nisi possimus dolore accusamus adipisci. Porro rem saepe voluptatem deleniti provident ipsam debitis adipisci eaque voluptate, quas, sint, numquam fugit?"
+        ]
+      },
+      "blog": {
+        "heading": {
+          "title": "Blog",
+          "btn": "Pročitaj više",
+          "heading": "Poslednje Objavljeno"
+        },
+        "content": [
+          {
+            "id": 1,
+            "title": "Exit festival",
+            "content": [
+              "EXIT je višestruko nagrađivani internacionalni letnji muzički festival. Održava se svake godine u Novom Sadu u Srbiji, na Petrovaradinskoj tvrđavi, koju mnogi smatraju za jednu od najboljih festivalskih lokacija na svetu, i na njemu nastupa preko 1000 izvođača na više od 40 bina i festivalskih zona. Pored titule „Najbolji evropski festival” osvojene na Evropskim festivalskim nagradama 2013. i 2017. godine, EXIT je 2007. godine proglašen za najbolji evropski festival na Britanskim festivalskim nagradama. EXIT je proglašen i za Najbolji evropski festival za 2016. godinu od strane vodećeg evropskog turističkog priznanja „European Best Destinations“, koje se dodeljuje u saradnji sa Evropskom komisijom, dok je Savet za regionalnu saradnju 2017. odabrao EXIT festival za Šampiona regionalne saradnje u Jugoistočnoj Evropi.",
+              "Tokom svoje dvadesetogodišnje istorije EXIT je ugostio vodeća imena svetske muzičke scene među kojima su Pet Shop Boys, Billy Idol, The Cure, The Killers, Guns N’ Roses, Franz Ferdinand, Motörhead, Iggy Pop, David Guetta, Massive Attack, Liam Gallagher, Grace Jones, Fatboy Slim, Cypress Hill, Beastie Boys, Snoop Dogg, Wu-Tang Clan, The Prodigy, Migos, Sex Pistols, Kraftwerk, Korn, Moby, Arctic Monkeys, Chemical Brothers, Faith No More, LCD Soundsystem, Nick Cave and The Bad Seeds, Pulp, Jamiroquai, M.I.A., Slayer, Ellie Goulding, Hardwell, Carl Cox, Avicii, Nina Kraviz i mnoge druge."
+            ],
+            "venue": "Mesto održavanja: Petrovaradinska tvrđava",
+            "date": "Jul 6 - Jul 9",
+            "link": "Program možete pronaći na sajtu organizatora: https://www.exitfest.org/program",
+            "image": "img/home/Zimzolend_14-1024x683.jpg",
+            "thumbnail": "img/home/Zimzolend_14-1024x683.jpg"
           },
-          "content": [
-            {
-              "id": 1,
-              "title": "Neki naslov",
-              "subtitle": "Neki podnaslov",
-              "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis impedit nisi possimus dolore accusamus adipisci. Porro rem saepe voluptatem deleniti provident ipsam debitis adipisci eaque voluptate, quas, sint, numquam fugit?",
-              "image": "img/home/Zimzolend_14-1024x683.jpg",
-              "thumbnail": "img/home/Zimzolend_14-1024x683.jpg"
-            },
-            {
-              "id": 2,
-              "title": "Neki naslov",
-              "subtitle": "Neki podnaslov",
-              "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis impedit nisi possimus dolore accusamus adipisci. Porro rem saepe voluptatem deleniti provident ipsam debitis adipisci eaque voluptate, quas, sint, numquam fugit?",
-              "image": "img/home/Zimzolend_14-1024x683.jpg",
-              "thumbnail": "img/home/Zimzolend_14-1024x683.jpg"
-            },
-            {
-              "id": 3,
-              "title": "Neki naslov",
-              "subtitle": "Neki podnaslov",
-              "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis impedit nisi possimus dolore accusamus adipisci. Porro rem saepe voluptatem deleniti provident ipsam debitis adipisci eaque voluptate, quas, sint, numquam fugit?",
-              "image": "img/home/Zimzolend_14-1024x683.jpg",
-              "thumbnail": "img/home/Zimzolend_14-1024x683.jpg"
-            },
-            {
-              "id": 4,
-              "title": "Neki naslov",
-              "subtitle": "Neki podnaslov",
-              "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis impedit nisi possimus dolore accusamus adipisci. Porro rem saepe voluptatem deleniti provident ipsam debitis adipisci eaque voluptate, quas, sint, numquam fugit?",
-              "image": "img/home/Zimzolend_14-1024x683.jpg",
-              "thumbnail": "img/home/Zimzolend_14-1024x683.jpg"
-            }
-          ]
-        }
+          {
+            "id": 2,
+            "title": "Exit festival",
+            "content": [
+              "EXIT je višestruko nagrađivani internacionalni letnji muzički festival. Održava se svake godine u Novom Sadu u Srbiji, na Petrovaradinskoj tvrđavi, koju mnogi smatraju za jednu od najboljih festivalskih lokacija na svetu, i na njemu nastupa preko 1000 izvođača na više od 40 bina i festivalskih zona. Pored titule „Najbolji evropski festival” osvojene na Evropskim festivalskim nagradama 2013. i 2017. godine, EXIT je 2007. godine proglašen za najbolji evropski festival na Britanskim festivalskim nagradama. EXIT je proglašen i za Najbolji evropski festival za 2016. godinu od strane vodećeg evropskog turističkog priznanja „European Best Destinations“, koje se dodeljuje u saradnji sa Evropskom komisijom, dok je Savet za regionalnu saradnju 2017. odabrao EXIT festival za Šampiona regionalne saradnje u Jugoistočnoj Evropi.",
+              "Tokom svoje dvadesetogodišnje istorije EXIT je ugostio vodeća imena svetske muzičke scene među kojima su Pet Shop Boys, Billy Idol, The Cure, The Killers, Guns N’ Roses, Franz Ferdinand, Motörhead, Iggy Pop, David Guetta, Massive Attack, Liam Gallagher, Grace Jones, Fatboy Slim, Cypress Hill, Beastie Boys, Snoop Dogg, Wu-Tang Clan, The Prodigy, Migos, Sex Pistols, Kraftwerk, Korn, Moby, Arctic Monkeys, Chemical Brothers, Faith No More, LCD Soundsystem, Nick Cave and The Bad Seeds, Pulp, Jamiroquai, M.I.A., Slayer, Ellie Goulding, Hardwell, Carl Cox, Avicii, Nina Kraviz i mnoge druge."
+            ],
+            "venue": "Mesto održavanja: Petrovaradinska tvrđava",
+            "date": "Jul 6 - Jul 9",
+            "link": "Program možete pronaći na sajtu organizatora: https://www.exitfest.org/program",
+            "image": "img/home/Zimzolend_14-1024x683.jpg",
+            "thumbnail": "img/home/Zimzolend_14-1024x683.jpg"
+          },
+          {
+            "id": 3,
+            "title": "Exit festival",
+            "content": [
+              "EXIT je višestruko nagrađivani internacionalni letnji muzički festival. Održava se svake godine u Novom Sadu u Srbiji, na Petrovaradinskoj tvrđavi, koju mnogi smatraju za jednu od najboljih festivalskih lokacija na svetu, i na njemu nastupa preko 1000 izvođača na više od 40 bina i festivalskih zona. Pored titule „Najbolji evropski festival” osvojene na Evropskim festivalskim nagradama 2013. i 2017. godine, EXIT je 2007. godine proglašen za najbolji evropski festival na Britanskim festivalskim nagradama. EXIT je proglašen i za Najbolji evropski festival za 2016. godinu od strane vodećeg evropskog turističkog priznanja „European Best Destinations“, koje se dodeljuje u saradnji sa Evropskom komisijom, dok je Savet za regionalnu saradnju 2017. odabrao EXIT festival za Šampiona regionalne saradnje u Jugoistočnoj Evropi.",
+              "Tokom svoje dvadesetogodišnje istorije EXIT je ugostio vodeća imena svetske muzičke scene među kojima su Pet Shop Boys, Billy Idol, The Cure, The Killers, Guns N’ Roses, Franz Ferdinand, Motörhead, Iggy Pop, David Guetta, Massive Attack, Liam Gallagher, Grace Jones, Fatboy Slim, Cypress Hill, Beastie Boys, Snoop Dogg, Wu-Tang Clan, The Prodigy, Migos, Sex Pistols, Kraftwerk, Korn, Moby, Arctic Monkeys, Chemical Brothers, Faith No More, LCD Soundsystem, Nick Cave and The Bad Seeds, Pulp, Jamiroquai, M.I.A., Slayer, Ellie Goulding, Hardwell, Carl Cox, Avicii, Nina Kraviz i mnoge druge."
+            ],
+            "venue": "Mesto održavanja: Petrovaradinska tvrđava",
+            "date": "Jul 6 - Jul 9",
+            "link": "Program možete pronaći na sajtu organizatora: https://www.exitfest.org/program",
+            "image": "img/home/Zimzolend_14-1024x683.jpg",
+            "thumbnail": "img/home/Zimzolend_14-1024x683.jpg"
+          },
+          {
+            "id": 4,
+            "title": "Exit festival",
+            "content": [
+              "EXIT je višestruko nagrađivani internacionalni letnji muzički festival. Održava se svake godine u Novom Sadu u Srbiji, na Petrovaradinskoj tvrđavi, koju mnogi smatraju za jednu od najboljih festivalskih lokacija na svetu, i na njemu nastupa preko 1000 izvođača na više od 40 bina i festivalskih zona. Pored titule „Najbolji evropski festival” osvojene na Evropskim festivalskim nagradama 2013. i 2017. godine, EXIT je 2007. godine proglašen za najbolji evropski festival na Britanskim festivalskim nagradama. EXIT je proglašen i za Najbolji evropski festival za 2016. godinu od strane vodećeg evropskog turističkog priznanja „European Best Destinations“, koje se dodeljuje u saradnji sa Evropskom komisijom, dok je Savet za regionalnu saradnju 2017. odabrao EXIT festival za Šampiona regionalne saradnje u Jugoistočnoj Evropi.",
+              "Tokom svoje dvadesetogodišnje istorije EXIT je ugostio vodeća imena svetske muzičke scene među kojima su Pet Shop Boys, Billy Idol, The Cure, The Killers, Guns N’ Roses, Franz Ferdinand, Motörhead, Iggy Pop, David Guetta, Massive Attack, Liam Gallagher, Grace Jones, Fatboy Slim, Cypress Hill, Beastie Boys, Snoop Dogg, Wu-Tang Clan, The Prodigy, Migos, Sex Pistols, Kraftwerk, Korn, Moby, Arctic Monkeys, Chemical Brothers, Faith No More, LCD Soundsystem, Nick Cave and The Bad Seeds, Pulp, Jamiroquai, M.I.A., Slayer, Ellie Goulding, Hardwell, Carl Cox, Avicii, Nina Kraviz i mnoge druge."
+            ],
+            "venue": "Mesto održavanja: Petrovaradinska tvrđava",
+            "date": "Jul 6 - Jul 9",
+            "link": "Program možete pronaći na sajtu organizatora: https://www.exitfest.org/program",
+            "image": "img/home/Zimzolend_14-1024x683.jpg",
+            "thumbnail": "img/home/Zimzolend_14-1024x683.jpg"
+          }
+        ]
       }
     }
   }

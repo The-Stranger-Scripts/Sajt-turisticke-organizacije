@@ -91,6 +91,17 @@ body {
     gap: 1rem;
 }
 
+.blog-card-ctn p {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    /* number of lines to show */
+    line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+
+
 .blog-card-ctn h4 {
     font-size: 1rem;
 }
