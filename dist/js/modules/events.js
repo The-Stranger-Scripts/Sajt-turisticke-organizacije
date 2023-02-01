@@ -1,4 +1,3 @@
-// Ovde se mogu kuckati funkcionalnosti vezane za events stranicu!
 const writeEvents = data => {
   let events = data.main.events;
 
@@ -30,7 +29,9 @@ const writeEvents = data => {
           <h2>${eventSection.heading.title}</h2>
         </a>
         <p>${eventSection.heading.content}</p>
-        <p class="text-date">${eventSection.heading.date ? eventSection.heading.date : ''}</p>
+        <p class="text-date">${
+          eventSection.heading.date ? eventSection.heading.date : ''
+        }</p>
       </div>
       `;
 

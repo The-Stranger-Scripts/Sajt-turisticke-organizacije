@@ -1,40 +1,38 @@
-// // Ovde se mogu dodavati funkcionalnosti vezane za Eat-Drink stranicu!
 const eatDrinkPage = data => {
-    let eatDrink = data.main.eatDrink;
+  let eatDrink = data.main.eatDrink;
 
-    let eatDrinkContainer = document.createElement('div');
-    let eatDrinkHeaderSection = document.createElement('section');
+  let eatDrinkContainer = document.createElement('div');
+  let eatDrinkHeaderSection = document.createElement('section');
 
-    eatDrinkContainer.classList.add('container-xxl', 'px-0');
-    eatDrinkContainer.setAttribute('data-aos', 'fade-up');
+  eatDrinkContainer.classList.add('container-xxl', 'px-0');
+  eatDrinkContainer.setAttribute('data-aos', 'fade-up');
 
-    eatDrinkHeaderSection.classList.add('welcome-card');
+  eatDrinkHeaderSection.classList.add('welcome-card');
 
-    eatDrinkContainer.append(eatDrinkHeaderSection);
+  eatDrinkContainer.append(eatDrinkHeaderSection);
 
-    eatDrinkHeaderSection.innerHTML = `
+  eatDrinkHeaderSection.innerHTML = `
     <h2>${eatDrink.heading.title}</h2>
     <h5>${eatDrink.heading.subtitle}</h5>
     <p>${eatDrink.heading.content}</p>
     <h5>${eatDrink.heading.text}</h5> 
     `;
 
-    eatDrink.content.forEach((eatDrinkSec, i) => {
-        let eatDrinkRegularSection = document.createElement('div');
+  eatDrink.content.forEach((eatDrinkSec, i) => {
+    let eatDrinkRegularSection = document.createElement('div');
 
-
-        eatDrinkRegularSection.innerHTML = `
+    eatDrinkRegularSection.innerHTML = `
           <div class="text">
             <h2>${eatDrinkSec.heading.title}</h2>
             <p>${eatDrinkSec.heading.content}</p>
           </div>
           `;
 
-        let cardColumns = document.createElement('div');
-        cardColumns.classList.add('card-columns', 'container-lg');
+    let cardColumns = document.createElement('div');
+    cardColumns.classList.add('card-columns', 'container-lg');
 
-        if (eatDrinkSec.eatDrinkCard.length === 1) {
-            eatDrinkRegularSection.innerHTML += `
+    if (eatDrinkSec.eatDrinkCard.length === 1) {
+      eatDrinkRegularSection.innerHTML += `
          <div class="invitation-card">
            <img src="${eatDrinkSec.eatDrinkCard[0].image}" alt="" />
              <div class="invitation-label">
@@ -44,11 +42,9 @@ const eatDrinkPage = data => {
           </div> 
                    
          `;
-
-        } else {
-
-            eatDrinkSec.eatDrinkCard.forEach(cardItem => {
-            cardColumns.innerHTML += `
+    } else {
+      eatDrinkSec.eatDrinkCard.forEach(cardItem => {
+        cardColumns.innerHTML += `
                <div class="universal-card">
                   <img src="${cardItem.image}" alt="" />
                    <h4>${cardItem.title}</h4>
@@ -57,9 +53,9 @@ const eatDrinkPage = data => {
           `;
       });
       eatDrinkRegularSection.append(cardColumns);
-    };
-      eatDrinkContainer.append(eatDrinkRegularSection);
-    });
+    }
+    eatDrinkContainer.append(eatDrinkRegularSection);
+  });
 
-      return eatDrinkContainer.outerHTML;
- }
+  return eatDrinkContainer.outerHTML;
+};
