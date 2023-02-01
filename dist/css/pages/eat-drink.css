@@ -35,9 +35,9 @@
   position: relative;
   background-color: rgb(255, 255, 255);
   top: -4rem;
-  padding: 2rem 4rem;
+  padding: 1.5rem 3rem;
   text-align: center;
-  box-shadow: 0 1px 4px rgba(156, 13, 13, 0.192);
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.153);
   color: #222222;
   
 }
@@ -77,33 +77,35 @@ h2:hover {
 }
 
 .text h2:hover {
-  
     cursor: pointer;
     color:#00CDD7;
     transition: color .3s;
-  
 }
 
 .card-columns {
   display: flex;
   width: 100%;
+  flex-wrap: wrap;
   gap: 2.2rem;
   border-radius: 5px;
+  margin-bottom: 4.5rem;
 }
 
 .universal-card {
   display: flex;
-  flex-grow: 1; 
   flex-direction: column;
-  width: 50%;
+  /* flex-grow: 1;  */
+  flex: 1 1 300px;
+  /* width: 30%; */
   padding: 1rem;
-  height: 38%;
-  margin-bottom: 2rem;
- 
+  /* height: 38%; */
+  /* margin-bottom: 2rem; */
 }
   
 .universal-card  img {
   width: 100%;
+  max-height: 600px;
+  
   aspect-ratio: 1 / 0.8;
   object-fit: cover;
   cursor: pointer; 
@@ -157,10 +159,19 @@ h4:hover {
   min-width: 40%;
 }
 
-@media (max-width: 959px) {
-  .card-columns, .universal-card, .text {
-    flex-direction: column;
-    width: 100%;
+@media (max-width: 960px) {
+  .main-sec-label {
+    width: 90%;
+    padding: 1.5rem;
+  }
+  .text {
+    /* flex-direction: column;
+    width: 100%; */
+  }
+
+  .card-columns {
+    /* width: 50%; */
+    /* flex-wrap: wrap; */
   }
 }
 

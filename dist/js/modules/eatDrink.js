@@ -20,7 +20,7 @@ const eatDrinkPage = data => {
     `;
 
     eatDrink.content.forEach((eatDrinkSec, i) => {
-        let eatDrinkRegularSection = document.createElement('text');
+        let eatDrinkRegularSection = document.createElement('div');
 
 
         eatDrinkRegularSection.innerHTML = `
