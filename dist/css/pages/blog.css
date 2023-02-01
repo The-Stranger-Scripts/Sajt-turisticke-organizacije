@@ -18,6 +18,11 @@ body {
     padding: 1.5rem;
 }
 
+.blog-container h1 {
+    color: #00CDD7;
+    ;
+}
+
 .active-blog-wrap {
     display: flex;
     padding: 2rem 0;
@@ -38,12 +43,12 @@ body {
     width: fit-content;
     padding: 0.5rem;
     border-radius: 0.4rem;
-    border: 1px solid #005578;
+    border: 1px solid #00CDD7;
     transition: 0.2s ease;
 }
 
 .blog-btn:hover {
-    background-color: #005578;
+    background-color: #00CDD7;
     color: white;
 }
 
