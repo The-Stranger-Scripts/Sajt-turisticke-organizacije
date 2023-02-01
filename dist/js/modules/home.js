@@ -19,7 +19,6 @@ let writeHome = data => {
     return `
           <div data-aos="fade-up" class="header-card">
               <h2>${data.title}</h2>
-              <h5>${data.subtitle}</h5>
               <p>${data.content}</p>
           </div>
           `;
@@ -35,7 +34,7 @@ let writeHome = data => {
   };
 
   let homeMediaSec = data => {
-    let dataSec = homeHeadingSec(data.heading);
+    let dataSec = '';
     dataSec += `
         <div class="home-img">
             <img  src="${data.image.link}" alt="">
