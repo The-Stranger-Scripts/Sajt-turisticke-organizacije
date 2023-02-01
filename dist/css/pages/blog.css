@@ -160,6 +160,14 @@ body {
     .blog-wrap-img img {
         transform: rotate(0);
     }
+
+    .blog-card {
+        width: 90%;
+    }
 }
 
-@media (max-width: 560) {}
+@media (max-width: 560px) {
+    .blog-card {
+        width: 100%;
+    }
+}
