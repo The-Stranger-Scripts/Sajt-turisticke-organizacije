@@ -1,4 +1,4 @@
-@import "../main.css";
+@import '../main.css';
 
 /* .video {
   position: relative;
@@ -31,115 +31,104 @@
 
 .welcome-card {
   margin: auto;
-  width: 60%;
+  width: 70%;
   position: relative;
   background-color: rgb(255, 255, 255);
   top: -4rem;
-  padding: 2rem 4rem;
+  padding: 1.5rem 3rem;
   text-align: center;
-  box-shadow: 0 1px 4px rgba(156, 13, 13, 0.192);
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.153);
   color: #222222;
-  
 }
 
-
 .welcome-card h2 {
-  color: #00CDD7;
+  color: #00cdd7;
   font-size: 2.5rem;
   margin-bottom: 1rem;
- 
 }
 
 h2 {
-    
   font-weight: bold;
-  color:#2e2e2e;
-    
+  color: #2e2e2e;
 }
 
 h2:hover {
-    
   cursor: pointer;
-  color:#2e2e2e;
-  transition: color .3s;
-    
+  color: #2e2e2e;
+  transition: color 0.3s;
 }
 
-
 .text {
-  width: 60%;
+  width: 70%;
   margin: 0 auto;
   background-color: rgb(255, 255, 255);
   padding: 2rem 4rem;
   text-align: center;
-  margin-bottom: 2rem; 
- 
+  margin-bottom: 2rem;
 }
 
 .text h2:hover {
-  
-    cursor: pointer;
-    color:#00CDD7;
-    transition: color .3s;
-  
+  cursor: pointer;
+  color: #00cdd7;
+  transition: color 0.3s;
 }
 
 .card-columns {
   display: flex;
   width: 100%;
+  flex-wrap: wrap;
   gap: 2.2rem;
   border-radius: 5px;
+  margin-bottom: 4.5rem;
 }
 
 .universal-card {
   display: flex;
-  flex-grow: 1; 
   flex-direction: column;
-  width: 50%;
+  /* flex-grow: 1;  */
+  flex: 1 1 300px;
+  /* width: 30%; */
   padding: 1rem;
-  height: 38%;
-  margin-bottom: 2rem;
- 
+  /* height: 38%; */
+  /* margin-bottom: 2rem; */
 }
-  
-.universal-card  img {
+
+.universal-card img {
   width: 100%;
+  max-height: 600px;
+
   aspect-ratio: 1 / 0.8;
   object-fit: cover;
-  cursor: pointer; 
+  cursor: pointer;
   transition: 0.5s all ease-in-out;
   transform-origin: 50% 100%;
-
- 
 }
 
 .universal-card img:hover {
-  transform: scale(1.08)
+  transform: scale(1.08);
 }
-.universal-card  h4 {
-  color: #00CDD7;
+.universal-card h4 {
+  color: #00cdd7;
   margin-top: 15px;
-  cursor: pointer; 
+  cursor: pointer;
 }
 
 h4:hover {
-  color:black;
-  transition: color .3s;
+  color: black;
+  transition: color 0.3s;
 }
 
-.universal-card  p {
+.universal-card p {
   overflow: hidden;
   display: -webkit-box;
   -webkit-line-clamp: 5;
   -webkit-box-orient: vertical;
 }
 
-
 .invitation-card {
   margin: 0 auto 3rem;
   width: 82%;
   position: relative;
-  
 }
 
 .invitation-card img {
@@ -151,16 +140,30 @@ h4:hover {
   left: 6%;
   top: 92%;
   padding: 1rem;
-  background-color: #00CDD7;
+  background-color: #00cdd7;
   text-align: left;
   margin-bottom: 1rem;
   min-width: 40%;
 }
 
-@media (max-width: 959px) {
-  .card-columns, .universal-card, .text {
-    flex-direction: column;
-    width: 100%;
+@media (max-width: 960px) {
+  .welcome-card {
+    width: 90%;
+    padding: 1.5rem;
   }
-}
 
+  .main-sec-label {
+    width: 90%;
+    padding: 1.5rem;
+  }
+  .text {
+    /* flex-direction: column;
+    width: 100%; */
+  }
+
+  .text {
+    width: 90%;
+    padding: 1.5rem;
+  }
+
+}
