@@ -17,69 +17,70 @@ let writeHome = data => {
 
   let homeHeaderSec = data => {
     return `
-          <div data-aos="fade-up" class="header-card">
-              <h2>${data.title}</h2>
-              <p>${data.content}</p>
-          </div>
-          `;
+    <div data-aos="fade-up" class="header-card">
+      <h2>${data.title}</h2>
+      <p>${data.content}</p>
+    </div>
+    `;
   };
 
   let homeHeadingSec = data => {
     return `
-            <div class="home-heading">
-                <h5>${data.title}</h5>
-                <p>${data.content}</p>
-            </div>
-            `;
+    <div class="home-heading">
+      <h5>${data.title}</h5>
+      <p>${data.content}</p>
+    </div>
+    `;
   };
 
   let homeMediaSec = data => {
     let dataSec = '';
     dataSec += `
-        <div class="home-img">
-            <img  src="${data.image.link}" alt="">
-            <div class="header-card">
-                <h2>${data.image.title}</h2>
-                <p>${data.image.content}</p>
-            </div>
+      <div class="home-img">
+        <img  src="${data.image.link}" alt="">
+        <div class="header-card">
+          <h2>${data.image.title}</h2>
+          <p>${data.image.content}</p>
         </div>
+      </div>
 
-        <div class="home-video">
-            <iframe src="${data.video.link}" title="${data.video.title}" frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen></iframe>
-        </div>
-        `;
+      <div class="home-video">
+        <iframe src="${data.video.link}" title="${data.video.title}" frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+      </div>
+      `;
     return dataSec;
   };
+
   let homeFormSec = data => {
     return `
-          <div class="form-newsletter">
-              <h2>${data.title}</h2>
-              <p>${data.content}</p>
+      <div class="form-newsletter">
+        <h2>${data.title}</h2>
+        <p>${data.content}</p>
 
-              <div class="form-input">
-                  <label for="email-newsletter">${data.label}</label>
-                  <input type="email" id="email-newsletter">
-                  <button id="email-newsletter-btn">${data.buttonText}</button>
-              </div>
-          </div>
-          `;
+        <div class="form-input">
+          <label for="email-newsletter">${data.label}</label>
+          <input type="email" id="email-newsletter">
+          <button id="email-newsletter-btn">${data.buttonText}</button>
+        </div>
+      </div>
+      `;
   };
 
   let writeHomeSec = (data, dataCards, cardSize, link) => {
     let secData = homeHeadingSec(data.heading);
-    secData += `
-            <a href="${link}"><div class="home-card">`;
+    secData += `<a href="${link}"><div class="home-card">`;
+
     dataCards.forEach(el => {
       secData += `
-            <div class="home-card-ctn home-card-ctn-${cardSize}">
-                <img class="card-img" src="${el.image}" alt="">
-                <div class="card-body">
-                    <h3>${el.title}</h3>
-                    <p>${el.content}</p>
-                </div>
-            </div>`;
+        <div class="home-card-ctn home-card-ctn-${cardSize}">
+          <img class="card-img" src="${el.image}" alt="">
+          <div class="card-body">
+            <h3>${el.title}</h3>
+            <p>${el.content}</p>
+          </div>
+        </div>`;
     });
 
     secData += '</div><a/>';
@@ -87,25 +88,21 @@ let writeHome = data => {
   };
 
   homeCtn += `
-  <div class="container-xxl">
-    ${homeHeaderSec(homeData.header)}
-    ${writeHomeSec(exploreData, exploreDataCards, 'sm', 'explore.html')}
-    ${writeHomeSec(eatDrinkData, eatDrinkDataCards, 'xs', 'eat-drink.html')}
-
-
-    ${homeMediaSec(homeData.content[0])}
-    ${writeHomeSec(eventsData, eventsDataCards, 'm', 'events.html')}
-    ${writeHomeSec(
-      accomodationData,
-      accomodationDataCards,
-      'sm',
-      'explore.html'
-    )}
-
-
-    ${homeFormSec(homeData.content[0].form)}
-  </div>
-  `;
+    <div class="container-xxl">
+      ${homeHeaderSec(homeData.header)}
+      ${writeHomeSec(exploreData, exploreDataCards, 'sm', 'explore.html')}
+      ${writeHomeSec(eatDrinkData, eatDrinkDataCards, 'xs', 'eat-drink.html')}
+      ${homeMediaSec(homeData.content[0])}
+      ${writeHomeSec(eventsData, eventsDataCards, 'm', 'events.html')}
+      ${writeHomeSec(
+        accomodationData,
+        accomodationDataCards,
+        'sm',
+        'explore.html'
+      )}
+      ${homeFormSec(homeData.content[0].form)}
+    </div>
+    `;
 
   return homeCtn;
 };

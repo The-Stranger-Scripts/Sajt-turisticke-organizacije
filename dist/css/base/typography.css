@@ -1,7 +1,7 @@
 /* import font Montserrat */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap');
 
-/* Calculate reesponsive font size */
+/* Calculate responsive font size */
 html {
     font-size: calc(11px + 0.390625vw);
 }
