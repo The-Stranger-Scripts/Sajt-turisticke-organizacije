@@ -83,7 +83,6 @@ footer h4 {
 .ft-social-icons {
     display: flex;
     justify-content: center;
-    /* align-items: center; */
     padding: 1rem 0;
     margin: auto;
     border-top: 1px solid rgba(245, 245, 220, 0.2);
@@ -158,10 +157,7 @@ footer h4 {
     margin-left: 0.5rem;
 }
 
-/* .copyright i {
-    min-width: -moz-fit-content;
-    min-width: fit-content;
-} */
+
 @media (max-width: 945px) {
     .ft-wrap {
         padding: 1.2rem 0;

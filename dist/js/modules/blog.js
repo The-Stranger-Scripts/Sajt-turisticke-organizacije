@@ -1,4 +1,3 @@
-// Ovde se mogu dodavati funkcionalnosti vezane za blog stranicu!
 const writeBlog = data => {
   let blogData = data.main.blog;
   let blogHeading = blogData.heading;
