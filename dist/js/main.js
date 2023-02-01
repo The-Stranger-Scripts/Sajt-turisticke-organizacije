@@ -6,8 +6,6 @@ import writeEvents from './modules/events.js';
 import writeBlog from './modules/blog.js';
 import writeAccomodation from './modules/accomodation.js';
 
-// ! importovati module za svaku stranicu
-
 // Get Html elements
 let nav = document.getElementById('nav-container');
 let ft = document.getElementById('ft-container');
@@ -42,13 +40,12 @@ async function initData() {
         header.writeHeaderTitles(data[`${lang}`]);
       }
 
-      // Ispis main-a u zavisnostio od lokacije
+      // Inner main content to html
       switch (location()) {
         case '':
         case 'index.html':
           main.innerHTML = home.writeHome(data[`${lang}`]);
           break;
-        // Odkomentarisati case za koji se uradi neki kontent u odg. JS-u
         case 'accomodation.html':
           main.innerHTML = writeAccomodation(data[`${lang}`]);
           break;
@@ -126,5 +123,6 @@ async function initData() {
       };
     });
 }
+
 // Inner content to html elements
 await initData();
