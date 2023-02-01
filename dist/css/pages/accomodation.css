@@ -17,11 +17,11 @@
 
 .main-card {
     margin: auto;
-    width: 70%;
+    max-width: 60%;
     top: -6rem;
     position: relative;
     background-color: rgb(255, 255, 255);
-    padding: 2rem 4rem;
+    padding: 1.5rem 3rem;
     text-align: center;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.153);
     color: #222222;
@@ -41,13 +41,14 @@
     width: 100%;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     /* gap: 2rem;
     margin-bottom: 4.5rem;
     height: max-content; */
 }
 
 .accomodation-label {
-    width: 70%;
+    max-width: 60%;
     margin: 0 auto;
     background-color: rgb(255, 255, 255);
     padding: 2rem 4rem;
@@ -77,6 +78,7 @@
     padding: 1rem;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.153);
     height: 100%;
+    gap: 0.4rem
 }
 
 .accomodation-card img {
@@ -130,23 +132,60 @@
 }
 
 section {
-    margin-bottom: 7rem;
+    margin-bottom: 5rem;
+}
+
+@media (max-width: 1200px) {
+
+    .five-col-sec .accomodation-card {
+        width: 25%;
+    }
 }
 
 @media (max-width: 960px) {
+    .main-card {
+        padding: 1.5rem;
+        max-width: 90%;
+    }
+
+    .three-col-sec .accomodation-card {
+        width: 50%;
+        flex: 1 1 50%;
+    }
+
+    .accomodation-label {
+        width: 90%;
+    }
+
     .five-col-sec .accomodation-card {
-        width: 25%;
+        width: 30%;
+        flex: 1 1 30%;
+    }
+
+    .accomodation-label {
+        max-width: 100%;
+        padding: 1.5rem;
     }
 }
 
 @media (max-width: 768px) {
     .five-col-sec .accomodation-card {
         width: calc(100% / 3);
+        width: 50%;
     }
 }
 
 @media (max-width: 500px) {
     .five-col-sec .accomodation-card {
-        width: 50%;
+        width: 100%;
     }
+
+    .card-columns .accomodation-card {
+        width: 100%;
+    }
+
+    .three-col-sec .accomodation-card {
+        width: 100%;
+    }
+
 }
