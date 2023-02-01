@@ -416,7 +416,7 @@
             ]
           }
         ]
-      },
+            },
             "events": {
                 "heading": {
                     "title": "Feel the spirit of the Winter Fantasy in Novi Sad!",
@@ -598,267 +598,240 @@
                 ]
             },
             "explore": {
-        "heading": {
-          "title": "Explore Novi Sad",
-          "subtitle": "The European Capital of Culture for 2022",
-          "content": "To explore the many spaces of Novi Sad means to listen to its messages of multiculturalism, to feel the voices and faces of its many meanings, above all to discover a puzzle that is waiting to be understood anew. It is not a difficult task, you just need to stop and stay for a while in Novi Sad. You can't explore all Novi Sad's stories and places in one, two, three days...but you can get a sense of the unique content of Novi Sad's days, the warmth of its inhabitants, and you will remember everything together as an experience you want to experience again.",
-          "image": "img/explore/Centar_grada.webp"
-        },
-        "content": [
-          {
-            "heading": {
-              "title": "City Centre",
-              "content": "The entire central area of Novi Sad, which consists of Trg slobode, Zmaj Jovina, Dunavska and the streets in their surroundings, is a kind of exhibition space, a collage of architectural styles and realized ideas of foreign and domestic architects-builders that attract the attention of visitors."
-            },
-            "exploreCard": [
-              {
-                "id": 1,
-                "title": "The city hall",
-                "subtitle": "",
-                "content": "The city hall, built in the Neo-Renaissance style in 1894 according to the project of Đerđe Molnar, with exterior decoration (allegorical figures) by Julije Anika, is one of the most beautiful buildings in the center of Novi Sad.",
-                "image": "img/explore/gradska-kuca-min.webp",
-                "thumbnail": "img/explore/gradska-kuca-min.webp"
-              },
-              {
-                "id": 2,
-                "title": "Monument of Svetozar Miletic",
-                "subtitle": "",
-                "content": "On Freedom Square there is a monument to the most important Serbian politician in Vojvodina in the 19th century, the work of sculptor Ivan Meštrović from 1939.",
-                "image": "img/explore/Spomenik_Svetozaru_Miletiću.jpg",
-                "thumbnail": "img/explore/Spomenik_Svetozaru_Miletiću.jpg"
-              },
-              {
-                "id": 3,
-                "title": "Roman Catholic church",
-                "subtitle": "",
-                "content": "Built in the neo-Gothic style according to the project of Đerđa Molnara between 1893 and 1895, with a tower 73 meters high, it is the highest place of worship in the city.",
-                "image": "img/explore/crkva-imena-marijinog.webp",
-                "thumbnail": "img/explore/crkva-imena-marijinog.webp"
-              },
-              {
-                "id": 4,
-                "title": "The Sinagogue",
-                "subtitle": "",
-                "content": "Together with the buildings of the former Jewish school and the Jewish community, the synagogue is a single unit built in 1909 in the Hungarian Art Nouveau style, according to the design of Lipot Baumhorn.",
-                "image": "img/explore/Novi_Sad_Sinagoga.jpg",
-                "thumbnail": "img/explore/Novi_Sad_Sinagoga.jpg"
-              },
-              {
-                "id": 5,
-                "title": "Matica Serbia",
-                "subtitle": "",
-                "content": "Matica srpska is the oldest and most respected cultural and scientific institution among the Serbs. It was founded in 1826 in Pest, and moved to Novi Sad in 1864.",
-                "image": "img/explore/matica-sroska.webp",
-                "thumbnail": "img/explore/matica-sroska.webp"
-              },
-              {
-                "id": 6,
-                "title": "Dunavska street",
-                "subtitle": "",
-                "content": "Is one of the oldest streets in the pedestrian zone, connecting the Danube bank and Zmaj Jovina Street. It starts with the oldest house in the city The House at the White Lion and the City Library. A large number of passages hide shops, souvenir shops, pastry shops and restaurants.",
-                "image": "img/explore/Dunavska_ulica.jpg",
-                "thumbnail": "img/explore/Dunavska_ulica.jpg"
-              },
-              {
-                "id": 7,
-                "title": "Zmaj Jovina street",
-                "subtitle": "",
-                "content": "The main street is in the pedestrian zone. It stretches from Freedom Square to Bishop's Palace. In this street there have always been shops and stores, and the oldest building is at number 28 - At the White Lion from 1720.",
-                "image": "img/explore/zmaj-jovina-min.jpg",
-                "thumbnail": "img/explore/zmaj-jovina-min.jpg"
-              },
-              {
-                "id": 8,
-                "title": "The Republic square and fish market",
-                "subtitle": "",
-                "content": "Republic Square is decorated with a monument to King Peter the First Karađorđević. The fish market is a place where you can buy products with geographical origin from Novi Sad and its surroundings, but also a place to meet and present traditions in the production of food, artisanal products, wine, honey, as well as a space where various manifestations take place in honor of food and wine.",
-                "image": "img/explore/trg-republike.webp",
-                "thumbnail": "img/explore/trg-republike.webp"
-              },
-              {
-                "id": 9,
-                "title": "Museums",
-                "subtitle": "",
-                "content": "Visit the Museum of Vojvodina with a tradition of over 150 years, the Museum of Accession in 1918, as well as the Museum of Contemporary Art.",
-                "image": "img/explore/muzej-vojvodine-min.jpg",
-                "thumbnail": "img/explore/muzej-vojvodine-min.jpg"
-              },
-              {
-                "id": 10,
-                "title": "Theaters",
-                "subtitle": "",
-                "content": "The Serbian National Theater was established in 1861, as the first professional theater in the Serbs, today it has three ensembles: Ballet, Opera and Drama.",
-                "image": "img/explore/srpsko-narodno-pozoriste-min.webp",
-                "thumbnail": "img/explore/srpsko-narodno-pozoriste-min.webp"
-              }
-            ]
-          },
-          {
-            "heading": {
-              "title": "Green Novi Sad",
-              "content": "When your legs are tired and your senses are saturated from the colorful city center, take a break in one of the city's parks. They hide a wealth of protected species, while they themselves are natural monuments. Thanks to them, the city breathes, because they are its lungs."
-            },
-            "exploreCard": [
-              {
-                "id": 1,
-                "title": "Dunavski park",
-                "content": "One part of it is based on Dunavska Street, after which it got its name. At the beginning of the 19th century, the place where the park is located today was a marshy land, which began to be drained and landscaped at the end of the 19th century.",
-                "image": "img/explore/Dunavski-park-_ALE8018_compressed.jpg",
-                "thumbnail": "img/explore/Dunavski-park-_ALE8018_compressed.jpg"
-              },
-              {
-                "id": 2,
-                "title": "Futoski park",
-                "content": "Futoski Park was built in the first decade of the 20th century as a special purpose park around the Jodna Spa (Special Hospital for Rheumatic Diseases, Novi Sad). It covers an area of 8 ha, 13 ares, 6 m2 and is protected as a nature monument, i.e. a natural asset of the II and III categories.",
-                "image": "img/explore/Futoški_park.jpg",
-                "thumbnail": "img/explore/Futoški_park.jpg"
-              },
-              {
-                "id": 3,
-                "title": "Kamenicki park",
-                "content": "In Sremska Kamenica, on the northern slopes of Fruska Gora, along the banks of the Danube, the largest and oldest park in Novi Sad is located - Kamenica Park, which covers an area of 33 ha and has been protected as a significant natural asset since 2008.",
-                "image": "img/explore/Kamenički_park.jpg",
-                "thumbnail": "img/explore/Kamenički_park.jpg"
-              },
-              {
-                "id": 4,
-                "title": "Limanski park",
-                "content": "Liman Park is located in the central part of the Liman residential area in Novi Sad, in the immediate vicinity of the Danube River, and covers 12.9 ha. It is located on Liman III, between Oslobođenja Boulevard, Despot Stefana Boulevard, Šekspirova Street and Narodnog Street.",
-                "image": "img/explore/Limanski_park.jpg",
-                "thumbnail": "img/explore/Limanski_park.jpg"
-              }
-            ]
-          },
-          {
-            "heading": {
-              "title": "Petrovaradin Fortress",
-              "content": " Petrovaradin Fortress belongs to the most significant, preserved European fortifications.In addition to being the symbol of the city it is also the witness to multiconfessional tradition that reliesstrongly on European culture and most attractive tourist zone of Novi Sad. It is currently the area with around one hundred of art studios, restaurants, cafes, museums, galleries…."
-            },
-            "exploreCard": [],
-            "videoLink": "../dist/videos/PETROVARADINSKA-TVRDJAVA.mp4"
+                "heading": {
+                "title": "Explore Novi Sad",
+                "subtitle": "The European Capital of Culture for 2022",
+                "content": "To explore the many spaces of Novi Sad means to listen to its messages of multiculturalism, to feel the voices and faces of its many meanings, above all to discover a puzzle that is waiting to be understood anew. It is not a difficult task, you just need to stop and stay for a while in Novi Sad. You can't explore all Novi Sad's stories and places in one, two, three days...but you can get a sense of the unique content of Novi Sad's days, the warmth of its inhabitants, and you will remember everything together as an experience you want to experience again.",
+                "image": "img/explore/Centar_grada.webp"
+                },
+            "content": [
+                {
+                    "heading": {
+                    "title": "City Centre",
+                    "content": "The entire central area of Novi Sad, which consists of Trg slobode, Zmaj Jovina, Dunavska and the streets in their surroundings, is a kind of exhibition space, a collage of architectural styles and realized ideas of foreign and domestic architects-builders that attract the attention of visitors."
+                    },
+                    "exploreCard": [
+                    {
+                        "id": 1,
+                        "title": "The city hall",
+                        "subtitle": "",
+                        "content": "The city hall, built in the Neo-Renaissance style in 1894 according to the project of Đerđe Molnar, with exterior decoration (allegorical figures) by Julije Anika, is one of the most beautiful buildings in the center of Novi Sad.",
+                        "image": "img/explore/gradska-kuca-min.webp",
+                        "thumbnail": "img/explore/gradska-kuca-min.webp"
+                    },
+                    {
+                        "id": 2,
+                        "title": "Monument of Svetozar Miletic",
+                        "subtitle": "",
+                        "content": "On Freedom Square there is a monument to the most important Serbian politician in Vojvodina in the 19th century, the work of sculptor Ivan Meštrović from 1939.",
+                        "image": "img/explore/Spomenik_Svetozaru_Miletiću.jpg",
+                        "thumbnail": "img/explore/Spomenik_Svetozaru_Miletiću.jpg"
+                    },
+                    {
+                        "id": 3,
+                        "title": "Roman Catholic church",
+                        "subtitle": "",
+                        "content": "Built in the neo-Gothic style according to the project of Đerđa Molnara between 1893 and 1895, with a tower 73 meters high, it is the highest place of worship in the city.",
+                        "image": "img/explore/crkva-imena-marijinog.webp",
+                        "thumbnail": "img/explore/crkva-imena-marijinog.webp"
+                    },
+                    {
+                        "id": 4,
+                        "title": "The Sinagogue",
+                        "subtitle": "",
+                        "content": "Together with the buildings of the former Jewish school and the Jewish community, the synagogue is a single unit built in 1909 in the Hungarian Art Nouveau style, according to the design of Lipot Baumhorn.",
+                        "image": "img/explore/Novi_Sad_Sinagoga.jpg",
+                        "thumbnail": "img/explore/Novi_Sad_Sinagoga.jpg"
+                    },
+                    {
+                        "id": 5,
+                        "title": "Matica Serbia",
+                        "subtitle": "",
+                        "content": "Matica srpska is the oldest and most respected cultural and scientific institution among the Serbs. It was founded in 1826 in Pest, and moved to Novi Sad in 1864.",
+                        "image": "img/explore/matica-sroska.webp",
+                        "thumbnail": "img/explore/matica-sroska.webp"
+                    },
+                    {
+                        "id": 6,
+                        "title": "Dunavska street",
+                        "subtitle": "",
+                        "content": "Is one of the oldest streets in the pedestrian zone, connecting the Danube bank and Zmaj Jovina Street. It starts with the oldest house in the city The House at the White Lion and the City Library. A large number of passages hide shops, souvenir shops, pastry shops and restaurants.",
+                        "image": "img/explore/Dunavska_ulica.jpg",
+                        "thumbnail": "img/explore/Dunavska_ulica.jpg"
+                    },
+                    {
+                        "id": 7,
+                        "title": "Zmaj Jovina street",
+                        "subtitle": "",
+                        "content": "The main street is in the pedestrian zone. It stretches from Freedom Square to Bishop's Palace. In this street there have always been shops and stores, and the oldest building is at number 28 - At the White Lion from 1720.",
+                        "image": "img/explore/zmaj-jovina-min.jpg",
+                        "thumbnail": "img/explore/zmaj-jovina-min.jpg"
+                    },
+                    {
+                        "id": 8,
+                        "title": "The Republic square and fish market",
+                        "subtitle": "",
+                        "content": "Republic Square is decorated with a monument to King Peter the First Karađorđević. The fish market is a place where you can buy products with geographical origin from Novi Sad and its surroundings, but also a place to meet and present traditions in the production of food, artisanal products, wine, honey, as well as a space where various manifestations take place in honor of food and wine.",
+                        "image": "img/explore/trg-republike.webp",
+                        "thumbnail": "img/explore/trg-republike.webp"
+                    },
+                    {
+                        "id": 9,
+                        "title": "Museums",
+                        "subtitle": "",
+                        "content": "Visit the Museum of Vojvodina with a tradition of over 150 years, the Museum of Accession in 1918, as well as the Museum of Contemporary Art.",
+                        "image": "img/explore/muzej-vojvodine-min.jpg",
+                        "thumbnail": "img/explore/muzej-vojvodine-min.jpg"
+                    },
+                    {
+                        "id": 10,
+                        "title": "Theaters",
+                        "subtitle": "",
+                        "content": "The Serbian National Theater was established in 1861, as the first professional theater in the Serbs, today it has three ensembles: Ballet, Opera and Drama.",
+                        "image": "img/explore/srpsko-narodno-pozoriste-min.webp",
+                        "thumbnail": "img/explore/srpsko-narodno-pozoriste-min.webp"
+                    }
+                    ]
+                },
+                {
+                    "heading": {
+                    "title": "Green Novi Sad",
+                    "content": "When your legs are tired and your senses are saturated from the colorful city center, take a break in one of the city's parks. They hide a wealth of protected species, while they themselves are natural monuments. Thanks to them, the city breathes, because they are its lungs."
+                    },
+                    "exploreCard": [
+                    {
+                        "id": 1,
+                        "title": "Dunavski park",
+                        "content": "One part of it is based on Dunavska Street, after which it got its name. At the beginning of the 19th century, the place where the park is located today was a marshy land, which began to be drained and landscaped at the end of the 19th century.",
+                        "image": "img/explore/Dunavski-park-_ALE8018_compressed.jpg",
+                        "thumbnail": "img/explore/Dunavski-park-_ALE8018_compressed.jpg"
+                    },
+                    {
+                        "id": 2,
+                        "title": "Futoski park",
+                        "content": "Futoski Park was built in the first decade of the 20th century as a special purpose park around the Jodna Spa (Special Hospital for Rheumatic Diseases, Novi Sad). It covers an area of 8 ha, 13 ares, 6 m2 and is protected as a nature monument, i.e. a natural asset of the II and III categories.",
+                        "image": "img/explore/Futoški_park.jpg",
+                        "thumbnail": "img/explore/Futoški_park.jpg"
+                    },
+                    {
+                        "id": 3,
+                        "title": "Kamenicki park",
+                        "content": "In Sremska Kamenica, on the northern slopes of Fruska Gora, along the banks of the Danube, the largest and oldest park in Novi Sad is located - Kamenica Park, which covers an area of 33 ha and has been protected as a significant natural asset since 2008.",
+                        "image": "img/explore/Kamenički_park.jpg",
+                        "thumbnail": "img/explore/Kamenički_park.jpg"
+                    },
+                    {
+                        "id": 4,
+                        "title": "Limanski park",
+                        "content": "Liman Park is located in the central part of the Liman residential area in Novi Sad, in the immediate vicinity of the Danube River, and covers 12.9 ha. It is located on Liman III, between Oslobođenja Boulevard, Despot Stefana Boulevard, Šekspirova Street and Narodnog Street.",
+                        "image": "img/explore/Limanski_park.jpg",
+                        "thumbnail": "img/explore/Limanski_park.jpg"
+                    }
+                    ]
+                },
+                {
+                    "heading": {
+                    "title": "Petrovaradin Fortress",
+                    "content": " Petrovaradin Fortress belongs to the most significant, preserved European fortifications.In addition to being the symbol of the city it is also the witness to multiconfessional tradition that reliesstrongly on European culture and most attractive tourist zone of Novi Sad. It is currently the area with around one hundred of art studios, restaurants, cafes, museums, galleries…."
+                    },
+                    "exploreCard": [],
+                    "videoLink": "../dist/videos/PETROVARADINSKA-TVRDJAVA.mp4"
 
-          },
-          {
-            "heading": {
-              "title": "Escape from the city",
-              "content": "If you are a lover of nature, good wines, and a more peaceful way of vacation, we invite you to go with us to Fruška Gora. Places that belong to most important material and cultural heritage in the territory of the National Park Fruška Gora include the complex of Serbian Orthodox monasteries. Fruška Gora is the area of good wines with the following prominent wine centres: Irig, Banoštor, Sremski Karlovci, and Šid."
+                },
+                {
+                    "heading": {
+                    "title": "Escape from the city",
+                    "content": "If you are a lover of nature, good wines, and a more peaceful way of vacation, we invite you to go with us to Fruška Gora. Places that belong to most important material and cultural heritage in the territory of the National Park Fruška Gora include the complex of Serbian Orthodox monasteries. Fruška Gora is the area of good wines with the following prominent wine centres: Irig, Banoštor, Sremski Karlovci, and Šid."
+                    },
+                    "exploreCard": [
+                    {
+                        "id": 1,
+                        "title": "Fruska gora",
+                        "content": "Fruska Gora National Park was founded in 1960 as the oldest park in socialist Yugoslavia. On an area of about 25,000 ha, unique landscapes, valuable geological and geomorphological units, rare plant and animal species and forest complexes are protected.",
+                        "image": "img/explore/FruskaGora.jpg",
+                        "thumbnail": "img/explore/FruskaGora.jpg"
+                    },
+                    {
+                        "id": 2,
+                        "title": "Vineyards",
+                        "content": "The history of Fruskogor's vineyards is an exciting story. Many people are familiar with the fact that the planned planting of scotch on Fruška Gora dates back to the reign of Emperor Probus (Marcus Aurelius Probus), who allowed vineyards to be planted in the Roman provinces as well.",
+                        "image": "img/explore/grozdje_vinograd.jpg",
+                        "thumbnail": "img/explore/grozdje_vinograd.jpg"
+                    },
+                    {
+                        "id": 3,
+                        "title": "Farms",
+                        "content": "In the vicinity of Novi Sad, there are numerous farms that offer a special type of vacation. In the realm of silence, a pleasant and relaxed atmosphere, visitors can enjoy horseback riding and carriage rides, a rich offer of Vojvodina specialties.",
+                        "image": "img/explore/Salaši.jpg",
+                        "thumbnail": "img/explore/Salaši.jpg"
+                    }
+                    ]
+                },
+                {
+                    "heading": {
+                    "title": "Sightseeing tours ",
+                    "content": "The tourist organization of Novi Sad offers its visitors organized tours of the city's sights and familiarization with its rich history. It's just up to you to choose the way to get around."
+                    },
+                    "exploreCard": [
+                    {
+                        "id": 1,
+                        "title": "Walking tours",
+                        "content": "To visitors of Novi Sad, who want to create their own way of visiting Novi Sad, the Tourism Organization of the City of Novi Sad suggests one of the routes offered in the Map of walking tours. You can choose the Blue and Red routes, which include the central zone on the Bač side of the City, or the Yellow route, which takes you to the Petrovaradin Fortress.",
+                        "image": "img/explore/Pesacke-ture.webp",
+                        "thumbnail": "img/explore/Pesacke-ture.webp"
+                    },
+                    {
+                        "id": 2,
+                        "title": "By bike through Novi Sad",
+                        "content": "Novi Sad currently has about 90 kilometers of trails and over 700 parking spaces for bicycles, and Serbian Athens is slowly becoming recognizable as Serbian Amsterdam. Bicycle paths lead past the most important city locations, the most important city roads and even further - recreationalists and tourists can visit several places near Novi Sad, but also try a slightly more extreme form of riding on Fruska Gora, where mountain biking has become increasingly popular in recent years.",
+                        "image": "img/explore/biciklizam-foto.jpg",
+                        "thumbnail": "img/explore/biciklizam-foto.jpg"
+                    },
+                    {
+                        "id": 3,
+                        "title": "Running tours",
+                        "content": "If you are passionate about running and plan to take your sneakers on the road, let us show you the best scenic routes in Novi Sad. It would be great to share with you the first-hand stories of the city.",
+                        "image": "img/explore/Trčanje.jpg",
+                        "thumbnail": "img/explore/Trčanje.jpg"
+                    }
+                    ]
+                }
+                ]
             },
-            "exploreCard": [
-              {
-                "id": 1,
-                "title": "Fruska gora",
-                "content": "Fruska Gora National Park was founded in 1960 as the oldest park in socialist Yugoslavia. On an area of about 25,000 ha, unique landscapes, valuable geological and geomorphological units, rare plant and animal species and forest complexes are protected.",
-                "image": "img/explore/FruskaGora.jpg",
-                "thumbnail": "img/explore/FruskaGora.jpg"
-              },
-              {
-                "id": 2,
-                "title": "Vineyards",
-                "content": "The history of Fruskogor's vineyards is an exciting story. Many people are familiar with the fact that the planned planting of scotch on Fruška Gora dates back to the reign of Emperor Probus (Marcus Aurelius Probus), who allowed vineyards to be planted in the Roman provinces as well.",
-                "image": "img/explore/grozdje_vinograd.jpg",
-                "thumbnail": "img/explore/grozdje_vinograd.jpg"
-              },
-              {
-                "id": 3,
-                "title": "Farms",
-                "content": "In the vicinity of Novi Sad, there are numerous farms that offer a special type of vacation. In the realm of silence, a pleasant and relaxed atmosphere, visitors can enjoy horseback riding and carriage rides, a rich offer of Vojvodina specialties.",
-                "image": "img/explore/Salaši.jpg",
-                "thumbnail": "img/explore/Salaši.jpg"
-              }
-            ]
-          },
-          {
-            "heading": {
-              "title": "Sightseeing tours ",
-              "content": "The tourist organization of Novi Sad offers its visitors organized tours of the city's sights and familiarization with its rich history. It's just up to you to choose the way to get around."
-            },
-            "exploreCard": [
-              {
-                "id": 1,
-                "title": "Walking tours",
-                "content": "To visitors of Novi Sad, who want to create their own way of visiting Novi Sad, the Tourism Organization of the City of Novi Sad suggests one of the routes offered in the Map of walking tours. You can choose the Blue and Red routes, which include the central zone on the Bač side of the City, or the Yellow route, which takes you to the Petrovaradin Fortress.",
-                "image": "img/explore/Pesacke-ture.webp",
-                "thumbnail": "img/explore/Pesacke-ture.webp"
-              },
-              {
-                "id": 2,
-                "title": "By bike through Novi Sad",
-                "content": "Novi Sad currently has about 90 kilometers of trails and over 700 parking spaces for bicycles, and Serbian Athens is slowly becoming recognizable as Serbian Amsterdam. Bicycle paths lead past the most important city locations, the most important city roads and even further - recreationalists and tourists can visit several places near Novi Sad, but also try a slightly more extreme form of riding on Fruska Gora, where mountain biking has become increasingly popular in recent years.",
-                "image": "img/explore/biciklizam-foto.jpg",
-                "thumbnail": "img/explore/biciklizam-foto.jpg"
-              },
-              {
-                "id": 3,
-                "title": "Running tours",
-                "content": "If you are passionate about running and plan to take your sneakers on the road, let us show you the best scenic routes in Novi Sad. It would be great to share with you the first-hand stories of the city.",
-                "image": "img/explore/Trčanje.jpg",
-                "thumbnail": "img/explore/Trčanje.jpg"
-              }
-            ]
-          }
-        ]
-      },
             "blog": {
                 "heading": {
                     "title": "Blog",
                     "btn": "Learn more",
                     "heading": "Latest"
                 },
-                "content": [{
+                "content": [
+                    {
                         "id": 1,
-                        "title": "Exit festival",
-                        "content": [
-                            "EXIT is an award-winning summer music festival that takes place at the Petrovaradin Fortress in Novi Sad, Serbia, with more than 1000 artists who play at over 40 stages and festival zones. It was officially proclaimed “Best Major European Festival” at the EU Festival Awards 2013 and 2017. EXIT has also won the “Best Overseas Festival” award at the UK Festival Awards in 2007, as well as “Best Summer Music Festival in Europe” title for 2016 by the travel portal “European Best Destinations” awarded in cooperation with the European Commission. In March 2018 Regional Cooperation Council awarded EXIT Festival as Champion of Regional Cooperation for 2017.",
-                            "The 20th anniversary of EXIT will be celebrated according to the original plans, from 8th to 11th July at the Petrovaradin Fortress. An all-star line-up with major headliners is also confirmed, including David Guetta, DJ Snake, Tyga, Eric Prydz b2b Four Tet, Paul Kalkbrenner, Nina Kraviz, Boris Brejcha, Sheck Wes, Solomun, Paul van Dyk, Sepultura, Metronomy, Honey Dijon and many others.",
-                            "This year’s EXIT will be a symbol of Serbia’s victory over the pandemic. Entry to the festival will be allowed to all those who have been vaccinated and those with antibodies. To make the festival accessible to all, everyone else will be able to take a rapid antigen test, which will be provided at low prices, in a specially made area near the festival gates."
-                        ],
-                        "venue": "Venue: Petrovaradin Fortress",
-                        "date": "July 6 - July 9",
-                        "link": "The programme can be found on the organiser’s website: https://www.exitfest.org/en/lineup",
-                        "image": "img/home/Zimzolend_14-1024x683.jpg",
-                        "thumbnail": "img/home/Zimzolend_14-1024x683.jpg"
+                        "title": "Novi Sad from female perspective",
+                        "content": "Novi Sad was among the first European cities to boast with the “Tourist map- Novi Sad from female perspective“(Stojaković, Female studies and research Novi Sad 1999) that presented the history of the city through biographies of certain number of women that left the mark in its cultural, political and economic history . “The female names of Novi Sad- Guide for fans of alternatives routes” (Stojaković/Kresoja, Tourism Organization of the City of Novi Sad 2014) was published thanks to the Tourism Organization of the City of Novi Sad. The above-mentioned edition contains short biographies of twenty eight renowned women, information about houses in which they lived, streets bearing women names and resting-places of renowned female citizens of Novi Sad. The publication also contains a map that can be used to tour the city core in accordance with prescribed sequence.",
+                        "date": "March 8, 2022",
+                        "image": "img/blog/blog1.webp"
                     },
                     {
                         "id": 2,
-                        "title": "Exit festival",
-                        "content": [
-                            "EXIT is an award-winning summer music festival that takes place at the Petrovaradin Fortress in Novi Sad, Serbia, with more than 1000 artists who play at over 40 stages and festival zones. It was officially proclaimed “Best Major European Festival” at the EU Festival Awards 2013 and 2017. EXIT has also won the “Best Overseas Festival” award at the UK Festival Awards in 2007, as well as “Best Summer Music Festival in Europe” title for 2016 by the travel portal “European Best Destinations” awarded in cooperation with the European Commission. In March 2018 Regional Cooperation Council awarded EXIT Festival as Champion of Regional Cooperation for 2017.",
-                            "The 20th anniversary of EXIT will be celebrated according to the original plans, from 8th to 11th July at the Petrovaradin Fortress. An all-star line-up with major headliners is also confirmed, including David Guetta, DJ Snake, Tyga, Eric Prydz b2b Four Tet, Paul Kalkbrenner, Nina Kraviz, Boris Brejcha, Sheck Wes, Solomun, Paul van Dyk, Sepultura, Metronomy, Honey Dijon and many others.",
-                            "This year’s EXIT will be a symbol of Serbia’s victory over the pandemic. Entry to the festival will be allowed to all those who have been vaccinated and those with antibodies. To make the festival accessible to all, everyone else will be able to take a rapid antigen test, which will be provided at low prices, in a specially made area near the festival gates."
-                        ],
-                        "venue": "Venue: Petrovaradin Fortress",
-                        "date": "July 6 - July 9",
-                        "link": "The programme can be found on the organiser’s website: https://www.exitfest.org/en/lineup",
-                        "image": "img/home/Zimzolend_14-1024x683.jpg",
-                        "thumbnail": "img/home/Zimzolend_14-1024x683.jpg"
+                        "title": "Emerik Feješ (1904-1969)– Postcards as supreme art form",
+                        "content": "The unusual fate of self-taught painter, unique in our culture cannot be classified into none of the possible models of biographical scenarios within the European cultural space. He came in Novi Sad in his forties, which coincided with his decision to start painting. His decision was almost of archetype nature, deprived of every personal role model and practiced style. Emerik Feješ decided to depict urban motives on paper using matches or corn- the cities that he for the most part never visited on his own. He used the black and white postcards as templates. The urban landscapes of Novi Sad, London, Paris, Venice, Worms, Belgrade, Moscow, Mont-Saint-Michel, Mostar… are represented through space of increscent perspective in which are flawlessly inserted series of houses, squares, churches and sStreets. Emerik Feješ died in Novi Sad and he was buried in Roman catholic cemetery in Futoška Street. The major part of his paintings is stored in the Museum of naïve and marginal arts in Jagodina.",
+                        "date": "July 27, 2020",
+                        "image": "img/blog/blog2.webp"
                     },
                     {
                         "id": 3,
-                        "title": "Exit festival",
-                        "content": [
-                            "EXIT is an award-winning summer music festival that takes place at the Petrovaradin Fortress in Novi Sad, Serbia, with more than 1000 artists who play at over 40 stages and festival zones. It was officially proclaimed “Best Major European Festival” at the EU Festival Awards 2013 and 2017. EXIT has also won the “Best Overseas Festival” award at the UK Festival Awards in 2007, as well as “Best Summer Music Festival in Europe” title for 2016 by the travel portal “European Best Destinations” awarded in cooperation with the European Commission. In March 2018 Regional Cooperation Council awarded EXIT Festival as Champion of Regional Cooperation for 2017.",
-                            "The 20th anniversary of EXIT will be celebrated according to the original plans, from 8th to 11th July at the Petrovaradin Fortress. An all-star line-up with major headliners is also confirmed, including David Guetta, DJ Snake, Tyga, Eric Prydz b2b Four Tet, Paul Kalkbrenner, Nina Kraviz, Boris Brejcha, Sheck Wes, Solomun, Paul van Dyk, Sepultura, Metronomy, Honey Dijon and many others.",
-                            "This year’s EXIT will be a symbol of Serbia’s victory over the pandemic. Entry to the festival will be allowed to all those who have been vaccinated and those with antibodies. To make the festival accessible to all, everyone else will be able to take a rapid antigen test, which will be provided at low prices, in a specially made area near the festival gates."
-                        ],
-                        "venue": "Venue: Petrovaradin Fortress",
-                        "date": "July 6 - July 9",
-                        "link": "The programme can be found on the organiser’s website: https://www.exitfest.org/en/lineup",
-                        "image": "img/home/Zimzolend_14-1024x683.jpg",
-                        "thumbnail": "img/home/Zimzolend_14-1024x683.jpg"
+                        "title": "Novi Sad – European capital of culture",
+                        "content": "Novi Sad is the European Capital of Culture for 2022. It’s one of the first cities outside the European Union to bear this prestigious title. The programme concept is based on the slogan For New Bridges, which addresses the idea of connecting people, programmes, processes and spaces, thus positioning Novi Sad on the European cultural map. This is how The Beginning of New. Now! project’s vision was put into practice. Our programme arches thematize different relevant cultural and social issues, nurturing interculturality and other European values as an important part of Novi Sad’s identity. Visit our events and become part of the European Capital of Culture. Welcome!",
+                        "date": "February 7, 2022",
+                        "image": "img/blog/blog3.webp"
                     },
                     {
                         "id": 4,
-                        "title": "Exit festival",
-                        "content": [
-                            "EXIT is an award-winning summer music festival that takes place at the Petrovaradin Fortress in Novi Sad, Serbia, with more than 1000 artists who play at over 40 stages and festival zones. It was officially proclaimed “Best Major European Festival” at the EU Festival Awards 2013 and 2017. EXIT has also won the “Best Overseas Festival” award at the UK Festival Awards in 2007, as well as “Best Summer Music Festival in Europe” title for 2016 by the travel portal “European Best Destinations” awarded in cooperation with the European Commission. In March 2018 Regional Cooperation Council awarded EXIT Festival as Champion of Regional Cooperation for 2017.",
-                            "The 20th anniversary of EXIT will be celebrated according to the original plans, from 8th to 11th July at the Petrovaradin Fortress. An all-star line-up with major headliners is also confirmed, including David Guetta, DJ Snake, Tyga, Eric Prydz b2b Four Tet, Paul Kalkbrenner, Nina Kraviz, Boris Brejcha, Sheck Wes, Solomun, Paul van Dyk, Sepultura, Metronomy, Honey Dijon and many others.",
-                            "This year’s EXIT will be a symbol of Serbia’s victory over the pandemic. Entry to the festival will be allowed to all those who have been vaccinated and those with antibodies. To make the festival accessible to all, everyone else will be able to take a rapid antigen test, which will be provided at low prices, in a specially made area near the festival gates."
-                        ],
-                        "venue": "Venue: Petrovaradin Fortress",
-                        "date": "July 6 - July 9",
-                        "link": "The programme can be found on the organiser’s website: https://www.exitfest.org/en/lineup",
-                        "image": "img/home/Zimzolend_14-1024x683.jpg",
-                        "thumbnail": "img/home/Zimzolend_14-1024x683.jpg"
+                        "title": "Novi Sad – Winner of the European Trend Brand of the Year Award",
+                        "content": "Novi Sad is the winner of the European Trend Brand of the Year 2021, within the European Cultural Brand Awards 2021, the competition held for the 16th time in Dresden. Novi Sad became the first city in this part of Europe that bore the title, having in mind that the winners have been from Western Europe such as Paris, Munich, Berlin, Oslo and others so far. Thanks to Novi Sad, Serbia found itself in the company of four Western European countries which, since the awards were given, have had their representatives – Germany, France, Italy, Norway.",
+                        "date": "November 11, 2021",
+                        "image": "img/blog/blog4.webp"
                     }
                 ]
             }
@@ -1281,7 +1254,7 @@
             ]
           }
         ]
-      },
+            },
             "events": {
                 "heading": {
                     "title": "Osetite duh Zimske fantazije u Novom Sadu",
@@ -1665,65 +1638,43 @@
               }
             ]
           }
-        ]},
+            ]},
             "blog": {
                 "heading": {
                     "title": "Blog",
                     "btn": "Pročitaj više",
                     "heading": "Poslednje Objavljeno"
                 },
-                "content": [{
-                        "id": 1,
-                        "title": "Exit festival",
-                        "content": [
-                            "EXIT je višestruko nagrađivani internacionalni letnji muzički festival. Održava se svake godine u Novom Sadu u Srbiji, na Petrovaradinskoj tvrđavi, koju mnogi smatraju za jednu od najboljih festivalskih lokacija na svetu, i na njemu nastupa preko 1000 izvođača na više od 40 bina i festivalskih zona. Pored titule „Najbolji evropski festival” osvojene na Evropskim festivalskim nagradama 2013. i 2017. godine, EXIT je 2007. godine proglašen za najbolji evropski festival na Britanskim festivalskim nagradama. EXIT je proglašen i za Najbolji evropski festival za 2016. godinu od strane vodećeg evropskog turističkog priznanja „European Best Destinations“, koje se dodeljuje u saradnji sa Evropskom komisijom, dok je Savet za regionalnu saradnju 2017. odabrao EXIT festival za Šampiona regionalne saradnje u Jugoistočnoj Evropi.",
-                            "Tokom svoje dvadesetogodišnje istorije EXIT je ugostio vodeća imena svetske muzičke scene među kojima su Pet Shop Boys, Billy Idol, The Cure, The Killers, Guns N’ Roses, Franz Ferdinand, Motörhead, Iggy Pop, David Guetta, Massive Attack, Liam Gallagher, Grace Jones, Fatboy Slim, Cypress Hill, Beastie Boys, Snoop Dogg, Wu-Tang Clan, The Prodigy, Migos, Sex Pistols, Kraftwerk, Korn, Moby, Arctic Monkeys, Chemical Brothers, Faith No More, LCD Soundsystem, Nick Cave and The Bad Seeds, Pulp, Jamiroquai, M.I.A., Slayer, Ellie Goulding, Hardwell, Carl Cox, Avicii, Nina Kraviz i mnoge druge."
-                        ],
-                        "venue": "Mesto održavanja: Petrovaradinska tvrđava",
-                        "date": "Jul 6 - Jul 9",
-                        "link": "Program možete pronaći na sajtu organizatora: https://www.exitfest.org/program",
-                        "image": "img/home/Zimzolend_14-1024x683.jpg",
-                        "thumbnail": "img/home/Zimzolend_14-1024x683.jpg"
+                "content": [
+                   {
+                    "id": 1,
+                    "title": "Novi Sad iz ženskog ugla",
+                    "content": "Novi Sad je među prvim evropskim gradovima imao „Turističku mapu – Novi Sad iz ženskog ugla“ (Stojaković, Ženske studije i istraživanja Novi Sad 1999), koja je istoriju grada predstavila kroz biografije jednog broja žena koje su ostavile trag u njegovoj  kulturnoj, političkoj i privrednoj istoriji. Zahvaljujući Turističkoj organizaciji Grada Novog Sada štampan je i vodič „Ženska imena Novog Sada – Vodič za ljubitelje alternativnih tura“ (Stojaković/Kresoja, Turistička organizacija Grada Novog Sada 2014) koji sadrži kratke biografije dvadeset osam znamenitih žena, informacije o kućama u kojma su živele, ulicama koje nose ženska imena i o grobovima odabranih znamenitih Novosađanki. Publikacija sadržati i mapu po kojoj se prema određenom redosledu može obići gradsko jezgro.",
+                    "date": "8. Mart, 2022",
+                    "image": "img/blog/blog1.webp"
                     },
                     {
-                        "id": 2,
-                        "title": "Exit festival",
-                        "content": [
-                            "EXIT je višestruko nagrađivani internacionalni letnji muzički festival. Održava se svake godine u Novom Sadu u Srbiji, na Petrovaradinskoj tvrđavi, koju mnogi smatraju za jednu od najboljih festivalskih lokacija na svetu, i na njemu nastupa preko 1000 izvođača na više od 40 bina i festivalskih zona. Pored titule „Najbolji evropski festival” osvojene na Evropskim festivalskim nagradama 2013. i 2017. godine, EXIT je 2007. godine proglašen za najbolji evropski festival na Britanskim festivalskim nagradama. EXIT je proglašen i za Najbolji evropski festival za 2016. godinu od strane vodećeg evropskog turističkog priznanja „European Best Destinations“, koje se dodeljuje u saradnji sa Evropskom komisijom, dok je Savet za regionalnu saradnju 2017. odabrao EXIT festival za Šampiona regionalne saradnje u Jugoistočnoj Evropi.",
-                            "Tokom svoje dvadesetogodišnje istorije EXIT je ugostio vodeća imena svetske muzičke scene među kojima su Pet Shop Boys, Billy Idol, The Cure, The Killers, Guns N’ Roses, Franz Ferdinand, Motörhead, Iggy Pop, David Guetta, Massive Attack, Liam Gallagher, Grace Jones, Fatboy Slim, Cypress Hill, Beastie Boys, Snoop Dogg, Wu-Tang Clan, The Prodigy, Migos, Sex Pistols, Kraftwerk, Korn, Moby, Arctic Monkeys, Chemical Brothers, Faith No More, LCD Soundsystem, Nick Cave and The Bad Seeds, Pulp, Jamiroquai, M.I.A., Slayer, Ellie Goulding, Hardwell, Carl Cox, Avicii, Nina Kraviz i mnoge druge."
-                        ],
-                        "venue": "Mesto održavanja: Petrovaradinska tvrđava",
-                        "date": "Jul 6 - Jul 9",
-                        "link": "Program možete pronaći na sajtu organizatora: https://www.exitfest.org/program",
-                        "image": "img/home/Zimzolend_14-1024x683.jpg",
-                        "thumbnail": "img/home/Zimzolend_14-1024x683.jpg"
+                    "id": 2,
+                    "title": "Emerik Feješ (1904-1969) – Razglednice kao vrhunska umetnost",
+                    "content": "Neobična sudbina samoukog slikara, jedinstvenog u našoj kulturi, ne može se svrstati ni u jedan od mogućih modela biografskih scenarija unutar evropskog kulturnog prostora. Dolaskom u Novi Sad, Feješ tada kao četrdesetogodišnjak, odlučuje da slika. Njegova odluka je bila gotovo arhetipska, lišena svakog uzora i oprobanog stila. Emerik Feješ je odabrao da šibicama ili kukuruzovinom na papiru slika urbane motive – gradove u kojima najčešće nikada nije bio. Kao predlošci su mu služile crno-bele razglednice. Urbani pejzaži Novog Sada, Londona, Pariza, Venecija, Vormsa, Beograda, Moskve, Mont-Saint-Michel-a, Mostara… predstavljeni su kroz prostor rastuće perspektive u koji su nepogrešivo tačno složeni nizovi kuća, trgova, crkava i ulica. Emerik Feješ je umro u Novom Sadu, a sahranjen je na Rimokatoličkom groblju u Futoškoj ulici. Najveći deo njegovih slika čuva se u Muzeju naivne i marginalne umetnosti u Jagodini (http://www.mnmu.rs/fejes-emerik.htm).",
+                    "date": "27. Jul, 2020",
+                    "image": "img/blog/blog2.webp"
                     },
                     {
-                        "id": 3,
-                        "title": "Exit festival",
-                        "content": [
-                            "EXIT je višestruko nagrađivani internacionalni letnji muzički festival. Održava se svake godine u Novom Sadu u Srbiji, na Petrovaradinskoj tvrđavi, koju mnogi smatraju za jednu od najboljih festivalskih lokacija na svetu, i na njemu nastupa preko 1000 izvođača na više od 40 bina i festivalskih zona. Pored titule „Najbolji evropski festival” osvojene na Evropskim festivalskim nagradama 2013. i 2017. godine, EXIT je 2007. godine proglašen za najbolji evropski festival na Britanskim festivalskim nagradama. EXIT je proglašen i za Najbolji evropski festival za 2016. godinu od strane vodećeg evropskog turističkog priznanja „European Best Destinations“, koje se dodeljuje u saradnji sa Evropskom komisijom, dok je Savet za regionalnu saradnju 2017. odabrao EXIT festival za Šampiona regionalne saradnje u Jugoistočnoj Evropi.",
-                            "Tokom svoje dvadesetogodišnje istorije EXIT je ugostio vodeća imena svetske muzičke scene među kojima su Pet Shop Boys, Billy Idol, The Cure, The Killers, Guns N’ Roses, Franz Ferdinand, Motörhead, Iggy Pop, David Guetta, Massive Attack, Liam Gallagher, Grace Jones, Fatboy Slim, Cypress Hill, Beastie Boys, Snoop Dogg, Wu-Tang Clan, The Prodigy, Migos, Sex Pistols, Kraftwerk, Korn, Moby, Arctic Monkeys, Chemical Brothers, Faith No More, LCD Soundsystem, Nick Cave and The Bad Seeds, Pulp, Jamiroquai, M.I.A., Slayer, Ellie Goulding, Hardwell, Carl Cox, Avicii, Nina Kraviz i mnoge druge."
-                        ],
-                        "venue": "Mesto održavanja: Petrovaradinska tvrđava",
-                        "date": "Jul 6 - Jul 9",
-                        "link": "Program možete pronaći na sajtu organizatora: https://www.exitfest.org/program",
-                        "image": "img/home/Zimzolend_14-1024x683.jpg",
-                        "thumbnail": "img/home/Zimzolend_14-1024x683.jpg"
+                    "id": 3,
+                    "title": "Novi Sad – Evropska prestonica kulture",
+                    "content": "Novi Sad je Evropska prestonica kulture 2022. godine. Time je postao i jedan od prvih gradova van Evropske unije koji je poneo ovu prestižnu titulu. Programski koncept zasnovan je na krilatici Za nove mostove, čime se ostvaruje ideja povezivanja novih ljudi, programa, procesa i prostora, koji su već uspeli da pozicioniraju Novi Sad na evropsku kulturnu mapu. Tako se realizovala i vizija projekta za Početak novog. Sada! Doček, Seobe, Budućnost Evrope, Heroine, Tvrđava mira, Dunavsko more, Kaleidoskop kulture i Druga? Evropa tematizuju različita aktuelna kulturna i društvena pitanja, negujući interkulturalnost i druge evropske vrednosti koje su važan deo identiteta Novog Sada. Posetite naš program i budite deo Evropske prestonice kulture. Dobro došli!",
+                    "date": "7. Februar, 2022",
+                    "image": "img/blog/blog3.webp"
                     },
                     {
-                        "id": 4,
-                        "title": "Exit festival",
-                        "content": [
-                            "EXIT je višestruko nagrađivani internacionalni letnji muzički festival. Održava se svake godine u Novom Sadu u Srbiji, na Petrovaradinskoj tvrđavi, koju mnogi smatraju za jednu od najboljih festivalskih lokacija na svetu, i na njemu nastupa preko 1000 izvođača na više od 40 bina i festivalskih zona. Pored titule „Najbolji evropski festival” osvojene na Evropskim festivalskim nagradama 2013. i 2017. godine, EXIT je 2007. godine proglašen za najbolji evropski festival na Britanskim festivalskim nagradama. EXIT je proglašen i za Najbolji evropski festival za 2016. godinu od strane vodećeg evropskog turističkog priznanja „European Best Destinations“, koje se dodeljuje u saradnji sa Evropskom komisijom, dok je Savet za regionalnu saradnju 2017. odabrao EXIT festival za Šampiona regionalne saradnje u Jugoistočnoj Evropi.",
-                            "Tokom svoje dvadesetogodišnje istorije EXIT je ugostio vodeća imena svetske muzičke scene među kojima su Pet Shop Boys, Billy Idol, The Cure, The Killers, Guns N’ Roses, Franz Ferdinand, Motörhead, Iggy Pop, David Guetta, Massive Attack, Liam Gallagher, Grace Jones, Fatboy Slim, Cypress Hill, Beastie Boys, Snoop Dogg, Wu-Tang Clan, The Prodigy, Migos, Sex Pistols, Kraftwerk, Korn, Moby, Arctic Monkeys, Chemical Brothers, Faith No More, LCD Soundsystem, Nick Cave and The Bad Seeds, Pulp, Jamiroquai, M.I.A., Slayer, Ellie Goulding, Hardwell, Carl Cox, Avicii, Nina Kraviz i mnoge druge."
-                        ],
-                        "venue": "Mesto održavanja: Petrovaradinska tvrđava",
-                        "date": "Jul 6 - Jul 9",
-                        "link": "Program možete pronaći na sajtu organizatora: https://www.exitfest.org/program",
-                        "image": "img/home/Zimzolend_14-1024x683.jpg",
-                        "thumbnail": "img/home/Zimzolend_14-1024x683.jpg"
+                    "id": 4,
+                    "title": "Novi Sad dobitnik nagrade za najbolji evropski trend brend u kulturid",
+                    "content": "Novi Sad dobitnik je nagrade za najbolji evropski trend brend u oblasti kulture za 2021. godinu, u okviru Nagrada za evropske kulturne brendove, koje su šesnaesti put dodeljene u Drezdenu. Srpska Atina je tako postala prvi grad u ovom delu Evrope koji je poneo tu nagradu, s obzirom na to da su dobitnici do sada bili iz Zapadne Evrope poput gradova Pariza, Minhena, Berlina, Osla i drugih. Zahvaljujući Novom Sadu, Srbija se našla u društvu četiri zapadnoevropske zemlje koje su, od kako se nagrade dodeljuju, imale svoje predstavnike među dobitnicima – Nemačke, Francuske, Italije, Norveške.",
+                    "date": "Novembаr 11, 2021",
+                    "image": "img/blog/blog4.webp"
                     }
+
                 ]
             }
         }
