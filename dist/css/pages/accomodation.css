@@ -94,7 +94,8 @@
 
 .exit-video-container {
     position: relative;
-    padding-bottom: 55%
+    /* padding-bottom: 55% */
+    height: 50vh;
 }
 
 .accomodation-video {
@@ -116,6 +117,10 @@
     color: #dabd18b2;
 }
 
+.one-col-sec .card-columns {
+    flex-direction: column;
+}
+
 .two-col-sec .accomodation-card {
     width: 50%;
 }
@@ -126,4 +131,22 @@
 
 section {
     margin-bottom: 7rem;
+}
+
+@media (max-width: 960px) {
+    .five-col-sec .accomodation-card {
+        width: 25%;
+    }
+}
+
+@media (max-width: 768px) {
+    .five-col-sec .accomodation-card {
+        width: calc(100% / 3);
+    }
+}
+
+@media (max-width: 500px) {
+    .five-col-sec .accomodation-card {
+        width: 50%;
+    }
 }

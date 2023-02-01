@@ -67,17 +67,23 @@ function writeAccomodation(data) {
              <div class="card-columns container-lg">`;
 
     dataContent.forEach(e => {
-      secCtn += `
-            <div class='accomodation-card'>
-                <img src='${e.image}' alt='' />
-                <div class='accomodation-card-body'>
-                    <h4>${e.title}</h4>
-                    <p class='accomodation-text'>${e.content}</p>
-                <div class='rating'>`;
-      if (col === 'five') {
-        for (let i = 0; i < 5; i++) {
-          secCtn += star;
+      if (col !== 'one') {
+        secCtn += `
+              <div class='accomodation-card'>
+                  <img src='${e.image}' alt='' />
+                  <div class='accomodation-card-body'>
+                      <h4>${e.title}</h4>
+                      <p class='accomodation-text'>${e.content}</p>
+                  <div class='rating'>`;
+        if (col === 'five') {
+          for (let i = 0; i < 5; i++) {
+            secCtn += star;
+          }
         }
+      } else {
+        secCtn += `
+          <div class="exit-video-container">
+            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/i0FuvHoTkwU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope" allowfullscreen></iframe>`;
       }
 
       secCtn += `
