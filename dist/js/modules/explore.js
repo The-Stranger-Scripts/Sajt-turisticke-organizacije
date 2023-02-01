@@ -13,7 +13,7 @@ const explore = data => {
       videoHtml = `
                 <div class="video-container">
                 <iframe
-                src="https://player.vimeo.com/video/795031567?loop=1&autoplay=1&background=1&controls=0&muted=1"
+                src="https://player.vimeo.com/video/794952260?loop=1&autoplay=1&background=1&controls=0&muted=1"
                 frameborder="0"
                 allow="autoplay; fullscreen"
                 allowfullscreen
