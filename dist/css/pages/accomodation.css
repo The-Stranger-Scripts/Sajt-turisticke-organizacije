@@ -1,199 +1,198 @@
-@import "../main.css";
+@import '../main.css';
 
 .main-video {
-    position: relative;
-    width: 100%;
-    padding-bottom: 50%;
-    min-height: 50vh;
+  position: relative;
+  width: 100%;
+  padding-bottom: 50%;
+  min-height: 50vh;
 }
 
-.video {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    border: 0;
+.main-video iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 
 .main-card {
-    margin: auto;
-    max-width: 60%;
-    top: -3rem;
-    position: relative;
-    background-color: rgb(255, 255, 255);
-    padding: 1.5rem 3rem;
-    text-align: center;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.153);
-    color: #222222;
+  margin: auto;
+  max-width: 60%;
+  top: -3rem;
+  position: relative;
+  background-color: rgb(255, 255, 255);
+  padding: 1.5rem 3rem;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.153);
+  color: #222222;
 }
 
 .main-card h2 {
-    color: #00CDD7;
-    font-size: 2.4rem;
-    margin-bottom: 2.5rem;
+  color: #00cdd7;
+  font-size: 2.4rem;
+  margin-bottom: 2.5rem;
 }
 
 .main-card h5 {
-    margin-bottom: 2rem;
+  margin-bottom: 2rem;
 }
 
 .card-columns {
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .accomodation-label {
-    max-width: 60%;
-    margin: 0 auto;
-    background-color: rgb(255, 255, 255);
-    padding: 2rem 4rem;
-    text-align: center;
-    margin-bottom: .5rem;
+  max-width: 60%;
+  margin: 0 auto;
+  background-color: rgb(255, 255, 255);
+  padding: 2rem 4rem;
+  text-align: center;
+  margin-bottom: 0.5rem;
 }
 
 .accomodation-label h2 {
-    color: #00CDD7;
+  color: #00cdd7;
 }
 
-.accomodation-label>h4 {
-    font-weight: 900;
+.accomodation-label > h4 {
+  font-weight: 900;
 }
 
 .accomodation-card {
-    display: flex;
-    flex-direction: column;
-    width: 20%;
-    padding: 0.5rem;
-    overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  padding: 0.5rem;
+  overflow: hidden;
 }
 
 .accomodation-card-body {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    padding: 1rem;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.153);
-    height: 100%;
-    gap: 0.4rem
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 1rem;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.153);
+  height: 100%;
+  gap: 0.4rem;
 }
 
 .accomodation-card img {
-    width: 100%;
-    aspect-ratio: 1 / 1;
-    object-fit: cover;
-    width: 100%;
-    object-fit: cover;
-    transition: 0.3s all ease-in-out;
-    transform-origin: 50% 100%;
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  width: 100%;
+  object-fit: cover;
+  transition: 0.3s all ease-in-out;
+  transform-origin: 50% 100%;
 }
 
 .accomodation-card img:hover {
-    opacity: 0.9;
-    transform: scale(1.05);
+  opacity: 0.9;
+  transform: scale(1.05);
 }
 
 .accomodation-card p {
-    overflow: hidden;
-    display: -webkit-box;
-    -webkit-line-clamp: 5;
-    -webkit-box-orient: vertical;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 5;
+  -webkit-box-orient: vertical;
 }
 
 .exit-video-container {
-    position: relative;
-    height: 50vh;
+  position: relative;
+  height: 50vh;
 }
 
 .accomodation-video {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 80%;
-    border: 0;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 80%;
+  border: 0;
 }
 
 .rating {
-    width: 180px;
+  width: 180px;
 }
 
 .rating__star {
-    cursor: pointer;
-    color: #dabd18b2;
+  cursor: pointer;
+  color: #dabd18b2;
 }
 
 .one-col-sec .card-columns {
-    flex-direction: column;
+  flex-direction: column;
 }
 
 .two-col-sec .accomodation-card {
-    width: 50%;
+  width: 50%;
 }
 
 .three-col-sec .accomodation-card {
-    width: calc(100% /3);
+  width: calc(100% / 3);
 }
 
 section {
-    margin-bottom: 5rem;
+  margin-bottom: 5rem;
 }
 
 @media (max-width: 1200px) {
-    .five-col-sec .accomodation-card {
-        width: 25%;
-    }
+  .five-col-sec .accomodation-card {
+    width: 25%;
+  }
 }
 
 @media (max-width: 960px) {
-    .main-card {
-        padding: 1.5rem;
-        max-width: 90%;
-        top: -1;
-    }
+  .main-card {
+    padding: 1.5rem;
+    max-width: 90%;
+    top: -1;
+  }
 
-    .three-col-sec .accomodation-card {
-        width: 50%;
-        flex: 1 1 50%;
-    }
+  .three-col-sec .accomodation-card {
+    width: 50%;
+    flex: 1 1 50%;
+  }
 
-    .accomodation-label {
-        width: 90%;
-    }
+  .accomodation-label {
+    width: 90%;
+  }
 
-    .five-col-sec .accomodation-card {
-        width: 30%;
-        flex: 1 1 30%;
-    }
+  .five-col-sec .accomodation-card {
+    width: 30%;
+    flex: 1 1 30%;
+  }
 
-    .accomodation-label {
-        max-width: 100%;
-        padding: 1.5rem;
-    }
+  .accomodation-label {
+    max-width: 100%;
+    padding: 1.5rem;
+  }
 }
 
 @media (max-width: 768px) {
-    .five-col-sec .accomodation-card {
-        flex: 1 1 50%;
-    }
+  .five-col-sec .accomodation-card {
+    flex: 1 1 50%;
+  }
 }
 
 @media (max-width: 500px) {
-    .five-col-sec .accomodation-card {
-        width: 100%;
-        flex: 1 1 100%;
-    }
+  .five-col-sec .accomodation-card {
+    width: 100%;
+    flex: 1 1 100%;
+  }
 
-    .card-columns .accomodation-card {
-        width: 100%;
-        flex: 1 1 100%;
-    }
+  .card-columns .accomodation-card {
+    width: 100%;
+    flex: 1 1 100%;
+  }
 
-    .three-col-sec .accomodation-card {
-        width: 100%;
-        flex: 1 1 100%;
-    }
+  .three-col-sec .accomodation-card {
+    width: 100%;
+    flex: 1 1 100%;
+  }
 }
