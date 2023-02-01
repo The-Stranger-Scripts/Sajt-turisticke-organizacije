@@ -1,112 +1,116 @@
 @import "../main.css";
 
 .main-img {
-    position: relative;
-    top: 0;
-    border: 0;
-    width: max-content;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;     
-  }
+  position: relative;
+  top: 0;
+  border: 0;
+  /* width: max-content;
+  display: block;
+  margin-left: auto;
+  margin-right: auto; */
+}
 
-  .main-card {
-    margin: auto;
-    width: 70%;
-    position: relative;
-    background-color: rgb(255, 255, 255);
-    top: -4rem;
-    padding: 2rem 4rem;
-    text-align: center;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.153);
-    color: #222222;
-  }
-  
-  .main-card h2 {
-    color: #00CDD7;
-    font-size: 2.4rem;
-    margin-bottom: 2.5rem;
-  }
 
-  .main-card h5 {
-    margin-bottom: 2rem;
-  }
+.main-img img {
+  width: 100%;
+}
 
-  .card-columns {
-    width: 100%;
-    display: flex;
-    gap: 2rem;
-    margin-bottom: 4.5rem;
-    height: max-content;
-  }
-  
-  .explore-label {
-    width: 70%;
-    margin: 0 auto;
-    background-color: rgb(255, 255, 255);
-    padding: 2rem 4rem;
-    text-align: center;
-    margin-bottom: .5rem;
-  }
-  .explore-label h2 {
-    color: #00CDD7;
-  }
+.main-card {
+  margin: auto;
+  width: 70%;
+  position: relative;
+  background-color: rgb(255, 255, 255);
+  top: -4rem;
+  padding: 2rem 4rem;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.153);
+  color: #222222;
+}
 
-  .explore-label > h4 {
-    font-weight: 900;    
-  }  
-  
-  .explore-card {
-    display: flex;
-    flex-direction: column;
-    width: 50%;
-  }  
-  
-  .explore-card-body {
-    padding: 1rem;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.153);
-    height: 100%;
-  }
-  
-  .explore-card img {
-    width: 100%;
-    aspect-ratio: 1 / 1;
-    object-fit: cover;
-    transition: 0.5s all ease-in-out;
-    transform-origin: 50% 100%;
-  }
+.main-card h2 {
+  color: #00CDD7;
+  font-size: 2.4rem;
+  margin-bottom: 2.5rem;
+}
 
-  .explore-card img:hover {
-    transform: scale(1.1); 
-  }
-  
-  .explore-card p {
-    overflow: hidden;
-    display: -webkit-box;
-    -webkit-line-clamp: 5;
-    -webkit-box-orient: vertical;
-    font-size: 1rem;
-  }
+.main-card h5 {
+  margin-bottom: 2rem;
+}
 
-  #c0 {
-    flex-wrap: wrap;   
-    justify-content: space-between;
-  }
+.card-columns {
+  width: 100%;
+  display: flex;
+  gap: 2rem;
+  margin-bottom: 4.5rem;
+  height: max-content;
+}
 
-  #c0 .explore-card {
-    width: 17%;
-  }
+.explore-label {
+  width: 70%;
+  margin: 0 auto;
+  background-color: rgb(255, 255, 255);
+  padding: 2rem 4rem;
+  text-align: center;
+  margin-bottom: .5rem;
+}
 
-  .video-container{
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 50px;
-  }
-  video{
-    width: 100%;
-    height: auto;
-    display: block;
-  }
-  
-  
-  
+.explore-label h2 {
+  color: #00CDD7;
+}
+
+.explore-label>h4 {
+  font-weight: 900;
+}
+
+.explore-card {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.explore-card-body {
+  padding: 1rem;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.153);
+  height: 100%;
+}
+
+.explore-card img {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  transition: 0.5s all ease-in-out;
+  transform-origin: 50% 100%;
+}
+
+.explore-card img:hover {
+  transform: scale(1.1);
+}
+
+.explore-card p {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 5;
+  -webkit-box-orient: vertical;
+  font-size: 1rem;
+}
+
+#c0 {
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+#c0 .explore-card {
+  width: 17%;
+}
+
+.video-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 50px;
+}
+
+video {
+  width: 100%;
+  height: auto;
+  display: block;
+}
