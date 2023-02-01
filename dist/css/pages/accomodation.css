@@ -1,4 +1,5 @@
 @import "../main.css";
+
 .main-video {
     position: relative;
     width: 100%;
@@ -39,9 +40,10 @@
 .card-columns {
     width: 100%;
     display: flex;
-    gap: 2rem;
+    flex-wrap: wrap;
+    /* gap: 2rem;
     margin-bottom: 4.5rem;
-    height: max-content;
+    height: max-content; */
 }
 
 .accomodation-label {
@@ -64,10 +66,14 @@
 .accomodation-card {
     display: flex;
     flex-direction: column;
-    width: 50%;
+    width: 20%;
+    padding: 0.5rem;
 }
 
 .accomodation-card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     padding: 1rem;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.153);
     height: 100%;
@@ -108,4 +114,16 @@
 .rating__star {
     cursor: pointer;
     color: #dabd18b2;
+}
+
+.two-col-sec .accomodation-card {
+    width: 50%;
+}
+
+.three-col-sec .accomodation-card {
+    width: calc(100% /3);
+}
+
+section {
+    margin-bottom: 7rem;
 }
