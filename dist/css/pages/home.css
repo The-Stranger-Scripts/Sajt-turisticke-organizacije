@@ -8,6 +8,7 @@ header {
     width: 100%;
     position: relative;
     padding-bottom: 56.25%;
+    min-height: 50vh;
 }
 
 .main-sec-video {
@@ -50,7 +51,7 @@ main {
     width: 70%;
     padding: 1.5rem 3rem;
     position: relative;
-    top: -2rem;
+    top: -3rem;
     background-color: #fff;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.153);
     text-align: center;
@@ -76,11 +77,21 @@ main {
     display: flex;
     flex-direction: column;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.153);
+    overflow: hidden;
+}
+
+.home-card-ctn img {
+    width: 100%;
+    object-fit: cover;
+    cursor: pointer;
+    transition: 0.3s all ease-in-out;
+    transform-origin: 50% 100%;
 }
 
 .home-card-ctn:hover img {
-    transition: 0.2s ease-in-out;
+    /* transition: 0.2s ease-in-out; */
     opacity: 0.9;
+    transform: scale(1.05);
 }
 
 .home-card-ctn-sm {
@@ -245,6 +256,7 @@ main {
     .header-card {
         width: 90%;
         padding: 1.5rem;
+        top: -1rem;
     }
 
     .header-card h2,
