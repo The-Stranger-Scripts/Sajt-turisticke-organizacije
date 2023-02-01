@@ -12,8 +12,15 @@ const explore = data => {
     if (i === 2) {
       videoHtml = `
                 <div class="video-container">
-                <video autoplay="" muted="" loop="" src=${section.videoLink}></video>
-              </div>
+                <iframe
+                src="https://player.vimeo.com/video/795031567?loop=1&autoplay=1&background=1&controls=0&muted=1"
+                frameborder="0"
+                allow="autoplay; fullscreen"
+                allowfullscreen
+                style=""
+                title="ns-landing-video.mp4"
+              ></iframe>
+                </div>
                 `;
     }
 
@@ -51,7 +58,7 @@ const explore = data => {
 };
 
 function playPauseVideo() {
-  let videos = document.querySelectorAll('video');
+  let videos = document.querySelectorAll('iframe');
   videos.forEach(video => {
     video.muted = true;
 
