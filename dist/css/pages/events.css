@@ -44,6 +44,10 @@
   font-weight: 700;
 }
 
+section:last-of-type {
+  margin-bottom: 7rem;
+}
+
 .card-columns {
   width: 100%;
   display: flex;
