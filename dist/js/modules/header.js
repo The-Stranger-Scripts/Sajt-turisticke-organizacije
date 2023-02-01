@@ -19,9 +19,14 @@ const writeHeader = function(data) {
   });
 
   let cityGuide = data.header.cityGuide;
+  let cityGuideLink = data.header.nav[1].link;
   let bookTrip = data.header.bookTrip;
+  let bookTripLink = data.header.nav[4].link;
+  let myTripLink = data.header.nav[3].link;
   let searchPlaceholder = data.header.searchPlaceholder;
   let searchButton = data.header.searchButton;
+
+  console.log(data.header.nav[1].link);
 
   let nav = `
               <div class="container-xxl">
@@ -67,12 +72,12 @@ const writeHeader = function(data) {
                             <li><button class="dropdown-item" id="enLargeDisplay">English</button></li>                    
                           </div>
                         </div>
-                        <a class="text-decoration-none text-danger px-2" id="cityGuide" href="">${cityGuide}</a>
-                        <a class="text-decoration-none text-dark px-2" id="bookTrip" href="">${bookTrip}</a>
+                        <a class="text-decoration-none text-danger px-2" id="cityGuide" href="${cityGuideLink}">${cityGuide}</a>
+                        <a class="text-decoration-none text-dark px-2" id="bookTrip" href="${bookTripLink}">${bookTrip}</a>
                       </div>
                         <div class="p-2 p-lg-1 d-none d-lg-block custom-flex-basis">
                             <div>
-                            <a href="" class="d-inline text-decoration-none text-danger mx-3 mytrip">
+                            <a href="${myTripLink}" class="d-inline text-decoration-none text-danger mx-3 mytrip">
                                 <p class="d-inline me-1">My Trip</p>
                                 <i class="fa-regular fa-heart mr-0"></i>
                             </a>
