@@ -1,7 +1,7 @@
 @import "../main.css";
 
 body {
-    padding: 200px 0 0 0;
+    margin-top: 7rem;
     background-color: whitesmoke;
     width: 100%;
 }
@@ -15,6 +15,7 @@ body {
 .blog-container {
     width: 100%;
     margin-bottom: 4rem;
+    padding: 1.5rem;
 }
 
 .active-blog-wrap {
@@ -54,7 +55,7 @@ body {
 }
 
 .blog-wrap-img img {
-    max-width: 80%;
+    max-width: 90%;
     height: fit-content;
     transform: rotate(5deg);
     border: 1.5rem solid white;
@@ -69,37 +70,38 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    row-gap: 2rem;
-    margin-bottom: 2rem;
+    gap: 2rem 1rem;
+    /* margin-bottom: 2rem; */
 }
 
 .blog-card {
     width: calc(100% / 3 - 1rem);
+    /* padding: 1rem; */
     background-color: white;
     border-radius: 0 0 10px 10px;
-    height: max-content;
 }
 
 .blog-card img {
     width: 100%;
-    height: 300px;
+    /* height: 50%; */
 }
 
 .blog-card-ctn {
     display: flex;
     flex-direction: column;
-    padding: 1.5rem 2rem;
+    padding: 1.5rem;
     justify-content: space-between;
     gap: 1rem;
+    /* min-height: 50%; */
 }
 
 .blog-card-ctn p {
     overflow: hidden;
     text-overflow: ellipsis;
     display: -webkit-box;
-    -webkit-line-clamp: 3;
+    -webkit-line-clamp: 7;
     /* number of lines to show */
-    line-clamp: 3;
+    line-clamp: 7;
     -webkit-box-orient: vertical;
 }
 
@@ -124,4 +126,48 @@ body {
 .blog-card-ctn span {
     font-size: 0.7rem;
     font-style: italic;
+}
+
+@media (max-width: 1200px) {
+    .blog-card {
+        width: calc(50% - 1rem);
+    }
+
+    .all-blog-wrap {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 960px) {
+
+    .blog-container h1 {
+        text-align: center;
+    }
+
+    .active-blog-wrap {
+        flex-direction: column-reverse;
+        width: 100%;
+        gap: 1rem;
+        padding: 1rem;
+    }
+
+    .blog-wrap-ctn,
+    .blog-wrap-img {
+        padding: 0;
+        width: 100%;
+    }
+
+    .blog-wrap-img img {
+        transform: rotate(0);
+    }
+
+    .blog-card {
+        width: 90%;
+    }
+}
+
+@media (max-width: 560px) {
+    .blog-card {
+        width: 100%;
+    }
 }
