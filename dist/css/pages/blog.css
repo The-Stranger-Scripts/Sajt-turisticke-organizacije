@@ -77,10 +77,12 @@ body {
     width: calc(100% / 3 - 1rem);
     background-color: white;
     border-radius: 0 0 10px 10px;
+    height: max-content;
 }
 
 .blog-card img {
     width: 100%;
+    height: 300px;
 }
 
 .blog-card-ctn {
@@ -117,4 +119,9 @@ body {
 
 .all-blog-wrap button {
     margin: auto;
+}
+
+.blog-card-ctn span {
+    font-size: 0.7rem;
+    font-style: italic;
 }
