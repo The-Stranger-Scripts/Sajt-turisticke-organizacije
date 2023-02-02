@@ -11,9 +11,6 @@
 @import 'layout/header.css';
 @import 'layout/footer.css';
 
-/* components */
-@import 'components/buttons.css';
-
 html {
     overflow-x: hidden;
 }

@@ -53,21 +53,6 @@ let writeHome = data => {
     return dataSec;
   };
 
-  let homeFormSec = data => {
-    return `
-      <div class="form-newsletter">
-        <h2>${data.title}</h2>
-        <p>${data.content}</p>
-
-        <div class="form-input">
-          <label for="email-newsletter">${data.label}</label>
-          <input type="email" id="email-newsletter">
-          <button id="email-newsletter-btn">${data.buttonText}</button>
-        </div>
-      </div>
-      `;
-  };
-
   let writeHomeSec = (data, dataCards, cardSize, link) => {
     let secData = homeHeadingSec(data.heading);
     secData += `<a href="${link}"><div class="home-card">`;
@@ -100,7 +85,6 @@ let writeHome = data => {
         'sm',
         'explore.html'
       )}
-      ${homeFormSec(homeData.content[0].form)}
     </div>
     `;
 
