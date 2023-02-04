@@ -39,7 +39,7 @@ body {
 
 .blog-btn {
     width: fit-content;
-    padding: 0.5rem;
+    padding: 0.4rem;
     border-radius: 0.4rem;
     border: 1px solid #00CDD7;
     transition: 0.2s ease;
@@ -74,6 +74,28 @@ body {
     flex-wrap: wrap;
     justify-content: space-between;
     gap: 2rem 1rem;
+}
+
+.all-blog-wrap .blog-card-ctn h4 {
+    min-height: 3rem;
+}
+
+.all-blog-wrap .blog-card p {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+
+.date-btn-wrap {
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 1rem 0 0;
+}
+
+.date-btn-wrap button {
+    padding: 0.3rem;
 }
 
 .blog-card {
@@ -115,10 +137,6 @@ body {
 
 .blog-card-ctn a:hover {
     opacity: 0.9;
-}
-
-.all-blog-wrap button {
-    margin: auto;
 }
 
 .blog-card-ctn span {

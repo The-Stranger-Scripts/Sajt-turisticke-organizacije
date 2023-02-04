@@ -1,20 +1,20 @@
-const writeBlog = data => {
+const writeBlog = (data, active) => {
   let blogData = data.main.blog;
   let blogHeading = blogData.heading;
   let blogContent = blogData.content;
-  console.log(blogData);
+  // console.log(blogContent[active]);
 
-  function writeBlogCards() {
+  function writeBlogCards(active) {
     let blogCardsCtn = `
   <div class="active-blog-wrap">
     <div class="blog-wrap-ctn">
-      <h2>${blogContent[0].title}</h2>
-      <p>${blogContent[0].content}</p>
-      <button id="activeBtn" class="active-blog-btn blog-btn">${blogHeading.btn}</button>
+      <h2>${blogContent[active].title}</h2>
+      <p>${blogContent[active].content}</p>
+      <button id="activePostBtn" value=${blogContent[active].id} class="active-blog-btn blog-btn">${blogHeading.btn}</button>
     </div>
     <div class="blog-wrap-img">
       <img
-        src="${blogContent[0].image}"
+        src="${blogContent[active].image}"
         alt=""
       />
     </div>
@@ -22,21 +22,26 @@ const writeBlog = data => {
   <h2 class="blog-heading">${blogHeading.heading}</h2>
   <div class="all-blog-wrap">`;
 
-    for (let i = 1; i < blogContent.length; i++) {
-      blogCardsCtn += `
-    <div class="blog-card">
-      <img
-          src="${blogContent[i].image}"
-          alt=""/>
-      <div class="blog-card-ctn">
-        <div>
-          <h4>${blogContent[i].title}</h4>
-          <span>${blogContent[i].date}</span>
-        </div>
+    for (let i = 0; i < blogContent.length; i++) {
+      if (i != active) {
+        blogCardsCtn += `
+      <div class="blog-card">
+        <img
+            src="${blogContent[i].image}"
+            alt=""/>
+        <div class="blog-card-ctn">
+        <h4>${blogContent[i].title}</h4>
         <p>${blogContent[i].content}</p>
+          <div class="date-btn-wrap">
+          <span>${blogContent[i].date}</span>
+          <button class="blogPostBtn active-blog-btn blog-btn" value=${
+            blogContent[i].id - 1
+          } >${blogHeading.btn}</button>
+        </div>
+        </div>
       </div>
-    </div>
-    `;
+      `;
+      }
     }
 
     blogCardsCtn += `</div>`;
@@ -47,9 +52,8 @@ const writeBlog = data => {
   let blogCtn = `
     <div class="blog-container">
         <h1>${blogHeading.title}</h1>
-        ${writeBlogCards()}
+        ${writeBlogCards(active)}
     </div>`;
-
   return blogCtn;
 };
 
