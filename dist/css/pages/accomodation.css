@@ -1,10 +1,10 @@
 @import '../main.css';
 
 .main-video {
-  position: relative;
   width: 100%;
-  padding-bottom: 50%;
-  min-height: 50vh;
+  position: relative;
+  padding-bottom: 56.25vw;
+  overflow: hidden;
 }
 
 .main-video iframe {
@@ -148,6 +148,20 @@ section {
 }
 
 @media (max-width: 960px) {
+  .main-video {
+    height: 100vh;
+  }
+  
+  .main-video iframe {
+    height: 56.25vw;
+    left: 50%;
+    min-height: 100%;
+    min-width: 100%;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    width: 177.77777778vh;
+  }
+  
   .main-card {
     padding: 1.5rem;
     max-width: 90%;

@@ -3,8 +3,8 @@
 .banner-video-wrapper {
   width: 100%;
   position: relative;
-  padding-bottom: 56.25%;
-  min-height: 50vh;
+  padding-bottom: 56.25vw;
+  overflow: hidden;
 }
 
 .banner-video-wrapper iframe {
@@ -137,6 +137,20 @@ h4:hover {
 }
 
 @media (max-width: 960px) {
+  .banner-video-wrapper {
+    height: 100vh;
+  }
+  
+  .banner-video-wrapper iframe {
+    height: 56.25vw;
+    left: 50%;
+    min-height: 100%;
+    min-width: 100%;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    width: 177.77777778vh;
+  }
+
   .welcome-card {
     width: 90%;
     padding: 1.5rem;
