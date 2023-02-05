@@ -26,7 +26,7 @@ section:last-of-type {
   color: #222222;
 }
 
-.main-card h2 {
+.main-card h1 {
   color: #00cdd7;
   font-size: 2.4rem;
   margin-bottom: 2.5rem;
@@ -109,7 +109,7 @@ section:last-of-type {
 }
 
 #c1 .explore-card {
-  flex: 1 1 400px;
+  flex: 1 1 200px;
 }
 
 #c3 {

@@ -1,4 +1,4 @@
-const writeHeader = function (data) {
+const writeHeader = function (data, user) {
   let navbarUlElements = '';
 
   data.header.nav.forEach((element, i) => {
@@ -63,11 +63,11 @@ const writeHeader = function (data) {
                     </div>
                     <div class="offcanvas-body p-0">
                         <ul class="navbar-nav justify-content-lg-center align-items-lg-end flex-grow-1 px-0">
-                        
+
                           ${navbarUlElements}
 
                         </ul>
-                        <div class="right-bar d-flex flex-column align-items-lg-end gap-2">
+                        <div class="right-bar pe-4 d-flex flex-column align-items-lg-end gap-2">
                         <div class="d-none d-lg-inline text-muted small right-bar-info fw-bolder py-0 pe-3 btn-group btn-group-sm opacity-75">
                         <div class="dropdown">
                           <button class="btn btn-outline-dark dropdown-toggle border-0"
@@ -76,25 +76,30 @@ const writeHeader = function (data) {
                         </button>
                           <div class="dropdown-menu">
                             <li><button class="dropdown-item" id="srLargeDisplay">Srpski</button></li>
-                            <li><button class="dropdown-item" id="enLargeDisplay">English</button></li>                    
+                            <li><button class="dropdown-item" id="enLargeDisplay">English</button></li>
                           </div>
                         </div>
-                        <a class="text-decoration-none text-danger px-2" id="cityGuide" href="${cityGuideLink}">${cityGuide}</a>
+                        <a class="text-decoration-none text-primary-custom px-2" id="cityGuide" href="${cityGuideLink}">${cityGuide}</a>
                         <a class="text-decoration-none text-dark px-2" id="bookTrip" href="${bookTripLink}">${bookTrip}</a>
                       </div>
-                        <div class="p-2 p-lg-1 d-none d-lg-block custom-flex-basis">
+                        <div class="p-2 p-lg-1 px-2 d-lg-block custom-flex-basis">
                             <div>
-                            <a href="${myTripLink}" class="d-inline text-decoration-none text-danger mx-3 mytrip">
+                            <a href="${myTripLink}" class="d-inline text-decoration-none text-primary-custom mx-3 mytrip">
                                 <p class="d-inline me-1">My Trip</p>
                                 <i class="fa-regular fa-heart mr-0"></i>
                             </a>
-                            <a href="register.html"><i class="fa-solid fa-magnifying-glass px-3 text-dark"></i></a>
+                            ${
+                              user
+                                ? `<a href=""><i class="fa-solid fa-right-from-bracket px-3 text-dark" id="logout"></i></a>${user}`
+                                : '<a href="register.html" class="text-dark"><i class="fa-solid fa-user px-3 text-dark"></i>Sign Up</a>'
+                            }
+
                             </div>
                         </div>
-                        <form class="d-flex flex-nowrap gap-1 mx-0 d-lg-none m-sm-2 px-2">
+                        <form class="d-flex d-none flex-nowrap gap-1 mx-0 d-lg-none m-sm-2 px-2">
                             <input id="searchPlaceholder" class="form-control flex-grow-1 my-2 my-sm-0" type="search" placeholder="${searchPlaceholder}"
                             aria-label="Search">
-                            <button id="searchButton" class="btn btn-outline-danger my-2 my-sm-0" type="submit">${searchButton}</button>
+                            <button id="searchButton" class="btn btn-outline-primary-custom my-2 my-sm-0" type="submit">${searchButton}</button>
                         </form>
                         </div>
                     </div>
