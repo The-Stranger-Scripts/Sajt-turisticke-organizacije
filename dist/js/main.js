@@ -34,7 +34,10 @@ async function initData(id = 0) {
     .then(data => {
       lang = localStorage.getItem('language');
       if (initialLoad) {
-        nav.innerHTML = header.writeHeader(data[`${lang}`]);
+        nav.innerHTML = header.writeHeader(
+          data[`${lang}`],
+          localStorage.getItem('user')
+        );
         initialLoad = false;
       } else {
         header.writeHeaderTitles(data[`${lang}`]);
@@ -64,6 +67,14 @@ async function initData(id = 0) {
 
         default:
           break;
+      }
+
+      let logout = document.getElementById('logout');
+      if (logout !== null) {
+        logout.addEventListener('click', () => {
+          localStorage.removeItem('user');
+          initData();
+        });
       }
 
       if (location() === 'blog.html') {
