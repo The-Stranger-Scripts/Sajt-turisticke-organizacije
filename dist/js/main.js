@@ -28,7 +28,7 @@ let initialLangLoad = true;
 let srOption, enOption;
 
 // Function for initial rendering of header and footer
-async function initData() {
+async function initData(id = 0) {
   return fetch('db/db.json')
     .then(res => res.json())
     .then(data => {
@@ -59,11 +59,29 @@ async function initData() {
           explore(data[`${lang}`]);
           break;
         case 'blog.html':
-          main.innerHTML = writeBlog(data[`${lang}`]);
+          main.innerHTML = writeBlog(data[`${lang}`], id);
           break;
 
         default:
           break;
+      }
+
+      if (location() === 'blog.html') {
+        let activePostBtn = document.getElementById('activePostBtn');
+        let blogPostBtn = document.querySelectorAll('.blogPostBtn');
+
+        blogPostBtn.forEach(e => {
+          e.addEventListener('click', () => {
+            initData(e.value);
+            document.body.scrollTop = 0; // For Safari
+            document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+          });
+        });
+        activePostBtn.addEventListener('click', () => {
+          // console.log(activePostBtn.value);
+          // Ovde moze da se napravi logika za iscitavanje
+          //  jednog posta na posebnoj strani
+        });
       }
 
       ft.innerHTML = writeFooter(data[`${lang}`]);
