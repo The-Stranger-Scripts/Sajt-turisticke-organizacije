@@ -1,21 +1,20 @@
-const writeHeader = function(data) {
+const writeHeader = function (data) {
   let navbarUlElements = '';
-  
+
   data.header.nav.forEach((element, i) => {
-    if(i === 0) { 
+    if (i === 0) {
       navbarUlElements += `
         <li class="nav-item p-lg-0 py-2 ps-5 me-3 d-lg-none">
           <a class="nav-link" href="${element.link}">${element.title}</a>
         </li>
-      `
+      `;
     } else {
       navbarUlElements += `
         <li class="nav-item p-lg-0 py-2 ps-5 me-3">
           <a class="nav-link" href="${element.link}">${element.title}</a>
         </li>
-      `
+      `;
     }
-    
   });
 
   let cityGuide = data.header.cityGuide;
@@ -45,10 +44,18 @@ const writeHeader = function(data) {
                         <h5 class="offcanvas-title" id="offcanvasNavbarLabel">${cityGuide}</h5>
 
                         <div id="langBtnGroup" class="btn-group btn-group-sm mx-2 me-auto" role="group" aria-label="Basic radio toggle button group">
-                          <input type="radio" class="btn-check" name="btnradio" id="srSmallDisplay" autocomplete="off" ${localStorage.getItem('language') === 'sr_SR' ? 'checked' : ''}>
+                          <input type="radio" class="btn-check" name="btnradio" id="srSmallDisplay" autocomplete="off" ${
+                            localStorage.getItem('language') === 'sr_SR'
+                              ? 'checked'
+                              : ''
+                          }>
                           <label class="btn btn-outline-dark" data-bs-dismiss="offcanvas" for="srSmallDisplay">SR</label>
 
-                          <input type="radio" class="btn-check" name="btnradio" id="enSmallDisplay" autocomplete="off" ${localStorage.getItem('language') === 'en_EN' ? 'checked' : ''}>
+                          <input type="radio" class="btn-check" name="btnradio" id="enSmallDisplay" autocomplete="off" ${
+                            localStorage.getItem('language') === 'en_EN'
+                              ? 'checked'
+                              : ''
+                          }>
                           <label class="btn btn-outline-dark" data-bs-dismiss="offcanvas" for="enSmallDisplay">EN</label>
                         </div>
 
@@ -81,7 +88,7 @@ const writeHeader = function(data) {
                                 <p class="d-inline me-1">My Trip</p>
                                 <i class="fa-regular fa-heart mr-0"></i>
                             </a>
-                            <a href=""><i class="fa-solid fa-magnifying-glass px-3 text-dark"></i></a>
+                            <a href="register.html"><i class="fa-solid fa-magnifying-glass px-3 text-dark"></i></a>
                             </div>
                         </div>
                         <form class="d-flex flex-nowrap gap-1 mx-0 d-lg-none m-sm-2 px-2">
@@ -98,9 +105,9 @@ const writeHeader = function(data) {
             `;
 
   return nav;
-}
+};
 
-const writeHeaderTitles = function(data) {
+const writeHeaderTitles = function (data) {
   let navItems = document.querySelectorAll('.nav-link');
 
   navItems.forEach((navElement, i) => {
@@ -121,7 +128,7 @@ const writeHeaderTitles = function(data) {
 
   let searchButton = document.getElementById('searchButton');
   searchButton.innerText = data.header.searchButton;
-}
+};
 
 // Change Navbar background on scroll
 const navbarBackgroundScroll = function () {
