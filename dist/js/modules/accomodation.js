@@ -48,7 +48,7 @@ function writeAccomodation(data) {
   let accomodationData = `
     <div class="accomodation-container-xl">
         <section data-aos="fade-up" class="main-card">
-        <h2>${dataHeading.title}</h2>
+        <h1>${dataHeading.title}</h1>
         <h5${dataHeading.subtitle}</h5>
         <p>${dataHeading.content}</p>
         </section>

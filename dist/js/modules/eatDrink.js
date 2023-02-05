@@ -12,7 +12,7 @@ const eatDrinkPage = data => {
   eatDrinkContainer.append(eatDrinkHeaderSection);
 
   eatDrinkHeaderSection.innerHTML = `
-    <h2>${eatDrink.heading.title}</h2>
+    <h1>${eatDrink.heading.title}</h1>
     <h5>${eatDrink.heading.subtitle}</h5>
     <p>${eatDrink.heading.content}</p>
     <h5>${eatDrink.heading.text}</h5> 

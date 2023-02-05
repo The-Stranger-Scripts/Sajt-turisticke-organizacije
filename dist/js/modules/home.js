@@ -18,7 +18,7 @@ let writeHome = data => {
   let homeHeaderSec = data => {
     return `
     <div data-aos="fade-up" class="header-card">
-      <h2>${data.title}</h2>
+      <h1>${data.title}</h1>
       <p>${data.content}</p>
     </div>
     `;

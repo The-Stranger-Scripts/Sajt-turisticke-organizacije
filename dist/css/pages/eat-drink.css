@@ -36,7 +36,7 @@
   color: #222222;
 }
 
-.welcome-card h2 {
+.welcome-card h1 {
   color: #00cdd7;
   font-size: 2.5rem;
   margin-bottom: 1rem;
@@ -47,11 +47,7 @@ h2 {
   color: #2e2e2e;
 }
 
-h2:hover {
-  cursor: pointer;
-  color: #2e2e2e;
-  transition: color 0.3s;
-}
+
 
 .text {
   width: 70%;
@@ -60,12 +56,6 @@ h2:hover {
   padding: 2rem 4rem;
   text-align: center;
   margin-bottom: 2rem;
-}
-
-.text h2:hover {
-  cursor: pointer;
-  color: #00cdd7;
-  transition: color 0.3s;
 }
 
 .card-columns {
@@ -100,12 +90,6 @@ h2:hover {
 .universal-card h4 {
   color: #00cdd7;
   margin-top: 15px;
-  cursor: pointer;
-}
-
-h4:hover {
-  color: black;
-  transition: color 0.3s;
 }
 
 .universal-card p {
