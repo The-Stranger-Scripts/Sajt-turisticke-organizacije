@@ -40,11 +40,11 @@ function writeFooter(data) {
     </div>
 
     <div class="ft-social-icons">
-        <a class="insta-container" title="Instagram" href=""><i class="fa-brands fa-instagram"></i></a>
-        <a class="fb-container" title="Facebook" href=""><i class="fa-brands fa-facebook"></i></a>
-        <a class="twitter-container" title="Twitter" href=""><i class="fa-brands fa-twitter"></i></a>
-        <a class="yt-container" title="Youtube" href=""><i class="fa-brands fa-youtube"></i></a>
-        <a class="in-container" title="Linkedin" href=""><i class="fa-brands fa-linkedin"></i></i></a>
+        <a class="insta-container" title="Instagram" href="#"><i class="fa-brands fa-instagram"></i></a>
+        <a class="fb-container" title="Facebook" href="#"><i class="fa-brands fa-facebook"></i></a>
+        <a class="twitter-container" title="Twitter" href="#"><i class="fa-brands fa-twitter"></i></a>
+        <a class="yt-container" title="Youtube" href="#"><i class="fa-brands fa-youtube"></i></a>
+        <a class="in-container" title="Linkedin" href="#"><i class="fa-brands fa-linkedin"></i></i></a>
     </div>
     <div class="copyright">
         <i class="fa-regular fa-copyright"></i>

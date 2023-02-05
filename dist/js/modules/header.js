@@ -81,7 +81,7 @@ const writeHeader = function(data) {
                                 <p class="d-inline me-1">My Trip</p>
                                 <i class="fa-regular fa-heart mr-0"></i>
                             </a>
-                            <a href=""><i class="fa-solid fa-magnifying-glass px-3 text-dark"></i></a>
+                            <a href="#"><i class="fa-solid fa-magnifying-glass px-3 text-dark"></i></a>
                             </div>
                         </div>
                         <form class="d-flex flex-nowrap gap-1 mx-0 d-lg-none m-sm-2 px-2">
