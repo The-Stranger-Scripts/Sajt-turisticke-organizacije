@@ -12,11 +12,9 @@ const writeEvents = data => {
   eventsContainer.append(eventsHeaderSection);
 
   eventsHeaderSection.innerHTML = `
-  <a href="#">
-    <h2>${events.heading.title}</h2>
-  </a>
-  <h5>${events.heading.subtitle}</h5>
-  <p>${events.heading.content}</p>
+    <h1>${events.heading.title}</h1>
+    <h5>${events.heading.subtitle}</h5>
+    <p>${events.heading.content}</p>
   `;
 
   events.content.forEach((eventSection, i) => {
@@ -25,9 +23,7 @@ const writeEvents = data => {
     // Section Heading/Label
     eventsRegularSection.innerHTML = `
       <div class="event-label">
-        <a href="#">
-          <h2>${eventSection.heading.title}</h2>
-        </a>
+        <h2>${eventSection.heading.title}</h2>
         <p>${eventSection.heading.content}</p>
         <p class="text-date">${
           eventSection.heading.date ? eventSection.heading.date : ''
@@ -43,13 +39,9 @@ const writeEvents = data => {
     if (eventSection.eventCard.length === 1) {
       eventsRegularSection.innerHTML += `
           <div class="one-event-card">
-            <a href="#">
-              <img src="${eventSection.eventCard[0].image}" alt="" />
-            </a>
+            <img src="${eventSection.eventCard[0].image}" alt="" />
             <div class="event-label">
-              <a href="#">
-                <h4>${eventSection.eventCard[0].title}</h4>
-              </a>
+              <h4>${eventSection.eventCard[0].title}</h4>
               <p class="text-date">${eventSection.eventCard[0].date}</p>
               <p>${eventSection.eventCard[0].subtitle}</p>
             </div>
@@ -61,13 +53,9 @@ const writeEvents = data => {
       eventSection.eventCard.forEach(cardItem => {
         cardColumns.innerHTML += `
             <div class="event-card">
-              <a href="#">
-                <img src="${cardItem.image}" alt="" />
-              </a>
+              <img src="${cardItem.image}" alt="" />
               <div class="event-card-body">
-                <a href="#">
-                  <h4>${cardItem.title}</h4>
-                </a>
+                <h4>${cardItem.title}</h4>
                 <p class="text-date">${cardItem.date}</p>
                 <p class="event-text">${cardItem.content}</p>
               </div>
