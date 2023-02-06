@@ -55,20 +55,22 @@ let writeHome = data => {
 
   let writeHomeSec = (data, dataCards, cardSize, link) => {
     let secData = homeHeadingSec(data.heading);
-    secData += `<a href="${link}"><div class="home-card">`;
+    secData += `<div class="home-card">`;
 
     dataCards.forEach(el => {
       secData += `
         <div class="home-card-ctn home-card-ctn-${cardSize}">
           <img class="card-img" src="${el.image}" alt="">
           <div class="card-body">
-            <h3>${el.title}</h3>
+            <a href="${link}">
+              <h3>${el.title}</h3>
+            </a>
             <p>${el.content}</p>
           </div>
         </div>`;
     });
 
-    secData += '</div><a/>';
+    secData += '</div>';
     return secData;
   };
 

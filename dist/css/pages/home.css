@@ -85,7 +85,6 @@ main {
 .home-card-ctn img {
   width: 100%;
   object-fit: cover;
-  cursor: pointer;
   transition: 0.3s all ease-in-out;
   transform-origin: 50% 100%;
 }
@@ -100,16 +99,15 @@ main {
 }
 
 .card-img {
-  height: 50%;
   aspect-ratio: 1 / 0.7;
 }
 
 .card-body {
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
-  padding: 1rem 2rem 2rem;
-  color: #005578;
+  justify-content: flex-start;
+  gap: 1rem;
+  padding: 1.5rem;
 }
 
 .card-body h3 {
@@ -136,7 +134,7 @@ main {
 
 .home-heading {
   text-align: center;
-  margin: 6rem auto 3rem;
+  margin: 3rem auto;
   width: 70%;
 }
 

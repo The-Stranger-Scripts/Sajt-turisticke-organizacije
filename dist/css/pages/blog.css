@@ -144,6 +144,10 @@ body {
     font-style: italic;
 }
 
+#activePostBtn {
+    visibility: hidden;
+}
+
 @media (max-width: 1200px) {
     .blog-card {
         width: calc(50% - 1rem);

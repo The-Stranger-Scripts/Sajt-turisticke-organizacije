@@ -110,6 +110,30 @@
   color: #00bad7;
 }
 
+.mytrip p {
+  transition: color .3s ease;
+}
+
+.mytrip:hover p {
+  color:#00bad7;
+} 
+
+.mytrip i {
+  transition: color .3s ease;
+}
+
+.mytrip:hover i {
+  color:#00bad7;
+}
+
+#cityGuide:hover {
+  transition: color .3s ease;
+}
+
+#cityGuide:hover {
+  color: #00bad7 !important;
+}
+
 @media (max-width: 1035px) {
   .navbar-nav li:last-of-type {
     margin-right: 0;
