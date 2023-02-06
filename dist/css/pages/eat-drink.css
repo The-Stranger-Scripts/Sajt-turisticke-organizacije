@@ -26,11 +26,11 @@
 
 .welcome-card {
   margin: auto;
-  width: 70%;
+  width: 67.8%;
   position: relative;
   background-color: rgb(255, 255, 255);
   top: -4rem;
-  padding: 1.5rem 3rem;
+  padding: 2.9rem;
   text-align: center;
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.153);
   color: #222222;
