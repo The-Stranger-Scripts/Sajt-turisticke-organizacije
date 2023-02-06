@@ -67,7 +67,7 @@ const writeHeader = function (data, user) {
                           ${navbarUlElements}
 
                         </ul>
-                        <div class="right-bar pe-4 d-flex flex-column align-items-lg-end gap-2">
+                        <div class="right-bar mt-3 mt-lg-0 d-flex flex-column align-items-lg-end gap-2">
                         <div class="d-none d-lg-inline text-muted small right-bar-info fw-bolder py-0 pe-3 btn-group btn-group-sm opacity-75">
                         <div class="dropdown">
                           <button class="btn btn-outline-dark dropdown-toggle border-0"
@@ -79,12 +79,12 @@ const writeHeader = function (data, user) {
                             <li><button class="dropdown-item" id="enLargeDisplay">English</button></li>
                           </div>
                         </div>
-                        <a class="text-decoration-none text-primary-custom px-2" id="cityGuide" href="${cityGuideLink}">${cityGuide}</a>
+                        <a class="text-decoration-none text-dark px-2" id="cityGuide" href="${cityGuideLink}">${cityGuide}</a>
                         <a class="text-decoration-none text-dark px-2" id="bookTrip" href="${bookTripLink}">${bookTrip}</a>
                       </div>
-                        <div class="p-2 p-lg-1 px-2 d-lg-block custom-flex-basis">
+                        <div class="p-2 p-lg-1 px-2 pe-lg-4 d-lg-block custom-flex-basis">
                             <div>
-                            <a href="${myTripLink}" class="d-inline text-decoration-none text-primary-custom mx-3 mytrip">
+                            <a href="${myTripLink}" class="d-inline text-decoration-none text-dark mx-3 mytrip">
                                 <p class="d-inline me-1">My Trip</p>
                                 <i class="fa-regular fa-heart mr-0"></i>
                             </a>
